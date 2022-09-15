@@ -8,11 +8,15 @@ header nav {
   padding: 0 2rem;
   position: fixed;
   z-index: 1;
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
+  background-color: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(5px);
   width: 100vw;
   height: var(--nav-height);
   box-sizing: border-box;
   font-family: var(--body-font-family);
+  color: white;
+  font-weight: normal;
 }
 
 header nav a:any-link {
@@ -39,7 +43,8 @@ header nav .nav-brand p {
 }
 
 header nav .nav-brand img {
-  width: 128px;
+  width: 70px;
+  height: 55px;
 }
 
 /* hamburger */
@@ -115,14 +120,14 @@ header nav .nav-sections {
 
 header nav .nav-sections ul  {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 300;
   list-style: none;
   padding-left: 0;
 } 
 
 header nav .nav-sections li {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 header nav[aria-expanded='true'] .nav-sections {
@@ -132,6 +137,7 @@ header nav[aria-expanded='true'] .nav-sections {
 
 /* tools */
 header nav .nav-tools {
+  display: none;
   grid-area: tools;
   flex: 0 0 auto;
   height: 22px;
@@ -139,6 +145,17 @@ header nav .nav-tools {
 
 header nav .nav-tools p {
   margin: 0;
+  font-size: 14px;
+}
+
+header nav .nav-tools p span.icon {
+  position: relative;
+  padding: 0 30px 0 20px;
+}
+
+header nav .nav-tools p span.icon svg {
+  position: absolute;
+  top: -3px;
 }
 
 header nav[aria-expanded='true'] .nav-tools img {
@@ -190,7 +207,7 @@ header nav[aria-expanded='true'] .nav-tools li {
   }
 
   header nav .nav-brand {
-    flex: 0 0 150px;
+    flex: 0 0 110px;
   }
 
   header nav .nav-sections ul {
@@ -209,10 +226,13 @@ header nav[aria-expanded='true'] .nav-tools li {
   header nav .nav-sections > ul > li {
     padding: 0 16px;
     position: relative;
-    font-size: 16px;
+    font-size: 15px;
     margin: 0;
     cursor: pointer;
     padding-top: 0;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 3px transparent;
   }
 
   header nav .nav-sections > ul > li > p {
@@ -247,6 +267,18 @@ header nav[aria-expanded='true'] .nav-tools li {
     padding: 8px 16px;
   }
 
+  header nav .nav-sections > ul > li:hover > a {
+    text-decoration: none;
+  }
+
+  header nav .nav-sections > ul > li > a:active {
+    font-weight: bold;
+  }
+
+  header nav .nav-sections > ul > li > a:visited {
+    font-weight: bold;
+  }
+
   header nav .nav-sections > ul > li[aria-expanded='true'] ul {
     display: block;
     position: absolute;
@@ -255,5 +287,24 @@ header nav[aria-expanded='true'] .nav-tools li {
     left: 0;
     padding: 16px;
     box-shadow: 0 0 5px var(text-color);
+  }
+
+  header nav .nav-tools {
+    display: block;
+    font-size: 15px;
+  }
+
+  header nav .nav-tools p a:last-child {
+    padding-left: 30px;
+    font-weight: 300;
+  }
+
+  header nav .nav-tools > p > a:hover {
+    text-decoration: none;
+  }
+
+  header nav .nav-tools > p > a:active {
+    text-decoration: none;
+    font-weight: 700;
   }
 }
