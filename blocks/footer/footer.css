@@ -1,14 +1,53 @@
 footer {
   padding: 2rem;
-  background-color: var(--overlay-background-color);
+  padding-top: 3%;
+  background-color: #454545;
   font-size: var(--body-font-size-s);
 }
 
+.footer-wrapper {
+  height: 200px;
+}
+
 footer .footer {
-  max-width: 1200px;
-  margin: auto;
+  max-width: 100%;
+  margin: 0;
 }
 
 footer .footer p {
   margin: 0;
+}
+
+footer .footer p a {
+  color: white;
+  font-weight: 200;
+}
+
+footer .footer p a:hover {
+  text-decoration: none;
+}
+
+footer .footer > div > div:first-child {
+  float: left;
+  width: 25%;
+  line-height: 40px;
+  color: white;
+  font-weight: 400;
+}
+
+footer .footer > div > div:nth-child(2) {
+  float: left;
+  width: 25%;
+  line-height: 40px;
+  color: white;
+  font-weight: 400;
+}
+
+footer .footer > div > div:last-child {
+  float: right;
+  width: 50%;
+  height: auto;
+  text-align: right;
+  color: white;
+  font-weight: 300;
 }
