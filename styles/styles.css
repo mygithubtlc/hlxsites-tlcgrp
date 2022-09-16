@@ -17,7 +17,8 @@
   --background-color: beige;
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
-  --text-color: #000;
+  --text-color: #313131;
+  --nav-background-color: rgba(0 0 0 / 75%);
 
   /* fonts */
   --body-font-family: 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
@@ -58,6 +59,7 @@ body.appear {
 
 header {
   height: var(--nav-height);
+  background-color: var(--nav-background-color);
 }
 
 h1, h2, h3,

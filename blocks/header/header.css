@@ -8,8 +8,6 @@ header nav {
   padding: 0 2rem;
   position: fixed;
   z-index: 1;
-  /* background-color: var(--background-color); */
-  background-color: rgba(0, 0, 0, 0.75);
   backdrop-filter: blur(5px);
   width: 100vw;
   height: var(--nav-height);
