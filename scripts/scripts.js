@@ -278,14 +278,25 @@ export function decorateSections($main) {
 
     /* process section metadata */
     const sectionMeta = section.querySelector('div.section-metadata');
+    const sectionMetaPic = section.querySelector('div.section.background');
     if (sectionMeta) {
       const meta = readBlockConfig(sectionMeta);
-      const keys = Object.keys(meta);
-      keys.forEach((key) => {
-        if (key === 'style') section.classList.add(toClassName(meta.style));
-        else section.dataset[toCamelCase(key)] = meta[key];
+      // const keys = Object.keys(meta);
+      const entry = Object.entries(meta);
+      let picture;
+      let img;
+      entry.forEach((e) => {
+        if (e.keys === 'style') section.classList.add(toClassName(meta.style));
+        else section.dataset[toCamelCase(e.keys)] = meta[e.keys];
+        if (e.keys === 'background' && e.values.includes('picture')) {
+          picture = document.createElement('picture');
+          img = document.createElement('img');
+          img.src('media_18108c080b47f496d865979128dd2daa0bf6ddbba.jpeg?width=750&format=jpeg&optimize=medium');
+          picture.appendChild(img);
+          sectionMetaPic.append(picture);
+        }
       });
-      sectionMeta.remove();
+      sectionMeta.removeAttribute('style');
     }
   });
 }
