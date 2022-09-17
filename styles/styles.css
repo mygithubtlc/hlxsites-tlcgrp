@@ -12,17 +12,18 @@
 
  :root {
   /* colors */
-  --link-color: #035fe6;
-  --link-hover-color: #136ff6;
-  --background-color: beige;
+  --link-color: var(--text-color);
+  --link-hover-color: var(--text-color);
+  --background-color: #EFEEE7;
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
   --text-color: #313131;
-  --nav-background-color: rgba(0 0 0 / 75%);
+  --nav-background-color: rgba(0 0 0 / 25%);
 
   /* fonts */
-  --body-font-family: 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
+  --body-font-family: "Playfair Display", "Playfair Display-fallback", "Times New Roman", serif;
   --heading-font-family: var(--body-font-family);
+  --alt-font-family: "Helvetica Neue", helvetica, arial, sans-serif;
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
 
   /* body sizes */
@@ -39,8 +40,14 @@
   --heading-font-size-xs: 18px;
 
   /* nav height */
-  --nav-height: 64px;
+  --nav-height: 80px;
+}
 
+@font-face {
+  font-family: "Playfair Display-fallback";
+  size-adjust: 111.2%;
+  ascent-override: 94%;
+  src: local("Times New Roman");
 }
 
 body {
@@ -80,6 +87,7 @@ p, dl, ol, ul, pre, blockquote {
 }
 
 a:any-link {
+  font-family: var(--alt-font-family);
   color: var(--link-color);
   text-decoration: none;
 }
@@ -105,7 +113,7 @@ pre {
 /* buttons */
 
 a.button:any-link, button {
-  font-family: var(--font-family-body);
+  font-family: var(--alt-font-family);
   display: inline-block;
   box-sizing: border-box;
   text-decoration: none;
@@ -115,8 +123,6 @@ a.button:any-link, button {
   font-style: normal; 
   font-weight: 600;
   cursor: pointer;
-  color: var(--background-color);
-  background-color: var(--link-color);
   margin: 16px 0;
   white-space: nowrap;
   overflow: hidden;
@@ -210,6 +216,7 @@ main .section.background p {
 main .section.background .button-container a {
   all: unset;
   cursor: pointer;
+  font-family: var(--alt-font-family);
   font-weight: 100;
 }
 
