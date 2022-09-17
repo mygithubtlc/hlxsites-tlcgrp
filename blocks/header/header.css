@@ -265,6 +265,20 @@ header nav[aria-expanded='true'] .nav-tools li {
     padding: 8px 16px;
   }
 
+  header nav .nav-tools p a:last-child {
+    padding-left: 30px;
+    font-weight: 300;
+  }
+
+  header nav .nav-tools > p > a:hover {
+    text-decoration: none;
+  }
+
+  header nav .nav-tools > p > a:active {
+    text-decoration: none;
+    font-weight: 700;
+  }
+
   header nav .nav-sections > ul > li:hover > a {
     text-decoration: none;
   }
@@ -292,17 +306,4 @@ header nav[aria-expanded='true'] .nav-tools li {
     font-size: 15px;
   }
 
-  header nav .nav-tools p a:last-child {
-    padding-left: 30px;
-    font-weight: 300;
-  }
-
-  header nav .nav-tools > p > a:hover {
-    text-decoration: none;
-  }
-
-  header nav .nav-tools > p > a:active {
-    text-decoration: none;
-    font-weight: 700;
-  }
 }
