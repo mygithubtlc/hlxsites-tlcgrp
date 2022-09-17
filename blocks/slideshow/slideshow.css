@@ -101,15 +101,13 @@ main .slideshow img {
 main .slideshow .slideshow-overlay {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   height: 150px;
   overflow-y: auto;
   margin: 0;
-  padding: var(--spacing-m) 48px;
+  padding: 020px;
   color: white;
   background: var(--overlay-background-color);
-  text-align: center;
 }
 
 @media (min-width: 600px) {
@@ -119,32 +117,28 @@ main .slideshow .slideshow-overlay {
       left: 0;
       flex-flow: row wrap;
       align-content: center;
-      text-align: left;
-      padding-left: 80px;
+      justify-content: left;
+      padding: 0 80px;
       height: 100%;
       width: 100%;
       background: unset;
       background: linear-gradient(180deg, transparent 0%, var(--overlay-background-color) 100%)
   }
+
+  main .slideshow .slideshow-overlay > * {
+    max-width: 50vw;
+  }
 }
 
 main .slideshow .slideshow-overlay h1,
 main .slideshow .slideshow-overlay h2 {
-  font-size: var(--heading-font-size-xxs);
-}
-
-@media (min-width: 600px) {
-  main .slideshow .slideshow-overlay h1,
-  main .slideshow .slideshow-overlay h2 {
-      flex-basis: 100%;
-      font-size: var(--heading-font-size-xs);
-  }
+  font-size: var(--heading-font-size-m);
 }
 
 @media (min-width: 900px) {
   main .slideshow .slideshow-overlay h1,
   main .slideshow .slideshow-overlay h2 {
-      font-size: var(--heading-font-size-m);
+      font-size: var(--heading-font-size-l);
   }
 }
 
