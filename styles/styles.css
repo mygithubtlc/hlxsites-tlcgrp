@@ -175,6 +175,11 @@ main img {
   height: auto;
 }
 
+main .icon svg {
+  position: relative;
+  top: 12px;
+}
+
 /* section with background */
 main .section.background {
   box-sizing: border-box;
