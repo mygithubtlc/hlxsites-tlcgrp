@@ -179,13 +179,14 @@ main img {
 main .section.background {
   box-sizing: border-box;
   position: relative;
-  min-height: 50vh;
+  width: 100%;
   overflow: hidden;
   color: white;
+  padding: 0;
 }
 
 main .section.background > picture {
-  position: absolute;
+    position: absolute;
     z-index: -1;
     top: 0;
     left: 0;
@@ -197,6 +198,11 @@ main .section.background > picture img {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+main .section.background .default-content-wrapper {
+  margin-left: 20px;
+  margin-top: 50px;
 }
 
 main .section.background h1,
@@ -272,6 +278,19 @@ hr {
     max-width: 1200px;
     margin: auto;
   }
+
+  main .section.background{
+    height: 1000px;
+  }
+
+  main .section.background .default-content-wrapper {
+    margin-left: 50px;
+    margin-top: 200px;
+  }
+
+  main .section.background > picture {
+    margin-left: -200px;
+}
 
   main .section.background  .default-content-wrapper > * {
     max-width: 60vw;
