@@ -10,7 +10,7 @@ main .image-list {
   margin: 25px;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   justify-content: center;
   max-width: 1200px;
 }
@@ -23,76 +23,243 @@ main .image-list img {
 main .image-list .mobile-only {
   display: block;
 }
+
 main .image-list .desktop-only {
   display: none;
 }
 
 
-@media (min-width: 900px) {
-  main .image-list .mobile-only {
-    display: none;
-  }
-  main .image-list .desktop-only {
-    display: block;
+@media (min-width: 600px) {
+  main .image-list {
+    margin: 50px;
   }
 
-  main .image-list {
-    margin: 45px;
+  main .section.compliance {
+    padding-bottom: 0;
   }
-  main .image-list.xl img {
-    width: 810px;
-  }    
-  
-  main .image-list.l img {
-    margin: 15px;
-    width: 375px;
+
+  main .section.compliance .default-content-wrapper {
+    border-bottom: 1px solid black;
   }
-  
-  main .image-list img {
-    margin: 15px;
-    width: 240px;
+
+  main .section.compliance .default-content-wrapper h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 200;
+    text-align: center;
   }
-  
-  main .image-list.s img {
-    margin: 11px;
-    width: 180px;
+
+  main .section.compliance .default-content-wrapper h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
   }
-  
-  main .image-list.xs img {
-    margin: 11px;
+
+  main .section.compliance .image-list {
+    margin-top: 50px;
+    gap: 100px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: whitesmoke;
+  }
+
+  main .section.compliance .image-list > div {
+    width: 100px;   
+  }
+
+  main .section.association .image-list > div {
+    padding-top: 0;
+    width: 250px;  
+  }
+
+  main .section.tech .image-list > div {
     width: 140px;
   }
 
-}
-
-@media (min-width: 1200px) {
-  
-  main .image-list {
-    margin: 60px;
+  main .section.integration .image-list > div {
+    width: 150px;
   }
 
-  main .image-list.xl img {
-    margin: 0;
-    width: 1080px;
-  }    
-  
-  main .image-list.l img {
-    margin: 20px;
-    width: 500px;
+  main .section.association .image-list > div:nth-of-type(2) {
+    width: 120px;
   }
-  
-  main .image-list img {
-    margin: 15px;
-    width: 330px;
+
+  main .section.association .image-list > div:nth-of-type(3) {
+    width: 150px;
   }
-  
-  main .image-list.s img {
-    margin: 15px;
-    width: 240px;
+
+  main .section.association .image-list > div:nth-of-type(4) {
+    padding-top: 30px;
   }
-  
-  main .image-list.xs img {
-    margin: 14px;
-    width: 188px;
+
+  main .section.association .image-list > div:last-child {
+    width: 120px;   
+  }
+
+  main .section.compliance .image-list > div:nth-of-type(3) {
+    width: 200px;   
+  }
+
+  main .section.integration .image-list > div:nth-of-type(1) {
+    padding-top: 20px;
+    width: 80px;
+    padding-left: 40px;
+  }
+
+  main .section.integration .image-list > div:nth-of-type(2) {
+    padding-left: 30px;
+    width: 100px;
+  }
+
+  main .section.integration .image-list > div:nth-of-type(3) {
+    width: 150px;
+  }
+
+  main .section.integration .image-list > div:nth-of-type(10) {
+    width: 130px;
+  }
+
+  main .section.integration .image-list > div:nth-of-type(12) {
+    width: 80px;
+  }
+
+  main .section.integration .image-list > div:nth-of-type(13) {
+    width: 180px;
+  }
+
+  main .section.association .image-list > div:nth-of-type(3) + div:nth-of-type(2)  {
+    padding-top: 50px;
+    width: 120px;   
+  }
+
+  main .section.association {
+    padding-top: 0;
+  }
+
+  main .section.tech .default-content-wrapper {
+    border-bottom: 1px solid black;
+  }
+
+  main .section.association .default-content-wrapper:first-of-type {
+    border-bottom: 1px solid black;
+  }
+
+  main .section.association .default-content-wrapper h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+  }
+
+  main .section.association .image-list {
+    gap: 8em;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: whitesmoke;
+    row-gap: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  main .section.association .default-content-wrapper h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  /* tech section */
+  main .section.tech {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  main .section.tech .default-content-wrapper h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  main .section.tech .image-list-wrapper {
+    background-color: whitesmoke;
+  }
+
+  main .section.tech .image-list {
+    gap: 120px;
+    row-gap: 0;
+  }
+
+  /* section integration */
+  main .section.integration {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  main .section.integration .default-content-wrapper:first-of-type {
+    border-bottom: 1px solid black;
+  }
+
+  main .section.integration .default-content-wrapper h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  main .section.integration .default-content-wrapper p {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  main .section.integration .image-list-wrapper {
+    background-color: whitesmoke;
+  }
+
+  main .section.integration .image-list {
+    gap: 120px;
+    row-gap: 0;
+  }
+
+  main .section.integration .image-list > div:nth-of-type(6) + div:nth-of-type(7) + div:nth-of-type(8) + div:nth-of-type(9) {
+    width: 120px;
+  }
+
+  /* section integration-free */
+  main .section.integration-free {
+    padding-bottom: 0;
+  }
+
+  main .section.integration-free .default-content-wrapper h3 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  main .section.integration-free .default-content-wrapper p {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-size: 0.6em;
   }
 }
