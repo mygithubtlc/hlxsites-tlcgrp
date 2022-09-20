@@ -285,19 +285,20 @@ main .section.background .default-content-wrapper h4 a:hover {
     padding-top: 10px;
   }
 
-  main .section .default-content-wrapper p a {
+  main .section .default-content-wrapper p.button-container a {
     display: flex;
     justify-content: center;
     font-weight: 400;
     font-style: normal;
     font-size: 1.2em;
+    padding-top: 20px;
   }
 
   main .section.align .button-container a {
     all: unset;
     cursor: pointer;
   }
-
+  
   main .section .default-content-wrapper .button-container a {
     all: unset;
     cursor: pointer;
@@ -385,14 +386,6 @@ main .section.background .default-content-wrapper h4 a:hover {
     font-weight: 100;
     font-style: normal;
     font-size: 1.5em;
-  }
-
-  main .section .default-content-wrapper p a {
-    display: flex;
-    justify-content: center;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 1.2em;
   }
 }
 
