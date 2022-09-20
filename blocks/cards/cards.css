@@ -4,6 +4,22 @@ main .section.cards-container {
     padding-bottom: 0;
 }
 
+.cards > ul > li h3 + p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.cards > ul > li p:first-of-type {
+    font-size: 14px; 
+    font-weight: 150;
+}
+
+.cards > ul > li p:last-of-type {
+    font-size: 14px;
+    font-weight: 200;
+    text-decoration: underline; 
+}
+
 main .section.cards-container .default-content-wrapper p:first-child {
     display: none
 }
@@ -33,24 +49,8 @@ main .section.cards-container .cards-wrapper {
     color: white;
 }
 
-.cards > ul > li h3 + p {
-    font-size: 20px;
-    font-weight: 300;
-}
-
-.cards > ul > li p:first-of-type {
-    font-size: 14px; 
-    font-weight: 150;
-}
-
 .cards > ul > li h3 {
     margin-top: 0;
-}
-
-.cards > ul > li p:last-of-type {
-    font-size: 14px;
-    font-weight: 200;
-    text-decoration: underline; 
 }
 
 .cards > ul > li:nth-of-type(2n) {
@@ -93,6 +93,12 @@ main .section.cards-container .cards-wrapper {
         padding-top: 0;
     }
 
+    .cards > ul > li p:last-child {
+        margin-top: 50px;
+        text-decoration: none;
+        font-size: 0.75em;
+    }
+
     main .section.cards-container .default-content-wrapper p {
         display: flex;
         justify-content: center;
@@ -124,12 +130,6 @@ main .section.cards-container .cards-wrapper {
     .cards > ul > li:nth-of-type(2n) .cards-card-body {
         padding-top: 30px;
         color: white;
-    }
-
-    .cards > ul > li p:last-child {
-        margin-top: 50px;
-        text-decoration: none;
-        font-size: 0.75em;
     }
 }
 
@@ -165,10 +165,10 @@ main .section.cards-container .cards-wrapper {
         font-size: 50px;
     }
 
-    .cards > ul > li:last-child p:nth-child(4) {
-        font-size: 14px;
-        font-weight: 200;
+    .cards > ul > li p:last-child {
+        margin-top: 50px;
         text-decoration: underline; 
+        font-size: 0.7em;
     }
 
     main .section.cards-container .default-content-wrapper p {
@@ -180,13 +180,29 @@ main .section.cards-container .cards-wrapper {
         padding-left: 150px;
         padding-right: 150px;
     }
+
+    .cards.about > ul > li p:last-child {
+        margin-top: 50px;
+        text-decoration: none; 
+        font-size: 1em;
+    }
+
+    .cards.about > ul > li:nth-of-type(2n) .cards-card-body {
+        padding-top: 30px;
+    }
+
+    .cards > ul > li:last-child p:nth-child(4) {
+        font-size: 14px;
+        font-weight: 200;
+        text-decoration: underline; 
+    }
     
     main .section.cards-container .default-content-wrapper h3 {
         display: flex;
         justify-content: center;
         font-size: 45px;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 60px;
+        padding-right: 60px;
         text-align: center;
     }
     
@@ -204,7 +220,7 @@ main .section.cards-container .cards-wrapper {
     }
 
     main .section.cards-container > div:last-child.default-content-wrapper {
-        margin-top: 0px;
+        margin-top: 0;
         margin-bottom: 20px;
     }
 
@@ -229,16 +245,5 @@ main .section.cards-container .cards-wrapper {
     .cards.cards.about > ul > li .cards-card-body {
         padding-left: 50px;
         top: 0;
-    }
-
-    .cards > ul > li:nth-of-type(2n) .cards-card-body {
-        padding-top: 30px;
-        color: white;
-    }
-
-    .cards > ul > li p:last-child {
-        margin-top: 50px;
-        text-decoration: none;
-        font-size: 1em;
     }
 }
