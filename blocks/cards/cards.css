@@ -9,7 +9,7 @@ main .section.cards-container {
     font-weight: 300;
 }
 
-.cards > ul > li p:first-of-type {
+.cards > ul > li strong {
     font-size: 14px; 
     font-weight: 150;
 }
@@ -21,7 +21,7 @@ main .section.cards-container {
 }
 
 main .section.cards-container .default-content-wrapper p:first-child {
-    display: none
+    display: none;
 }
 
 main .section.cards-container .cards-wrapper {
@@ -131,6 +131,40 @@ main .section.cards-container .cards-wrapper {
         padding-top: 30px;
         color: white;
     }
+
+    main .section.cards-style .cards > ul > li:last-child {
+        grid-row: span 2;
+    }
+
+    main .section.cards-style .cards > ul > li .cards-card-body {
+        top: 30px;
+        padding-left: 50px;
+    }
+
+    main .section.cards-container .cards > ul > li:nth-of-type(2) .cards-card-body {
+        color: black;
+    }
+
+    main .section.cards-style .cards > ul > li:nth-of-type(2) .cards-card-body {
+        color: white;
+    }
+
+    main .section.cards-container .cards > ul > li .cards-card-body h3 {
+        font-size: 2em;
+    }
+
+    main .section.cards-style .cards > ul > li .cards-card-body p {
+        text-decoration: none;
+    }
+
+    main .section.cards-container .cards > ul > li .cards-card-body p em {
+        font-style: normal;
+    }
+
+    main .section.cards-style .cards > ul > li .cards-card-body p em {
+        font-size: 1.5em;
+        font-style: normal;
+    }
 }
 
 @media (min-width: 900px) {
@@ -180,22 +214,6 @@ main .section.cards-container .cards-wrapper {
         padding-left: 150px;
         padding-right: 150px;
     }
-
-    .cards.about > ul > li p:last-child {
-        margin-top: 50px;
-        text-decoration: none; 
-        font-size: 1em;
-    }
-
-    .cards.about > ul > li:nth-of-type(2n) .cards-card-body {
-        padding-top: 30px;
-    }
-
-    .cards > ul > li:last-child p:nth-child(4) {
-        font-size: 14px;
-        font-weight: 200;
-        text-decoration: underline; 
-    }
     
     main .section.cards-container .default-content-wrapper h3 {
         display: flex;
@@ -222,28 +240,5 @@ main .section.cards-container .cards-wrapper {
     main .section.cards-container > div:last-child.default-content-wrapper {
         margin-top: 0;
         margin-bottom: 20px;
-    }
-
-    .cards.about {
-        margin-top: 20px;
-    }
-
-    .cards.about > ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 0;
-        height: 600px;
-    }
-
-    .cards.about > ul > li:nth-child(1) {
-        grid-row: span 1;
-    }
-
-    .cards.cards.about > ul > li .cards-card-body {
-        padding-left: 50px;
-        top: 0;
     }
 }
