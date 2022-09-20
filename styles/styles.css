@@ -284,6 +284,11 @@ main .section.background .default-content-wrapper h4 a:hover {
     padding-top: 10px;
   }
 
+  main .section.align .button-container a {
+    all: unset;
+    cursor: pointer;
+  }
+
   main .section.background .default-content-wrapper h4 a {
     display: flex;
     justify-content: center;
@@ -293,6 +298,41 @@ main .section.background .default-content-wrapper h4 a:hover {
     padding-left: 0;
     color: white;
     padding-bottom: 20px;
+  }
+
+  main .section.divide {
+    background-color: #454545;
+    padding: 30px;
+  }
+
+  main .section.align {
+    padding-top: 0;
+  }
+
+  main .section.align h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  main .section.align p > em {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    font-style: normal;
+  }
+
+  main .section.align .button-container {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 100;
+    text-align: center;
+    font-style: normal;
   }
 }
 
@@ -342,6 +382,11 @@ main .section.background .default-content-wrapper h4 a:hover {
     margin-left: 100px;
   }
 
+  main .section.align .button-container a {
+    all: unset;
+    cursor: pointer;
+  }
+
   main .section.background .default-content-wrapper h4 a {
     display: flex;
     justify-content: center;
@@ -349,6 +394,43 @@ main .section.background .default-content-wrapper h4 a:hover {
     font-weight: 300;
     text-align: center;
     color: white;
+  }
+
+  main .section.divide {
+    background-color: #454545;
+    padding: 30px;
+  }
+
+  main .section.align {
+    padding: 40px;
+  }
+
+  main .section.align h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  main .section.align p > em {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    font-style: normal;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  main .section.align .button-container {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 100;
+    text-align: center;
+    font-style: normal;
   }
 }
 
