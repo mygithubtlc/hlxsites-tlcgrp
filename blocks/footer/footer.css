@@ -2,7 +2,8 @@ footer {
   padding: 2rem;
   padding-top: 3%;
   background-color: #454545;
-  font-size: var(--body-font-size-s);
+  font-family: var(--alt-font-family);
+  font-size: var(--body-font-size-xs);
 }
 
 .footer-wrapper {
