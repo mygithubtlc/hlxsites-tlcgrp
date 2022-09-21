@@ -404,11 +404,6 @@ main .section.background .default-content-wrapper h4 a:hover {
     margin-left: 100px;
   }
 
-  main .section.default-content-wrapper .button-container a {
-    all: unset;
-    cursor: pointer;
-  }
-
   main .section.background .default-content-wrapper h4 a {
     display: flex;
     justify-content: center;
@@ -416,6 +411,11 @@ main .section.background .default-content-wrapper h4 a:hover {
     font-weight: 300;
     text-align: center;
     color: white;
+  }
+
+  main .section .default-content-wrapper p.button-container strong a {
+    all: unset;
+    cursor: pointer;
   }
 
   main .section.divide {
