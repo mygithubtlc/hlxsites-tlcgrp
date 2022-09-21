@@ -4,6 +4,11 @@ export default function decorate(block) {
   /* change to ul, li */
   const ul = document.createElement('ul');
   [...block.children].forEach((row) => {
+    const numCards = block.children.length;
+    if (numCards % 2 === 0) {
+      // number of cards dividable by 2
+      block.classList.add('fifty-fifty');
+    }
     const li = document.createElement('li');
     li.innerHTML = row.innerHTML;
     [...li.children].forEach((div) => {
