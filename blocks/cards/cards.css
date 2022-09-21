@@ -29,6 +29,12 @@ main .section.cards-container .default-content-wrapper h3 {
     align-content: center;
 }
 
+.cards > ul > li p em {
+    font-size: 18px; 
+    font-weight: 150;
+    font-style: normal;
+}
+
 .section.cards-container .default-content-wrapper p em {
     font-style: normal;
 }
@@ -61,12 +67,6 @@ main .section.cards-container .cards-wrapper {
 .cards > ul > li p strong {
     font-size: 15px;
     font-weight: 300;
-}
-
-.cards > ul > li p em {
-    font-size: 18px; 
-    font-weight: 150;
-    font-style: normal;
 }
 
 .cards > ul > li h4 {
