@@ -6,6 +6,30 @@
     justify-content: center;
 }
 
+.columns > div > div p:nth-child(2) {
+    font-size: 18px;
+    color: gray;
+}
+
+.columns > div > div p:nth-child(4) {
+    font-size: 18px;
+}
+
+.columns > div > div .button-container {
+    margin-top: 5%;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.columns > div:last-child > div p:nth-child(3) {
+    font-size: 18px;
+    color: gray;
+}
+
+.columns > div:last-child > div p:nth-child(5) {
+    font-size: 18px;
+}
+
 .section.columns-container .default-content-wrapper p:first-child {
     display: flex;
     justify-content: center;
@@ -38,36 +62,12 @@
       font-weight: 400;
 }
 
-.columns > div > div p:nth-child(2) {
-    font-size: 18px;
-    color: gray;
-}
-
-.columns > div > div p:nth-child(4) {
-    font-size: 18px;
-}
-
-.columns > div > div .button-container {
-    margin-top: 5%;
-    font-size: 18px;
-    text-decoration: underline;
-}
-
 .columns > div > div:first-child {
     margin-top: 2%;
 }
 
 .columns > div > div:last-child {
     margin-top: 2%;
-}
-
-.columns > div:last-child > div p:nth-child(3) {
-    font-size: 18px;
-    color: gray;
-}
-
-.columns > div:last-child > div p:nth-child(5) {
-    font-size: 18px;
 }
 
 .columns img {
