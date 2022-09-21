@@ -37,6 +37,7 @@ main .section.cards-container .cards-wrapper {
 }
 
 .cards > ul > li a:any-link {
+    font-family: var(--body-font-family);
     font-weight: 250;
     text-decoration: none;
     color: white;
@@ -60,10 +61,7 @@ main .section.cards-container .cards-wrapper {
 }
 
 .cards .cards-card-body {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 30px;
 }
 
 .cards .cards-card-image {
