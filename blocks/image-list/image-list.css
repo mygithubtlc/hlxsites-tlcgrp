@@ -20,6 +20,31 @@ main .image-list .desktop-only {
   display: none;
 }
 
+.section.image-list-container {
+    padding-bottom: 0;
+}
+
+.section.image-list-container .default-content-wrapper {
+    justify-content: center;
+    text-align: center;
+}
+
+main .section.image-list-container .default-content-wrapper h5 {
+    font-size: 25px;
+}
+
+main .section.image-list-container .image-list {
+    margin-top: 50px;
+    gap: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: whitesmoke;
+  }
+
+main .section.image-list-container .image-list > div {
+    width: 150px;   
+}
+
 
 @media (min-width: 600px) {
   main .image-list {
