@@ -226,6 +226,7 @@ main .section.background .default-content-wrapper {
   padding-left: 20px;
   margin-top: 50px;
   max-width: 100%;
+  padding-right: 20px;
 }
 
 main .section.background h1,
@@ -289,6 +290,30 @@ main .section.background .default-content-wrapper h4 a:hover {
   padding: 0;
 }
 
+main .section.background .default-content-wrapper h2 {
+  display: flex;
+  text-align: left;
+}
+
+main .section.background .default-content-wrapper p strong {
+  display: flex;
+  text-align: left;
+  font-size: 0.7em;
+}
+
+main .section.background .default-content-wrapper p.button-container {
+  display: inline;
+  text-align: left;
+}
+
+main .section .default-content-wrapper p em {
+  display: flex;
+  text-align: left;
+  font-size: 0.55em;
+  padding-bottom: 50px;
+}
+
+
 @media (min-width: 600px) {
   main .section {
     padding: 64px 32px;
@@ -306,6 +331,11 @@ main .section.background .default-content-wrapper h4 a:hover {
     padding-top: 10px;
   }
 
+  main .section.background .default-content-wrapper h2 {
+    display: flex;
+    text-align: left;
+  }
+
   main .section.background .default-content-wrapper h4 a {
     display: flex;
     justify-content: center;
@@ -321,27 +351,19 @@ main .section.background .default-content-wrapper h4 a:hover {
     margin-bottom: 50px;
   }
 
-  main .section.background .default-content-wrapper p strong {
-    display: inline;
-  }
-  
-  main .section.background .default-content-wrapper p.button-container {
-    display: inline;
+  main .section.background .default-content-wrapper p {
+    display: flex;
     text-align: left;
   }
-
-  main .section .default-content-wrapper p em {
+  
+  main .section.background .default-content-wrapper p strong {
     display: flex;
-    justify-content: center;
-    text-align: center;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 1.5em;
+    text-align: left;
+    font-size: 1.2em;
   }
 
-  main .section.background .default-content-wrapper p.button-container em {
+  main .section.background .default-content-wrapper p em {
     font-size: 1em;
-    display: inline;
   }
 
   main .section.divide {
