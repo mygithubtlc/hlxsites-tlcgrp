@@ -112,6 +112,14 @@ main .section.cards-container .default-content-wrapper a {
     cursor: pointer;
 }
 
+main .section.cards-container .default-content-wrapper h3 {
+    font-size: 2em;
+}
+
+main .section.cards-container .default-content-wrapper p em {
+    font-size: 1.3em;
+}
+
 @media (min-width: 600px) {
     main .section.cards-container {
         padding-top: 50px;
@@ -147,7 +155,7 @@ main .section.cards-container .default-content-wrapper a {
     main .section.cards-container .default-content-wrapper h3 {
         display: flex;
         justify-content: center;
-        font-size: 40px;
+        font-size: 50px;
         align-content: center;
         font-weight: 400;
         text-align: center;
