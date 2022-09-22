@@ -17,7 +17,7 @@ main .section.cards-container {
 main .section.cards-container .default-content-wrapper h3 {
     display: flex;
     justify-content: center;
-    font-size: 50px;
+    font-size: 2em;
     align-content: center;
     font-weight: 400;
 }
@@ -110,10 +110,6 @@ main .section.cards-container .cards-wrapper {
 main .section.cards-container .default-content-wrapper a {
     all: unset;
     cursor: pointer;
-}
-
-main .section.cards-container .default-content-wrapper h3 {
-    font-size: 2em;
 }
 
 main .section.cards-container .default-content-wrapper p em {
