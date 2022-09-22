@@ -227,6 +227,7 @@ main .section.background .default-content-wrapper {
   margin-top: 50px;
   max-width: 100%;
   padding-right: 20px;
+  padding-bottom: 30px;
 }
 
 main .section.background h1,
@@ -285,7 +286,7 @@ hr {
 main .section.background .default-content-wrapper h5 {
   display: flex;
   justify-content: left;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 main .section.background .default-content-wrapper h6 {
