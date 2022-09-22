@@ -290,21 +290,11 @@ main .section.background .default-content-wrapper h2 {
   text-align: left;
 }
 
-main .section.background .default-content-wrapper h6 {
+main .section.background .default-content-wrapper h2:nth-of-type(2) {
   display: flex;
   justify-content: left;
+  font-size: 1em;
   text-align: left;
-}
-
-main .section.background .default-content-wrapper h6 a {
-  display: flex;
-  justify-content: left;
-  color: white;
-  padding-bottom: 50px;
-}
-
-main .section.background .default-content-wrapper h6 a:hover {
-  text-decoration: none;
 }
 
 .section.divide {
