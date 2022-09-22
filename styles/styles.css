@@ -427,8 +427,7 @@ main .section.contact .default-content-wrapper em {
   }
 
   main .section.contact .default-content-wrapper {
-    /* background-color: #FFF; */
-    padding-top: 30px;
+    padding: 20px 0 40px;
   }
 
   main .section.contact .default-content-wrapper p {
