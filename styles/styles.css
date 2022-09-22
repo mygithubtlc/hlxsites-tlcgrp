@@ -347,6 +347,13 @@ main .section .default-content-wrapper p em {
     padding-bottom: 20px;
   }
 
+  main .section .default-content-wrapper p {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-size: 0.7em;
+  }
+
   main .section.background .default-content-wrapper {
     margin-bottom: 50px;
   }
@@ -383,13 +390,6 @@ main .section .default-content-wrapper p em {
 
   main .section .default-content-wrapper p picture {
     padding-top: 30px;
-  }
-
-  main .section .default-content-wrapper p {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    font-size: 0.7em;
   }
 
   main .section .default-content-wrapper h1 {
