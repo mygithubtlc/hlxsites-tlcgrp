@@ -214,11 +214,11 @@ main .section.background > picture img {
   margin-top: 0;
 }
 
-.section .default-content-wrapper p em {
+.section .default-content-wrapper em {
   font-style: normal;
 }
 
-.section .default-content-wrapper p strong {
+.section .default-content-wrapper strong {
   font-size: 0.7em;
 }
 
@@ -282,7 +282,26 @@ hr {
   border-bottom: 1px solid var(--overlay-background-color);
 }
 
-main .section.background .default-content-wrapper h4 a:hover {
+main .section.background .default-content-wrapper h5 {
+  display: flex;
+  justify-content: left;
+  font-size: 2em;
+}
+
+main .section.background .default-content-wrapper h6 {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+}
+
+main .section.background .default-content-wrapper h6 a {
+  display: flex;
+  justify-content: left;
+  color: white;
+  padding-bottom: 50px;
+}
+
+main .section.background .default-content-wrapper h6 a:hover {
   text-decoration: none;
 }
 
@@ -290,28 +309,33 @@ main .section.background .default-content-wrapper h4 a:hover {
   padding: 0;
 }
 
-main .section.background .default-content-wrapper h2 {
-  display: flex;
-  text-align: left;
+main .section .default-content-wrapper strong {
+  font-size: 0.9em;
 }
 
-main .section.background .default-content-wrapper p strong {
+main .section .default-content-wrapper em {
   display: flex;
-  text-align: left;
-  font-size: 0.7em;
+  font-size: 1em;
+  padding-bottom: 0;
+  justify-content: center;
+  align-content: center;
 }
 
-main .section.background .default-content-wrapper p.button-container {
-  display: inline;
-  text-align: left;
+main .section .default-content-wrapper p {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.8em;
+  margin-top: 0;
 }
 
-main .section .default-content-wrapper p em {
-  display: flex;
-  text-align: left;
-  font-size: 0.55em;
-  padding-bottom: 50px;
+main .section .default-content-wrapper h1 {
+  font-size: 2em;
 }
+
+/* main .section .default-content-wrapper h5 {
+  font-size: 1.2em;
+} */
 
 
 @media (min-width: 600px) {
@@ -331,11 +355,6 @@ main .section .default-content-wrapper p em {
     padding-top: 10px;
   }
 
-  main .section.background .default-content-wrapper h2 {
-    display: flex;
-    text-align: left;
-  }
-
   main .section.background .default-content-wrapper h4 a {
     display: flex;
     justify-content: center;
@@ -351,26 +370,26 @@ main .section .default-content-wrapper p em {
     display: flex;
     justify-content: center;
     gap: 100px;
-    font-size: 0.7em;
+    font-size: 0.8em;
+    margin-top: 0;
+  }
+
+  main .section .default-content-wrapper em {
+    font-size: 1em;
+    padding-bottom: 15px;
+  }
+
+  main .section .default-content-wrapper h1 {
+    font-size: 2.2em;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
   }
 
   main .section.background .default-content-wrapper {
     margin-bottom: 50px;
-  }
-
-  main .section.background .default-content-wrapper p {
-    display: flex;
-    text-align: left;
-  }
-  
-  main .section.background .default-content-wrapper p strong {
-    display: flex;
-    text-align: left;
-    font-size: 1.2em;
-  }
-
-  main .section.background .default-content-wrapper p em {
-    font-size: 1em;
   }
 
   main .section.divide {
@@ -392,12 +411,18 @@ main .section .default-content-wrapper p em {
     padding-top: 30px;
   }
 
-  main .section .default-content-wrapper h1 {
-    margin-top: 0;
-    padding-top: 0;
-    display: flex;
-    justify-content: center;
-    font-weight: 100;
+  main .section.contact .default-content-wrapper {
+    background-color: whitesmoke;
+    padding-top: 30px;
+  }
+
+  main .section.contact .default-content-wrapper p {
+    margin-bottom: 0;
+  }
+
+  main .section.contact .default-content-wrapper em {
+    font-size: 1.2em;
+    padding-bottom: 0;
   }
 }
 
@@ -485,7 +510,7 @@ main .section .default-content-wrapper p em {
     clear: both;
   }
 
-  main .section .default-content-wrapper p strong {
+  main .section .default-content-wrapper strong {
     font-size: 1em;
   }
 }
