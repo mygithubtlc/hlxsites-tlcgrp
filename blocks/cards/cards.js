@@ -2,6 +2,11 @@ import { createOptimizedPicture } from '../../scripts/scripts.js';
 
 export default function decorate(block) {
   /* change to ul, li */
+  const numCards = block.children.length;
+  if (numCards % 2 === 0) {
+    // number of cards dividable by 2
+    block.classList.add('fifty-fifty');
+  }
   const ul = document.createElement('ul');
   [...block.children].forEach((row) => {
     const li = document.createElement('li');
