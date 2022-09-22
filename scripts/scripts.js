@@ -496,6 +496,10 @@ function decorateTemplateAndTheme() {
 
 export function decorateButtons(element) {
   element.querySelectorAll('a').forEach((a) => {
+    if (a.closest('div.subnav')) {
+      // ignore links in subnav
+      return;
+    }
     a.title = a.title || a.textContent;
     if (a.href !== a.textContent) {
       const up = a.parentElement;
