@@ -69,7 +69,7 @@ h4, h5, h6 {
   font-family: var(--heading-font-family);
   font-weight: 600;
   line-height: 1.25;
-  margin-top: 1em;
+  margin-top: .5em;
   margin-bottom: .5em;
   scroll-margin: calc(var(--nav-height) + 1em);
 }
@@ -206,7 +206,6 @@ main .section.background > picture img {
 }
 
 .section .default-content-wrapper {
-  justify-content: center;
   text-align: center;
 }
 
@@ -284,17 +283,12 @@ hr {
 }
 
 main .section.background .default-content-wrapper h2 {
-  display: flex;
-  justify-content: left;
+  text-align: center;
   font-size: 1.5em;
-  text-align: left;
 }
 
 main .section.background .default-content-wrapper h2:nth-of-type(2) {
-  display: flex;
-  justify-content: left;
   font-size: 1em;
-  text-align: left;
 }
 
 .section.divide {
@@ -306,16 +300,12 @@ main .section .default-content-wrapper strong {
 }
 
 main .section .default-content-wrapper em {
-  display: flex;
   font-size: 1em;
   padding-bottom: 0;
-  justify-content: center;
   align-content: center;
 }
 
 main .section .default-content-wrapper p {
-  display: flex;
-  justify-content: center;
   gap: 10px;
   font-size: 0.8em;
   margin-top: 0;
@@ -350,8 +340,6 @@ main .section.contact .default-content-wrapper em {
   }  
 
   main .section.background .default-content-wrapper h3 {
-    display: flex;
-    justify-content: center;
     font-size: 45px;
     font-weight: 400;
     text-align: center;
@@ -361,8 +349,6 @@ main .section.contact .default-content-wrapper em {
   }
 
   main .section.background .default-content-wrapper h4 a {
-    display: flex;
-    justify-content: center;
     font-size: 20px;
     font-weight: 300;
     text-align: center;
@@ -372,8 +358,6 @@ main .section.contact .default-content-wrapper em {
   }
 
   main .section .default-content-wrapper p {
-    display: flex;
-    justify-content: center;
     gap: 100px;
     font-size: 0.8em;
     margin-top: 0;
@@ -403,8 +387,6 @@ main .section.contact .default-content-wrapper em {
   }
 
   main .section .default-content-wrapper h5 {
-    display: flex;
-    justify-content: center;
     font-size: 25px;
     font-weight: 200;
     text-align: center;
@@ -462,27 +444,35 @@ main .section.contact .default-content-wrapper em {
     max-width: 60vw;
   }
 
+  main .section.background .default-content-wrapper h2 {
+    text-align: left;
+  }
+
   main .section.background .default-content-wrapper h3 {
-    display: flex;
-    justify-content: center;
+    text-align: left;
     font-size: 45px;
     font-weight: 400;
-    text-align: center;
     margin-left: 100px;
     padding-top: 50px;
   }
 
   main .section.background .default-content-wrapper h4 {
     margin-left: 100px;
+    text-align: left;
   }
 
   main .section.background .default-content-wrapper h4 a {
-    display: flex;
-    justify-content: center;
     font-size: 20px;
     font-weight: 300;
-    text-align: center;
     color: white;
+  }
+
+  main .section.background .default-content-wrapper p {
+    text-align: left;
+  }
+
+  main .section.background .default-content-wrapper .button-container {
+    justify-content: left;
   }
 
   main .section .default-content-wrapper p.button-container strong a {
@@ -506,7 +496,7 @@ main .section.contact .default-content-wrapper em {
   }
 
   main .section.background .default-content-wrapper p {
-    display: inline;
+    text-align: left;
   }
 
   main .section.background .default-content-wrapper p.button-container {
