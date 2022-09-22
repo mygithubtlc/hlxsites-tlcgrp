@@ -172,7 +172,7 @@ header nav[aria-expanded='true'] .nav-tools li {
 }
 
 /* desktop nav styles */
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   header nav {
     display: flex;
     justify-content: space-between;
