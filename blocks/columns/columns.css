@@ -77,6 +77,14 @@
     .section.columns-container .default-content-wrapper h4 {
         font-size: 1.8em;
     }
+
+    .section.columns-container .columns-wrapper .columns {
+        padding-bottom: 50px;
+    }
+
+    .section.columns-container .columns-wrapper .columns > div {
+        padding-top: 50px;
+    }
 }
 
 @media (min-width: 900px) {
