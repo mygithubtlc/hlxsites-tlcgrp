@@ -38,13 +38,23 @@ main .section.image-list-container .image-list {
     gap: 10px;
     margin-left: 0;
     margin-right: 0;
-    background-color: whitesmoke;
+    background-color: #FFF;
   }
 
 main .section.image-list-container .image-list > div {
     width: 150px;   
 }
 
+main .section.contact .image-list-wrapper .image-list {
+    margin-top: 0;
+    padding-bottom: 30px;
+}
+
+main .section.contact .image-list-wrapper .image-list > div {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 70px;
+  }
 
 @media (min-width: 600px) {
   main .image-list {
@@ -80,10 +90,20 @@ main .section.image-list-container .image-list > div {
     gap: 70px;
     margin-left: 0;
     margin-right: 0;
-    background-color: whitesmoke;
   }
 
   main .section.image-list-container .image-list > div {
     width: 150px;   
+  }
+
+  main .section.contact .image-list-wrapper .image-list {
+    margin-top: 0;
+    margin-bottom: 100px;
+  }
+
+  main .section.contact .image-list-wrapper .image-list > div {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 60px;
   }
 }

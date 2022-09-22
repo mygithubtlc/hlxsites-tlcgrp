@@ -1,6 +1,7 @@
 .section.columns-container {
-    padding-top: 0;
-    margin-bottom: 30px;
+    padding-top: 40px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
 }
 
 .section.columns-container .default-content-wrapper {
@@ -29,6 +30,10 @@
     font-size: 50px;
     align-content: center;
     margin-bottom: 5px;
+}
+
+.section.columns-container .default-content-wrapper h4 {
+    font-size: 1.5em;
 }
 
 .section.columns-container .default-content-wrapper .button-container {
@@ -68,10 +73,23 @@
     width: 100%;
 }
 
+@media (min-width: 600px) {
+    .section.columns-container .default-content-wrapper h4 {
+        font-size: 1.8em;
+    }
+
+    .section.columns-container .columns-wrapper .columns {
+        padding-bottom: 50px;
+    }
+
+    .section.columns-container .columns-wrapper .columns > div {
+        padding-top: 50px;
+    }
+}
+
 @media (min-width: 900px) {
     .columns > div {
         display: flex;
-        align-items: center;
         flex-direction: unset;
     }
 
@@ -82,5 +100,9 @@
 
     .columns > div > div:first-of-type {
         margin-left: unset;
+    }
+
+    .section.columns-container .default-content-wrapper h4 {
+        font-size: 1.8em;
     }
 }
