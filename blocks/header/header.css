@@ -170,6 +170,10 @@ header nav[aria-expanded='true'] .nav-tools li {
   padding: 0;
 }
 
+header nav .icon-search {
+  display: none;
+}
+
 /* desktop nav styles */
 @media (min-width: 900px) {
   header nav {
