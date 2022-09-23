@@ -146,6 +146,11 @@
     height: 400px;
   }
 
+  .z-pattern .z-row-even > div:first-of-type picture img {
+    position: relative;
+    right: -40px;
+  }
+
   .z-pattern .z-row-even:last-of-type > div:first-of-type img {
     padding-top: 45px;
     position: relative;
@@ -167,7 +172,7 @@
 
   .z-pattern .z-row-even > div:last-of-type h3 {
     font-size: 1.5em;
-  }  
+  }
 
   .z-pattern .z-row-odd > div:last-of-type h3 {
     font-size: 1.5em;
