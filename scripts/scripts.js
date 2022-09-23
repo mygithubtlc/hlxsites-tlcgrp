@@ -496,6 +496,10 @@ function decorateTemplateAndTheme() {
 
 export function decorateButtons(element) {
   element.querySelectorAll('a').forEach((a) => {
+    if (a.closest('div.subnav')) {
+      // ignore links in subnav
+      return;
+    }
     a.title = a.title || a.textContent;
     if (a.href !== a.textContent) {
       const up = a.parentElement;
@@ -616,11 +620,12 @@ loadPage(document);
 
 function buildHeroBlock(main) {
   const h1 = main.querySelector('h1');
+  const h6 = main.querySelector('h6');
   const picture = main.querySelector('picture');
   // eslint-disable-next-line no-bitwise
   if (h1 && picture && (h1.compareDocumentPosition(picture) & Node.DOCUMENT_POSITION_PRECEDING)) {
     const section = document.createElement('div');
-    section.append(buildBlock('hero', { elems: [picture, h1] }));
+    section.append(buildBlock('hero', { elems: [picture, h1, h6] }));
     main.prepend(section);
   }
 }

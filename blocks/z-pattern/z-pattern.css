@@ -121,6 +121,7 @@
   .z-pattern .z-row-even > div:last-of-type {
     background-color: #FFF;
     padding: 0 50px;
+    padding-left: 70px;
   }
 
   .z-pattern .z-row-odd > div:first-of-type {
@@ -137,8 +138,17 @@
     display: flex;
   }
 
+  .z-pattern.reverse > div.z-row-even > div:first-child {
+    order: 2;
+  }
+
   .z-pattern .z-row-odd > div:first-of-type picture img {
     height: 400px;
+  }
+
+  .z-pattern .z-row-even > div:first-of-type picture img {
+    position: relative;
+    right: -40px;
   }
 
   .z-pattern .z-row-even:last-of-type > div:first-of-type img {
@@ -147,9 +157,22 @@
     left: 40px;
   }
 
+  .z-pattern.reverse > div.z-row-even > div:first-child img {
+    position: relative;
+    left: 0;
+    height: 400px;
+    width: 600px;
+  }
+
+  .z-pattern.reverse > div.z-row-even > div:last-child {
+    position: relative;
+    right: -50px;
+    padding: 60px;
+  }
+
   .z-pattern .z-row-even > div:last-of-type h3 {
     font-size: 1.5em;
-  }  
+  }
 
   .z-pattern .z-row-odd > div:last-of-type h3 {
     font-size: 1.5em;

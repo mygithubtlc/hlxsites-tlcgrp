@@ -69,7 +69,7 @@ h4, h5, h6 {
   font-family: var(--heading-font-family);
   font-weight: 600;
   line-height: 1.25;
-  margin-top: 1em;
+  margin-top: .5em;
   margin-bottom: .5em;
   scroll-margin: calc(var(--nav-height) + 1em);
 }
@@ -206,7 +206,6 @@ main .section.background > picture img {
 }
 
 .section .default-content-wrapper {
-  justify-content: center;
   text-align: center;
 }
 
@@ -284,17 +283,19 @@ hr {
 }
 
 main .section.background .default-content-wrapper h2 {
-  display: flex;
-  justify-content: left;
+  text-align: center;
   font-size: 1.5em;
-  text-align: left;
+}
+
+main .section.align .default-content-wrapper h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 10px;
+  font-size: 1.8em;
 }
 
 main .section.background .default-content-wrapper h2:nth-of-type(2) {
-  display: flex;
-  justify-content: left;
   font-size: 1em;
-  text-align: left;
 }
 
 .section.divide {
@@ -306,10 +307,8 @@ main .section .default-content-wrapper strong {
 }
 
 main .section .default-content-wrapper em {
-  display: flex;
   font-size: 1em;
   padding-bottom: 0;
-  justify-content: center;
   align-content: center;
 }
 
@@ -343,6 +342,57 @@ main .section.contact .default-content-wrapper em {
   padding-bottom: 0;
 }
 
+/* contact-us section */
+main .section.contact-us {
+  padding-bottom: 50px;
+}
+
+main .section.contact-us .default-content-wrapper h1 {
+  font-size: 45px;
+  justify-content: flex-start;
+  padding-bottom: 20px;
+}
+
+main .section.contact-us .default-content-wrapper p {
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+main .section.contact-us .default-content-wrapper p picture {
+  padding-top: 0;
+}
+
+/* align section */
+main .section.align {
+  padding-bottom: 60px;
+}
+
+main .section.align .default-content-wrapper p {
+  display: block;
+  text-align: left;
+  padding: 0 20px;
+  justify-content: left;
+  gap: 10px;
+  font-size: 0.7em;
+}
+
+main .section.align .default-content-wrapper p a {
+  display: block;
+}
+
+main .section.align .default-content-wrapper h3 {
+  text-align: left;
+  padding: 30px 20px;
+  font-size: 1.2em;
+}
+
+main .section.align .default-content-wrapper h4 {
+  text-align: left;
+  font-size: 0.8em;
+  padding: 0 20px;
+  padding-bottom: 10px;
+}
+
 @media (min-width: 600px) {
   main .section {
     padding: 64px 32px;
@@ -350,19 +400,15 @@ main .section.contact .default-content-wrapper em {
   }  
 
   main .section.background .default-content-wrapper h3 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-size: 45px;
     font-weight: 400;
-    text-align: center;
     padding-left: 0;
     padding-right: 20px;
     padding-top: 10px;
   }
 
-  main .section.background .default-content-wrapper h4 a {
-    display: flex;
-    justify-content: center;
+  main .section.background .default-content-wrapper h4 {
     font-size: 20px;
     font-weight: 300;
     text-align: center;
@@ -372,11 +418,11 @@ main .section.contact .default-content-wrapper em {
   }
 
   main .section .default-content-wrapper p {
-    display: flex;
-    justify-content: center;
     gap: 100px;
     font-size: 0.8em;
     margin-top: 0;
+    display: flex;
+    justify-content: center;
   }
 
   main .section .default-content-wrapper em {
@@ -403,8 +449,6 @@ main .section.contact .default-content-wrapper em {
   }
 
   main .section .default-content-wrapper h5 {
-    display: flex;
-    justify-content: center;
     font-size: 25px;
     font-weight: 200;
     text-align: center;
@@ -427,6 +471,31 @@ main .section.contact .default-content-wrapper em {
   main .section.contact .default-content-wrapper em {
     font-size: 1.2em;
     padding-bottom: 0;
+  }
+
+  main .section.align {
+    padding-bottom: 60px;
+  }
+  
+  main .section.align .default-content-wrapper p {
+    text-align: left;
+    padding: 0 100px;
+    justify-content: left;
+    gap: 10px;
+    font-size: 0.7em;
+  }
+  
+  main .section.align .default-content-wrapper h3 {
+    text-align: left;
+    padding: 30px 100px;
+    font-size: 1.2em;
+  }
+
+  main .section.align .default-content-wrapper h4 {
+    text-align: left;
+    font-size: 0.8em;
+    padding: 0 100px;
+    padding-bottom: 10px;
   }
 }
 
@@ -462,27 +531,29 @@ main .section.contact .default-content-wrapper em {
     max-width: 60vw;
   }
 
+  main .section.background .default-content-wrapper h2 {
+    text-align: left;
+  }
+
   main .section.background .default-content-wrapper h3 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-size: 45px;
     font-weight: 400;
-    text-align: center;
     margin-left: 100px;
     padding-top: 50px;
   }
 
   main .section.background .default-content-wrapper h4 {
     margin-left: 100px;
+    text-align: center;
   }
 
-  main .section.background .default-content-wrapper h4 a {
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-    font-weight: 300;
-    text-align: center;
-    color: white;
+  main .section.background .default-content-wrapper p {
+    text-align: left;
+  }
+
+  main .section.background .default-content-wrapper .button-container {
+    justify-content: left;
   }
 
   main .section .default-content-wrapper p.button-container strong a {
@@ -506,7 +577,7 @@ main .section.contact .default-content-wrapper em {
   }
 
   main .section.background .default-content-wrapper p {
-    display: inline;
+    text-align: left;
   }
 
   main .section.background .default-content-wrapper p.button-container {
