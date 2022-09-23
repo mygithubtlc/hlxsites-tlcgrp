@@ -287,6 +287,17 @@ main .section.background .default-content-wrapper h2 {
   font-size: 1.5em;
 }
 
+main .section.align .default-content-wrapper h2 {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+main .section.align .default-content-wrapper h4 {
+  text-align: left;
+  font-size: 1em;
+  padding: 0 100px;
+}
+
 main .section.background .default-content-wrapper h2:nth-of-type(2) {
   font-size: 1em;
 }
@@ -306,6 +317,8 @@ main .section .default-content-wrapper em {
 }
 
 main .section .default-content-wrapper p {
+  display: flex;
+  justify-content: center;
   gap: 10px;
   font-size: 0.8em;
   margin-top: 0;
@@ -333,6 +346,43 @@ main .section.contact .default-content-wrapper em {
   padding-bottom: 0;
 }
 
+/* contact-us section */
+main .section.contact-us {
+  padding-bottom: 50px;
+}
+
+main .section.contact-us .default-content-wrapper h1 {
+  font-size: 45px;
+  justify-content: flex-start;
+  padding-bottom: 20px;
+}
+
+main .section.contact-us .default-content-wrapper p {
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+main .section.contact-us .default-content-wrapper p picture {
+  padding-top: 0;
+}
+
+/* align section */
+main .section.align {
+  padding-bottom: 60px;
+}
+
+main .section.align .default-content-wrapper p {
+  text-align: left;
+  padding: 0 100px;
+  justify-content: left;
+  gap: 10px;
+}
+
+main .section.align .default-content-wrapper h3 {
+  text-align: left;
+  padding: 0 100px;
+}
+
 @media (min-width: 600px) {
   main .section {
     padding: 64px 32px;
@@ -340,15 +390,15 @@ main .section.contact .default-content-wrapper em {
   }  
 
   main .section.background .default-content-wrapper h3 {
+    text-align: center;
     font-size: 45px;
     font-weight: 400;
-    text-align: center;
     padding-left: 0;
     padding-right: 20px;
     padding-top: 10px;
   }
 
-  main .section.background .default-content-wrapper h4 a {
+  main .section.background .default-content-wrapper h4 {
     font-size: 20px;
     font-weight: 300;
     text-align: center;
@@ -361,6 +411,8 @@ main .section.contact .default-content-wrapper em {
     gap: 100px;
     font-size: 0.8em;
     margin-top: 0;
+    display: flex;
+    justify-content: center;
   }
 
   main .section .default-content-wrapper em {
@@ -449,7 +501,7 @@ main .section.contact .default-content-wrapper em {
   }
 
   main .section.background .default-content-wrapper h3 {
-    text-align: left;
+    text-align: center;
     font-size: 45px;
     font-weight: 400;
     margin-left: 100px;
@@ -458,13 +510,7 @@ main .section.contact .default-content-wrapper em {
 
   main .section.background .default-content-wrapper h4 {
     margin-left: 100px;
-    text-align: left;
-  }
-
-  main .section.background .default-content-wrapper h4 a {
-    font-size: 20px;
-    font-weight: 300;
-    color: white;
+    text-align: center;
   }
 
   main .section.background .default-content-wrapper p {
