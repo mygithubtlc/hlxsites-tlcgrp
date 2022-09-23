@@ -57,10 +57,6 @@
     border-top: 1px solid black ;  
 }
 
-.columns > div > div h3 {
-      font-weight: 400;
-}
-
 .columns > div > div:first-child {
     margin-top: 2%;
 }
@@ -73,7 +69,18 @@
     width: 100%;
 }
 
+/* logo columns */
+.columns > div > div > p picture {
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+}
+
 @media (min-width: 600px) {
+    .columns > div > div h3 {
+        font-size: 35px;
+    }
+
     .section.columns-container .default-content-wrapper h4 {
         font-size: 1.8em;
     }
@@ -84,6 +91,13 @@
 
     .section.columns-container .columns-wrapper .columns > div {
         padding-top: 50px;
+    }
+
+    /* logo columns */
+    .columns > div > div > p picture {
+        display: inline-block;
+        width: 120px;
+        padding: 10px;
     }
 }
 
