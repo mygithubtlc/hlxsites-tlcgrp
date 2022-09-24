@@ -7,6 +7,7 @@ header nav {
   align-items: center;
   padding: 0 2rem;
   position: absolute;
+  top: 0;
   z-index: 1;
   backdrop-filter: blur(5px);
   width: 100vw;
@@ -24,8 +25,6 @@ header nav a:any-link {
 }
 
 header nav[aria-expanded='true'] {
-  grid-template: 'hamburger brand' 'sections sections' 'tools tools';
-  grid-template-columns:  56px 1fr;
   overflow-y: scroll;
   min-height: 100vh;
 }
@@ -33,18 +32,18 @@ header nav[aria-expanded='true'] {
 /* brand */
 header .nav-brand {
   grid-area: brand;
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 1em;
 }
 
-header nav .nav-brand p {
-  margin: 0;
-}
-
-header nav .nav-brand img {
+header nav .nav-brand a:any-link {
+  display: block;
+  color: transparent;
+  font-size: 0;
+  line-height: 0;
   width: 70px;
-  height: 55px;
+  height: var(--nav-height);
+  background: url('/icons/tlc.png') no-repeat;
+  background-size: 70px auto;
+  background-position: center left;
 }
 
 /* hamburger */
@@ -171,13 +170,16 @@ header nav[aria-expanded='true'] .nav-tools li {
   padding: 0;
 }
 
+header nav .icon-search {
+  display: none;
+}
+
 /* desktop nav styles */
 @media (min-width: 900px) {
   header nav {
     display: flex;
     justify-content: space-between;
     height: var(--nav-height);
-    padding: 16px 2rem;
   }
 
   header nav .nav-sections > ul > li.nav-drop {
