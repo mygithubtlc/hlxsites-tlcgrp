@@ -13,10 +13,11 @@ main .address p {
   font-family: var(--alt-font-family);
   font-size: 1rem;
   display: flex;
-  gap: 40px;
 }
 
 main .address picture {
-  padding-top: 4px;
+  width: 16px;
+  margin-top: 2px;
+  margin-right: 20px;
 }
 
