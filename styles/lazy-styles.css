@@ -1,1 +1,9 @@
-/* below the fold CSS goes here */
+/* font loading and below the fold CSS goes here */
+
+@font-face {
+  font-family: argesta-display;
+  font-weight: 300;
+  font-style: normal;
+  src: url("/styles/fonts/ArgestaDisplay-Regular.otf") format("opentype");
+  font-display: swap;
+}
