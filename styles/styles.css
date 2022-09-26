@@ -1,16 +1,11 @@
-/*
- * Copyright 2020 Adobe. All rights reserved.
- * This file is licensed to you under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License. You may obtain a copy
- * of the License at http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
- * OF ANY KIND, either express or implied. See the License for the specific language
- * governing permissions and limitations under the License.
- */
+@font-face {
+  font-family: argesta-display-fallback;
+  src: local("Times New Roman");
+  size-adjust: 112.2%;
+  ascent-override: 85%;
+}
 
- :root {
+:root {
   /* colors */
   --link-color: var(--text-color);
   --link-hover-color: var(--text-color);
@@ -21,8 +16,10 @@
   --nav-background-color: rgba(0 0 0 / 25%);
 
   /* fonts */
-  --body-font-family: "Playfair Display", "Playfair Display-fallback", "Times New Roman", serif;
+  --body-font-family: argesta-display, argesta-display-fallback, "Times New Roman", serif;
+  --body-font-weight: 300;
   --heading-font-family: var(--body-font-family);
+  --heading-font-weight: var(--body-font-weight);
   --alt-font-family: "Helvetica Neue", helvetica, arial, sans-serif;
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
 
@@ -43,15 +40,9 @@
   --nav-height: 80px;
 }
 
-@font-face {
-  font-family: "Playfair Display-fallback";
-  size-adjust: 111.2%;
-  ascent-override: 94%;
-  src: local("Times New Roman");
-}
-
 body {
   font-size: var(--body-font-size-m);
+  font-weight: var(--body-font-weight);
   margin: 0;
   font-family: var(--body-font-family);
   line-height: 1.6;
@@ -67,7 +58,7 @@ body.appear {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: var(--heading-font-family);
-  font-weight: 600;
+  font-weight: var(--heading-font-weight);
   line-height: 1.25;
   margin-top: .5em;
   margin-bottom: .5em;
