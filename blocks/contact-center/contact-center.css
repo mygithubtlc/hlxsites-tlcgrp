@@ -1,0 +1,37 @@
+main .contact-center {
+  background-color: white;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+main .contact-center h2 {
+  font-size: 1.5em;
+}
+
+main .contact-center p {
+  margin-bottom: 0;
+}
+
+main .contact-center p:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
+main .contact-center img {
+  width: 50px;
+}
+
+@media (min-width: 900px) {
+  main .contact-center {
+    padding: 20px 20%;
+  }
+  
+  main .contact-center p:last-child {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+}
