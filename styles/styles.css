@@ -353,12 +353,8 @@ main .section.contact-us .default-content-wrapper p picture {
   padding-top: 0;
 }
 
-/* align section */
-main .section.align {
-  padding-bottom: 60px;
-}
-
-main .section.align .default-content-wrapper p {
+/* legal theme */
+.legal main .section .default-content-wrapper p {
   display: block;
   text-align: left;
   padding: 0 20px;
@@ -367,21 +363,25 @@ main .section.align .default-content-wrapper p {
   font-size: 0.7em;
 }
 
-main .section.align .default-content-wrapper p a {
+.legal main .section .default-content-wrapper p a {
   display: block;
 }
 
-main .section.align .default-content-wrapper h3 {
+.legal main .section .default-content-wrapper h3 {
   text-align: left;
   padding: 30px 20px;
   font-size: 1.2em;
 }
 
-main .section.align .default-content-wrapper h4 {
+.legal main .section .default-content-wrapper h4 {
   text-align: left;
-  font-size: 0.8em;
+  font-size: 0.7em;
   padding: 0 20px;
   padding-bottom: 10px;
+}
+
+.legal main .section {
+  padding-bottom: 60px;
 }
 
 @media (min-width: 600px) {
@@ -463,32 +463,9 @@ main .section.align .default-content-wrapper h4 {
     font-size: 1.2em;
     padding-bottom: 0;
   }
-
-  main .section.align {
-    padding-bottom: 60px;
-  }
-  
-  main .section.align .default-content-wrapper p {
-    text-align: left;
-    padding: 0 100px;
-    justify-content: left;
-    gap: 10px;
-    font-size: 0.7em;
-  }
-  
-  main .section.align .default-content-wrapper h3 {
-    text-align: left;
-    padding: 30px 100px;
-    font-size: 1.2em;
-  }
-
-  main .section.align .default-content-wrapper h4 {
-    text-align: left;
-    font-size: 0.8em;
-    padding: 0 100px;
-    padding-bottom: 10px;
-  }
 }
+
+
 
 @media (min-width: 900px) {
   :root {
