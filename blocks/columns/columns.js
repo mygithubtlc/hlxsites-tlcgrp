@@ -3,8 +3,7 @@ export default function decorate(block) {
   block.classList.add(`columns-${cols.length}-cols`);
   [...block.children].forEach((row) => {
     [...row.children].forEach((cell) => {
-      const imgs = cell.querySelectorAll('img');
-      if (imgs.length > 1) {
+      if (cell.querySelectorAll('img').length > 1) {
         cell.classList.add('image-set');
       }
     });
