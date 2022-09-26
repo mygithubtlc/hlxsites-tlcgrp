@@ -315,44 +315,6 @@ main .section .default-content-wrapper h1 {
   font-size: 2em;
 }
 
-main .section.contact .default-content-wrapper h4 {
-  font-size: 1.5em;
-}
-
-main .section.contact .default-content-wrapper {
-  background-color: #FFF;
-  padding: 20px 10px 40px;
-}
-
-main .section.contact .default-content-wrapper p {
-  margin-bottom: 0;
-}
-
-main .section.contact .default-content-wrapper em {
-  font-size: 1em;
-  padding-bottom: 0;
-}
-
-/* contact-us section */
-main .section.contact-us {
-  padding-bottom: 50px;
-}
-
-main .section.contact-us .default-content-wrapper h1 {
-  font-size: 45px;
-  justify-content: flex-start;
-  padding-bottom: 20px;
-}
-
-main .section.contact-us .default-content-wrapper p {
-  justify-content: flex-start;
-  gap: 40px;
-}
-
-main .section.contact-us .default-content-wrapper p picture {
-  padding-top: 0;
-}
-
 /* legal theme */
 .legal main .section .default-content-wrapper p {
   display: block;
@@ -450,22 +412,7 @@ main .section.contact-us .default-content-wrapper p picture {
   main .section .default-content-wrapper p picture {
     padding-top: 30px;
   }
-
-  main .section.contact .default-content-wrapper {
-    padding: 20px 0 40px;
-  }
-
-  main .section.contact .default-content-wrapper p {
-    margin-bottom: 0;
-  }
-
-  main .section.contact .default-content-wrapper em {
-    font-size: 1.2em;
-    padding-bottom: 0;
-  }
 }
-
-
 
 @media (min-width: 900px) {
   :root {
