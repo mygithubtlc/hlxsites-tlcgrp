@@ -28,6 +28,10 @@ footer .footer p a:hover {
   text-decoration: none;
 }
 
+footer .footer p a.active {
+  font-weight: bold;
+}
+
 footer .footer > div > div:first-child {
   float: left;
   width: 25%;

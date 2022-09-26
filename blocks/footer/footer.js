@@ -16,4 +16,11 @@ export default async function decorate(block) {
   footer.innerHTML = html;
   await decorateIcons(footer);
   block.append(footer);
+
+  // find active nav item
+  footer.querySelectorAll('a').forEach((link) => {
+    if (window.location.pathname === link.getAttribute('href')) {
+      link.classList.add('active');
+    }
+  });
 }

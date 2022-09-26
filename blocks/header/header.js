@@ -62,5 +62,12 @@ export default async function decorate(block) {
     nav.setAttribute('aria-expanded', 'false');
     decorateIcons(nav);
     block.append(nav);
+
+    // find active nav item
+    nav.querySelectorAll('a').forEach((link) => {
+      if (window.location.pathname === link.getAttribute('href')) {
+        link.classList.add('active');
+      }
+    });
   }
 }
