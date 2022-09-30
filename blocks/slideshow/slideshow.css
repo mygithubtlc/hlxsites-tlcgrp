@@ -5,24 +5,20 @@
   --slideshow-nav-background: #0006;
 }
 
-main .slideshow-container > div {
-  max-width: unset;
-}
-
 main .slideshow-container {
   padding: 0;
 }
 
-main .slideshow-container .slideshow-wrapper {
+main .slideshow-container > div.slideshow-wrapper {
   position: relative;
   width: 100%;
+  max-width: 100%;
   padding: 0;
 }
 
 main .slideshow {
-  width: 100%;
   display: flex;
-  overflow-x: auto;
+  overflow-x: hidden;
   scroll-behavior: smooth;
   scrollbar-width: none; /* Firefox */
 }
@@ -105,7 +101,7 @@ main .slideshow .slideshow-overlay {
   height: 150px;
   overflow-y: auto;
   margin: 0;
-  padding: 020px;
+  padding: 0 20px;
   color: white;
   background: var(--overlay-background-color);
 }
@@ -113,6 +109,7 @@ main .slideshow .slideshow-overlay {
 @media (min-width: 600px) {
   main .slideshow .slideshow-overlay {
       position: absolute;
+      box-sizing: border-box;
       top: 0;
       left: 0;
       flex-flow: row wrap;
@@ -160,37 +157,4 @@ main .slideshow .slideshow-overlay .slideshow-btn::after {
 
 main .slideshow .slideshow-overlay .slideshow-btn:hover {
   background: var(--overlay-link-hover-color);
-}
-
-/* slideshow nav */
-main .slideshow .slideshow-nav {
-  position: absolute;
-  top: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 48px;
-  width: 48px;
-  background: var(--slideshow-nav-background);
-  transform: translateY(-50%);
-  cursor: pointer;
-  z-index: 6;
-}
-
-main .slideshow .slideshow-nav.slideshow-nav-left {
-  left: 0;
-}
-
-main .slideshow .slideshow-nav.slideshow-nav-right {
-  right: 0;
-}
-
-main .slideshow .slideshow-nav.slideshow-nav-disabled {
-  opacity: .33;
-  cursor: default;
-}
-
-main .slideshow .slideshow-nav img {
-  width: 24px;
-  height: 24px;
 }
