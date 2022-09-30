@@ -12,16 +12,14 @@ main .hero-container {
 main .hero {
     position: relative;
     min-height: 300px;
-    height: 710px;
+    height: 500px;
 }
 
 main .hero h1 {
-    max-width: 1200px;
-    margin-left: 60px;
-    margin-right: auto;
+    margin: 0 60px;
     color: white;
     position: relative;
-    top: 300px;
+    top: 180px;
     font-size: 1.8em;
 }
 
@@ -33,13 +31,15 @@ main .hero picture {
     left: 0;
     bottom: 0;
     right: 0;
-    object-fit: cover;
     box-sizing: border-box;
 }
 
 main .hero img {
     object-fit: cover;
-    width: 100%;
+    object-position: left;
+    position: relative;
+    left: 0;
+    width: auto;
     height: 100%;
 }
 
@@ -49,4 +49,23 @@ main .hero h6 {
     left: 60px;
     color: white;
     font-size: 0.7em;
+}
+
+@media (min-width: 900px) {
+    main .hero {
+        height: 710px;
+    }
+
+    main .hero h1 {
+        top: 300px;
+        max-width: 50%;
+    }    
+}
+
+@media (min-width: 1200px) {
+    main .hero img {
+        object-position: unset;
+        width: 100%;
+        height: 100%;
+    }
 }
