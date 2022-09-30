@@ -170,10 +170,6 @@ header nav[aria-expanded='true'] .nav-tools li {
   padding: 0;
 }
 
-header nav .icon-search {
-  display: none;
-}
-
 header nav a.active {
   font-weight: bold;
 }
