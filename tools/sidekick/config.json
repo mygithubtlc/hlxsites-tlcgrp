@@ -1,0 +1,5 @@
+{
+  "project": "TLC",
+  "host": "www.tlcgroup.com",
+  "pushDownSelector": ".header > nav"
+}

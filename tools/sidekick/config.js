@@ -1,4 +1,5 @@
 window.HTMLTextAreaElement.initSidekick({
   project: 'TLC Group',
-  host: 'tlcgroup.com',
+  host: 'www.tlcgroup.com',
+  pushDownSelector: '.header > nav',
 });
