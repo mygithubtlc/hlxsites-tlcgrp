@@ -187,11 +187,16 @@
 
   .z-pattern > div[class^="z-row"] > div:last-of-type strong {
     position: absolute;
+    top: 10px;
   }
 }
 
 @media (min-width: 1200px) {
-  .z-pattern .z-row-even > div:last-of-type strong {
+  .z-pattern > div.z-row-even > div:last-of-type strong {
     left: -10px;
+  }
+
+  .z-pattern > div.z-row-odd > div:last-of-type strong {
+    right: -10px;
   }
 }
