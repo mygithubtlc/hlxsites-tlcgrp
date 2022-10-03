@@ -81,12 +81,6 @@ main .slideshow .slideshow-img {
   height: 100vw;
 }
 
-@media (min-width: 600px) {
-  main .slideshow .slideshow-img {
-    height: calc(100vw * .416);
-  }
-}
-
 main .slideshow img {
   object-fit: cover;
   width: 100%;
@@ -107,6 +101,10 @@ main .slideshow .slideshow-overlay {
 }
 
 @media (min-width: 600px) {
+  main .slideshow .slideshow-img {
+    height: 670px;
+  }
+
   main .slideshow .slideshow-overlay {
       position: absolute;
       box-sizing: border-box;
