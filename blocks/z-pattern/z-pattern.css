@@ -70,11 +70,7 @@
     padding-bottom: 50px;
 }
 
-.z-pattern .z-row-even > div:last-of-type h3 {
-    font-size: 1.5em;
-}
-
-.z-pattern .z-row-odd > div:last-of-type h3 {
+.z-pattern > div[class^="z-row"] > div:last-of-type h3 {
     font-size: 1.5em;
 }
 
@@ -82,24 +78,16 @@
     text-align: center;
 }
 
-.z-pattern .z-row-even > div:last-of-type em {
-    font-style: normal;
-    font-size: 0.9em;
-}
-
-.z-pattern .z-row-even > div:last-of-type strong {
+.z-pattern > div[class^="z-row"] > div:last-of-type strong {
+    font-family: var(--alt-font-family);
+    font-weight: 350;
     font-style: normal;
     font-size: 0.6em;
 }
 
-.z-pattern .z-row-odd > div:last-of-type em {
+.z-pattern > div[class^="z-row"] > div:last-of-type em {
     font-style: normal;
     font-size: 0.9em;
-}
-
-.z-pattern .z-row-odd > div:last-of-type strong {
-    font-style: normal;
-    font-size: 0.6em;
 }
 
 @media (min-width: 900px) {
@@ -109,7 +97,7 @@
 
   .z-pattern > div[class^="z-row"] > div {
     flex: 0 0 40%;
-    text-align: left;
+    text-align: center;
     max-width: 500px;
   }
 
@@ -122,6 +110,7 @@
     background-color: #FFF;
     padding: 0 50px;
     padding-left: 70px;
+    text-align: center;
   }
 
   .z-pattern .z-row-odd > div:first-of-type {
@@ -148,7 +137,7 @@
 
   .z-pattern .z-row-even > div:first-of-type picture img {
     position: relative;
-    right: -40px;
+    right: -60px;
   }
 
   .z-pattern .z-row-even:last-of-type > div:first-of-type img {
@@ -167,18 +156,47 @@
   .z-pattern.reverse > div.z-row-even > div:last-child {
     position: relative;
     right: -50px;
-    padding: 60px;
+    padding: 30px 60px;
   }
 
-  .z-pattern .z-row-even > div:last-of-type h3 {
-    font-size: 1.5em;
-  }
-
-  .z-pattern .z-row-odd > div:last-of-type h3 {
-    font-size: 1.5em;
+  .z-pattern > div[class^="z-row"] > div:last-of-type h3 {
+    margin-top: 60px;
+    font-size: 1.4em;
   }
 
   .z-pattern-container .default-content-wrapper {
     padding-bottom: 50px;
+  }
+
+  .z-pattern > div[class^="z-row"] > div:last-of-type p {
+    position: relative;
+    font-size: 19px;
+    margin-bottom: 60px;
+  }
+
+  .z-pattern .z-row-even > div:last-of-type strong {
+    display: block;
+    text-align: left;
+  }
+
+  .z-pattern .z-row-odd > div:last-of-type strong {
+    display: block;
+    text-align: left;
+    right: 10px;
+  }
+
+  .z-pattern > div[class^="z-row"] > div:last-of-type strong {
+    position: absolute;
+    top: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .z-pattern > div.z-row-even > div:last-of-type strong {
+    left: -10px;
+  }
+
+  .z-pattern > div.z-row-odd > div:last-of-type strong {
+    right: -10px;
   }
 }
