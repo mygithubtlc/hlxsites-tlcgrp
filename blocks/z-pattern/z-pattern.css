@@ -70,11 +70,7 @@
     padding-bottom: 50px;
 }
 
-.z-pattern .z-row-even > div:last-of-type h3 {
-    font-size: 1.5em;
-}
-
-.z-pattern .z-row-odd > div:last-of-type h3 {
+.z-pattern > div[class^="z-row"] > div:last-of-type h3 {
     font-size: 1.5em;
 }
 
@@ -82,24 +78,16 @@
     text-align: center;
 }
 
-.z-pattern .z-row-even > div:last-of-type em {
-    font-style: normal;
-    font-size: 0.9em;
-}
-
-.z-pattern .z-row-even > div:last-of-type strong {
+.z-pattern > div[class^="z-row"] > div:last-of-type strong {
+    font-family: var(--alt-font-family);
+    font-weight: 350;
     font-style: normal;
     font-size: 0.6em;
 }
 
-.z-pattern .z-row-odd > div:last-of-type em {
+.z-pattern > div[class^="z-row"] > div:last-of-type em {
     font-style: normal;
     font-size: 0.9em;
-}
-
-.z-pattern .z-row-odd > div:last-of-type strong {
-    font-style: normal;
-    font-size: 0.6em;
 }
 
 @media (min-width: 900px) {
@@ -191,7 +179,19 @@
     text-align: left;
   }
 
+  .z-pattern .z-row-odd > div:last-of-type strong {
+    display: block;
+    text-align: left;
+    right: 10px;
+  }
+
   .z-pattern > div[class^="z-row"] > div:last-of-type strong {
     position: absolute;
+  }
+}
+
+@media (min-width: 1200px) {
+  .z-pattern .z-row-even > div:last-of-type strong {
+    left: -10px;
   }
 }
