@@ -20,20 +20,20 @@ export default async function decorate(block) {
       slide.classList.add('slideshow-slide');
     });
     if (overlay.children) {
-      slide.append(overlay);
-      // hide and reveal heading text after trigger word
-      const trigger = 'through';
-      overlay.querySelectorAll('h1,h2').forEach((heading) => {
-        const text = heading.textContent;
-        const pos = text.includes(trigger)
-          ? (text.indexOf(trigger) + trigger.length + 1)
-          : 0;
-        if (pos) {
-          const revealText = text.substring(pos + trigger.length + 1);
-          heading.innerHTML = `${text.substring(0, pos)}<br>
-            <span class="${index ? '' : 'slideshow-reveal'}">${revealText}</span>`;
+      const br = overlay.querySelector('br');
+      if (br) {
+        // animate heading text after <br>
+        const animateTextNode = br.nextSibling;
+        if (animateTextNode) {
+          const span = document.createElement('span');
+          span.textContent = animateTextNode.textContent;
+          if (!index) {
+            span.classList.add('slideshow-reveal');
+          }
+          animateTextNode.replaceWith(span);
         }
-      });
+      }
+      slide.append(overlay);
     }
   });
 
@@ -41,8 +41,8 @@ export default async function decorate(block) {
   if (slides.length > 1) {
     let index = 0;
     setInterval(() => {
-      // remove animation from all spans
-      block.querySelectorAll('span').forEach((span) => {
+      // remove heading animations
+      block.querySelectorAll('span.slideshow-reveal').forEach((span) => {
         span.classList.remove('slideshow-reveal');
       });
       if (block.scrollWidth - block.scrollLeft > block.offsetWidth) {
@@ -54,7 +54,7 @@ export default async function decorate(block) {
         index = 0;
         block.scrollLeft = 0;
       }
-      // add animation to next span
+      // add next heading animation
       block.children[index].querySelectorAll('span').forEach((span) => {
         span.classList.add('slideshow-reveal');
       });
