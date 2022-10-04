@@ -20,7 +20,7 @@ export default async function decorate(block) {
       slide.classList.add('slideshow-slide');
     });
     if (overlay.children) {
-      const br = overlay.querySelector('br');
+      const br = overlay.querySelector('h1 > br, h2 > br');
       if (br) {
         // animate heading text after <br>
         const animateTextNode = br.nextSibling;
