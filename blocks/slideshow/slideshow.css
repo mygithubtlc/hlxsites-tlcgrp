@@ -3,6 +3,7 @@
   --overlay-link-color: #002246;
   --overlay-link-hover-color: #013367;
   --slideshow-nav-background: #0006;
+  --heading-font-size-s: 20px;
 }
 
 main .slideshow-container {
@@ -168,4 +169,44 @@ main .slideshow .slideshow-overlay .slideshow-btn::after {
 
 main .slideshow .slideshow-overlay .slideshow-btn:hover {
   background: var(--overlay-link-hover-color);
+}
+
+
+@media (max-width:480px){
+
+  main .slideshow .slideshow-overlay {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background:none;
+    top: -30%;
+    justify-content: center;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0 20px;
+    color: white;
+}
+  
+   main .slideshow .slideshow-overlay h1, main .slideshow .slideshow-overlay h2 {
+    font-size: 20px;
+    text-align: center;
+    overflow-y: hidden
+  }
+
+  .section.slideshow-container {
+    height: 385px;
+}
+.slideshow-wrapper {
+  height: 400px;
+}
+.slideshow.block {
+  height: 100%;
+}
+main .slideshow .slideshow-img {
+  position: relative;
+  height: 120vh;
+  width: 100%;
+}
+
+
 }

@@ -265,3 +265,34 @@ main .section.cards-container .cards-wrapper {
         font-weight: 400;
     }
 }
+
+
+@media (max-width:480px){
+    .cards .cards-card-image img {
+      max-width:100%;
+      display:block;
+      height:auto;
+    }
+    .cards > ul > li p strong {
+        font-size: 8px;
+    }
+    .cards > ul > li h3 {
+        font-size: 21px;
+    }
+    .cards > ul > li em {
+        font-size: 14px;
+    }
+    body{
+        line-height: 17px;
+    }
+    .cards .cards-card-body {
+        padding: 10px 10px;
+    }
+    .cards-card-body p {
+        margin:0px;
+        padding:0px;
+    }
+    .cards > ul > li h4 {
+        font-size: 6px;
+    }
+}

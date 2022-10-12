@@ -27,3 +27,23 @@ main .section.subnav-container {
         text-decoration: none;
     }
 }
+
+@media (max-width:480px){
+    .subnav.block {
+        text-align: center;
+        font-size: 13px;
+    }
+    .subnav-wrapper {
+        margin-top: -20px;
+    }
+    main .section.subnav-container {
+        padding: 18px 0px 0px 0px;
+        position: relative;
+        top: -34px;
+    }
+    a:any-link {
+        font-family: var(--alt-font-family);
+        /* color:white; */
+        text-decoration: none;
+    }
+}

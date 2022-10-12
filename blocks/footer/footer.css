@@ -56,3 +56,38 @@ footer .footer > div > div:last-child {
   color: white;
   font-weight: 300;
 }
+
+@media (max-width:480px){
+  footer .footer > div > div:last-child {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+footer .footer > div > div:first-child {
+  float: left;
+  width: 50%;
+  line-height: 40px;
+  color: white;
+  font-weight: 400;
+}
+
+footer .footer > div > div:nth-child(1),
+footer .footer > div > div:nth-child(2) {
+  font-size: 14px;
+  font-weight: 600;
+}
+footer .footer p a {
+  font-size: 12px;
+
+}
+footer .footer > div > div:nth-child(3){
+  font-size:9px;
+}
+footer {
+  padding: 1rem;
+}
+.footer-wrapper {
+  min-height: 250px;
+}
+
+}
