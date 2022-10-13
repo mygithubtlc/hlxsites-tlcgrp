@@ -38,6 +38,7 @@
 
   /* nav height */
   --nav-height: 80px;
+  --mobile-nav-height:60px;
 }
 
 body {

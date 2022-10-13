@@ -56,6 +56,9 @@ footer .footer > div > div:last-child {
   color: white;
   font-weight: 300;
 }
+.footer-wrapper img {
+  margin-top: 19px;
+}
 
 @media (max-width:480px){
   footer .footer > div > div:last-child {

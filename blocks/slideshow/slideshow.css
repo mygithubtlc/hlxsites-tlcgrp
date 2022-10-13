@@ -5,6 +5,9 @@
   --slideshow-nav-background: #0006;
   --heading-font-size-s: 20px;
 }
+.azam{
+  color:red;
+}
 
 main .slideshow-container {
   padding: 0;
@@ -170,6 +173,8 @@ main .slideshow .slideshow-overlay .slideshow-btn::after {
 main .slideshow .slideshow-overlay .slideshow-btn:hover {
   background: var(--overlay-link-hover-color);
 }
+
+
 
 
 @media (max-width:480px){
