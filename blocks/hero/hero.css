@@ -79,7 +79,7 @@ main .hero h6 {
         max-width: 100%;
         display: block;
         left: 0;
-        height: calc(100% - 307px);
+        height: calc(100% - 290px);
         right: 0px;
         box-sizing: border-box;
     }
