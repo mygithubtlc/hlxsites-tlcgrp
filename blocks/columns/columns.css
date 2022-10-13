@@ -28,6 +28,7 @@
     display: flex;
     justify-content: center;
     font-size: 50px;
+    margin-top:-40px;
     align-content: center;
     margin-bottom: 5px;
 }
@@ -125,10 +126,17 @@
         font-size: 28px;
         line-height:0px;
     }
+    .section.columns-container .default-content-wrapper h2 {
+      
+        margin-top: -20px;
+        margin-bottom: 40px;
+    }
     .section.columns-container .default-content-wrapper .button-container {
     
         margin-bottom: 58px;
     }
+
+    
     h3#connections-tech-platforms, 
     h3#mobile-digital, 
     h3#partnership-partnerships,
@@ -179,4 +187,37 @@
     h2#whats-new {
         font-size: 21px;
     }
+
+    /* for career page css */
+    .section.columns-container .default-content-wrapper h4{
+        font-size:28px;
+    }
+    h3#culture-our-culture, 
+    h3#brand-our-brand-values {
+        display: block;
+        text-align: center;
+        font-size:21px;
+    }
+    span.icon.icon-culture,
+    span.icon.icon-brand {
+        display: block;
+      }
+      h3#culture-our-culture span,
+      #brand-our-brand-values span
+        {
+        margin: 22px;
+    }
+    main .section .default-content-wrapper em {
+        font-size: 14px;
+    }
+    main .section .default-content-wrapper strong {
+        font-size: 14px;
+    }
+    h3#product-manager, h3#data-analyst, h3#ionic-developer,
+    h3#manager---influencer-marketing {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    
 }

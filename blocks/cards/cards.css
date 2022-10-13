@@ -295,4 +295,103 @@ main .section.cards-container .cards-wrapper {
     .cards > ul > li h4 {
         font-size: 6px;
     }
+
+    /* career page css */
+    main .section.cards-container .default-content-wrapper h3 {
+        font-size:28px;
+    }
+    main .section.cards-container .default-content-wrapper em {
+        font-size: 14px;
+        font-style: normal;
+    }
+/* try */
+.meet-our-team-mobile .cards .cards-card-image picture {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.meet-our-team-mobile .cards .cards-card-image {
+    line-height: 0;
+    /* position: absolute; */
+    z-index: -1;
+    top: 0;
+    width: 100%;
+    display: contents;
+    /* height: 100%; */
+}
+.meet-our-team-mobile p {
+    text-align: center;
+    color: black;
+}
+.meet-our-team-mobile .cards > ul > li p strong {
+    font-size: 21px;
+    font-weight: 600;
+
+}
+.meet-our-team-mobile .cards > ul > li p{
+    margin:10px;
+}
+
+.meet-our-team-mobile .cards-card-body  p:nth-child(3) strong {
+    font-size:14px;
+}
+.meet-our-team-mobile .cards > ul > li p:nth-child(2) {
+    margin: 10px;
+    margin-top: 20px;
+}
+.meet-our-team-mobile .cards .cards-card-image img {
+  
+    width: calc(100% - 54px);
+    height: calc(100% - 250px);
+    margin: 0 auto;
+}
+
+
+.meet-our-team-mobile-another-section .cards .cards-card-image picture {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.meet-our-team-mobile-another-section .cards .cards-card-image {
+    line-height: 0;
+    /* position: absolute; */
+    z-index: -1;
+    top: 0;
+    width: 100%;
+    display: contents;
+    /* height: 100%; */
+}
+.meet-our-team-mobile-another-section p {
+    text-align: center;
+    color: black;
+}
+.meet-our-team-mobile-another-section .cards > ul > li p strong {
+    font-size: 21px;
+    font-weight: 600;
+
+}
+.meet-our-team-mobile-another-section .cards > ul > li p{
+    margin:10px;
+}
+
+.meet-our-team-mobile-another-section .cards-card-body  p:nth-child(3) strong {
+    font-size:14px;
+}
+.meet-our-team-mobile-another-section .cards > ul > li p:nth-child(2) {
+    margin: 10px;
+    margin-top: 20px;
+}
+.meet-our-team-mobile-another-section .cards .cards-card-image img {
+  
+    width: calc(100% - 54px);
+    height: calc(100% - 209px);
+    margin: 0 auto;
+}
+
+
+
 }

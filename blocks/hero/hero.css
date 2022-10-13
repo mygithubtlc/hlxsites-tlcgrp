@@ -69,3 +69,30 @@ main .hero h6 {
         height: 100%;
     }
 }
+
+
+@media (max-width:480px){
+    main .hero picture {
+        position: absolute;
+        z-index: -1;
+        top: 58px;
+        max-width: 100%;
+        display: block;
+        left: 0;
+        height: calc(100% - 307px);
+        right: 0px;
+        box-sizing: border-box;
+    }
+    main .hero h1 {
+        margin: 0 0px;
+        color: white;
+        position: relative;
+        top: 180px;
+        text-align: center;
+        font-size: 28px;
+    }
+    main .hero-container > div {
+        max-width: unset;
+        max-height: 224px;
+    }
+}

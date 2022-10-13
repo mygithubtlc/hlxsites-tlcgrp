@@ -26,11 +26,16 @@ export default async function decorate(block) {
         const animateTextNode = br.nextSibling;
         if (animateTextNode) {
           const span = document.createElement('span');
+          
           span.textContent = animateTextNode.textContent;
           if (!index) {
             span.classList.add('slideshow-reveal');
+            
+            
           }
           animateTextNode.replaceWith(span);
+          
+          
         }
       }
       slide.append(overlay);
