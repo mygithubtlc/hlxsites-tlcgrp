@@ -87,12 +87,20 @@ main .hero h6 {
         margin: 0 0px;
         color: white;
         position: relative;
-        top: 180px;
+        top: 155px;
         text-align: center;
         font-size: 28px;
     }
     main .hero-container > div {
         max-width: unset;
         max-height: 224px;
+    }
+    main .hero h6 {
+        position: absolute;
+        bottom: 0;
+        left: 60px;
+        color: white;
+        font-size: 0.7em;
+        display: none;
     }
 }

@@ -131,7 +131,7 @@ main .slideshow .slideshow-overlay {
 
 main .slideshow .slideshow-overlay h1,
 main .slideshow .slideshow-overlay h2 {
-  font-size: var(--heading-font-size-l);
+  font-size: var(--heading-font-size-xl);
 }
 
 main .slideshow .slideshow-reveal {
