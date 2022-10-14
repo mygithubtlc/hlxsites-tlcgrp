@@ -542,3 +542,26 @@ main .section.highlight {
 }
 
 
+@media (max-width:480px){
+  main .section .default-content-wrapper h1 {
+    font-size: 28px;
+    margin-top: 100px;
+}
+main .section .default-content-wrapper em {
+  font-size: 14px;
+  padding-bottom: 0;
+  align-content: center;
+}
+a.button:hover, a.button:focus, button:hover, button:focus {
+  background: none;
+}
+
+.clientele-page h2 {
+  font-size: 28px;
+}
+.clientele-page h4 {
+  font-size: 14px;
+}
+
+}
+
