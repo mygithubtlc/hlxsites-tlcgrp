@@ -9,12 +9,12 @@
 }
 
 .columns > div > div h4 {
-    font-size: 18px;
+    font-size: 15px;
     color: gray;
 }
 
 .columns > div > div p em {
-    font-size: 18px;
+    font-size: 15px;
     font-style: normal;
 }
 
@@ -27,7 +27,7 @@
 .section.columns-container .default-content-wrapper h2 {
     display: flex;
     justify-content: center;
-    font-size: 50px;
+    font-size: 48px;
     margin-top:-40px;
     align-content: center;
     margin-bottom: 5px;
@@ -80,12 +80,13 @@
 .columns > div > div.image-set > p img {
     width: auto;
     height: 30px;
+    margin:15px;
 }
 
 
 @media (min-width: 600px) {
     .columns > div > div h3 {
-        font-size: 35px;
+        font-size: 28px;
     }
 
     .section.columns-container .default-content-wrapper h4 {
@@ -117,7 +118,7 @@
     }
 
     .section.columns-container .default-content-wrapper h4 {
-        font-size: 1.8em;
+        font-size: 48px;
     }
 }
 
@@ -305,6 +306,12 @@
         width: 60%;
         padding: 0;
     }
+
+    
+
+
+
+
 
     
     
