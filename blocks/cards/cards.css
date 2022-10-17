@@ -391,6 +391,40 @@ main .section.cards-container .cards-wrapper {
     height: calc(100% - 209px);
     margin: 0 auto;
 }
+main .section.cards-container .default-content-wrapper a {
+    all: unset;
+    cursor: pointer;
+    font-size: 14px;
+}
+.history-vision-section  #we-empower-our-clients-to-build-stronger-relationships-with-their-customers {
+    margin: 50px 0px 25px 0px;
+    color:#313131;
+    
+}
+.history-vision-section img:nth-child(2){
+    height: 217px;
+    object-position: 0px -18px;
+}
+.history-vision-section a:any-link a{
+    color:white;
+}
+.history-vision-section h4#view-our-privacy-policy- a {
+    color: white;
+    font-size: 14px;
+}
+h3#we-follow-the-highest-standards-of-data-governance-and-are-compliant-with-all-prevailing-laws{
+    font-size:21px;
+}
+h4#tlc-compliances-and-statutory-audits-are-managed-by-a-big-4-global-accounting-firm-we-follow-the-highest-levels-of-information-security-with-an-iso-27001-certification-we-are-responsible-conscious-and-have-goals-of-net-zero-carbon-emissions{
+    font-size: 14px;
+}
+.history-vision-section h5#compliances{
+    font-size:21px;
+}
+main .section {
+    padding: 10px 16px;
+}
+
 
 
 
