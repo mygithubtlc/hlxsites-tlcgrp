@@ -108,3 +108,11 @@ main .section.contact .image-list-wrapper .image-list > div {
     width: 60px;
   }
 }
+
+@media (max-width:480px){
+  main .image-list img{
+    width: 59%;
+    margin: 15%;
+}
+
+}
