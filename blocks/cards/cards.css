@@ -401,10 +401,7 @@ main .section.cards-container .default-content-wrapper a {
     color:#313131;
     
 }
-.history-vision-section img:nth-child(2){
-    height: 217px;
-    object-position: 0px -18px;
-}
+
 .history-vision-section a:any-link a{
     color:white;
 }
@@ -424,8 +421,9 @@ h4#tlc-compliances-and-statutory-audits-are-managed-by-a-big-4-global-accounting
 main .section {
     padding: 10px 16px;
 }
-
-
-
+.history-vision-section img:nth-child(2){
+    height: 217px;
+    object-position: 0px -18px;
+}
 
 }
