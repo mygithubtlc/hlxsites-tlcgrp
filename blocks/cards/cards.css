@@ -418,9 +418,9 @@ h4#tlc-compliances-and-statutory-audits-are-managed-by-a-big-4-global-accounting
 .history-vision-section h5#compliances{
     font-size:21px;
 }
-main .section {
+/* main .section {
     padding: 10px 16px;
-}
+} */
 .history-vision-section img:nth-child(2){
     height: 217px;
     object-position: 0px -18px;
