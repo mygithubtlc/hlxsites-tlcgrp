@@ -281,7 +281,7 @@ hr {
 
 main .section.background .default-content-wrapper h2 {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 48px;
 }
 
 main .section.align .default-content-wrapper h2 {
@@ -292,7 +292,7 @@ main .section.align .default-content-wrapper h2 {
 }
 
 main .section.background .default-content-wrapper h2:nth-of-type(2) {
-  font-size: 1em;
+  font-size: 28px;
 }
 
 .section.divide {
@@ -368,7 +368,7 @@ main .section .default-content-wrapper h1 {
   }
 
   main .section.background .default-content-wrapper h4 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 300;
     text-align: center;
     padding-left: 0;
@@ -378,7 +378,7 @@ main .section .default-content-wrapper h1 {
 
   main .section .default-content-wrapper p {
     gap: 100px;
-    font-size: 0.8em;
+    font-size: 15px;
     margin-top: 0;
     display: flex;
     justify-content: center;
@@ -425,7 +425,7 @@ main .section .default-content-wrapper h1 {
     --heading-font-size-xxl: 60px;
     --heading-font-size-xl: 48px;
     --heading-font-size-l: 36px;
-    --heading-font-size-m: 30px;
+    --heading-font-size-m: 28px;
     --heading-font-size-s: 24px;
     --heading-font-size-xs: 22px;  
   }
@@ -458,7 +458,7 @@ main .section .default-content-wrapper h1 {
 
   main .section.background .default-content-wrapper h3 {
     text-align: center;
-    font-size: 45px;
+    font-size: 48px;
     font-weight: 400;
     margin-left: 100px;
     padding-top: 50px;
@@ -540,7 +540,15 @@ main .section[data-section-status='initialized'] {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+/* by azam */
 
+h4#view-our-privacy-policy- a {
+  color: white;
+}
+.default-content-wrapper ol li {
+  text-align: left;
+  font-size: 16px;
+}
 
 @media (max-width:480px){
   main .section .default-content-wrapper h1 {
@@ -562,6 +570,30 @@ a.button:hover, a.button:focus, button:hover, button:focus {
 .clientele-page h4 {
   font-size: 14px;
 }
+
+.innovate-with-us h1#innovate-with-us {
+  margin-top: 0px;
+}
+.section.innovate-with-us {
+  padding: 0px 0px;
+}
+.section.background a {
+  color: white;
+  font-size: 14px;
+}
+
+main .section .default-content-wrapper p {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+
+
+
+
 
 }
 

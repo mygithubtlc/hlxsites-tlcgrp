@@ -5,6 +5,8 @@ export default function decorate(block) {
     [...row.children].forEach((cell) => {
       if (cell.querySelectorAll('img').length > 1) {
         cell.classList.add('image-set');
+      }else{
+        cell.classList.add('new-image-set');
       }
     });
   });
