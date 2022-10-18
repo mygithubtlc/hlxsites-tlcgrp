@@ -30,8 +30,6 @@ export default async function decorate(block) {
           span.textContent = animateTextNode.textContent;
           if (!index) {
             span.classList.add('slideshow-reveal');
-            
-            
           }
           animateTextNode.replaceWith(span);
           
