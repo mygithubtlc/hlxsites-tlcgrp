@@ -17,10 +17,10 @@ export default function decorate($block) {
   const $rows = Array.from($block.children);
   $rows.forEach(($row) => {
     const $cells = Array.from($row.children);
-    if ($cells[2]) {
+    if ($cells[1]) {
       const device = toClassName($cells[2].textContent);
       if (device) $row.classList.add(`${device}-only`);
-      $cells[2].remove();
+      $cells[1].remove();
     }
     if ($cells[1]) {
       const $a = $cells[1].querySelector('a');
