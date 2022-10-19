@@ -180,6 +180,7 @@ header nav a.active {
     display: flex;
     justify-content: space-between;
     height: var(--nav-height);
+    position: fixed;
   }
 
   header nav .nav-sections > ul > li.nav-drop {

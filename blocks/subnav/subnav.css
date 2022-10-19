@@ -21,10 +21,25 @@ main .section.subnav-container {
 
     main .section.subnav-container .subnav-wrapper .subnav p { 
         font-size: 16px;
-    }
+    width: 19%;
+    border-left: 1px solid gray;
+    height: 26px;
+    margin:0px;
+    text-align: center;
+    padding: 17px;
+}
+main .section.subnav-container .subnav-wrapper .subnav p:hover {
+    background:#484747;
+    color: white;
+}
+main .section.subnav-container .subnav-wrapper .subnav p:hover a {
+    color: white;
+}
+    
 
     main .section.subnav-container .subnav-wrapper .subnav a:hover { 
         text-decoration: none;
+        
     }
 }
 

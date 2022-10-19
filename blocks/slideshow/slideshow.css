@@ -148,11 +148,11 @@ main .slideshow .slideshow-reveal {
   -webkit-animation-fill-mode: forwards;
 }
 
-@keyframes reveal {
+/* @keyframes reveal {
   100%{
     background-position: 0 0;
   }
-}
+} */
 
 main .slideshow .slideshow-overlay .slideshow-btn-wrapper {
   margin: var(--spacing-s) var(--spacing-xs);
@@ -195,7 +195,7 @@ main .slideshow .slideshow-overlay .slideshow-btn:hover {
    main .slideshow .slideshow-overlay h1, main .slideshow .slideshow-overlay h2 {
     font-size: 20px;
     text-align: center;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     margin-top:-12px;
   }
 

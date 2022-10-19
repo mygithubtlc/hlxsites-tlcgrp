@@ -351,6 +351,17 @@ main .section .default-content-wrapper h1 {
 .legal main .section {
   padding-bottom: 60px;
 }
+/* by azam */
+.new-image-set .icon-arrow-icon svg {
+  top: -3px;
+}
+
+.new-image-set p {
+  font-size: 15px;
+  text-indent: -13px;
+  margin-left: 19px;
+}
+
 
 @media (min-width: 600px) {
   main .section {
