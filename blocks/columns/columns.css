@@ -83,6 +83,10 @@
     margin:15px;
 }
 
+h2#our-capabilities {
+    margin-top: 30px;
+}
+
 
 @media (min-width: 600px) {
     .columns > div > div h3 {
