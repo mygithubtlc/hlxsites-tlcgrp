@@ -1,9 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="53" height="54" viewBox="0 0 53 54">
-  <g id="Group_296" data-name="Group 296" transform="translate(-734 -2499)">
-    <g id="Group_132" data-name="Group 132" transform="translate(734 2499)">
-      <ellipse id="Ellipse_19" data-name="Ellipse 19" cx="26.5" cy="27" rx="26.5" ry="27" transform="translate(0 0)" fill="#606060"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.145" y1="0.112" x2="0.922" y2="0.876" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fde159"/>
+      <stop offset="1" stop-color="#fe0817"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_640" data-name="Group 640" transform="translate(-736 -2222)">
+    <g id="Group_639" data-name="Group 639" transform="translate(464 1131)">
+      <circle id="Ellipse_19" data-name="Ellipse 19" cx="27" cy="27" r="27" transform="translate(272 1091)" fill="url(#linear-gradient)"/>
     </g>
-    <g id="Group_133" data-name="Group 133" transform="translate(561.595 228.035)">
+    <g id="Group_133" data-name="Group 133" transform="translate(564.595 -48.965)">
       <path id="Path_345" data-name="Path 345" d="M199.06,400.23h2.229v2.228H199.06Z" transform="translate(-9.476 1905.159)" fill="#fff"/>
       <path id="Path_346" data-name="Path 346" d="M199.06,123.57h2.229V125.8H199.06Z" transform="translate(-9.476 2164.735)" fill="#fff"/>
       <path id="Path_347" data-name="Path 347" d="M199.06,262.45h2.229v2.161H199.06Z" transform="translate(-9.476 2034.431)" fill="#fff"/>
