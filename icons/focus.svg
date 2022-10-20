@@ -1,8 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="53" height="54" viewBox="0 0 53 54">
-  <g id="Group_303" data-name="Group 303" transform="translate(-738 -3478)">
-    <g id="Group_136" data-name="Group 136" transform="translate(0 328)">
-      <ellipse id="Ellipse_26" data-name="Ellipse 26" cx="26.5" cy="27" rx="26.5" ry="27" transform="translate(738 3150)" fill="#606060"/>
-      <path id="Path_354" data-name="Path 354" d="M195.69,113.257h-2.777a9.72,9.72,0,1,1-2.453-6.452l-7.267,7.266-3.647-3.647-1.962,1.962,4.628,4.628h0a1.388,1.388,0,0,0,1.962,0l9.9-9.89a12.5,12.5,0,1,0-3.092,15.894l7.484,7.474,1.962-1.962-7.479-7.479a12.431,12.431,0,0,0,2.74-7.794Z" transform="translate(578.443 3061.374)" fill="#fff" stroke="#606060" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.145" y1="0.112" x2="0.922" y2="0.876" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fde159"/>
+      <stop offset="1" stop-color="#fe0817"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_644" data-name="Group 644" transform="translate(-737 -3396)">
+    <g id="Group_643" data-name="Group 643" transform="translate(465 2305)">
+      <circle id="Ellipse_19" data-name="Ellipse 19" cx="27" cy="27" r="27" transform="translate(272 1091)" fill="url(#linear-gradient)"/>
     </g>
+    <path id="Path_354" data-name="Path 354" d="M195.69,113.257h-2.777a9.72,9.72,0,1,1-2.453-6.452l-7.267,7.266-3.647-3.647-1.962,1.962,4.628,4.628h0a1.388,1.388,0,0,0,1.962,0l9.9-9.89a12.5,12.5,0,1,0-3.092,15.894l7.484,7.474,1.962-1.962-7.479-7.479a12.431,12.431,0,0,0,2.74-7.794Z" transform="translate(578.441 3307.375)" fill="#fff"/>
   </g>
 </svg>

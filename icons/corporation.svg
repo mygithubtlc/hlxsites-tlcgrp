@@ -1,9 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
-  <g id="Group_359" data-name="Group 359" transform="translate(-745 -5070)">
-    <g id="Group_152" data-name="Group 152" transform="translate(474 1728)">
-      <ellipse id="Ellipse_27" data-name="Ellipse 27" cx="27" cy="27" rx="27" ry="27" transform="translate(271 3342)" fill="#606060"/>
-    </g>
-    <g id="Group_153" data-name="Group 153" transform="translate(849.336 -11968)">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.145" y1="0.112" x2="0.922" y2="0.876" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fde159"/>
+      <stop offset="1" stop-color="#fe0817"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_653" data-name="Group 653" transform="translate(-745 -5070)">
+    <circle id="Ellipse_8704" data-name="Ellipse 8704" cx="27" cy="27" r="27" transform="translate(745 5070)" fill="url(#linear-gradient)"/>
+    <g id="Group_153" data-name="Group 153" transform="translate(851.336 -11968)">
       <path id="Path_396" data-name="Path 396" d="M105.985,11.2H82.7a1.464,1.464,0,0,0-1.5,1.421V35.766a1.6,1.6,0,0,0,1.5,1.575h23.285a1.474,1.474,0,0,0,1.351-1.575V12.62a1.336,1.336,0,0,0-1.351-1.421Zm-6,3.355a5.739,5.739,0,0,1,5.037,5.087H99.984Zm5.028,6.176a6.718,6.718,0,0,1-1.189,2.933l-2.933-2.933Zm-6.118-6.176v5.9l4.339,4.156a5.611,5.611,0,0,1-3.656,1.351,5.768,5.768,0,0,1-5.764-5.72,5.681,5.681,0,0,1,5.08-5.692Zm-14.638-.086h6.994a.821.821,0,0,1,0,1.634H84.257a.821.821,0,0,1,0-1.634Zm0,3.54h6.994a.821.821,0,0,1,0,1.634H84.257a.821.821,0,0,1,0-1.634Zm0,3.54h6.994a.821.821,0,0,1,0,1.634H84.257a.821.821,0,0,1,0-1.634Zm0,3.54h9.173a.821.821,0,0,1,0,1.634H84.257a.821.821,0,0,1,0-1.634ZM104.321,33.8H84.257a.821.821,0,0,1,0-1.634h20.065a.821.821,0,0,1,0,1.634Zm0-3.54H84.257a.821.821,0,0,1,0-1.634h20.065a.821.821,0,0,1,0,1.634Z" transform="translate(-173.531 17040.801)" fill="#fff"/>
     </g>
   </g>
