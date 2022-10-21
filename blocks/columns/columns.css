@@ -311,6 +311,13 @@ h2#our-capabilities {
         padding: 0;
     }
 
+    h3#adobe-campaign-manager,
+    h3#senior-salesforce-administrator,
+    h3#ui-designer, h3#membership--ambassador {
+        font-size: 28px;
+        text-align: center;
+    }
+
     
 
 

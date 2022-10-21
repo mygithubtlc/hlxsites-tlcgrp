@@ -31,6 +31,10 @@ main .slideshow::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
 
+.slideshow-overlay h1 span {
+  color: red;
+}
+
 /* slide */
 main .slideshow > div,
 main .slideshow .slideshow-slide {
@@ -195,7 +199,7 @@ main .slideshow .slideshow-overlay .slideshow-btn:hover {
    main .slideshow .slideshow-overlay h1, main .slideshow .slideshow-overlay h2 {
     font-size: 20px;
     text-align: center;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
     margin-top:-12px;
   }
 

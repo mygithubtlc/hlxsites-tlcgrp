@@ -27,6 +27,7 @@ export default async function decorate(block) {
         if (animateTextNode) {
           const span = document.createElement('span');
           
+          
           span.textContent = animateTextNode.textContent;
           if (!index) {
             span.classList.add('slideshow-reveal');
