@@ -270,14 +270,86 @@ main .section.cards-container .cards-wrapper {
         align-content: center;
         font-weight: 400;
     }
+
+    /* desktop view for career page */
+.meet-our-team-desktop-view.cards-container, 
+.meet-our-team-desktop-another-section {
+    width: 1140px;
+    margin: 0 auto;
 }
-/* by azam */
+.meet-our-team-desktop-view.cards-container img {
+    height: 500px;
+}
+.meet-our-team-desktop-another-section ul li {
+    height: 500px;
+}
+.meet-our-team-desktop-view ul li .cards-card-body p em,
+.meet-our-team-desktop-another-section .cards-card-body p:nth-child(1) em{
+    color:white;
+    font-size: 14px;
+    line-height: 1px;
+}
+.meet-our-team-desktop-another-section.section.cards-container {
+    max-width: 100%;
+    height: 100%;
+    height: 500px;
+}
+
+.meet-our-team-desktop-view .cards.review > ul > li .cards-card-body {
+    position: absolute;
+    bottom: 0;
+    top: 240px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+.meet-our-team-desktop-view .cards.review > ul > li .cards-card-body strong:first-of-type{
+    padding-top: 0px;
+}
+.meet-our-team-desktop-view  ul li .cards-card-body strong a:hover{
+    background:none;
+    margin:0px;
+}
+.meet-our-team-desktop-view  ul li .cards-card-body strong a{
+    
+    margin:0px;
+}
+.meet-our-team-desktop-view  ul li .cards-card-body strong {
+    margin:0px;
+    
+}
+.meet-our-team-desktop-view ul li .cards-card-body strong a {
+    background: none;
+    margin: 0px;
+    text-align: right;
+    display: block;
+    padding: 0px;
+}
+
+/* end here */
 
 .cards-card-body p:nth-child(1) em {
     font-style: italic;
     
 }
+.section.fragment-container.world-class-cutomer-loyality.cards-container p a {
 
+    font-size: 12px;
+}
+.world-class-cutomer-loyality p.button-container a:hover {
+    background: none;
+}
+.section.meet-our-team-mobile.meet-our-team-desktop-view.cards-container {
+    height: 800px;
+}
+
+
+}
+/* by azam */
+
+
+
+/* here start code for mobile */
 
 @media (max-width:480px){
     .cards .cards-card-image img {
@@ -348,6 +420,8 @@ main .section.cards-container .cards-wrapper {
 
 .meet-our-team-mobile .cards-card-body  p:nth-child(3) strong {
     font-size:14px;
+    position: relative;
+    top: -19px;
 }
 .meet-our-team-mobile .cards > ul > li p:nth-child(2) {
     margin: 10px;
@@ -437,7 +511,16 @@ h4#tlc-compliances-and-statutory-audits-are-managed-by-a-big-4-global-accounting
     height: 217px;
     object-position: 0px -18px;
 }
-
+.section.fragment-container.world-class-cutomer-loyality.cards-container p a {
+    font-size: 10px;
+}
+.meet-our-team-mobile .cards > ul > li a:any-link {
+    font-family: var(--body-font-family);
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    margin-top:0px;
+}
 
 
 }
