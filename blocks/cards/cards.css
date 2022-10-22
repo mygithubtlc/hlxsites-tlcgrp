@@ -54,9 +54,7 @@
     width: 100%;
     height: 100%;
 }
-.history-vision-section .cards .cards-card-image{
-    height: 50%;
-}
+
 .history-vision-section .cards.block.fifty-fifty{
     height:400px;
 }
@@ -271,6 +269,10 @@ main .section.cards-container .cards-wrapper {
         font-weight: 400;
     }
 
+    .history-vision-section .cards .cards-card-image{
+        height: 55%;
+    }
+
     /* desktop view for career page */
 .meet-our-team-desktop-view.cards-container, 
 .meet-our-team-desktop-another-section {
@@ -298,10 +300,9 @@ main .section.cards-container .cards-wrapper {
 .meet-our-team-desktop-view .cards.review > ul > li .cards-card-body {
     position: absolute;
     bottom: 0;
-    top: 240px;
     left:0px;
     right:0px;
-    bottom:0px;
+    bottom:290px;
 }
 .meet-our-team-desktop-view .cards.review > ul > li .cards-card-body strong:first-of-type{
     padding-top: 0px;
@@ -341,6 +342,19 @@ main .section.cards-container .cards-wrapper {
 }
 .section.meet-our-team-mobile.meet-our-team-desktop-view.cards-container {
     height: 800px;
+}
+
+.section.fragment-container.world-class-cutomer-loyality.cards-container .button-container a {
+    color:white;
+    margin-left:-30px;
+   
+    
+}
+.world-class-cutomer-loyality .cards-card-body p em{
+    color:white;
+}
+.world-class-cutomer-loyality .cards:not(.review) > ul > li:nth-child(2) a:any-link {
+    color: white;
 }
 
 
