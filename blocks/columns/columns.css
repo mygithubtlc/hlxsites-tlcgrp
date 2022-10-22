@@ -124,6 +124,9 @@ h2#our-capabilities {
     .section.columns-container .default-content-wrapper h4 {
         font-size: 48px;
     }
+    h4#tlc-has-the-capability-to-curate-offers-and-programs-customized-to-partners {
+        font-size: 24px;
+    }
 }
 
 @media (max-width:480px){
