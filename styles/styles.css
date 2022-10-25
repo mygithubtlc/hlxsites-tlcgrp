@@ -432,7 +432,7 @@ main .section.background.carve-career .default-content-wrapper {
   }
 
   main .section .default-content-wrapper p {
-    gap: 100px;
+    gap: 10px;
     font-size: 15px;
     margin-top: 0;
     display: flex;
@@ -515,12 +515,12 @@ main .section.background.carve-career .default-content-wrapper {
     text-align: center;
     font-size: 48px;
     font-weight: 400;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     padding-top: 50px;
   }
 
   main .section.background .default-content-wrapper h4 {
-    margin-left: 100px;
+    /* margin-left: 100px; */
     text-align: center;
   }
 
@@ -541,15 +541,19 @@ main .section.background.carve-career .default-content-wrapper {
     background-color: #454545;
     padding: 30px;
   }
+
+ 
 }
 
 @media (min-width: 1200px) {
   main .section.background .default-content-wrapper h3 {
-    margin-left: 150px;
+    /* margin-left: 150px; */
+    max-width: 82%;
+    margin:0 auto;
   }
 
   main .section.background .default-content-wrapper h4 {
-    margin-left: 150px;
+    /* margin-left: 150px; */
   }
 
   main .section.background .default-content-wrapper p {
@@ -567,6 +571,7 @@ main .section.background.carve-career .default-content-wrapper {
 
   h2#be-a-part-of-our-innovative-teams-that-work-on-the-best-technology-and-inspire-you-to-create-extraordinary-outcomes {
     width: 600px;
+    font-family: var( --alt-font-family);
 }
 
 /* progressive section appearance */
@@ -627,6 +632,50 @@ h4#view-our-privacy-policy- a {
   
   width:90px;
 }
+
+.carve-career-all-section img {
+  width: 100px;
+}
+.carve-career-all-section h1{
+color:black;
+
+} 
+.carve-career-all-section p{
+color:#313131;
+/* font-size:var(--heading-font-size-m)!important; */
+font-size:24px!important;
+  width: 60%;
+    margin: 0 auto;
+    text-align: center!important;
+}
+.carve-career-all-section.section.background .default-content-wrapper{
+margin-top:0px;
+}
+.section.background.carve-career-all-section {
+height: 450px;
+}
+.carve-career-all-section.section.background .default-content-wrapper p.button-container{
+display: block;
+  clear: both;
+  text-align:center;
+  
+}
+
+.carve-career-all-section.section .default-content-wrapper strong {
+  font-size: 24px;
+}
+
+.integration-free-solutions img {
+  width: 70%;
+}
+
+.section.contact-us-section.form-container h1 {
+  line-height: 0.9;
+  text-align: left;
+  display: block;
+  margin-bottom: 20px;
+}
+
 
 
 }

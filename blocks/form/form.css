@@ -52,11 +52,11 @@ main .field-wrapper .required {
     font-weight: 800;
   }
   
-  main .form label.required::after {
+  /* main .form label.required::after {
     content: "*";
     color: red;
     padding-left: 5px;
-  }
+  } */
   
   main .form .field-wrapper {
     margin-bottom: 20px;
@@ -133,4 +133,31 @@ main .field-wrapper .required {
   main .form .form-submit-wrapper .button:hover {
     background-color: black;
     color: white;
+}
+
+.section.contact-us-section.form-container form {
+  margin-top: 70px;
+}
+.section.contact-us-section input[type='text-field'] {
+  /* border:5px solid red; */
+  border:none;
+  border-bottom:1px solid rgb(193 193 195);
+  outline:none;
+  padding-left:0px;
+}
+input[type='text-field']::placeholder {
+  font-size:20px;
+}
+textarea#yourMessage{
+  margin-top:30px;
+}
+textarea#yourMessage::placeholder{
+  font-size:20px;
+}
+
+.section.contact-us-section.form-container p {
+  font-size: 28px;
+  text-align: left;
+  display: block;
+  margin: 60px 0px;
 }
