@@ -42,6 +42,9 @@
     text-decoration: underline; 
 }
 
+/* .cards .cards-card-body {
+    padding: 20px 30px;
+} */
 .cards .cards-card-body {
     padding: 20px 30px;
 }
@@ -120,6 +123,7 @@ main .section.cards-container .cards-wrapper {
 .cards:not(.review) > ul > li:nth-child(even),
 .cards:not(.review) > ul > li:nth-child(even) a:any-link {
     color: var(--text-color);
+    color:white;
 }
 
 @media (min-width: 600px) {
@@ -141,7 +145,7 @@ main .section.cards-container .cards-wrapper {
     }
 
     main .section.cards-container .default-content-wrapper:last-child {
-        padding-top: 20px;
+        padding-top: 100px;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -356,6 +360,8 @@ main .section.cards-container .cards-wrapper {
 .world-class-cutomer-loyality .cards:not(.review) > ul > li:nth-child(2) a:any-link {
     color: white;
 }
+
+
 
 
 }
