@@ -18,6 +18,7 @@ main .slideshow-container > div.slideshow-wrapper {
 }
 
 main .slideshow {
+  opacity: 1;
   display: flex;
   overflow-x: hidden;
   scrollbar-width: none; /* Firefox */

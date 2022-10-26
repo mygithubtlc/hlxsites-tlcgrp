@@ -4,6 +4,7 @@ main .section.subnav-container {
 }
 
 main .subnav {
+    opacity: 1;
     font-size: 13px;
     text-align: center;
 }
