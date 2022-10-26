@@ -1,10 +1,10 @@
 main .section.subnav-container {
+    opacity: 1;
     padding: 0;
     border-bottom: 1px solid #616161;
 }
 
 main .subnav {
-    opacity: 1;
     font-size: 13px;
     text-align: center;
 }

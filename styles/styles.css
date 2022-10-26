@@ -701,8 +701,8 @@ display: block;
 }
 
 /* cls fix */
-main .slideshow,
-main .subnav {
+main .slideshow-wrapper,
+main .subnav-container {
   opacity: 0;
 }
 

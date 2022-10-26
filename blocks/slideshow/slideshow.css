@@ -11,6 +11,7 @@ main .slideshow-container {
 }
 
 main .slideshow-container > div.slideshow-wrapper {
+  opacity: 1;
   position: relative;
   width: 100%;
   max-width: 100%;
@@ -18,7 +19,6 @@ main .slideshow-container > div.slideshow-wrapper {
 }
 
 main .slideshow {
-  opacity: 1;
   display: flex;
   overflow-x: hidden;
   scrollbar-width: none; /* Firefox */
