@@ -49,6 +49,7 @@ export default async function decorate(block) {
     }, 7000);
     window.addEventListener('resize', () => {
       block.scrollLeft = 0;
+      index = 0;
     });
   }
 }
