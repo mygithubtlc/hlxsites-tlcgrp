@@ -31,10 +31,6 @@ main .slideshow::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
 
-.slideshow-overlay h1 span {
-  color: red;
-}
-
 /* slide */
 main .slideshow > div,
 main .slideshow .slideshow-slide {

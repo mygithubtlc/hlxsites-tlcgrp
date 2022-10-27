@@ -55,6 +55,7 @@ export default async function decorate(block) {
         block.scrollLeft += block.offsetWidth;
       } else {
         // back to start
+        // az
         index = 0;
         block.scrollLeft = 0;
       }
