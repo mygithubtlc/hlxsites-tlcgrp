@@ -127,6 +127,10 @@ h2#our-capabilities {
     h4#tlc-has-the-capability-to-curate-offers-and-programs-customized-to-partners {
         font-size: 24px;
     }
+
+    .case-studies-custom .new-image-set img:nth-last-child(1) {
+        width: 50%;
+    }
 }
 
 @media (max-width:480px){
