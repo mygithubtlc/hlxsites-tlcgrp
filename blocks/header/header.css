@@ -320,4 +320,9 @@ header nav[aria-expanded='true'] {
   min-height: 100vh;
   background: #5a5a5a;
 }
+.nav-brand p {
+  position: relative;
+  left: 100%;
+  display: inline-block;
+}
 }
