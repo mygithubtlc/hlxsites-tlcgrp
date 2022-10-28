@@ -713,47 +713,85 @@ main .columns-container {
   main .section .default-content-wrapper h1 {
     font-size: 28px;
     margin-top: 10px;
-}
+  }
 
-main .section .default-content-wrapper em {
-  font-size: 14px;
-  padding-bottom: 0;
-  align-content: center;
-}
-a.button:hover, a.button:focus, button:hover, button:focus {
-  background: none;
-}
+  main .section .default-content-wrapper em {
+    font-size: 14px;
+    padding-bottom: 0;
+    align-content: center;
+  }
 
-.clientele-page h2 {
-  font-size: 28px;
-}
-.clientele-page h4 {
-  font-size: 14px;
-}
+  a.button:hover, a.button:focus, button:hover, button:focus {
+    background: none;
+  }
 
-.innovate-with-us h1#innovate-with-us {
-  margin-top: 0px;
-}
-.section.innovate-with-us {
-  padding: 0px 0px;
-}
-.section.background a {
-  color: white;
-  font-size: 14px;
-}
+  .clientele-page h2 {
+    font-size: 28px;
+  }
 
-main .section .default-content-wrapper p {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  font-size: 14px;
-  margin-top: 0;
-}
+  .clientele-page h4 {
+    font-size: 14px;
+  }
 
-main .section.background.carve-career .default-content-wrapper {
-  margin-left: 0px;
-  margin-top: 20px;
-}
+  .innovate-with-us h1#innovate-with-us {
+    margin-top: 0px;
+  }
 
+  .section.innovate-with-us {
+    padding: 0px 0px;
+  }
+
+  .section.background a {
+    color: black;
+    font-size: 14px;
+  }
+
+  main .section .default-content-wrapper p {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    margin-top: 0;
+  }
+
+  main .section.background.carve-career .default-content-wrapper {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .section.background.carve-career {
+    height: 500px;
+    margin-top: 50px;
+  }
+
+  a.button:any-link, button {
+    padding: 5px 0px;
+  }
+
+  .section.background.carve-career-all-section img {
+      width: 100px;
+  }
+
+  .section.background.carve-career-all-section h1{
+    color:black;
+  }
+
+  .section.background.carve-career-all-section p{
+    color:black;  
+  }
+
+  .section.background.carve-career-all-section 
+  .section.background .default-content-wrapper{
+    margin-top:0px;
+  }
+
+  main .section.background .default-content-wrapper {
+    margin-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .section.background.carve-career-all-section {
+    margin-top: 30px;
+  }
 }
 

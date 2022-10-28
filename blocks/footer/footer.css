@@ -86,6 +86,7 @@ footer .footer > div > div:nth-child(1),
 footer .footer > div > div:nth-child(2) {
   font-size: 14px;
   font-weight: 600;
+  width:50%;
 }
 footer .footer p a {
   font-size: 12px;
@@ -98,7 +99,8 @@ footer {
   padding: 1rem;
 }
 .footer-wrapper {
-  min-height: 250px;
+  height: 100%;
+  display: flex;
 }
 
 }
