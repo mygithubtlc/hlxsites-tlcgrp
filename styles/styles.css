@@ -733,7 +733,7 @@ a.button:hover, a.button:focus, button:hover, button:focus {
   padding: 0px 0px;
 }
 .section.background a {
-  color: white;
+  color: black;
   font-size: 14px;
 }
 
@@ -750,6 +750,36 @@ main .section.background.carve-career .default-content-wrapper {
   margin-top: 20px;
 }
 
+.section.background.carve-career {
+  height: 500px;
+  margin-top: 50px;
+}
+a.button:any-link, button {
+ 
+  padding: 5px 0px;
+  }
+
+  .section.background.carve-career-all-section img {
+    width: 100px;
+}
+.section.background.carve-career-all-section h1{
+  color:black;
+}
+.section.background.carve-career-all-section p{
+  color:black;  
+}
+
+.section.background.carve-career-all-section 
+.section.background .default-content-wrapper{
+  margin-top:0px;
+}
+main .section.background .default-content-wrapper {
+  margin-top: 40px;
+  padding-bottom: 30px;
+}
+.section.background.carve-career-all-section {
+  margin-top: 30px;
+}
 
 
 
