@@ -1,0 +1,109 @@
+body {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+/*code*/
+body{
+  text-align: justify;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: -23px!important;
+}
+
+.abc{
+  font-weight: 600;
+  text-decoration: underline;
+}
+.sub-bg{
+background-color: #727271;
+color:white;
+padding: 20px;  
+display: block;
+font-family:Optima_Normal;
+
+}
+.sub-bg span{
+  color:#c99700;
+} 
+.btn-default {
+    color: white;
+    background-color: #01509d!important;
+    border-color: #01509d!important;
+}
+.pad-top{
+  padding-top: 40px;
+}
+
+
+.pad
+{
+
+  padding: 20px;
+  
+}
+
+
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+.marketing {
+  margin: 0px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+@media screen and (min-width: 768px) {
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .header {
+    margin-bottom: 30px;
+  }
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
