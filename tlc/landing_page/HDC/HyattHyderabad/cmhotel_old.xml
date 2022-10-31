@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Hotel Name and HID-->
+
+<tblHotel>
+
+  <Hotel>
+    <HID>KOCHI</HID>
+    <Name>Kochi Marriott Hotel</Name>
+    <PropertyCode>150</PropertyCode>
+    <EmailLogoPath>'http://www.clubmarriott.in/refer/images/small/Courtyard_by_Marriott_kochi_logo.jpg'</EmailLogoPath>
+    <HotelWebsite>'http://www.marriott.com/hotels/travel/cokmc-kochi-marriott-hotel/'</HotelWebsite>
+    <EmailAddress>kochi.marriott@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>raj.charles@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>+91 484 712 4015 / 4402</HelpdeskNo>
+  <Benefitesurl>http://www.clubmarriott.in/marriott_kochi_hotel.html</Benefitesurl>
+  </Hotel>
+  
+  <Hotel>
+    <HID>RAIPUR</HID>
+    <Name>Courtyard by Marriott Raipur</Name>
+    <PropertyCode>152</PropertyCode>
+    <EmailLogoPath>'http://www.clubmarriott.in/refer/images/small/Courtyard_by_Marriott_Raipur_logo.jpg'</EmailLogoPath>
+    <HotelWebsite>'http://www.marriott.com/hotels/travel/rprcy-courtyard-raipur/'</HotelWebsite>
+    <EmailAddress>courtyard.raipur@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>ganesh.shinde@tlcgroup.com,raj.charles@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>+91 771 4330 023/ 24</HelpdeskNo>
+  <Benefitesurl>http://www.clubmarriott.in/courtyard_by_marriott_raipur.html</Benefitesurl>
+  </Hotel>
+  
+  <Hotel>
+    <HID>KOLKATA</HID>
+    <Name>JW Marriott Hotel Kolkata</Name>
+    <PropertyCode>139</PropertyCode>
+    <EmailLogoPath>'http://www.clubmarriott.in/refer/images/small/JW_Marriott_Hotel_Kolkata-out-landing_logo.jpg'</EmailLogoPath>
+    <HotelWebsite>'http://www.marriott.com/hotels/travel/ccujw-jw-marriott-hotel-kolkata/'</HotelWebsite>
+    <EmailAddress>jwmarriott.kolkata@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>nilanjana.gupta@tlcgroup.com,swagota.das@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>+91 33 6633 0075 / 76</HelpdeskNo>
+  <Benefitesurl>http://www.clubmarriott.in/JW_Marriott_Hotel_Kolkata.html</Benefitesurl>
+  </Hotel>
+
+  <Hotel>
+    <HID>SAHAR</HID>
+    <Name>JW Marriott Mumbai Sahar</Name>
+    <PropertyCode>140</PropertyCode>
+    <EmailLogoPath>'http://www.clubmarriott.in/refer/images/small/JW_Marriott_Hotel_sahar-out-landing_logo.jpg'</EmailLogoPath>
+    <HotelWebsite>'http://www.marriott.com/hotels/travel/bomsa-jw-marriott-mumbai-sahar/'</HotelWebsite>
+    <EmailAddress>jwmarriott.sahar@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>roopal@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>+91 22 6692 8811/8812</HelpdeskNo>
+  <Benefitesurl>http://www.clubmarriott.in/JW_Marriott_Mumbai_Sahar.html</Benefitesurl>
+  </Hotel>
+  
+  <Hotel>
+    <HID>Whitefield</HID>
+    <Name>Bengaluru Marriott Hotel Whitefield</Name>
+    <PropertyCode>137</PropertyCode>
+    <EmailLogoPath>'http://www.clubmarriott.in/refer/images/small/Whitefield_Logo.jpg'</EmailLogoPath>
+    <HotelWebsite>'http://www.marriott.com/hotels/travel/blrwf-bengaluru-marriott-hotel-whitefield/'</HotelWebsite>
+    <EmailAddress>marriott.whitefield@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>raj.charles@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>+91 80 4943 5232/ 34</HelpdeskNo>
+  <Benefitesurl>http://www.clubmarriott.in/whitefield-marriott-bengaluru.html</Benefitesurl>
+  </Hotel>
+  <Hotel>
+    <HID>Jaipur</HID>
+    <Name>Jaipur Marriott Hotel</Name>
+    <PropertyCode>138</PropertyCode>
+    <EmailLogoPath>'http://www.clubmarriott.in/refer/images/small/Jaipur_Marriott_Hotel-out-landing_.logo.jpg'</EmailLogoPath>
+    <HotelWebsite>'http://www.marriott.com/hotels/travel/jaimc-jaipur-marriott-hotel/'</HotelWebsite>
+    <EmailAddress>marriott.jaipur@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>raj.charles@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>+91 141 4567 788 / 888</HelpdeskNo>
+  <Benefitesurl>http://www.clubmarriott.in/Jaipur_Marriott_Hotel.html</Benefitesurl>
+  </Hotel>
+  
+  <Hotel>
+    <HID>AGRA</HID>
+    <Name>Courtyard Marriott Agra</Name>
+    <PropertyCode>136</PropertyCode>
+    <EmailLogoPath>'http://www.clubmarriott.in/refer/images/small/Courtyard_by_Marriott_agra_logo.jpg'</EmailLogoPath>
+    <HotelWebsite>'http://www.marriott.com/hotels/travel/agrcy-courtyard-marriott-agra/'</HotelWebsite>
+    <EmailAddress>courtyard.agra@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>raj.charles@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>+91 562 245 7775</HelpdeskNo>
+  <Benefitesurl>http://www.clubmarriott.in/agra-marriott.html</Benefitesurl>
+  </Hotel>
+  <Hotel>
+    <HID>JWMUM</HID>
+    <Name>JW Marriott Mumbai</Name>
+    <PropertyCode>13</PropertyCode>
+    <EmailLogoPath>'http://www.clubmarriott.in/refer/images/small/JWMumLogo.jpg'</EmailLogoPath>
+    <HotelWebsite>'http://www.marriott.com/hotels/travel/bomjw-jw-marriott-hotel-mumbai/'</HotelWebsite>
+    <EmailAddress>jwmarriott.mumbai@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>nilanjana.gupta@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>+91 22 6693 3065 or 66</HelpdeskNo>
+  <Benefitesurl>http://www.clubmarriott.in/mumbai-jw-marriott.html</Benefitesurl>
+  </Hotel>
+  <Hotel>
+    <HID>RENMUM</HID>
+    <Name>Renaissance Mumbai Convention Centre Hotel</Name>
+    <PropertyCode>11</PropertyCode>
+    <EmailLogoPath>'http://www.clubmarriott.in/refer/images/small/RmLogo.jpg'</EmailLogoPath>
+    <HotelWebsite>'http://www.marriott.com/hotels/travel/bombr-renaissance-mumbai-convention-centre-hotel/'</HotelWebsite>
+  <EmailAddress>renaissance.mumbai@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>roopal@tlcgroup.com,aatif.ameen@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>+91 22 6692 8802 or 03</HelpdeskNo>
+  <Benefitesurl>http://www.clubmarriott.in/mumbai-renaissance--marriott.html</Benefitesurl>
+  </Hotel>
+  <Hotel>
+    <HID>COURMUM</HID>
+    <Name>Courtyard by Marriott Mumbai</Name>
+    <PropertyCode>17</PropertyCode>
+    <EmailLogoPath>'http://www.clubmarriott.in/refer/images/small/cymumlogo.jpg'</EmailLogoPath>
+    <HotelWebsite>'http://www.marriott.com/hotels/travel/bomcy-courtyard-mumbai-international-airport/'</HotelWebsite>
+  <EmailAddress>courtyard.mumbai@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>sameer.arulekar@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>+91 22 6136 0610</HelpdeskNo>
+  <Benefitesurl>http://www.clubmarriott.in/mumbai-marriott.html</Benefitesurl>
+  </Hotel>
+  <Hotel>
+    <HID>GOAMAR</HID>
+    <Name>Goa Resort and Spa Marriott</Name>
+    <PropertyCode>12</PropertyCode>
+    <EmailLogoPath>'http://www.clubmarriott.in/refer/images/small/GoaLogo.jpg'</EmailLogoPath>
+    <HotelWebsite>'http://www.marriott.com/hotels/travel/goimc-goa-marriott-resort-and-spa/'</HotelWebsite>
+  <EmailAddress>marriott.goa@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>mohit.agarwal@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>+91 832 6647 220</HelpdeskNo>
+  <Benefitesurl>http://www.clubmarriott.in/goa-marriott.html</Benefitesurl>
+  </Hotel>
+  <Hotel>
+    <HID>PUNEMAR</HID>
+    <Name>Pune Marriott Hotel and Convention Centre</Name>
+    <PropertyCode>18</PropertyCode>
+    <EmailLogoPath>'http://www.clubmarriott.in/refer/images/small/JWPuneLogo.jpg'</EmailLogoPath>
+    <HotelWebsite>'http://www.marriott.com/hotels/travel/pnqmc-pune-marriott-hotel-and-convention-centre/'</HotelWebsite>
+  <EmailAddress>jwmarriott.pune@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>swati.awale@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>+91 20 6683 3322 or 23</HelpdeskNo>
+  <Benefitesurl>http://www.clubmarriott.in/pune-marriott.html</Benefitesurl>
+  </Hotel>
+  <Hotel>
+    <HID>HYDBAD</HID>
+    <Name>Hyderabad Marriott Hotel and Convention Centre</Name>
+    <PropertyCode>14</PropertyCode>
+    <EmailLogoPath>'http://www.clubmarriott.in/refer/images/small/HydLogo.jpg'</EmailLogoPath>
+    <HotelWebsite>'http://www.marriott.com/hotels/travel/hydmc-hyderabad-marriott-hotel-and-convention-centre/'</HotelWebsite>
+  <EmailAddress>marriott.hyderabad@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>vishweshwar.rao@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>+91 40 2752 2524 or 25</HelpdeskNo>
+  <Benefitesurl>http://www.clubmarriott.in/hyderabad-marriott.html</Benefitesurl>
+  </Hotel>
+  <Hotel>
+    <HID>CHENNI</HID>
+    <Name>Courtyard by Marriott Chennai</Name>
+    <PropertyCode>15</PropertyCode>
+    <EmailLogoPath>'https://www.tlc.in/CMMember/images/mailer/ChennaiLogo.jpg'</EmailLogoPath>
+    <HotelWebsite>'http://www.marriott.com/hotels/travel/maacy-courtyard-chennai-india/''</HotelWebsite>
+  <EmailAddress>courtyard.chennai@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>raj.charles@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>+91 44 4354 6501</HelpdeskNo>
+  </Hotel>
+  <Hotel>
+    <HID>GURGAON</HID>
+    <Name>Courtyard by Marriott Gurgaon</Name>
+    <PropertyCode>16</PropertyCode>
+    <EmailLogoPath>'https://www.tlc.in/CMMember/images/mailer/GurgaonLogo.jpg'</EmailLogoPath>
+    <HotelWebsite>http://www.marriott.com/hotels/travel/delgu-courtyard-gurgaon/</HotelWebsite>
+  <EmailAddress>courtyard.gurgaon@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>neha.makhija@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>+91 124 4272 720	</HelpdeskNo>
+  </Hotel>
+  <Hotel>
+    <HID>AERODEL</HID>
+    <Name> JW Marriott Delhi Aerocity</Name>
+    <PropertyCode>19</PropertyCode>
+    <EmailLogoPath>'http://www.clubmarriott.in/refer/images/small/Aerocity.jpg'</EmailLogoPath>
+    <HotelWebsite>http://www.marriott.com/hotels/travel/delap-jw-marriott-hotel-new-delhi-aerocity/</HotelWebsite>
+    <EmailAddress>jwmarriott.aerocity@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>shadab.ali@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>+91 11 4521 2128 or 29</HelpdeskNo>
+  <Benefitesurl>http://www.clubmarriott.in/aerocity-marriott.html</Benefitesurl>
+  </Hotel>
+  <Hotel>
+    <HID>CHANDIGARH</HID>
+    <Name>JW Marriott Hotel Chandigarh</Name>
+    <PropertyCode>20</PropertyCode>
+    <EmailLogoPath>'http://www.clubmarriott.in/refer/images/small/Chandigarh.jpg'</EmailLogoPath>
+    <HotelWebsite>http://www.marriott.com/hotels/travel/ixcjw-jw-marriott-hotel-chandigarh/</HotelWebsite>
+    <EmailAddress>jwmarriott.chandigarh@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>jatin.kapur@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>+91 172 395 5555	</HelpdeskNo>
+  <Benefitesurl>http://www.clubmarriott.in/chandigarh-marriott.html</Benefitesurl>
+  </Hotel>
+  
+  <Hotel>
+    <HID>BHOPAL</HID>
+    <Name>Courtyard Bhopal</Name>
+    <PropertyCode>21</PropertyCode>
+    <EmailLogoPath>'http://www.clubmarriott.in/refer/images/small/Bhopal.jpg'</EmailLogoPath>
+    <HotelWebsite>http://www.marriott.com/hotels/travel/bhocy-courtyard-bhopal/</HotelWebsite>
+    <EmailAddress>courtyard.bhopal@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>umesh.dua@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>0755-3026808 or 809</HelpdeskNo>
+  <Benefitesurl>http://www.clubmarriott.in/bhopal-marriott.html</Benefitesurl>
+  </Hotel>
+  <Hotel>
+    <HID>AHMEDABAD</HID>
+    <Name>Courtyard Ahmedabad</Name>
+    <PropertyCode>22</PropertyCode>
+    <EmailLogoPath>'http://www.clubmarriott.in/refer/images/small/Ahmedabadlogo.jpg'</EmailLogoPath>
+    <HotelWebsite>http://www.marriott.com/hotels/travel/Ahmedabad/</HotelWebsite>
+    <EmailAddress>courtyard.ahmedabad@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>sharmistha.datta@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>+91 79 6618 5032 or 33	</HelpdeskNo>
+  <Benefitesurl>http://www.clubmarriott.in/ahmedabad-marriott.html</Benefitesurl>
+  </Hotel>
+  <Hotel>
+    <HID>JWBEN</HID>
+    <Name>JW Marriott Bengaluru</Name>
+    <PropertyCode>23</PropertyCode>
+    <EmailLogoPath>'http://www.clubmarriott.in/refer/images/small/jw-bengaluru-cm.jpg'</EmailLogoPath>
+    <HotelWebsite>http://www.marriott.com/hotels/travel/bengaluru/</HotelWebsite>
+    <EmailAddress>jwmarriott.bengaluru@clubmarriott.in</EmailAddress>
+    <ProgramManagerAddress>dinesh.kumar@tlcgroup.com</ProgramManagerAddress>
+    <HelpdeskNo>+91 80 671 8 8962 / 63</HelpdeskNo>
+  <Benefitesurl>http://www.clubmarriott.in/jw-marriott-bengaluru.html</Benefitesurl>
+  </Hotel>
+  <Hotel>
+    <HID>RITZCARBEN</HID>
+    <Name> The Ritz-Carlton, Bangalore</Name>
+    <PropertyCode>24</PropertyCode>
+    <EmailLogoPath>'https://www.tlc.in/CMMember/images/mailer/ritz-carlton.jpg'</EmailLogoPath>
+    <HotelWebsite>http://www.ritzcarlton.com/en/Properties/Bangalore/Default.htm</HotelWebsite>
+    <EmailAddress>contactus@ultimateclub.in</EmailAddress>
+    <ProgramManagerAddress>contactus@ultimateclub.in</ProgramManagerAddress>
+    <HelpdeskNo>+91 80 4914 8302 / 8305</HelpdeskNo>
+  </Hotel>
+</tblHotel>
+
