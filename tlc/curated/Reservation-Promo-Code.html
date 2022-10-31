@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="US">
+<head>
+	<title>Reservation Promo Code Authorization</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<div>
+		<img src="images/banner-promo-code.png" class="img-fluid" style="width:100%">
+	</div>
+	<section  class="heading-section">
+	<div class="container">
+		<div class="row">
+		
+			<div class="col">
+				<h1>Reservation Promo Code Athorization</h1>
+			</div>
+		
+		</div>
+	</div>
+</section>
+
+<section class="parent-master">
+
+	
+
+<section class="set-up-promo-code">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Set Up Promo Code</h2>
+
+				<h3>Promo Code Name<img src="images/tooltip-icon-promocode-club-marriott.svg" data-toggle="tooltip" data-placement="right" title="6 Characters and Alphanumeric. TLC will decide the Promo Code name"></i></h3>
+			</div>
+			<div class="col-md-2">
+				<div class="promo-code-type">
+					<h3>Promo Code Type*</h3>	
+				</div>
+			</div>
+			<div class="col-md-8">
+				<div class="Specific-members">
+				  <div class="row no-gutters">
+				    <div class="col-md-4 mt-2">
+				      <div class="custom-control custom-radio">
+					    <input type="radio" class="custom-control-input" id="customRadio1" name="example1" value="customEx" checked=checked>
+					    <label class="custom-control-label" for="customRadio1">Absolute Amount Off</label>
+					  </div>
+				    </div>
+				    <div class="col-md-8 ">
+				      <input type="text" class="form-control" placeholder="" name="">
+				    </div>
+				  </div>
+				</div>
+				<div class="Specific-members mt-4 mb-5 ">
+				  <div class="row no-gutters">
+				    <div class="col-md-4 mt-2">
+				      <div class="custom-control custom-radio">
+					    <input type="radio" class="custom-control-input" id="customRadio2" name="example1" value="customEx" >
+					    <label class="custom-control-label" for="customRadio2">% Discount </label>
+					  </div>
+				    </div>
+				    <div class="col-md-8 ">
+				      <input type="text" class="form-control" placeholder="" name="">
+				    </div>
+				  </div>
+				</div>
+			
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="max-promo-code">
+	
+		  <div class="container">
+			<div class="jumbotron  shadow p-4 mb-4 bg-white">
+		  
+		    	
+				  <div class="row">
+				  	  <div class="col-md-4 ">
+				    	<label>Max Covers Allowed*</label><i> </i>
+				      <input type="text" onkeypress="return event.charCode >= 48 && event.charCode <= 57" class="form-control" id="" placeholder="Count" name="">
+				    </div>
+				    <div class="col-md-4">
+				    	<label>Max Promo Code to be issued*</label><img src="images/tooltip-icon-promocode-club-marriott.svg" data-toggle="tooltip" data-placement="right" title="This is the cap of the maximum number of Promo Codes that can be availed."></i>
+				      <input type="text" onkeypress="return event.charCode >= 48 && event.charCode <= 57" class="form-control" id="" placeholder="Count" name="">
+				    </div>
+				    <div class="col-md-4">
+				    	<label>Per Member Usage Allowed*</label><img src="images/tooltip-icon-promocode-club-marriott.svg" data-toggle="tooltip" data-placement="top" title="Number of times a person can get or use the Promo Code."></i>
+				      <input type="text" onkeypress="return event.charCode >= 48 && event.charCode <= 57" class="form-control" placeholder="Count" name="">
+				    </div>
+				  </div>
+				
+		  </div>
+		</div>
+	
+</section>
+
+<section class="promo-code-validity mt-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<label>Promo Code Validity</label><img src="images/tooltip-icon-promocode-club-marriott.svg" data-toggle="tooltip" data-placement="right" title="The validity of the Promo Code should not be more than a year"></i>
+			</div>
+		</div>
+
+				<div class="promo-code-issue mt-4">
+				  <div class="row">
+				    <div class="col-md-4">
+				    	<label>Promo Code Start Date*</label>
+				      <input type="date" min="2021-07-01"  class="form-control" id="" placeholder="dd/mm/yy" name="">
+				    </div>
+				    <div class="col-md-4">
+				    	<label>Promo Code End Date*</label>
+				      <input type="date" max="2022-07-01" class="form-control" placeholder="dd/mm/yy" name="">
+				    </div>
+				  </div>
+				</div>
+	</div>
+</section>
+
+
+<form>
+<section class="certificate-benefits customer-set mt-5">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-12">
+				<p>Applicable Outlets*</p>
+			</div>
+			
+		</div>
+
+		<div class="row mt-1">
+			<div class="col-md-4">
+				<div class="form-group">
+				  
+				  <select class="form-control" id="sel3">
+				    <option>City</option>
+				    
+				  </select>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div>
+				  <div class="multiselect">
+				    <div class="selectBox" onclick="showCheckboxes()">
+				      <select class="form-control">
+				        <option>Property</option>
+				      </select>
+				      <div class="overSelect"></div>
+				    </div>
+
+
+
+
+				    <div id="checkboxes">
+				      <label for="four" class="containers">
+				        <input type="checkbox" checked="checked" id="four" />JW Marriott New Delhi Aerocity
+				        <span class="checkmark"></span>
+				    	</label>
+
+				      <label for="five" class="containers">
+				        <input type="checkbox" checked="checked" id="five" />The Westin Gurgaon New Delhi
+				         <span class="checkmark"></span>
+				    </label>
+				      <label for="six" class="containers">
+				        <input type="checkbox"   id="six" />Le Meridien Gurgaon Delhi NCR
+				        <span class="checkmark"></span>
+				    	</label>
+				    </div>
+				  </div>
+				</div>
+			</div>
+
+<div class="col-md-4">
+
+				<div >
+				  <div class="multiselect">
+				    <div class="selectBox" onclick="outlets()">
+				      <select class="form-control">
+				        <option>Outlets</option>
+				      </select>
+				      <div class="overSelect"></div>
+				    </div>
+
+
+
+
+				    <div id="checkboxes1" class="chkbox-list" style="display: none;" >
+				      <label for="seven" class="chkbox-container">
+				        <input type="checkbox"   />K3
+				       
+				    	</label>
+
+				      <label for="eight" class="chkbox-container">
+				        <input type="checkbox"   />Delhi Baking Company
+				        
+				    </label>
+				      <label for="nine" class="chkbox-container">
+				        <input type="checkbox"   />JW Lounge
+				       
+				    	</label>
+				    	 <label for="ten" class="chkbox-container">
+				        <input type="checkbox"    />Seasonal Tastes
+				       
+				    	</label>
+				    </div>
+				  </div>
+				</div>
+					
+				
+
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="selected-outlets mt-4">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="form-group" id="selectOutlets">
+				  <label for="comment">Selected Outlets</label>
+				  <div class="outer-box">
+				  <div id="display"></div>
+				</div>
+				  <!-- <textarea class="form-control" rows="5" id="comment" ></textarea> -->
+				</div>
+				<button class="btn btn-primary" id="selected-outlets"  value="Add" >Add More</button>
+			</div>
+
+		</div>
+	</div>
+</section>
+<section class="whitelisted-domains mt-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<label>Whitelisted Domains</label><img src="images/tooltip-icon-promocode-club-marriott.svg" data-toggle="tooltip" data-placement="right" title="Email domain to which Promo Code can be verified. Example: Marriott.com, marriotthotels.com, westin.com, etc."></i>
+				<input type="text" class="form-control">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="description mt-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h3>Description</h3>
+				
+				<label class="mt-3">Success message*</label><img src="images/tooltip-icon-promocode-club-marriott.svg" data-toggle="tooltip" data-placement="right" title="Displayed on the App at the bottom of Promo Code. Example: This Promo Code is being issued for all Amex Black card holders."></i>
+				<input type="text" maxlength="40" class="form-control" placeholder="(40 Characters)">
+
+				<label class="mt-3">Promo Codes Descriptions*</label><img src="images/tooltip-icon-promocode-club-marriott.svg" data-toggle="tooltip" data-placement="right" title="Small description will be displayed on the App and large description will be displayed on the website."></i>
+				<textarea maxlength="200" placeholder="Small (200 Characters)" class="form-control"  rows="3" id="comment"></textarea>
+
+				<textarea  maxlength="1000" placeholder="Large (1000 Characters)" class="form-control mt-4"  rows="7" id="comment"></textarea>
+				
+
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section class="audience-communication mt-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h3>Audience & Communication</h3>
+				<div>
+				
+				<label class="mt-3">Target Audience</label><img src="images/tooltip-icon-promocode-club-marriott.svg" data-toggle="tooltip" data-placement="right" title="Example: Executive of Marriott Hotels with domain. This information is for internal use only."></i>
+				<textarea  maxlength="200" placeholder="(200 Characters)" class="form-control mt-4"  rows="2" id="comment"></textarea>
+
+				<label class="mt-3">Communication Strategy</label><img src="images/tooltip-icon-promocode-club-marriott.svg" data-toggle="tooltip" data-placement="right" title="How do you plan to communicate with this audience? This information is for internal use only."></i>
+				<textarea  maxlength="400" placeholder="(400 Characters)" class="form-control mt-4"  rows="2" id="comment"></textarea>
+
+				<label class="mt-3">Company Contact</label><img src="images/tooltip-icon-promocode-club-marriott.svg" data-toggle="tooltip" data-placement="right" title="This information is for internal use only."></i>
+				  <div class="row">
+				    <div class="col-md-4 col-12">
+				      <input type="text" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)" class="form-control" id="email" placeholder="Name" name="email" required="" >
+				    </div>
+				    <div class="col-md-4 col-12">
+				      <input type="email" class="form-control" placeholder="Email" name="email" required>
+				    </div>
+				    <div class="col-md-4 col-12">
+				      <input type="text" maxlength="10" onkeypress="return event.charCode >= 48 && event.charCode <= 57" class="form-control" placeholder="Mobile" name="mob" required>
+				    </div>
+				  </div>
+				</div>
+
+				
+				
+
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<section class="approval-authority mt-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h3>Approval Authority*</h3>
+				
+				
+				<label class="mt-3">Created By</label>
+				 <div class="row">
+				    <div class="col-md-4 col-12">
+				      <input type="text" class="form-control" id="name" placeholder="Name of Marriott Executive" name="name" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)" required>
+				    </div>
+				    <div class="col-md-4 col-12">
+				      <input type="email" class="form-control" placeholder="Email" name="email" required>
+				    </div>
+				    <div class="col-md-4 col-12">
+				      <input type="text" class="form-control" placeholder="Designation" name="Designation" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)" required>
+				    </div>
+				  </div>
+
+
+				<label class="mt-3">Approved By</label>
+				 <div class="row">
+				    <div class="col-md-4 col-12">
+				      <input type="text" class="form-control" id="name" placeholder="Name of Marriott Executive" name="name" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)" required>
+				    </div>
+				    <div class="col-md-4 col-12">
+				      <input type="email" class="form-control" placeholder="Email" name="email" required>
+				    </div>
+				    <div class="col-md-4 col-12">
+				      <input type="text" class="form-control" placeholder="Designation" name="Designation" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)" required>
+				    </div>
+				  </div>
+
+						<input type="submit" class="btn btn-primary" value="SUBMIT" >
+				
+				
+
+				
+				
+
+			</div>
+
+		</div>
+	</div>
+</section>
+</form>
+</section>
+
+
+
+
+
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
