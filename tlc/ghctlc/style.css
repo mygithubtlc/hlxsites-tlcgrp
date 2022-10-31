@@ -1,0 +1,466 @@
+body {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  font-family: 'Nunito', sans-serif;
+/*  font-family: SignikaNegative-Bold;*/
+  color:black;
+}
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/*code*/
+.center-block{
+  padding-top: 13px;
+  font-size: 31px;
+  text-align: center;
+}
+.main-header{
+  margin-bottom: 15px;
+}
+.save-date p{
+background-color: #b89e61;
+padding: 10px;
+text-align:center;
+color:white;
+font-family: 'Nunito', sans-serif;
+font-size: 20px;
+margin:0px;
+}
+.save-date-2 h2{
+background-color: #b89e61;
+padding: 10px;
+text-align:center;
+color:white;
+font-family: 'Nunito', sans-serif;
+font-size: 20px;
+margin:0px;
+}
+.logo{
+  text-align: center;
+  padding: 25px 0px 0px 0px;
+}
+
+.disclaimer small{
+  font-size: 9px;
+  color:#666;
+}
+.img-main-footer{
+ background-color: #b89e61;
+ color:white;
+ font-family: 'Nunito', sans-serif;
+  font-size: 20px; 
+  padding:8px; 
+  text-align:center;
+}
+.img-main-footer p{
+  margin: 0px!important;
+}
+
+
+
+.main-container-width .container{
+  max-width:650px;
+}
+
+.alumnus p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.2vmin; 
+  margin-bottom: 40px;
+  text-align: justify;
+}
+.about-register p{
+  text-align: justify;
+}
+.about-register-second p{
+  text-align: justify;
+}
+
+ 
+.bannner img{
+  float: left;
+}
+
+.about-register p:nth-child(1){
+  color:#b89e61;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px; 
+  border-bottom: 2px solid #b89e61;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.about-register-second p:nth-child(1){
+  color:#b89e61;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px; 
+  border-bottom: 2px solid #b89e61;
+  text-align: left;
+  padding-top: 10px;
+}
+.about-register span{
+  color:#b89e61;
+  
+}
+
+.save-date h2 {
+    background-color: #b89e61;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    margin: 0px;
+}
+.register-know{
+  text-align: center;
+}
+.register-know .btn-primary{
+  background-color:#b89e61!important;
+  border:#b89e61;
+  border-radius: 0px;
+  margin: 30px 0px;
+  font-family: 'Nunito', sans-serif;
+
+}
+select.abc.form-control {
+    color: #9a9a9a!important;
+}
+.shadow{
+  width:100%;
+  border-radius: 30%;
+  height: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+   background: #d2d2d2; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(top,rgba(255,0,0,0),rgba(167, 167, 167)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(top,rgba(255,0,0,0),rgba(167, 167, 167)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(top,rgba(255,0,0,0),rgba(167, 167, 167)); /*Fx 3.6-15*/
+  background: linear-gradient(to top, rgba(255,0,0,0), rgb(167, 167, 167)); /*Standard*/
+
+}
+/*.about-register-second{
+  margin-bottom: 50px;
+}*/
+
+.porgam-detail{
+  text-align: center;
+}
+.porgam-detail p:nth-child(1){
+  color:#b89e61;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px; 
+  padding-top: 22px;
+  font-weight: 600;
+  display: inline-block;
+  margin:auto 0;
+}
+.porgam-detail p:nth-child(2){
+  font-family: 'Nunito', sans-serif;
+  font-size:14px; 
+  padding-top:0px;
+/*  display: inline-block;*/
+  margin:auto 0;
+}
+.porgam-detail p:nth-child(3){
+   color:#b89e61;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px; 
+  padding-top: 22px;
+  font-weight: 600;
+  display: inline-block;
+  margin:auto 0;
+}
+.porgam-detail p:nth-child(4){
+  font-family: 'Nunito', sans-serif;
+  font-size:14px; 
+  padding-top:0px;
+/*  display: inline-block;*/
+  margin:auto 0;
+}
+.porgam-detail p:nth-child(5){
+ font-family: 'Nunito', sans-serif;
+  font-size:14px; 
+  padding-bottom:20px;
+/*  display: inline-block;*/
+  margin:auto 0;
+}
+/*.porgam-detail p:nth-child(7){
+  font-family: 'Nunito', sans-serif;
+  font-size: 17px; 
+  display: inline-block;
+  margin:auto 0;
+  margin-bottom: 0px;
+}
+*/
+.porgam-detail button{
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+
+.regis-button{
+text-align: center;
+    margin-bottom: 22px;
+    padding-top: 20px;
+    font-size: 17px;
+
+}
+.whatsapp .fa-stack-2x{
+  color:green;
+}
+.sms .fa-stack-2x{
+  color:#00cc00;
+}
+
+.reach-out ul li{
+  list-style: none;
+  text-decoration: underline;
+  padding: 5px;
+}
+.reach-out{
+  text-align: center;
+  padding: 10px;
+}
+
+.about-register ul li{
+  margin-left: -23px;
+}
+
+.reg-fee{
+  display: block;
+  text-align: center;
+  margin-top:20px;
+}
+.reg-fee p{
+    background-color: white;
+    padding: 10px 35px 10px 35px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    border: 2px solid #b89e61;
+    display: inline-block;
+
+}
+.social-icon{
+  display: block;
+  text-align: center;
+}
+
+
+
+
+
+.reg-fee .btn-default{
+  border:2px solid #b89e61;
+  color:#b89e61;
+  border-radius: 0px;
+  margin: 30px 0px;
+  font-family: 'Nunito', sans-serif;
+  width:160px;
+  font-size: 18px;
+
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  text-decoration: none;
+}
+
+
+.disclaimer {
+    text-align: left;
+}
+
+.view-photo{
+  margin-bottom: 0px;
+}
+.facebook{
+
+  display: inline;
+  cursor: pointer;
+}
+.facebook .fa-stack-2x{
+  color:#3a589b!important;
+
+}
+.twitter{
+  display: inline;
+  cursor: pointer;
+  padding-left: 15px;
+}
+.envelop{
+  display: inline;
+  cursor: pointer;
+  padding-left: 15px;
+}
+.sms{
+   display: inline;
+  cursor: pointer; 
+  padding-left: 15px;
+}
+.whatsapp{
+    display: inline;
+  cursor: pointer; 
+  padding-left: 15px; 
+}
+.twitter .fa-stack-2x{
+  color:#2aaae0!important;
+}
+.calender{
+  margin-bottom: 25px;
+}
+.calender p{
+    padding-top: 35px;
+    padding-left: 50px;
+}
+.calender h4{
+    padding-top: 20px;
+}
+.about-register-second span{
+  color:#b89e61;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #b89e61!important;
+    border-color: #b89e61!important;
+}
+.shadow.ui-shadow {
+    margin-top: 0px;
+}
+.social.col-md-8 {
+    text-align: center;
+}
+/*thanku*/
+.thanku-container{
+  margin-top: 20px;
+      text-align: justify;
+}
+
+.text-thanku{
+  padding: 20px;
+}
+
+
+/*registration-form-code==========*/
+.reg-form{
+/*  background-color:#f3f3f3;*/
+  padding: 15px 0px 15px 0px;
+}
+.reg-form p{
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  font-family: 'Nunito', sans-serif;
+}
+.check-detail{
+  padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    margin: 15px;
+}
+.check-detail-second{
+  background-color:#e4c67f;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top:10px;
+}
+.check-detail-second p{
+  text-align: center;
+  color:black;
+}
+.registraion-btn{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.img-foot img {
+    padding: 25px 0px 0px 0px;
+}
+
+/*friend-form-code==========*/
+
+
+.reg-form-frnd{
+  background-color:#f3f3f3;
+  padding: 15px;
+  text-align: left;
+}
+.reg-form-frnd p{
+  text-align: left;
+  font-size: 15px;
+  padding: 5px;
+  font-family: 'Nunito', sans-serif;
+}
+.frnd-invite{
+  background-color:#e4c67f;
+  padding: 10px 0px 10px 0px;
+  border-radius: 10px;
+  display: -webkit-box;
+}
+.icon-frnd{
+  text-align: center;
+}
+.fa-plus-circle{
+  color:gray!important;
+
+}
+
+/*input{
+    text-transform:capitalize;
+}*/
+
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+.marketing {
+  margin: 0px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+@media screen and (min-width: 768px) {
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .header {
+    margin-bottom: 30px;
+  }
+  .jumbotron {
+    border-bottom: 0;
+  }
+}

@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:AddToCalendar.com
+X-PUBLISHED-TTL:P1W
+BEGIN:VEVENT
+UID:57e4e57a15cf8
+DTSTART:20170107T140000Z
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND:20170107T173000Z
+LOCATION:The Leela Ambience Gurgaon Hotel & Residences
+SUMMARY:GHC 2017 - Fun Evening with Cocktails and Dinner
+CLASS:PUBLIC
+DESCRIPTION:Fun Evening with Cocktails and Dinner\n\n--\nhttp://go.addtocal
+ endar.com
+ORGANIZER:GHC <ghc@tlcgroup.com>
+DTSTAMP:20160923T081906Z
+END:VEVENT
+END:VCALENDAR
