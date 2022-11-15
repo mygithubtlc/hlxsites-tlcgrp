@@ -33,6 +33,13 @@ function constructPayload(form) {
 }
 
 async function submitForm(form) {
+  document.on('click', function() {
+    var response = grecaptcha.getResponse();
+    alert(response);
+    if (response.length == 0) {
+      document.getElementsByClassName('grecaptcha-error').innerHTML = '<span style="color:red;">This field is required.</span>';
+    }
+  });
   const payload = constructPayload(form);
   const resp = await fetch(form.dataset.action, {
     method: 'POST',
@@ -50,15 +57,28 @@ var radioInput = document.createElement('input');
 radioInput.setAttribute('type', 'radio');
 
 
+function verifyCaptcha() {
+  document.getElementsByClassName("grecaptcha-error").innerHTML = '';
+}
 
 function createButton(fd) {
   const button = document.createElement('button');
   button.textContent = fd.Label;
   button.classList.add('button');
+  button.classList.add('g-recaptcha');
+  button.setAttribute('data-sitekey', 'reCAPTCHA_site_key');
+  button.setAttribute('type', 'submit');
+  button.setAttribute('id', 'btnSubmit');
+  button.setAttribute('data-callback', 'verifyCaptcha')
   if (fd.Type === 'submit') {
     button.addEventListener('click', async (event) => {
       const form = button.closest('form');
       if (form.checkValidity()) {
+        if (grecaptcha.getResponse() == ""){
+          alert("You can't proceed!");
+        } else {
+          alert("Thank you");
+        }
         event.preventDefault();
         button.setAttribute('disabled', '');
         await submitForm(form);
@@ -179,9 +199,25 @@ async function createForm(formURL) {
   return (form);
 }
 
+function loadScript(url, type, callback) {
+  const head = document.querySelector('head');
+  let script = head.querySelector(`script[src="${url}"]`);
+  if (!script) {
+    script = document.createElement('script');
+    script.src = url;
+    if (type) script.setAttribute('type', type);
+    head.append(script);
+    script.onload = callback;
+    return script;
+  }
+  return script;
+}
+
 export default async function decorate(block) {
   const form = block.querySelector('a[href$=".json"]');
   if (form) {
     form.replaceWith(await createForm(form.href));
   }
+  // google captcha
+  loadScript(`https://www.google.com/recaptcha/api.js`);
 }
