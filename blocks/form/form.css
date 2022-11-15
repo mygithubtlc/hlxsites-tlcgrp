@@ -115,8 +115,6 @@ main .field-wrapper .required {
   }
   
   main .form .form-submit-wrapper {
-    /* display: flex; */
-    /* justify-content: flex-start; */
     padding-top: 30px;
   }
 

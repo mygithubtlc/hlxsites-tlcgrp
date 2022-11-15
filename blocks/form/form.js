@@ -74,11 +74,6 @@ function createButton(fd) {
     button.addEventListener('click', async (event) => {
       const form = button.closest('form');
       if (form.checkValidity()) {
-        if (grecaptcha.getResponse() == ""){
-          alert("You can't proceed!");
-        } else {
-          alert("Thank you");
-        }
         event.preventDefault();
         button.setAttribute('disabled', '');
         await submitForm(form);
