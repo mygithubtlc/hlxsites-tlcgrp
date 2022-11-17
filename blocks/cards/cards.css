@@ -371,7 +371,7 @@ main .section.cards-container .cards-wrapper {
 
 /* here start code for mobile */
 
-@media (max-width:480px){
+@media (max-width:600px){
     .cards .cards-card-image img {
       max-width:100%;
       display:block;
@@ -391,6 +391,7 @@ main .section.cards-container .cards-wrapper {
     }
     .cards .cards-card-body {
         padding: 10px 10px;
+        height: 161px;
     }
     .cards-card-body p {
         margin:0px;
@@ -540,6 +541,10 @@ h4#tlc-compliances-and-statutory-audits-are-managed-by-a-big-4-global-accounting
     text-decoration: none;
     color: black;
     margin-top:0px;
+}
+.cards.fifty-fifty > ul > li .cards-card-body {
+    padding-top: 50px;
+    padding-bottom: 0px;
 }
 
 
