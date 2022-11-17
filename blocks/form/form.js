@@ -46,7 +46,7 @@ async function submitForm(form) {
   return payload;
 }
 
-var radioInput = document.createElement('input');
+const radioInput = document.createElement('input');
 radioInput.setAttribute('type', 'radio');
 
 
