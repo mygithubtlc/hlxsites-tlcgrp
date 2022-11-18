@@ -287,9 +287,11 @@ main .section.cards-container .cards-wrapper {
 .meet-our-team-desktop-view.cards-container img {
     height: 500px;
 }
+
 .meet-our-team-desktop-another-section ul li {
     height: 500px;
 }
+
 .meet-our-team-desktop-view ul li .cards-card-body p em,
 .meet-our-team-desktop-another-section .cards-card-body p:nth-child(1) em{
     color:white;
