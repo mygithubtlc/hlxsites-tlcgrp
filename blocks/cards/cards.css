@@ -288,7 +288,7 @@ main .section.cards-container .cards-wrapper {
     height: 500px;
 }
 
-.meet-our-team-desktop-another-section .cards > ul > li:nth-child(1) ul li {
+.meet-our-team-desktop-another-section ul li {
     height: 500px;
 }
 
