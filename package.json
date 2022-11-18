@@ -8,9 +8,11 @@
     "test:watch": "npm test -- --watch",
     "lint:js": "eslint .",
     "lint:css": "stylelint 'blocks/**/*.css' 'styles/*.css'",
-    "lint": "npm run lint:js && npm run lint:css"
+    "lint": "npm run lint:js && npm run lint:css",
+    "extends": "stylelint-config-recess-order"
   
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adobe/helix-project-boilerplate.git"
