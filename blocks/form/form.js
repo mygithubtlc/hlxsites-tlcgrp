@@ -77,9 +77,10 @@ function createButton(fd) {
       if (form.checkValidity()) {
         event.preventDefault();
         button.setAttribute('disabled', '');
-        await submitForm(form);
-        const redirectTo = fd.Extra;
-        window.location.href = redirectTo;
+        if (await submitForm(form)) {
+          const redirectTo = fd.Extra;
+          window.location.href = redirectTo;
+        }
       }
     });
   }
