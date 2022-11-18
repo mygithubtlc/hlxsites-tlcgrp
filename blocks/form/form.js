@@ -57,19 +57,21 @@ var radioInput = document.createElement('input');
 radioInput.setAttribute('type', 'radio');
 
 
-function verifyCaptcha() {
-  document.getElementsByClassName("grecaptcha-error").innerHTML = '';
-}
+window.onSubmit = (args) => {
+  document.querySelector('form').submit();
+  // console.log("hello", args);
+};
 
 function createButton(fd) {
   const button = document.createElement('button');
   button.textContent = fd.Label;
   button.classList.add('button');
   button.classList.add('g-recaptcha');
-  button.setAttribute('data-sitekey', 'reCAPTCHA_site_key');
+  button.setAttribute('data-sitekey', '6Ld0wQ4jAAAAANpmntaDVbNrZOnQptePN78k5_j-');
   button.setAttribute('type', 'submit');
   button.setAttribute('id', 'btnSubmit');
-  button.setAttribute('data-callback', 'verifyCaptcha')
+  button.setAttribute('data-callback', 'onSubmit');
+
   if (fd.Type === 'submit') {
     button.addEventListener('click', async (event) => {
       const form = button.closest('form');
@@ -79,6 +81,7 @@ function createButton(fd) {
         await submitForm(form);
         const redirectTo = fd.Extra;
         window.location.href = redirectTo;
+        
       }
     });
   }
@@ -196,6 +199,7 @@ async function createForm(formURL) {
 
 function loadScript(url, type, callback) {
   const head = document.querySelector('head');
+  // let form = main.querySelector('form');
   let script = head.querySelector(`script[src="${url}"]`);
   if (!script) {
     script = document.createElement('script');
@@ -214,5 +218,5 @@ export default async function decorate(block) {
     form.replaceWith(await createForm(form.href));
   }
   // google captcha
-  loadScript(`https://www.google.com/recaptcha/api.js`);
+  loadScript(`https://www.google.com/recaptcha/api.js?`);
 }
