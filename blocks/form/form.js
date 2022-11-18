@@ -57,9 +57,8 @@ var radioInput = document.createElement('input');
 radioInput.setAttribute('type', 'radio');
 
 
-window.onSubmit = (args) => {
+window.onSubmit = () => {
   document.querySelector('form').submit();
-  // console.log("hello", args);
 };
 
 function createButton(fd) {
@@ -80,8 +79,7 @@ function createButton(fd) {
         button.setAttribute('disabled', '');
         await submitForm(form);
         const redirectTo = fd.Extra;
-        window.location.href = redirectTo;
-        
+        window.location.href = redirectTo;  
       }
     });
   }
@@ -199,7 +197,6 @@ async function createForm(formURL) {
 
 function loadScript(url, type, callback) {
   const head = document.querySelector('head');
-  // let form = main.querySelector('form');
   let script = head.querySelector(`script[src="${url}"]`);
   if (!script) {
     script = document.createElement('script');
@@ -218,5 +215,5 @@ export default async function decorate(block) {
     form.replaceWith(await createForm(form.href));
   }
   // google captcha
-  loadScript(`https://www.google.com/recaptcha/api.js?`);
+  loadScript(`https://www.google.com/recaptcha/api.js`);
 }
