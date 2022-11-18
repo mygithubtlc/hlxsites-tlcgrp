@@ -1,3 +1,6 @@
+/* globals grecaptcha */
+const SITE_KEY = '6Ld0wQ4jAAAAANpmntaDVbNrZOnQptePN78k5_j-';
+
 function createSelect(fd) {
   const select = document.createElement('select');
   select.id = fd.Field;
@@ -33,44 +36,41 @@ function constructPayload(form) {
 }
 
 async function submitForm(form) {
-  document.on('click', function() {
-    var response = grecaptcha.getResponse();
-    alert(response);
-    if (response.length == 0) {
-      document.getElementsByClassName('grecaptcha-error').innerHTML = '<span style="color:red;">This field is required.</span>';
+  try {
+    // verify recaptcha token
+    const verify = await fetch('https://www.google.com/recaptcha/api/siteverify', {
+      method: 'POST',
+      body: {
+        secret: SITE_KEY,
+        response: await grecaptcha.execute(SITE_KEY, { action: 'submit' }),
+      },
+    });
+    if (verify.ok) {
+      const { success } = await verify.json();
+      if (success) {
+        const payload = constructPayload(form);
+        const resp = await fetch(form.dataset.action, {
+          method: 'POST',
+          cache: 'no-cache',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ data: payload }),
+        });
+        await resp.text();
+        return payload;
+      }
     }
-  });
-  const payload = constructPayload(form);
-  const resp = await fetch(form.dataset.action, {
-    method: 'POST',
-    cache: 'no-cache',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ data: payload }),
-  });
-  await resp.text();
-  return payload;
+  } catch (e) {
+    // ignore
+  }
+  return null;
 }
-
-var radioInput = document.createElement('input');
-radioInput.setAttribute('type', 'radio');
-
-
-window.onSubmit = () => {
-  document.querySelector('form').submit();
-};
 
 function createButton(fd) {
   const button = document.createElement('button');
   button.textContent = fd.Label;
   button.classList.add('button');
-  button.classList.add('g-recaptcha');
-  button.setAttribute('data-sitekey', '6Ld0wQ4jAAAAANpmntaDVbNrZOnQptePN78k5_j-');
-  button.setAttribute('type', 'submit');
-  button.setAttribute('id', 'btnSubmit');
-  button.setAttribute('data-callback', 'onSubmit');
-
   if (fd.Type === 'submit') {
     button.addEventListener('click', async (event) => {
       const form = button.closest('form');
@@ -79,7 +79,7 @@ function createButton(fd) {
         button.setAttribute('disabled', '');
         await submitForm(form);
         const redirectTo = fd.Extra;
-        window.location.href = redirectTo;  
+        window.location.href = redirectTo;
       }
     });
   }
@@ -195,13 +195,13 @@ async function createForm(formURL) {
   return (form);
 }
 
-function loadScript(url, type, callback) {
+function loadScript(url, callback) {
   const head = document.querySelector('head');
   let script = head.querySelector(`script[src="${url}"]`);
   if (!script) {
     script = document.createElement('script');
     script.src = url;
-    if (type) script.setAttribute('type', type);
+    script.async = true;
     head.append(script);
     script.onload = callback;
     return script;
@@ -210,10 +210,13 @@ function loadScript(url, type, callback) {
 }
 
 export default async function decorate(block) {
-  const form = block.querySelector('a[href$=".json"]');
-  if (form) {
-    form.replaceWith(await createForm(form.href));
-  }
-  // google captcha
-  loadScript(`https://www.google.com/recaptcha/api.js`);
+  // google recaptcha v3
+  loadScript(`https://www.google.com/recaptcha/api.js?render=${SITE_KEY}`, () => {
+    grecaptcha.ready(async () => {
+      const form = block.querySelector('a[href$=".json"]');
+      if (form) {
+        form.replaceWith(await createForm(form.href));
+      }
+    });
+  });
 }
