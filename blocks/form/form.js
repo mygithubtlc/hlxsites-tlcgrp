@@ -196,14 +196,13 @@ async function createForm(formURL) {
   return (form);
 }
 
-function loadScript(url, callback) {
-  const head = document.querySelector('head');
-  let script = head.querySelector(`script[src="${url}"]`);
+function loadScript(url, callback, container = document.querySelector('head')) {
+  let script = container.querySelector(`script[src="${url}"]`);
   if (!script) {
     script = document.createElement('script');
     script.src = url;
-    script.async = true;
-    head.append(script);
+    // script.async = true;
+    container.append(script);
     script.onload = callback;
     return script;
   }
@@ -211,13 +210,13 @@ function loadScript(url, callback) {
 }
 
 export default async function decorate(block) {
-  // google recaptcha v3
-  loadScript(`https://www.google.com/recaptcha/api.js?render=${SITE_KEY}`, () => {
-    grecaptcha.ready(async () => {
-      const form = block.querySelector('a[href$=".json"]');
-      if (form) {
+  const form = block.querySelector('a[href$=".json"]');
+  if (form) {
+    // google recaptcha v3
+    loadScript(`https://www.google.com/recaptcha/api.js?render=${SITE_KEY}`, () => {
+      grecaptcha.ready(async () => {
         form.replaceWith(await createForm(form.href));
-      }
-    });
-  });
+      });
+    }, form);
+  }
 }
