@@ -1,4 +1,3 @@
-/* globals grecaptcha */
 const SITE_KEY = '6Ld0wQ4jAAAAANpmntaDVbNrZOnQptePN78k5_j-';
 
 function createSelect(fd) {
@@ -36,33 +35,18 @@ function constructPayload(form) {
 }
 
 async function submitForm(form) {
-  try {
-    // verify recaptcha token
-    const verify = await fetch('https://www.google.com/recaptcha/api/siteverify', {
-      method: 'POST',
-      body: {
-        secret: SITE_KEY,
-        response: await grecaptcha.execute(SITE_KEY, { action: 'submit' }),
-      },
-    });
-    if (verify.ok) {
-      const { success } = await verify.json();
-      if (success) {
-        const payload = constructPayload(form);
-        const resp = await fetch(form.dataset.action, {
-          method: 'POST',
-          cache: 'no-cache',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ data: payload }),
-        });
-        await resp.text();
-        return payload;
-      }
-    }
-  } catch (e) {
-    // ignore
+  const payload = constructPayload(form);
+  const resp = await fetch(form.dataset.action, {
+    method: 'POST',
+    cache: 'no-cache',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ data: payload }),
+  });
+  if (resp.ok) {
+    await resp.text();
+    return payload;
   }
   return null;
 }
@@ -70,7 +54,9 @@ async function submitForm(form) {
 function createButton(fd) {
   const button = document.createElement('button');
   button.textContent = fd.Label;
-  button.classList.add('button');
+  button.classList.add('button', 'g-recaptcha');
+  button.dataset.sitekey = SITE_KEY;
+  button.dataset.action = 'submit';
   if (fd.Type === 'submit') {
     button.addEventListener('click', async (event) => {
       const form = button.closest('form');
@@ -201,7 +187,7 @@ function loadScript(url, callback, container = document.querySelector('head')) {
   if (!script) {
     script = document.createElement('script');
     script.src = url;
-    // script.async = true;
+    script.async = true;
     container.append(script);
     script.onload = callback;
     return script;
@@ -212,11 +198,7 @@ function loadScript(url, callback, container = document.querySelector('head')) {
 export default async function decorate(block) {
   const form = block.querySelector('a[href$=".json"]');
   if (form) {
-    // google recaptcha v3
-    loadScript(`https://www.google.com/recaptcha/api.js?render=${SITE_KEY}`, () => {
-      grecaptcha.ready(async () => {
-        form.replaceWith(await createForm(form.href));
-      });
-    }, form);
+    form.replaceWith(await createForm(form.href));
+    loadScript('https://www.google.com/recaptcha/api.js');
   }
 }
