@@ -207,6 +207,12 @@ main .section.background > picture img {
 .section .default-content-wrapper {
   text-align: center;
 }
+.section .default-content-wrapper h3{
+  text-align: left;
+}
+.section .default-content-wrapper p{
+  text-align: left;
+}
 
 .section .default-content-wrapper ul li {
   text-align: left;
@@ -225,7 +231,7 @@ main .section.background > picture img {
   font-size: 0.7em;
 }
 
-main .section.background .default-content-wrapper {
+main .background > .default-content-wrapper {
   padding-left: 20px;
   margin-top: 50px;
   max-width: 100%;
@@ -247,7 +253,7 @@ main .section.background p {
   font-size: 28px;
 }
 
-main .section.background .button-container a {
+main .background .button-container a {
   all: unset;
   cursor: pointer;
   font-family: var(--alt-font-family);
@@ -286,19 +292,19 @@ hr {
   border-bottom: 1px solid var(--overlay-background-color);
 }
 
-main .section.background .default-content-wrapper h2 {
+main .background .default-content-wrapper h2 {
   text-align: center;
   font-size: 48px;
 }
 
-main .section.align .default-content-wrapper h2 {
+main .align .default-content-wrapper h2 {
   text-align: center;
   margin-bottom: 50px;
   padding: 10px;
   font-size: 1.8em;
 }
 
-main .section.background .default-content-wrapper h2:nth-of-type(2) {
+main .background .default-content-wrapper h2:nth-of-type(2) {
   font-size: 28px;
 }
 
@@ -329,7 +335,7 @@ main .section .default-content-wrapper h1 {
 }
 
 /* legal theme */
-.legal main .section .default-content-wrapper p {
+.legal  .default-content-wrapper p {
   display: block;
   text-align: left;
   padding: 0 20px;
@@ -338,17 +344,17 @@ main .section .default-content-wrapper h1 {
   font-size: 0.7em;
 }
 
-.legal main .section .default-content-wrapper p a {
+.legal  .default-content-wrapper p a {
   display: block;
 }
 
-.legal main .section .default-content-wrapper h3 {
+.legal .default-content-wrapper h3 {
   text-align: left;
   padding: 30px 20px;
   font-size: 1.2em;
 }
 
-.legal main .section .default-content-wrapper h4 {
+.legal  .default-content-wrapper h4 {
   text-align: left;
   font-size: 0.7em;
   padding: 0 20px;
@@ -370,10 +376,12 @@ main .section .default-content-wrapper h1 {
 }
 
 /* for carve-section */
+/* stylelint-disable-next-line selector-max-class */
 main .section.background.carve-career .default-content-wrapper p{
   color:black;
   padding:50px 0px;
 }
+/* stylelint-disable-next-line selector-max-class */
 main .section.background.carve-career .default-content-wrapper h3 {
   text-align: center;
   font-size: 28px;
@@ -384,30 +392,33 @@ main .section.background.carve-career .default-content-wrapper h3 {
   margin:0 auto;
     padding-top: 0px;
 }
-.section.background.carve-career h1{
+.background.carve-career h1{
   color:black;
 }
 
-.section.background.carve-career p em{
+.background.carve-career p em{
  color:gray;
  font-size:28px;
 }
-.section.background.carve-career p:nth-child(1) {
+.background.carve-career p:nth-child(1) {
   width:90px;
   height:90px;
   margin:0 auto;
   padding:70px 0px;
   
 }
-.section.background.carve-career {
+/* stylelint-disable-next-line selector-max-class */
+main  .section.background.carve-career {
   height: 500px;
 }
+/* stylelint-disable-next-line selector-max-class */
 main .section.background.carve-career .default-content-wrapper {
   margin-left: 50px;
   margin-top: 20px;
 }
 
 /* job description css start here */
+/* stylelint-disable-next-line selector-max-class */
 .section.job-description-page > .default-content-wrapper p{
   display: block;
 }
@@ -472,6 +483,7 @@ margin:0px;
     padding-bottom: 20px;
   }  
 
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background .default-content-wrapper h3 {
     text-align: center;
     font-size: 45px;
@@ -481,6 +493,7 @@ margin:0px;
     padding-top: 10px;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background .default-content-wrapper h4 {
     font-size: 24px;
     font-weight: 300;
@@ -495,7 +508,7 @@ margin:0px;
     font-size: 15px;
     margin-top: 0;
     display: flex;
-    justify-content: center;
+    justify-content: left;
   }
 
   main .section .default-content-wrapper em {
@@ -512,6 +525,7 @@ margin:0px;
     font-weight: 100;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background .default-content-wrapper {
     margin-bottom: 50px;
   }
@@ -553,6 +567,7 @@ margin:0px;
     height: 700px;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background .default-content-wrapper {
     margin-left: 50px;
     margin-top: 200px;
@@ -562,14 +577,17 @@ margin:0px;
     margin-left: -200px;
 }
 
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background  .default-content-wrapper > * {
     max-width: 100%;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background .default-content-wrapper h2 {
     text-align: left;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background .default-content-wrapper h3 {
     text-align: center;
     font-size: 48px;
@@ -578,19 +596,23 @@ margin:0px;
     padding-top: 50px;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background .default-content-wrapper h4 {
     /* margin-left: 100px; */
     text-align: center;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background .default-content-wrapper p {
     text-align: left;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background .default-content-wrapper .button-container {
     justify-content: left;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   main .section .default-content-wrapper p.button-container strong a {
     all: unset;
     cursor: pointer;
@@ -605,20 +627,24 @@ margin:0px;
 }
 
 @media (min-width: 1200px) {
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background .default-content-wrapper h3 {
     /* margin-left: 150px; */
     max-width: 82%;
     margin:0 auto;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background .default-content-wrapper h4 {
     /* margin-left: 150px; */
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background .default-content-wrapper p {
     text-align: left;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background .default-content-wrapper p.button-container {
     display: block;
     clear: both;
@@ -652,15 +678,18 @@ h4#view-our-privacy-policy- a {
   font-size: 16px;
 }
 
+/* stylelint-disable-next-line selector-max-class */
 .section.compliances-logos.image-list-container div:nth-child(1) img {
   width:60px;
 }
 
+/* stylelint-disable-next-line selector-max-class */
 .section.compliances-logos.image-list-container div:nth-child(2) img {
   width:60px;
   
 }
 
+/* stylelint-disable-next-line selector-max-class */
 .section.compliances-logos.image-list-container div div:nth-child(3) img{
   width:150px;
   position: relative;
@@ -668,25 +697,31 @@ h4#view-our-privacy-policy- a {
     
 }
 
+/* stylelint-disable-next-line selector-max-class */
 .section.compliances-logos.image-list-container div div:nth-child(4) img{
   width:100px;
     
 }
 
+/* stylelint-disable-next-line selector-max-class */
 .section.compliances-logos.image-list-container div:nth-child(5) img {
   width:60px;
   
 }
 
+/* stylelint-disable-next-line selector-max-class */
 .section.associations-logos.image-list-container div:nth-child(2) img {
   width:80px;
 }
+/* stylelint-disable-next-line selector-max-class */
 .section.associations-logos.image-list-container div div:nth-child(3) img {
   width:80px;
 }
+/* stylelint-disable-next-line selector-max-class */
 .section.associations-logos.image-list-container div div:nth-child(5) img {
   width:80px;
 }
+/* stylelint-disable-next-line selector-max-class */
 .section.tech-platform-logos.image-list-container > .image-list-wrapper > div > div:nth-child(1) img {
   
   width:90px;
@@ -707,12 +742,15 @@ font-size:24px!important;
     margin: 0 auto;
     text-align: center!important;
 }
+/* stylelint-disable-next-line selector-max-class */
 .carve-career-all-section.section.background .default-content-wrapper{
 margin-top:0px;
 }
+/* stylelint-disable-next-line selector-max-class */
 .section.background.carve-career-all-section {
 height: 450px;
 }
+/* stylelint-disable-next-line selector-max-class */
 .carve-career-all-section.section.background .default-content-wrapper p.button-container{
 display: block;
   clear: both;
@@ -720,6 +758,7 @@ display: block;
   
 }
 
+/* stylelint-disable-next-line selector-max-class */
 .carve-career-all-section.section .default-content-wrapper strong {
   font-size: 24px;
 }
@@ -728,6 +767,7 @@ display: block;
   width: 70%;
 }
 
+/* stylelint-disable-next-line selector-max-class */
 .section.contact-us-section.form-container h1 {
   line-height: 0.9;
   text-align: left;
@@ -740,20 +780,24 @@ display: block;
 }
 
 @media (min-width: 1400px) {
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background .default-content-wrapper h3 {
     margin-left: 200px;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background .default-content-wrapper h4 {
     margin-left: 200px;
   }
 }
 
 @media (min-width: 1600px) {
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background .default-content-wrapper h3 {
     margin-left: 270px;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background .default-content-wrapper h4 {
     margin-left: 270px;
   }
@@ -824,11 +868,13 @@ main .columns-container {
     margin-top: 0;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background.carve-career .default-content-wrapper {
     margin-left: 0px;
     margin-top: 20px;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   .section.background.carve-career {
     height: 500px;
     margin-top: 50px;
@@ -838,34 +884,41 @@ main .columns-container {
     padding: 5px 0px;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   .section.background.carve-career-all-section img {
       width: 100px;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   .section.background.carve-career-all-section h1{
     color:black;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   .section.background.carve-career-all-section p{
     color:black;  
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   .section.background.carve-career-all-section 
   .section.background .default-content-wrapper{
     margin-top:0px;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   main .section.background .default-content-wrapper {
     margin-top: 40px;
     padding-bottom: 30px;
   }
 
+  /* stylelint-disable-next-line selector-max-class */
   .section.background.carve-career-all-section {
     margin-top: 30px;
   }
 
   /* job description start here */
 
+  /* stylelint-disable-next-line selector-max-class */
   .section.job-description-page > .default-content-wrapper p{
     display: block;
   }
