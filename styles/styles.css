@@ -728,6 +728,16 @@ main .columns-container {
   .clientele-page h2 {
     font-size: 28px;
   }
+.innovate-with-us h1#innovate-with-us {
+  margin-top: 0px;
+}
+.section.innovate-with-us {
+  padding: 0px 0px;
+}
+.section.background a {
+  color: white;
+  font-size: 14px;
+}
 
   .clientele-page h4 {
     font-size: 14px;

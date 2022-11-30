@@ -51,6 +51,10 @@ async function submitForm(form) {
   return null;
 }
 
+
+const radioInput = document.createElement('input');
+radioInput.setAttribute('type', 'radio');
+
 function createButton(fd) {
   const button = document.createElement('button');
   button.textContent = fd.Label;
