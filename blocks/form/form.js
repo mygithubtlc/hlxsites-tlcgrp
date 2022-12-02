@@ -1,3 +1,5 @@
+const SITE_KEY = '6Ld0wQ4jAAAAANpmntaDVbNrZOnQptePN78k5_j-';
+
 function createSelect(fd) {
   const select = document.createElement('select');
   select.id = fd.Field;
@@ -42,9 +44,13 @@ async function submitForm(form) {
     },
     body: JSON.stringify({ data: payload }),
   });
-  await resp.text();
-  return payload;
+  if (resp.ok) {
+    await resp.text();
+    return payload;
+  }
+  return null;
 }
+
 
 const radioInput = document.createElement('input');
 radioInput.setAttribute('type', 'radio');
@@ -52,16 +58,19 @@ radioInput.setAttribute('type', 'radio');
 function createButton(fd) {
   const button = document.createElement('button');
   button.textContent = fd.Label;
-  button.classList.add('button');
+  button.classList.add('button', 'g-recaptcha');
+  button.dataset.sitekey = SITE_KEY;
+  button.dataset.action = 'submit';
   if (fd.Type === 'submit') {
     button.addEventListener('click', async (event) => {
       const form = button.closest('form');
       if (form.checkValidity()) {
         event.preventDefault();
         button.setAttribute('disabled', '');
-        await submitForm(form);
-        const redirectTo = fd.Extra;
-        window.location.href = redirectTo;
+        if (await submitForm(form)) {
+          const redirectTo = fd.Extra;
+          window.location.href = redirectTo;
+        }
       }
     });
   }
@@ -177,9 +186,23 @@ async function createForm(formURL) {
   return (form);
 }
 
+function loadScript(url, callback, container = document.querySelector('head')) {
+  let script = container.querySelector(`script[src="${url}"]`);
+  if (!script) {
+    script = document.createElement('script');
+    script.src = url;
+    script.async = true;
+    container.append(script);
+    script.onload = callback;
+    return script;
+  }
+  return script;
+}
+
 export default async function decorate(block) {
   const form = block.querySelector('a[href$=".json"]');
   if (form) {
     form.replaceWith(await createForm(form.href));
+    loadScript('https://www.google.com/recaptcha/api.js');
   }
 }
