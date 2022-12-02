@@ -115,8 +115,6 @@ main .field-wrapper .required {
   }
   
   main .form .form-submit-wrapper {
-    display: flex;
-    justify-content: flex-start;
     padding-top: 30px;
   }
 
@@ -160,4 +158,16 @@ textarea#yourMessage::placeholder{
   text-align: left;
   display: block;
   margin: 60px 0px;
+}
+
+.grecaptcha-badge[style] {
+  right: 0 !important;
+  left: 20px !important;
+  transition: none !important;
+  position: inherit !important;
+}
+
+.button.g-recaptcha {
+  margin-top: 30px;
+  margin-left: 0px;
 }
