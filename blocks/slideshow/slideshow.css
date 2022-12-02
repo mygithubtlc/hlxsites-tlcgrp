@@ -1,3 +1,4 @@
+/* stylelint-disable selector-max-class */
 :root {
   --overlay-background-color: var(--nav-background-color);
   --overlay-link-color: #002246;

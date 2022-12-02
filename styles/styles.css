@@ -1,3 +1,4 @@
+/* stylelint-disable selector-max-class */
 @font-face {
   font-family: argesta-display-fallback;
   src: local("Times New Roman");
@@ -376,12 +377,12 @@ main .section .default-content-wrapper h1 {
 }
 
 /* for carve-section */
-/* stylelint-disable-next-line selector-max-class */
+
 main .section.background.carve-career .default-content-wrapper p{
   color:black;
   padding:50px 0px;
 }
-/* stylelint-disable-next-line selector-max-class */
+
 main .section.background.carve-career .default-content-wrapper h3 {
   text-align: center;
   font-size: 28px;
@@ -407,18 +408,18 @@ main .section.background.carve-career .default-content-wrapper h3 {
   padding:70px 0px;
   
 }
-/* stylelint-disable-next-line selector-max-class */
+
 main  .section.background.carve-career {
   height: 500px;
 }
-/* stylelint-disable-next-line selector-max-class */
+
 main .section.background.carve-career .default-content-wrapper {
   margin-left: 50px;
   margin-top: 20px;
 }
 
 /* job description css start here */
-/* stylelint-disable-next-line selector-max-class */
+
 .section.job-description-page > .default-content-wrapper p{
   display: block;
 }
@@ -483,7 +484,7 @@ margin:0px;
     padding-bottom: 20px;
   }  
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   main .section.background .default-content-wrapper h3 {
     text-align: center;
     font-size: 45px;
@@ -493,7 +494,7 @@ margin:0px;
     padding-top: 10px;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   main .section.background .default-content-wrapper h4 {
     font-size: 24px;
     font-weight: 300;
@@ -525,7 +526,7 @@ margin:0px;
     font-weight: 100;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   main .section.background .default-content-wrapper {
     margin-bottom: 50px;
   }
@@ -567,7 +568,7 @@ margin:0px;
     height: 700px;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   main .section.background .default-content-wrapper {
     margin-left: 50px;
     margin-top: 200px;
@@ -577,17 +578,17 @@ margin:0px;
     margin-left: -200px;
 }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   main .section.background  .default-content-wrapper > * {
     max-width: 100%;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   main .section.background .default-content-wrapper h2 {
     text-align: left;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   main .section.background .default-content-wrapper h3 {
     text-align: center;
     font-size: 48px;
@@ -596,23 +597,23 @@ margin:0px;
     padding-top: 50px;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   main .section.background .default-content-wrapper h4 {
     /* margin-left: 100px; */
     text-align: center;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   main .section.background .default-content-wrapper p {
     text-align: left;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   main .section.background .default-content-wrapper .button-container {
     justify-content: left;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   main .section .default-content-wrapper p.button-container strong a {
     all: unset;
     cursor: pointer;
@@ -627,24 +628,21 @@ margin:0px;
 }
 
 @media (min-width: 1200px) {
-  /* stylelint-disable-next-line selector-max-class */
+  
   main .section.background .default-content-wrapper h3 {
     /* margin-left: 150px; */
     max-width: 82%;
     margin:0 auto;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
-  main .section.background .default-content-wrapper h4 {
-    /* margin-left: 150px; */
-  }
 
-  /* stylelint-disable-next-line selector-max-class */
+
+  
   main .section.background .default-content-wrapper p {
     text-align: left;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   main .section.background .default-content-wrapper p.button-container {
     display: block;
     clear: both;
@@ -678,18 +676,18 @@ h4#view-our-privacy-policy- a {
   font-size: 16px;
 }
 
-/* stylelint-disable-next-line selector-max-class */
+
 .section.compliances-logos.image-list-container div:nth-child(1) img {
   width:60px;
 }
 
-/* stylelint-disable-next-line selector-max-class */
+
 .section.compliances-logos.image-list-container div:nth-child(2) img {
   width:60px;
   
 }
 
-/* stylelint-disable-next-line selector-max-class */
+
 .section.compliances-logos.image-list-container div div:nth-child(3) img{
   width:150px;
   position: relative;
@@ -697,31 +695,31 @@ h4#view-our-privacy-policy- a {
     
 }
 
-/* stylelint-disable-next-line selector-max-class */
+
 .section.compliances-logos.image-list-container div div:nth-child(4) img{
   width:100px;
     
 }
 
-/* stylelint-disable-next-line selector-max-class */
+
 .section.compliances-logos.image-list-container div:nth-child(5) img {
   width:60px;
   
 }
 
-/* stylelint-disable-next-line selector-max-class */
+
 .section.associations-logos.image-list-container div:nth-child(2) img {
   width:80px;
 }
-/* stylelint-disable-next-line selector-max-class */
+
 .section.associations-logos.image-list-container div div:nth-child(3) img {
   width:80px;
 }
-/* stylelint-disable-next-line selector-max-class */
+
 .section.associations-logos.image-list-container div div:nth-child(5) img {
   width:80px;
 }
-/* stylelint-disable-next-line selector-max-class */
+
 .section.tech-platform-logos.image-list-container > .image-list-wrapper > div > div:nth-child(1) img {
   
   width:90px;
@@ -742,15 +740,15 @@ font-size:24px!important;
     margin: 0 auto;
     text-align: center!important;
 }
-/* stylelint-disable-next-line selector-max-class */
+
 .carve-career-all-section.section.background .default-content-wrapper{
 margin-top:0px;
 }
-/* stylelint-disable-next-line selector-max-class */
+
 .section.background.carve-career-all-section {
 height: 450px;
 }
-/* stylelint-disable-next-line selector-max-class */
+
 .carve-career-all-section.section.background .default-content-wrapper p.button-container{
 display: block;
   clear: both;
@@ -758,7 +756,7 @@ display: block;
   
 }
 
-/* stylelint-disable-next-line selector-max-class */
+
 .carve-career-all-section.section .default-content-wrapper strong {
   font-size: 24px;
 }
@@ -767,7 +765,7 @@ display: block;
   width: 70%;
 }
 
-/* stylelint-disable-next-line selector-max-class */
+
 .section.contact-us-section.form-container h1 {
   line-height: 0.9;
   text-align: left;
@@ -780,24 +778,24 @@ display: block;
 }
 
 @media (min-width: 1400px) {
-  /* stylelint-disable-next-line selector-max-class */
+  
   main .section.background .default-content-wrapper h3 {
     margin-left: 200px;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   main .section.background .default-content-wrapper h4 {
     margin-left: 200px;
   }
 }
 
 @media (min-width: 1600px) {
-  /* stylelint-disable-next-line selector-max-class */
+  
   main .section.background .default-content-wrapper h3 {
     margin-left: 270px;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   main .section.background .default-content-wrapper h4 {
     margin-left: 270px;
   }
@@ -867,13 +865,13 @@ main .columns-container {
     margin-top: 0;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   main .section.background.carve-career .default-content-wrapper {
     margin-left: 0px;
     margin-top: 20px;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   .section.background.carve-career {
     height: 500px;
     margin-top: 50px;
@@ -883,41 +881,41 @@ main .columns-container {
     padding: 5px 0px;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   .section.background.carve-career-all-section img {
       width: 100px;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   .section.background.carve-career-all-section h1{
     color:black;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   .section.background.carve-career-all-section p{
     color:black;  
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   .section.background.carve-career-all-section 
   .section.background .default-content-wrapper{
     margin-top:0px;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   main .section.background .default-content-wrapper {
     margin-top: 40px;
     padding-bottom: 30px;
   }
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   .section.background.carve-career-all-section {
     margin-top: 30px;
   }
 
   /* job description start here */
 
-  /* stylelint-disable-next-line selector-max-class */
+  
   .section.job-description-page > .default-content-wrapper p{
     display: block;
   }

@@ -1,3 +1,4 @@
+/* stylelint-disable selector-max-class */
 main .image-list {
   margin: 25px;
   display: flex;
