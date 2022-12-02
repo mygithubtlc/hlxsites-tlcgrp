@@ -21,7 +21,6 @@ function loadScript(url, type, callback) {
 // google tag manager
 const gtmId = 'UA-97477922-3';
 window.dataLayer = window.dataLayer || [];
-
 function gtag(key, value) {
   window.dataLayer.push(key, value);
 }
