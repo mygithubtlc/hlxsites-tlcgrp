@@ -18,7 +18,6 @@ function loadScript(url, type, callback) {
   }
   return script;
 }
-
 // google tag manager
 const gtmId = 'UA-97477922-3';
 window.dataLayer = window.dataLayer || [];
