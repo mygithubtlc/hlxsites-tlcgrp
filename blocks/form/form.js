@@ -1,5 +1,18 @@
 const SITE_KEY = '6Ld0wQ4jAAAAANpmntaDVbNrZOnQptePN78k5_j-';
 
+function loadScript(url, callback, container = document.querySelector('head')) {
+  let script = container.querySelector(`script[src="${url}"]`);
+  if (!script) {
+    script = document.createElement('script');
+    script.src = url;
+    script.async = true;
+    container.append(script);
+    script.onload = callback;
+    return script;
+  }
+  return script;
+}
+
 function createSelect(fd) {
   const select = document.createElement('select');
   select.id = fd.Field;
@@ -57,10 +70,10 @@ radioInput.setAttribute('type', 'radio');
 function createButton(fd) {
   const button = document.createElement('button');
   button.textContent = fd.Label;
-  button.classList.add('button', 'g-recaptcha');
-  button.dataset.sitekey = SITE_KEY;
-  button.dataset.action = 'submit';
   if (fd.Type === 'submit') {
+    button.classList.add('button', 'g-recaptcha');
+    button.dataset.sitekey = SITE_KEY;
+    button.dataset.action = 'submit';
     button.addEventListener('click', async (event) => {
       const form = button.closest('form');
       if (form.checkValidity()) {
@@ -72,6 +85,15 @@ function createButton(fd) {
         }
       }
     });
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          loadScript('https://www.google.com/recaptcha/api.js');
+          obs.disconnect();
+        }
+      });
+    });
+    obs.observe(button);
   }
   return button;
 }
@@ -185,23 +207,9 @@ async function createForm(formURL) {
   return (form);
 }
 
-// function loadScript(url, callback, container = document.querySelector('head')) {
-//   let script = container.querySelector(`script[src="${url}"]`);
-//   if (!script) {
-//     script = document.createElement('script');
-//     script.src = url;
-//     script.async = true;
-//     container.append(script);
-//     script.onload = callback;
-//     return script;
-//   }
-//   return script;
-// }
-
 export default async function decorate(block) {
   const form = block.querySelector('a[href$=".json"]');
   if (form) {
     form.replaceWith(await createForm(form.href));
-    // loadScript('https://www.google.com/recaptcha/api.js');
   }
 }
