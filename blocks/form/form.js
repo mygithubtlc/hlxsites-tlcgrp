@@ -51,7 +51,6 @@ async function submitForm(form) {
   return null;
 }
 
-
 const radioInput = document.createElement('input');
 radioInput.setAttribute('type', 'radio');
 
@@ -186,23 +185,23 @@ async function createForm(formURL) {
   return (form);
 }
 
-function loadScript(url, callback, container = document.querySelector('head')) {
-  let script = container.querySelector(`script[src="${url}"]`);
-  if (!script) {
-    script = document.createElement('script');
-    script.src = url;
-    script.async = true;
-    container.append(script);
-    script.onload = callback;
-    return script;
-  }
-  return script;
-}
+// function loadScript(url, callback, container = document.querySelector('head')) {
+//   let script = container.querySelector(`script[src="${url}"]`);
+//   if (!script) {
+//     script = document.createElement('script');
+//     script.src = url;
+//     script.async = true;
+//     container.append(script);
+//     script.onload = callback;
+//     return script;
+//   }
+//   return script;
+// }
 
 export default async function decorate(block) {
   const form = block.querySelector('a[href$=".json"]');
   if (form) {
     form.replaceWith(await createForm(form.href));
-    loadScript('https://www.google.com/recaptcha/api.js');
+    // loadScript('https://www.google.com/recaptcha/api.js');
   }
 }
