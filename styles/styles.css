@@ -208,6 +208,13 @@ main .section.background > picture img {
   text-align: center;
 }
 
+.section .default-content-wrapper h3{
+  text-align: left;
+}
+.section .default-content-wrapper p{
+  text-align: left;
+}
+
 .section .default-content-wrapper ul li {
   text-align: left;
   font-size:0.8em;
@@ -405,6 +412,62 @@ main .section.background.carve-career .default-content-wrapper h3 {
 main .section.background.carve-career .default-content-wrapper {
   margin-left: 50px;
   margin-top: 20px;
+}
+
+	
+/* job description css start here */
+.section.job-description-page > .default-content-wrapper p{
+  display: block;
+}
+.job-description-page h3 {
+text-align: left;
+border-bottom: 1px solid gray;
+margin-bottom: 40px;
+margin-top:100px;
+}
+.job-description-page ol{
+padding-left:15px;
+}
+.job-description-page ol li{
+padding: 6px 0px;
+}
+.job-description-page p{
+text-align:left;
+padding: 10px 0px;
+line-height: 25px;
+}
+.job-description-page p{
+display: inline-block;
+}
+.job-description-page h2{
+margin-bottom: 0px;
+}
+.job-description-page p:nth-child(3), .job-description-page p:nth-child(4){
+text-align:center;
+}
+.job-description-page p:nth-child(4),
+.job-description-page p:nth-child(8){
+border:1px solid gray;
+width:100px;
+padding: 3px;
+text-align: center;
+margin:0 auto;
+cursor: pointer;
+}
+.job-description-page p:nth-child(8){
+margin-top: 50px!important;
+}
+.job-description-page h2:nth-child(9){
+font-size: 30px;
+margin:50px 0px;
+}
+.job-description-page p:nth-child(4):hover, .job-description-page p:nth-child(8):hover{
+background-color: black;
+color:white;
+}
+.job-description-page p{
+text-align: left;
+margin:0px;
 }
 
 @media (min-width: 600px) {
