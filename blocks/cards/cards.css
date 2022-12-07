@@ -347,7 +347,6 @@ main .section.cards-container .cards-wrapper {
 }
 
 .section.fragment-container.world-class-cutomer-loyality.cards-container p a {
-
     font-size: 12px;
 }
 
@@ -372,13 +371,9 @@ main .section.cards-container .cards-wrapper {
 
 .world-class-cutomer-loyality .cards:not(.review) > ul > li:nth-child(2) a:any-link {
     color: white;
-}
-    }
-/* by azam */
+}}
 
-
-
-/* here start code for mobile */
+/* by azam here start code for mobile */
 
 @media (max-width:600px){
     .cards .cards-card-image img {
@@ -417,6 +412,7 @@ main .section.cards-container .cards-wrapper {
     }
 
     /* career page css */
+
     main .section.cards-container .default-content-wrapper h3 {
         font-size:28px;
     }
@@ -437,12 +433,10 @@ main .section.cards-container .cards-wrapper {
 
 .meet-our-team-mobile .cards .cards-card-image {
     line-height: 0;
-    /* position: absolute; */
     z-index: -1;
     top: 0;
     width: 100%;
     display: contents;
-    /* height: 100%; */
 }
 
 .meet-our-team-mobile p {
@@ -488,12 +482,10 @@ main .section.cards-container .cards-wrapper {
 
 .meet-our-team-mobile-another-section .cards .cards-card-image {
     line-height: 0;
-    /* position: absolute; */
     z-index: -1;
     top: 0;
     width: 100%;
     display: contents;
-    /* height: 100%; */
 }
 
 .meet-our-team-mobile-another-section p {
@@ -504,7 +496,6 @@ main .section.cards-container .cards-wrapper {
 .meet-our-team-mobile-another-section .cards > ul > li p strong {
     font-size: 21px;
     font-weight: 600;
-
 }
 
 .meet-our-team-mobile-another-section .cards > ul > li p{
@@ -560,9 +551,6 @@ h4#tlc-compliances-and-statutory-audits-are-managed-by-a-big-4-global-accounting
     font-size:21px;
 }
 
-/* main .section {
-    padding: 10px 16px;
-} */
 .history-vision-section img:nth-child(2){
     height: 217px;
     object-position: 0px -18px;
