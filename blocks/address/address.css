@@ -1,13 +1,11 @@
 main .address {
   padding-bottom: 50px;
 }
-
 main .address h2 {
   font-size: 45px;
   text-align: left;
   padding-bottom: 20px;
 }
-
 main .address p {
   text-align: left;
   font-family: var(--alt-font-family);
