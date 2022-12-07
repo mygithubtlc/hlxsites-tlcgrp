@@ -289,10 +289,6 @@ main .section.cards-container .cards-wrapper {
     height: 500px;
 }
 
-.meet-our-team-desktop-another-section ul li {
-    height: 500px;
-}
-
 .meet-our-team-desktop-view ul li .cards-card-body p em,
 .meet-our-team-desktop-another-section .cards-card-body p:nth-child(1) em{
     color:white;
@@ -333,6 +329,10 @@ main .section.cards-container .cards-wrapper {
     text-align: right;
     display: block;
     padding: 0px;
+}
+
+.meet-our-team-desktop-another-section ul li {
+    height: 500px;
 }
 
 /* end here */
