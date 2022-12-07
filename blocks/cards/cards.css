@@ -317,6 +317,7 @@ main .section.cards-container .cards-wrapper {
     background:none;
     margin:0;
 }
+
 .meet-our-team-desktop-view  ul li .cards-card-body strong a{
     margin:0;
 }
@@ -325,6 +326,7 @@ main .section.cards-container .cards-wrapper {
     margin:0;
     
 }
+
 .meet-our-team-desktop-view ul li .cards-card-body strong a {
     background: none;
     margin: 0;
@@ -343,13 +345,16 @@ main .section.cards-container .cards-wrapper {
     font-style: italic;
     
 }
+
 .section.fragment-container.world-class-cutomer-loyality.cards-container p a {
 
     font-size: 12px;
 }
+
 .world-class-cutomer-loyality p.button-container a:hover {
     background: none;
 }
+
 .section.meet-our-team-mobile.meet-our-team-desktop-view.cards-container {
     height: 800px;
 }
@@ -360,17 +365,15 @@ main .section.cards-container .cards-wrapper {
    
     
 }
+
 .world-class-cutomer-loyality .cards-card-body p em{
     color:white;
 }
+
 .world-class-cutomer-loyality .cards:not(.review) > ul > li:nth-child(2) a:any-link {
     color: white;
 }
-
-
-
-
-}
+    }
 /* by azam */
 
 
@@ -383,22 +386,28 @@ main .section.cards-container .cards-wrapper {
       display:block;
       height:181px;
     }
+
     .cards > ul > li p strong {
         font-size: 8px;
     }
+
     .cards > ul > li h3 {
         font-size: 21px;
     }
+
     .cards > ul > li em {
         font-size: 14px;
     }
+
     body{
         line-height: 17px;
     }
+
     .cards .cards-card-body {
         padding: 10px 10px;
         height: 161px;
     }
+
     .cards-card-body p {
         margin:0;
         padding:0;
@@ -411,10 +420,12 @@ main .section.cards-container .cards-wrapper {
     main .section.cards-container .default-content-wrapper h3 {
         font-size:28px;
     }
+
     main .section.cards-container .default-content-wrapper em {
         font-size: 14px;
         font-style: normal;
     }
+
 /* try */
 .meet-our-team-mobile .cards .cards-card-image picture {
     position: relative;
@@ -423,6 +434,7 @@ main .section.cards-container .cards-wrapper {
     bottom: 0;
     right: 0;
 }
+
 .meet-our-team-mobile .cards .cards-card-image {
     line-height: 0;
     /* position: absolute; */
@@ -432,15 +444,18 @@ main .section.cards-container .cards-wrapper {
     display: contents;
     /* height: 100%; */
 }
+
 .meet-our-team-mobile p {
     text-align: center;
     color: black;
 }
+
 .meet-our-team-mobile .cards > ul > li p strong {
     font-size: 21px;
     font-weight: 600;
 
 }
+
 .meet-our-team-mobile .cards > ul > li p{
     margin:10px;
 }
@@ -450,17 +465,18 @@ main .section.cards-container .cards-wrapper {
     position: relative;
     top: -19px;
 }
+
 .meet-our-team-mobile .cards > ul > li p:nth-child(2) {
     margin: 10px;
     margin-top: 20px;
 }
+
 .meet-our-team-mobile .cards .cards-card-image img {
   
     width: calc(100% - 54px);
     height: calc(100% - 250px);
     margin: 0 auto;
 }
-
 
 .meet-our-team-mobile-another-section .cards .cards-card-image picture {
     position: relative;
@@ -469,6 +485,7 @@ main .section.cards-container .cards-wrapper {
     bottom: 0;
     right: 0;
 }
+
 .meet-our-team-mobile-another-section .cards .cards-card-image {
     line-height: 0;
     /* position: absolute; */
@@ -478,15 +495,18 @@ main .section.cards-container .cards-wrapper {
     display: contents;
     /* height: 100%; */
 }
+
 .meet-our-team-mobile-another-section p {
     text-align: center;
     color: black;
 }
+
 .meet-our-team-mobile-another-section .cards > ul > li p strong {
     font-size: 21px;
     font-weight: 600;
 
 }
+
 .meet-our-team-mobile-another-section .cards > ul > li p{
     margin:10px;
 }
@@ -494,21 +514,25 @@ main .section.cards-container .cards-wrapper {
 .meet-our-team-mobile-another-section .cards-card-body  p:nth-child(3) strong {
     font-size:14px;
 }
+
 .meet-our-team-mobile-another-section .cards > ul > li p:nth-child(2) {
     margin: 10px;
     margin-top: 20px;
 }
+
 .meet-our-team-mobile-another-section .cards .cards-card-image img {
   
     width: calc(100% - 54px);
     height: calc(100% - 209px);
     margin: 0 auto;
 }
+
 main .section.cards-container .default-content-wrapper a {
     all: unset;
     cursor: pointer;
     font-size: 14px;
 }
+
 .history-vision-section  #we-empower-our-clients-to-build-stronger-relationships-with-their-customers {
     margin: 50px 0px 25px 0px;
     color:#313131;
@@ -518,19 +542,24 @@ main .section.cards-container .default-content-wrapper a {
 .history-vision-section a:any-link a{
     color:white;
 }
+
 .history-vision-section h4#view-our-privacy-policy- a {
     color: white;
     font-size: 14px;
 }
+
 h3#we-follow-the-highest-standards-of-data-governance-and-are-compliant-with-all-prevailing-laws{
     font-size:21px;
 }
+
 h4#tlc-compliances-and-statutory-audits-are-managed-by-a-big-4-global-accounting-firm-we-follow-the-highest-levels-of-information-security-with-an-iso-27001-certification-we-are-responsible-conscious-and-have-goals-of-net-zero-carbon-emissions{
     font-size: 14px;
 }
+
 .history-vision-section h5#compliances{
     font-size:21px;
 }
+
 /* main .section {
     padding: 10px 16px;
 } */
@@ -538,9 +567,11 @@ h4#tlc-compliances-and-statutory-audits-are-managed-by-a-big-4-global-accounting
     height: 217px;
     object-position: 0px -18px;
 }
+
 .section.fragment-container.world-class-cutomer-loyality.cards-container p a {
     font-size: 10px;
 }
+
 .meet-our-team-mobile .cards > ul > li a:any-link {
     font-family: var(--body-font-family);
     font-weight: 600;
@@ -548,10 +579,8 @@ h4#tlc-compliances-and-statutory-audits-are-managed-by-a-big-4-global-accounting
     color: black;
     margin-top:0px;
 }
+
 .cards.fifty-fifty > ul > li .cards-card-body {
     padding-top: 50px;
     padding-bottom: 0px;
-}
-
-
-}
+}}
