@@ -1,4 +1,4 @@
-const SITE_KEY = '6LdMfF8jAAAAADUIxD-cwcPLMMd6whY7kt6KyPgI';
+const SITE_KEY = '6LdgnGAjAAAAAKffaGYtNQTemmP3tjOPHuu49PGZ';
 
 function loadScript(url, callback, container = document.querySelector('head')) {
   let script = container.querySelector(`script[src="${url}"]`);
