@@ -211,9 +211,6 @@ main .section.background > picture img {
 .section .default-content-wrapper h3{
   text-align: left;
 }
-.section .default-content-wrapper p{
-  text-align: left;
-}
 
 .section .default-content-wrapper ul li {
   text-align: left;
