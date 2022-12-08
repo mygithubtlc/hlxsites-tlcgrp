@@ -1,4 +1,4 @@
-const SITE_KEY = '6LdgnGAjAAAAAKffaGYtNQTemmP3tjOPHuu49PGZ';
+const SITE_KEY = '6LdYzWMjAAAAAJZw3YBaRxqtskr9sNSkXg1gPGTU';
 
 function loadScript(url, callback, container = document.querySelector('head')) {
   let script = container.querySelector(`script[src="${url}"]`);
@@ -64,6 +64,10 @@ async function submitForm(form) {
   return null;
 }
 
+window.handleRecaptchaResponse = async (token) => {
+  document.getElementById('g-recaptcha-response').textContent = token;
+};
+
 const radioInput = document.createElement('input');
 radioInput.setAttribute('type', 'radio');
 
@@ -73,6 +77,7 @@ function createButton(fd) {
   if (fd.Type === 'submit') {
     button.classList.add('button', 'g-recaptcha');
     button.dataset.sitekey = SITE_KEY;
+    button.dataset.callback = 'handleRecaptchaResponse';
     button.dataset.action = 'submit';
     button.addEventListener('click', async (event) => {
       const form = button.closest('form');
