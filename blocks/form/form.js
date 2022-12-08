@@ -65,7 +65,20 @@ async function submitForm(form) {
 }
 
 window.handleRecaptchaResponse = async (token) => {
-  document.getElementById('g-recaptcha-response').textContent = token;
+  if (token) {
+    document.getElementById('g-recaptcha-response').textContent = token;
+    const form = document.querySelector('form');
+    const button = form.querySelector('button');
+    if (form.checkValidity()) {
+      button.setAttribute('disabled', '');
+      if (await submitForm(form)) {
+        const redirectTo = button.dataset.redirect;
+        if (redirectTo) {
+          window.location.href = redirectTo;
+        }
+      }
+    }
+  }
 };
 
 const radioInput = document.createElement('input');
@@ -79,6 +92,7 @@ function createButton(fd) {
     button.dataset.sitekey = SITE_KEY;
     button.dataset.callback = 'handleRecaptchaResponse';
     button.dataset.action = 'submit';
+    button.dataset.redirect = fd.Extra || '';
     button.addEventListener('click', async (event) => {
       const form = button.closest('form');
       if (form.checkValidity()) {
