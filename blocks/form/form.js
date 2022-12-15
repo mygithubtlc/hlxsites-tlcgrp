@@ -93,17 +93,6 @@ function createButton(fd) {
     button.dataset.callback = 'handleRecaptchaResponse';
     button.dataset.action = 'submit';
     button.dataset.redirect = fd.Extra || '';
-    // button.addEventListener('click', async (event) => {
-    //   const form = button.closest('form');
-    //   if (form.checkValidity()) {
-    //     event.preventDefault();
-    //     button.setAttribute('disabled', '');
-    //     if (await submitForm(form)) {
-    //       const redirectTo = fd.Extra;
-    //       window.location.href = redirectTo;
-    //     }
-    //   }
-    // });
     const obs = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
