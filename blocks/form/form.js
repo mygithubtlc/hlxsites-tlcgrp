@@ -70,12 +70,15 @@ window.handleRecaptchaResponse = async (token) => {
     const form = document.querySelector('form');
     const button = form.querySelector('button');
     if (form.checkValidity()) {
-      button.setAttribute('disabled', '');
       if (await submitForm(form)) {
+        button.setAttribute('disabled', '');
         const redirectTo = button.dataset.redirect;
         if (redirectTo) {
           window.location.href = redirectTo;
         }
+      } else {
+        // eslint-disable-next-line no-alert
+        alert('Form submission failed');
       }
     }
   }
