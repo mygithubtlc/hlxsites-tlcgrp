@@ -1,4 +1,17 @@
-const SITE_KEY = '6Ld0wQ4jAAAAANpmntaDVbNrZOnQptePN78k5_j-';
+const SITE_KEY = '6LdYzWMjAAAAAJZw3YBaRxqtskr9sNSkXg1gPGTU';
+
+function loadScript(url, callback, container = document.querySelector('head')) {
+  let script = container.querySelector(`script[src="${url}"]`);
+  if (!script) {
+    script = document.createElement('script');
+    script.src = url;
+    script.async = true;
+    container.append(script);
+    script.onload = callback;
+    return script;
+  }
+  return script;
+}
 
 function createSelect(fd) {
   const select = document.createElement('select');
@@ -51,27 +64,47 @@ async function submitForm(form) {
   return null;
 }
 
+window.handleRecaptchaResponse = async (token) => {
+  if (token) {
+    document.getElementById('g-recaptcha-response').textContent = token;
+    const form = document.querySelector('form');
+    const button = form.querySelector('button');
+    if (form.checkValidity()) {
+      if (await submitForm(form)) {
+        button.setAttribute('disabled', '');
+        const redirectTo = button.dataset.redirect;
+        if (redirectTo) {
+          window.location.href = redirectTo;
+        }
+      } else {
+        // eslint-disable-next-line no-alert
+        alert('Form submission failed');
+      }
+    }
+  }
+};
+
 const radioInput = document.createElement('input');
 radioInput.setAttribute('type', 'radio');
 
 function createButton(fd) {
   const button = document.createElement('button');
   button.textContent = fd.Label;
-  button.classList.add('button', 'g-recaptcha');
-  button.dataset.sitekey = SITE_KEY;
-  button.dataset.action = 'submit';
   if (fd.Type === 'submit') {
-    button.addEventListener('click', async (event) => {
-      const form = button.closest('form');
-      if (form.checkValidity()) {
-        event.preventDefault();
-        button.setAttribute('disabled', '');
-        if (await submitForm(form)) {
-          const redirectTo = fd.Extra;
-          window.location.href = redirectTo;
+    button.classList.add('button', 'g-recaptcha');
+    button.dataset.sitekey = SITE_KEY;
+    button.dataset.callback = 'handleRecaptchaResponse';
+    button.dataset.action = 'submit';
+    button.dataset.redirect = fd.Extra || '';
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          loadScript('https://www.google.com/recaptcha/api.js');
+          obs.disconnect();
         }
-      }
+      });
     });
+    obs.observe(button);
   }
   return button;
 }
@@ -185,23 +218,9 @@ async function createForm(formURL) {
   return (form);
 }
 
-// function loadScript(url, callback, container = document.querySelector('head')) {
-//   let script = container.querySelector(`script[src="${url}"]`);
-//   if (!script) {
-//     script = document.createElement('script');
-//     script.src = url;
-//     script.async = true;
-//     container.append(script);
-//     script.onload = callback;
-//     return script;
-//   }
-//   return script;
-// }
-
 export default async function decorate(block) {
   const form = block.querySelector('a[href$=".json"]');
   if (form) {
     form.replaceWith(await createForm(form.href));
-    // loadScript('https://www.google.com/recaptcha/api.js');
   }
 }
