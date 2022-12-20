@@ -58,7 +58,7 @@
     height: 100%;
 }
 
-.history-vision-section .fifty-fifty{
+.history-vision-section .cards.block.fifty-fifty{
     height:400px;
 }
 
@@ -76,7 +76,7 @@
     height: 100%;
 }
 
-.fifty-fifty > ul > li .cards-card-body {
+.cards.fifty-fifty > ul > li .cards-card-body {
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -85,23 +85,23 @@ main .section.cards-container {
     padding: 0;
 }
 
-main .section.cards-container  {
+main .section.cards-container .default-content-wrapper {
     justify-content: center;
     text-align: center;
     padding: 30px;
 }
 
-main .section.cards-container  a {
+main .section.cards-container .default-content-wrapper a {
     all: unset;
     cursor: pointer;
 }
 
-main .section.cards-container  em {
+main .section.cards-container .default-content-wrapper em {
     font-size: 1.3em;
     font-style: normal;
 }
 
-main .section.cards-container  h3 {
+main .section.cards-container .default-content-wrapper h3 {
     display: flex;
     justify-content: center;
     font-size: 2em;
@@ -109,14 +109,14 @@ main .section.cards-container  h3 {
     font-weight: 400;
 }
 
-main .section.cards-container  p {
+main .section.cards-container .default-content-wrapper p {
     justify-content: center;
     font-style: normal;
     text-align: center;
     align-content: center;
 }
 
-main .section.cards-container  {
+main .section.cards-container .cards-wrapper {
     max-width: 100%;
 }
 
@@ -140,17 +140,17 @@ main .section.cards-container  {
         grid-gap: 0;
     }
 
-    main .section.cards-container  {
+    main .section.cards-container .default-content-wrapper {
         padding-bottom: 50px;
     }
 
-    main .section.cards-container :last-child {
+    main .section.cards-container .default-content-wrapper:last-child {
         padding-top: 100px;
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    main .section.cards-container  h2 {
+    main .section.cards-container .default-content-wrapper h2 {
         display: flex;
         justify-content: center;
         font-size: 45px;
@@ -158,7 +158,7 @@ main .section.cards-container  {
         font-weight: 400;
     }
 
-    main .section.cards-container  h3 {
+    main .section.cards-container .default-content-wrapper h3 {
         display: flex;
         justify-content: center;
         font-size: 48px;
@@ -167,7 +167,7 @@ main .section.cards-container  {
         text-align: center;
     }
 
-    main .section.cards-container  em {
+    main .section.cards-container .default-content-wrapper em {
         display: flex;
         justify-content: center;
         font-size: 28px;
@@ -211,25 +211,25 @@ main .section.cards-container  {
         grid-gap: 0;
     }
 
-    .review > ul > li .cards-card-body {
+    .cards.review > ul > li .cards-card-body {
         position: absolute;
         bottom: 0;
     }
 
-    .review > ul > li .cards-card-body p {
+    .cards.review > ul > li .cards-card-body p {
         margin: 0;
     }
 
-    .review > ul > li .cards-card-body p br {
+    .cards.review > ul > li .cards-card-body p br {
         display: none;
     }
 
-    .review > ul > li .cards-card-body strong {
+    .cards.review > ul > li .cards-card-body strong {
         display: block;
         text-align: right;
     }
 
-    .review > ul > li .cards-card-body strong:first-of-type {
+    .cards.review > ul > li .cards-card-body strong:first-of-type {
         padding-top: 10px;
     }
 
@@ -248,11 +248,11 @@ main .section.cards-container  {
         height: 800px;
     }
 
-    .fifty-fifty > ul > li .cards-card-body {
+    .cards.fifty-fifty > ul > li .cards-card-body {
         padding-left: 50px;
     }
 
-    .fifty-fifty > ul > li .cards-card-body em {
+    .cards.fifty-fifty > ul > li .cards-card-body em {
         font-size: 24px;
     }
 
@@ -260,12 +260,12 @@ main .section.cards-container  {
         grid-row: span 2;
     }
 
-    .fifty-fifty > ul > li:first-child .cards-card-body {
+    .cards.fifty-fifty > ul > li:first-child .cards-card-body {
         position: absolute;
         top: 0;
     }
 
-    main .section.cards-container  h2 {
+    main .section.cards-container .default-content-wrapper h2 {
         display: flex;
         justify-content: center;
         font-size: 48px;
@@ -273,7 +273,7 @@ main .section.cards-container  {
         font-weight: 400;
     }
 
-    .history-vision-section  .cards-card-image{
+    .history-vision-section .cards .cards-card-image{
         height: 55%;
     }
 
@@ -295,20 +295,20 @@ main .section.cards-container  {
     line-height: 1px;
 }
 
-.meet-our-team-desktop-another-section.section {
+.meet-our-team-desktop-another-section.section.cards-container {
     max-width: 100%;
     height: 100%;
     height: 500px;
 }
 
-.meet-our-team-desktop-view  > ul > li .cards-card-body {
+.meet-our-team-desktop-view .cards.review > ul > li .cards-card-body {
     position: absolute;
     left:0;
     right:0;
     bottom:290px;
 }
 
-.meet-our-team-desktop-view  > ul > li .cards-card-body strong:first-of-type{
+.meet-our-team-desktop-view .cards.review > ul > li .cards-card-body strong:first-of-type{
     padding-top: 1px;
 }
 
@@ -345,7 +345,7 @@ main .section.cards-container  {
     
 }
 
-.fragment-container.world-class-cutomer-loyality p a {
+.section.fragment-container.world-class-cutomer-loyality.cards-container p a {
     font-size: 12px;
 }
 
@@ -353,11 +353,11 @@ main .section.cards-container  {
     background: none;
 }
 
-.meet-our-team-mobile.meet-our-team-desktop-view {
+.section.meet-our-team-mobile.meet-our-team-desktop-view.cards-container {
     height: 800px;
 }
 
-.fragment-container.world-class-cutomer-loyality  a {
+.section.fragment-container.world-class-cutomer-loyality.cards-container .button-container a {
     color:white;
     margin-left:-30px;
    
@@ -412,17 +412,17 @@ main .section.cards-container  {
 
     /* career page css */
 
-    main .section.cards-container  h3 {
+    main .section.cards-container .default-content-wrapper h3 {
         font-size:28px;
     }
 
-    main .section.cards-container  em {
+    main .section.cards-container .default-content-wrapper em {
         font-size: 14px;
         font-style: normal;
     }
 
 /* try */
-.meet-our-team-mobile  .cards-card-image picture {
+.meet-our-team-mobile .cards .cards-card-image picture {
     position: relative;
     top: 0;
     left: 0;
@@ -430,7 +430,7 @@ main .section.cards-container  {
     right: 0;
 }
 
-.meet-our-team-mobile  .cards-card-image {
+.meet-our-team-mobile .cards .cards-card-image {
     line-height: 0;
     z-index: -1;
     top: 0;
@@ -464,14 +464,14 @@ main .section.cards-container  {
     margin-top: 20px;
 }
 
-.meet-our-team-mobile .cards-card-image img {
+.meet-our-team-mobile .cards .cards-card-image img {
   
     width: calc(100% - 54px);
     height: calc(100% - 250px);
     margin: 0 auto;
 }
 
-.meet-our-team-mobile-another-section .cards-card-image picture {
+.meet-our-team-mobile-another-section .cards .cards-card-image picture {
     position: relative;
     top: 0;
     left: 0;
@@ -479,7 +479,7 @@ main .section.cards-container  {
     right: 0;
 }
 
-.meet-our-team-mobile-another-section  .cards-card-image {
+.meet-our-team-mobile-another-section .cards .cards-card-image {
     line-height: 0;
     z-index: -1;
     top: 0;
@@ -510,14 +510,14 @@ main .section.cards-container  {
     margin-top: 20px;
 }
 
-.meet-our-team-mobile-another-section  .cards-card-image img {
+.meet-our-team-mobile-another-section .cards .cards-card-image img {
   
     width: calc(100% - 54px);
     height: calc(100% - 209px);
     margin: 0 auto;
 }
 
-main .section.cards-container  a {
+main .section.cards-container .default-content-wrapper a {
     all: unset;
     cursor: pointer;
     font-size: 14px;
@@ -555,7 +555,7 @@ h4#tlc-compliances-and-statutory-audits-are-managed-by-a-big-4-global-accounting
     object-position: 0px -18px;
 }
 
-.fragment-container.world-class-cutomer-loyality p a {
+.section.fragment-container.world-class-cutomer-loyality.cards-container p a {
     font-size: 10px;
 }
 
@@ -567,7 +567,7 @@ h4#tlc-compliances-and-statutory-audits-are-managed-by-a-big-4-global-accounting
     margin-top:0px;
 }
 
-.fifty-fifty > ul > li .cards-card-body {
+.cards.fifty-fifty > ul > li .cards-card-body {
     padding-top: 50px;
     padding-bottom: 0px;
 }}
