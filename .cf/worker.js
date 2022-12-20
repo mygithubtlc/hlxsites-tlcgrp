@@ -30,12 +30,12 @@ const handleRequest = async (eventReq, env) => {
           // recaptcha token verification failed
           console.error('Invalid captcha token provided');
           // temporarily disabled error handling
-          // return new Response('', {
-          //   status: 403,
-          //   headers: {
-          //     'x-error': 'Invalid captcha token provided',
-          //   },
-          // });
+          return new Response('', {
+            status: 403,
+            headers: {
+              'x-error': 'Invalid captcha token provided',
+            },
+          });
         }
       }
     } catch (e) {
