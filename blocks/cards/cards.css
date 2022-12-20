@@ -1,4 +1,3 @@
-/* stylelint-disable selector-max-class */
 .cards  ul {
     list-style: none;
     margin: 0;
@@ -59,7 +58,7 @@
     height: 100%;
 }
 
-.history-vision-section .cards.block.fifty-fifty{
+.history-vision-section .cards .block.fifty-fifty{
     height:400px;
 }
 
