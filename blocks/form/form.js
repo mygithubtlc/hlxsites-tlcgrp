@@ -157,6 +157,13 @@ function createLabel(fd) {
   if (fd.Mandatory === 'x') {
     label.classList.add('required');
   }
+  if (fd.LabelLinks) {
+    const links = JSON.parse(fd.LabelLinks);
+    Object.keys(links).forEach((key) => {
+      const link = `<a href="${links[key]}" target="_blank">${key}</a>`;
+      label.innerHTML = label.innerHTML.replace(key, link);
+    });
+  }
   return label;
 }
 
