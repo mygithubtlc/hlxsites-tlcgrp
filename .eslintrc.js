@@ -1,10 +1,10 @@
 module.exports = {
   root: true,
-  extends: 'airbnb-base',
+  extends: "airbnb-base",
   env: {
     browser: true,
   },
-  parser: '@babel/eslint-parser',
+  parser: "@babel/eslint-parser",
   parserOptions: {
     allowImportExportEverywhere: true,
     sourceType: "module",
@@ -12,25 +12,20 @@ module.exports = {
   },
   rules: {
     // allow reassigning param
-    'no-param-reassign': [2, { props: false }],
-    'linebreak-style': ['error', 'unix'],
-    'import/extensions': [
-      'error',
+    "no-param-reassign": [2, { props: false }],
+    "linebreak-style": ["error", "unix"],
+    "import/extensions": [
+      "error",
       {
-        js: 'always',
+        js: "always",
       },
     ],
-    
-
   },
-};
-
-rules: {
-  'prettier/prettier'; [
-    'warn',
+  "prettier/prettier": [
+    "warn",
     {
       singleQuote: true,
       semi: true,
-    }
+    },
   ],
 };
