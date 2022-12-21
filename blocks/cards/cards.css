@@ -291,11 +291,17 @@ main .section.cards-container .cards-wrapper {
     height: 500px;
 }
 
-.meet-our-team-desktop-view p em ul li .cards-card-body ,
-.meet-our-team-desktop-another-section em .cards-card-body p:nth-child(1) {
+.meet-our-team-desktop-view ul li  p em,
+.meet-our-team-desktop-another-section p:nth-child(1) em{
     color:white;
     font-size: 14px;
     line-height: 1px;
+}
+.cards-card-body .cards-card-body {
+    color:white;
+    font-size: 14px;
+    line-height: 1px;
+
 }
 
 .meet-our-team-desktop-another-section.section.cards-container {
