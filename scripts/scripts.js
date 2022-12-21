@@ -644,6 +644,16 @@ function loadFooter(footer) {
   loadBlock(footerBlock);
 }
 
+function decorateExternalLinks(main) {
+  main.querySelectorAll('a').forEach((a) => {
+    const href = a.getAttribute('href');
+    if (!href.startsWith('/')
+      && !href.startsWith('#')) {
+      a.setAttribute('target', '_blank');
+    }
+  });
+}
+
 /**
  * Builds all synthetic blocks in a container element.
  * @param {Element} main The container element
@@ -664,6 +674,7 @@ function buildAutoBlocks(main) {
 export function decorateMain(main) {
   // hopefully forward compatible button decoration
   decorateButtons(main);
+  decorateExternalLinks(main);
   decorateIcons(main);
   buildAutoBlocks(main);
   decorateSections(main);
