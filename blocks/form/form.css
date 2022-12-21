@@ -1,163 +1,167 @@
-main .form {
-    padding: var(--spacing-m);
-  }
-  
-main .field-wrapper .required {
-    text-transform: capitalize;
-}
-  
-  main .form h2 {
-    padding: var(--spacing-m) 0;
-    font-size: var(--type-heading-l-lh);
-    font-weight: normal;
-  }
-  
-  main .form h3 {
-    padding-top: var(--spacing-m);
-    font-size: var(--type-heading-m-size);
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  
-  main .form input,
-  main .form textarea,
-  main .form select {
-    border: 1px solid rgb(193 193 195);
-    padding: 11px;
-    border-radius: 0;
-    width: 100%;
-    max-width: 50rem;
-    box-sizing: border-box;
-    margin-top: 4px;
-  }
-  
-  main .form textarea {
-    min-height: 100px;
-    background-color: #EFEEE7;
-  }
-  
-  main .form input:hover,
-  main .form select:hover {
-    border-color: rgb(90 92 96);
-  }
-  
-  main .form label {
-    width: 100%;
-    display: block;
-    font-size: var(--type-body-s-size);
-    line-height: var(--type-body-s-lh);
-    padding-bottom: var(--spacing-xs);
-    text-transform: uppercase;
-    box-sizing: border-box;
-    font-weight: 800;
-  }
-  
-  /* main .form label.required::after {
-    content: "*";
-    color: red;
-    padding-left: 5px;
-  } */
-  
-  main .form .field-wrapper {
-    margin-bottom: 20px;
-    font-size: 18px;
-    text-transform: capitalize;
-  }
-  
-  main .form .form-checkbox-wrapper {
-    display: flex;
-    margin: var(--spacing-s) 0;
-  }
-  
-  main .form .form-checkbox-wrapper input[type='checkbox'] {
-    display: none;
-  }
-  
-  main .form .form-checkbox-wrapper input[type='checkbox'] + label::before {
-    float: left;
-    margin-top: 5px;
-    margin-right: 5px;
-    height: 30px;
-    width: 30px;
-    content: ' ';
-    background: url('./checkbox.svg');
-    background-size: contain;
-  }
-  
-  main .form .form-checkbox-wrapper input[type='checkbox']:checked +label::before {
-    background: url('./checkbox-checked.svg');
-    background-size: contain;
-    content: ' ';
-  }
-  
-  main .form .form-checkbox-wrapper label {
-    font-size: var(--type-body-m-size);
-    font-weight: normal;
-    text-transform: none;
-    display: block;
-    width: 300vw;
-  }
-
-  main .form .form-checkbox-wrapper .required {
-    width: 1000px;
-  }
-  
-  main .form .button {
-    cursor: pointer;
-    background: rgb(20 115 230);
-    color: white;
-    border-radius: 16px;
-    font-size: var(--type-body-s-size);
-    font-weight: 300;
-    padding: 6px 16px;
-    border: none;
-    font-family: adobe-clean, 'Trebuchet MS', sans-serif;
-  }
-  
-  main .form .form-submit-wrapper {
-    padding-top: 30px;
-  }
-
-  main .form .form-submit-wrapper .button {
-    border: 1px solid black;
-    border-radius: 0;
-    font-size: 0.8em;
-    width: 120px;
-    height: 40px;
-    background-color: #EFEEE7;
-    color: black;
-  }
-
-  main .form .form-submit-wrapper .button:hover {
-    background-color: black;
-    color: white;
-}
-
-.section.contact-us-section.form-container form {
+main .form-container form {
   margin-top: 70px;
 }
-.section.contact-us-section input[type='text-field'] {
-  /* border:5px solid red; */
-  border:none;
-  border-bottom:1px solid rgb(193 193 195);
-  outline:none;
-  padding-left:0px;
-}
-input[type='text-field']::placeholder {
-  font-size:20px;
-}
-textarea#yourMessage{
-  margin-top:30px;
-}
-textarea#yourMessage::placeholder{
-  font-size:20px;
-}
 
-.section.contact-us-section.form-container p {
+main .form-container p {
   font-size: 28px;
   text-align: left;
   display: block;
-  margin: 60px 0px;
+  margin: 60px 0;
+}
+
+main .form {
+    padding: var(--spacing-m);
+  }
+
+main .form h2 {
+  padding: var(--spacing-m) 0;
+  font-size: var(--type-heading-l-lh);
+  font-weight: normal;
+}
+
+main .form h3 {
+  padding-top: var(--spacing-m);
+  font-size: var(--type-heading-m-size);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+main .form input,
+main .form textarea,
+main .form select {
+  font-family: var(--alt-font-family);
+  border: 1px solid rgb(193 193 195);
+  padding: 11px;
+  border-radius: 0;
+  width: 100%;
+  max-width: 50rem;
+  box-sizing: border-box;
+  margin-top: 4px;
+}
+
+main .form input[type='text-field'] {
+  border: none;
+  border-bottom: 1px solid rgb(193 193 195);
+  outline: none;
+  padding-left: 0;
+}
+
+main .form input[type='text-field']::placeholder {
+  font-size: 20px;
+}
+
+main .form textarea {
+  min-height: 100px;
+  background-color: #EFEEE7;
+  margin-top:30px;
+}
+
+main .form textarea::placeholder{
+  font-size:20px;
+}
+
+main .form input:hover,
+main .form input:focus,
+main .form select:hover {
+  border-color: rgb(90 92 96) !important;
+}
+
+main .form input.invalid,
+main .form textarea.invalid,
+main .form select.invalid {
+  border-color: red;
+}
+
+main .form label {
+  width: 100%;
+  display: block;
+  font-size: var(--type-body-s-size);
+  line-height: var(--type-body-s-lh);
+  padding-bottom: var(--spacing-xs);
+  text-transform: uppercase;
+  box-sizing: border-box;
+  font-weight: 800;
+}
+
+/* main .form label.required::after {
+  content: "*";
+  color: red;
+  padding-left: 5px;
+} */
+
+main .form .field-wrapper {
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+main .form .form-checkbox-wrapper {
+  display: flex;
+  margin: var(--spacing-s) 0;
+}
+
+main .form .form-checkbox-wrapper input[type='checkbox'] {
+  display: none;
+}
+
+main .form .form-checkbox-wrapper input[type='checkbox'] + label::before {
+  float: left;
+  margin-top: 5px;
+  margin-right: 5px;
+  height: 30px;
+  width: 30px;
+  content: ' ';
+  background: url('./checkbox.svg');
+  background-size: contain;
+}
+
+main .form .form-checkbox-wrapper input[type='checkbox']:checked +label::before {
+  background: url('./checkbox-checked.svg');
+  background-size: contain;
+  content: ' ';
+}
+
+main .form .form-checkbox-wrapper label {
+  font-size: var(--type-body-m-size);
+  font-weight: normal;
+  text-transform: none;
+  display: block;
+  width: 300vw;
+}
+
+main .form .form-checkbox-wrapper .required {
+  width: 1000px;
+}
+
+main .form .button {
+  cursor: pointer;
+  background: rgb(20 115 230);
+  color: white;
+  border-radius: 16px;
+  font-size: var(--type-body-s-size);
+  font-weight: 300;
+  padding: 6px 16px;
+  border: none;
+  font-family: adobe-clean, 'Trebuchet MS', sans-serif;
+}
+
+main .form .form-submit-wrapper {
+  padding-top: 30px;
+}
+
+main .form .form-submit-wrapper .button {
+  border: 1px solid black;
+  border-radius: 0;
+  font-size: 0.8em;
+  width: 120px;
+  height: 40px;
+  background-color: #EFEEE7;
+  color: black;
+}
+
+main .form .form-submit-wrapper .button:hover {
+    background-color: black;
+    color: white;
 }
 
 .grecaptcha-badge[style] {
@@ -169,5 +173,5 @@ textarea#yourMessage::placeholder{
 
 .button.g-recaptcha {
   margin-top: 30px;
-  margin-left: 0px;
+  margin-left: 0;
 }
