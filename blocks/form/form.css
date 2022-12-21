@@ -1,24 +1,24 @@
 main .form {
     padding: var(--spacing-m);
   }
-  
+
 main .field-wrapper .required {
     text-transform: capitalize;
 }
-  
+
   main .form h2 {
     padding: var(--spacing-m) 0;
     font-size: var(--type-heading-l-lh);
     font-weight: normal;
   }
-  
+
   main .form h3 {
     padding-top: var(--spacing-m);
     font-size: var(--type-heading-m-size);
     font-weight: bold;
     text-transform: uppercase;
   }
-  
+
   main .form input,
   main .form textarea,
   main .form select {
@@ -30,17 +30,17 @@ main .field-wrapper .required {
     box-sizing: border-box;
     margin-top: 4px;
   }
-  
+
   main .form textarea {
     min-height: 100px;
     background-color: #EFEEE7;
   }
-  
+
   main .form input:hover,
   main .form select:hover {
     border-color: rgb(90 92 96);
   }
-  
+
   main .form label {
     width: 100%;
     display: block;
@@ -51,28 +51,32 @@ main .field-wrapper .required {
     box-sizing: border-box;
     font-weight: 800;
   }
-  
+
   /* main .form label.required::after {
     content: "*";
     color: red;
     padding-left: 5px;
   } */
-  
+
+  main .form label a:any-link {
+    font-family: var(--body-font-family);
+  }
+
   main .form .field-wrapper {
     margin-bottom: 20px;
     font-size: 18px;
     text-transform: capitalize;
   }
-  
+
   main .form .form-checkbox-wrapper {
     display: flex;
     margin: var(--spacing-s) 0;
   }
-  
+
   main .form .form-checkbox-wrapper input[type='checkbox'] {
     display: none;
   }
-  
+
   main .form .form-checkbox-wrapper input[type='checkbox'] + label::before {
     float: left;
     margin-top: 5px;
@@ -83,13 +87,13 @@ main .field-wrapper .required {
     background: url('./checkbox.svg');
     background-size: contain;
   }
-  
+
   main .form .form-checkbox-wrapper input[type='checkbox']:checked +label::before {
     background: url('./checkbox-checked.svg');
     background-size: contain;
     content: ' ';
   }
-  
+
   main .form .form-checkbox-wrapper label {
     font-size: var(--type-body-m-size);
     font-weight: normal;
@@ -101,7 +105,7 @@ main .field-wrapper .required {
   main .form .form-checkbox-wrapper .required {
     width: 1000px;
   }
-  
+
   main .form .button {
     cursor: pointer;
     background: rgb(20 115 230);
@@ -113,7 +117,7 @@ main .field-wrapper .required {
     border: none;
     font-family: adobe-clean, 'Trebuchet MS', sans-serif;
   }
-  
+
   main .form .form-submit-wrapper {
     padding-top: 30px;
   }
