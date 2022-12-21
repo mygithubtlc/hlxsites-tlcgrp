@@ -3,11 +3,9 @@ module.exports = {
   extends: "airbnb-base",
   env: {
     browser: true,
-    "node": 1
+    node: 1,
   },
-  "rules": {
-    "quotes": [2, "single", { "avoidEscape": true }]
-  }
+
   parser: "@babel/eslint-parser",
   parserOptions: {
     allowImportExportEverywhere: true,
@@ -15,6 +13,7 @@ module.exports = {
     requireConfigFile: false,
   },
   rules: {
+    quotes: [1, "single", { avoidEscape: true }],
     // allow reassigning param
     "no-param-reassign": [2, { props: false }],
     "linebreak-style": ["error", "unix"],
