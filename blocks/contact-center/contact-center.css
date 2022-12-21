@@ -41,6 +41,7 @@ main .contact-center img {
   main .contact-center h2 {
     font-size: 21px;
 }
+
 .contact-center.block p {
   font-size: 14px;
 }
@@ -51,6 +52,7 @@ main .contact-center {
   text-align: center;
   margin-bottom: 20px;
 }
+
 main .contact-center img {
   width: 28px;
  
@@ -60,6 +62,7 @@ main .section.background h3{
   font-weight: 400;
   font-size: 21px;
 }
+
 main .section.background h4{
   font-size: 14px;
 }}

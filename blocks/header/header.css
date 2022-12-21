@@ -304,15 +304,18 @@ header nav a.active {
   .nav-sections ul li {
     padding: 18px;
 }
+
 header nav{
   height: var(--mobile-nav-height);
 }
+
 header nav .nav-brand a:any-link {
   background-size: 50px auto;
-  background-position: 0px 13px;
+  background-position: 0 13px;
 }
+
 header nav[aria-expanded='false'] .nav-hamburger-icon{
-  top:0px;
+  top:0;
 }
 
 header nav[aria-expanded='true'] {
@@ -320,6 +323,7 @@ header nav[aria-expanded='true'] {
   min-height: 100vh;
   background: #5a5a5a;
 }
+
 .nav-brand p {
   position: relative;
   left: 100%;

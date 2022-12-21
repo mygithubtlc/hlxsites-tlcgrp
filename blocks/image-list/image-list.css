@@ -88,7 +88,7 @@ main .section.contact .image-list-wrapper .image-list>div {
   }
 
   main .section.image-list-container .image-list {
-    margin-top: 00px;
+    margin-top: 00;
     gap: 70px;
     margin-left: 0;
     margin-right: 0;

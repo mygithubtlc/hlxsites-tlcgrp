@@ -3,10 +3,10 @@ export default function decorate(block) {
   block.classList.add(`columns-${cols.length}-cols`);
   [...block.children].forEach((row) => {
     [...row.children].forEach((cell) => {
-      if (cell.querySelectorAll("img").length > 1) {
-        cell.classList.add("image-set");
+      if (cell.querySelectorAll('img').length > 1) {
+        cell.classList.add('image-set');
       } else {
-        cell.classList.add("new-image-set");
+        cell.classList.add('new-image-set');
       }
     });
   });

@@ -127,6 +127,7 @@ h2#our-capabilities {
     .section.columns-container .default-content-wrapper h4 {
         font-size: 48px;
     }
+
     h4#tlc-has-the-capability-to-curate-offers-and-programs-customized-to-partners {
         font-size: 24px;
     }
@@ -149,13 +150,13 @@ h2#our-capabilities {
         font-size: 28px;
         line-height:0px;
     }
+
     .section.columns-container .default-content-wrapper h2 {
-      
         margin-top: -20px;
         margin-bottom: 40px;
     }
+
     .section.columns-container .default-content-wrapper .button-container {
-    
         margin-bottom: 58px;
     }
 
@@ -193,6 +194,7 @@ h2#our-capabilities {
         text-align: center;
         font-size:21px;
     }
+
     span.icon.icon-connections, 
     span.icon.icon-mobile, 
     span.icon.icon-partnership,
@@ -222,15 +224,18 @@ h2#our-capabilities {
     span.icon.icon-digital{
       display: block;
     }
+
     .columns > div > div h4 {
         font-size: 14px;
         color: gray;
         text-align: center;
     }
+
     .columns-wrapper p {
         text-align: center;
         font-size: 14px;
     }
+
     h3#connections-tech-platforms span,
      h3#mobile-digital span, 
      h3#partnership-partnerships span,
@@ -262,13 +267,16 @@ h2#our-capabilities {
      h3#support-contact-center span   {
         margin: 22px;
     }
+
     .columns > div > div p em {
         font-size: 14px;
         font-style: normal;
     }
+
     .columns > div > div .button-container {
         font-size: 9px;
     }
+
     main .section.background{
         zoom:69%;
     }
@@ -277,9 +285,11 @@ h2#our-capabilities {
         text-align: center;
         font-size: 28px;
     }
+
     main .section.background .default-content-wrapper h2:nth-of-type(2) {
         font-size: 18px;
     }
+
     h2#whats-new {
         font-size: 21px;
     }
@@ -288,43 +298,53 @@ h2#our-capabilities {
     .section.columns-container .default-content-wrapper h4{
         font-size:28px;
     }
+
     h3#culture-our-culture, 
     h3#brand-our-brand-values {
         display: block;
         text-align: center;
         font-size:21px;
     }
+
     span.icon.icon-culture,
     span.icon.icon-brand {
         display: block;
       }
+
       h3#culture-our-culture span,
       #brand-our-brand-values span
         {
         margin: 22px;
     }
+
     main .section .default-content-wrapper em {
         font-size: 14px;
     }
+
     main .section .default-content-wrapper strong {
         font-size: 14px;
     }
+
     h3#product-manager, h3#data-analyst, h3#ionic-developer,
     h3#manager---influencer-marketing {
         font-size: 21px;
         text-align: center;
     }
+
     .columns-wrapper ul li {
         font-size: 14px;
     }
+
     .case-studies-custom h3{
         font-size:28px;
     }
+
     .case-studies-custom .columns > div > div.image-set > p img {
         height: auto;
         width: 110px;
         margin: 22px;
     }
+
     .case-studies-custom .columns > div > div > p img {
         display: inline-block;
         width: 60%;

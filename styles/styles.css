@@ -77,15 +77,18 @@ p, dl, ol, ul, pre, blockquote {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+
 p{
   font-family: var(--alt-font-family);
 }
+
 a:any-link {
   font-family: var(--alt-font-family);
   color: var(--link-color);
   text-decoration: none;
   
 }
+
 .new-image-set a {
   font-size: 15px;
 
@@ -362,6 +365,7 @@ main .section .default-content-wrapper h1 {
 .legal main .section {
   padding-bottom: 60px;
 }
+
 /* by azam */
 .new-image-set .icon-arrow-icon svg {
   top: -3px;
@@ -376,18 +380,20 @@ main .section .default-content-wrapper h1 {
 /* for carve-section */
 main .section.background.carve-career .default-content-wrapper p{
   color:black;
-  padding:50px 0px;
+  padding:50px 0;
 }
+
 main .section.background.carve-career .default-content-wrapper h3 {
   text-align: center;
   font-size: 28px;
   font-weight: 400;
-  margin-left:0px;
+  margin-left:0;
   max-width:700px;
   color:gray;
   margin:0 auto;
-    padding-top: 0px;
+    padding-top: 0;
 }
+
 .section.background.carve-career h1{
   color:black;
 }
@@ -396,16 +402,19 @@ main .section.background.carve-career .default-content-wrapper h3 {
  color:gray;
  font-size:28px;
 }
+
 .section.background.carve-career p:nth-child(1) {
   width:90px;
   height:90px;
   margin:0 auto;
-  padding:70px 0px;
+  padding:70px 0;
   
 }
+
 .section.background.carve-career {
   height: 500px;
 }
+
 main .section.background.carve-career .default-content-wrapper {
   margin-left: 50px;
   margin-top: 20px;
@@ -416,32 +425,40 @@ main .section.background.carve-career .default-content-wrapper {
 .section.job-description-page > .default-content-wrapper p{
   display: block;
 }
+
 .job-description-page h3 {
 text-align: left;
 border-bottom: 1px solid gray;
 margin-bottom: 40px;
 margin-top:100px;
 }
+
 .job-description-page ol{
 padding-left:15px;
 }
+
 .job-description-page ol li{
-padding: 6px 0px;
+padding: 6px 0;
 }
+
 .job-description-page p{
 text-align:left;
-padding: 10px 0px;
+padding: 10px 0;
 line-height: 25px;
 }
+
 .job-description-page p{
 display: inline-block;
 }
+
 .job-description-page h2{
-margin-bottom: 0px;
+margin-bottom: 0;
 }
+
 .job-description-page p:nth-child(3), .job-description-page p:nth-child(4){
 text-align:center;
 }
+
 .job-description-page p:nth-child(4),
 .job-description-page p:nth-child(8){
 border:1px solid gray;
@@ -451,20 +468,24 @@ text-align: center;
 margin:0 auto;
 cursor: pointer;
 }
+
 .job-description-page p:nth-child(8){
 margin-top: 50px!important;
 }
+
 .job-description-page h2:nth-child(9){
 font-size: 30px;
-margin:50px 0px;
+margin:50px 0;
 }
+
 .job-description-page p:nth-child(4):hover, .job-description-page p:nth-child(8):hover{
 background-color: black;
 color:white;
 }
+
 .job-description-page p{
 text-align: left;
-margin:0px;
+margin:0;
 }
 
 @media (min-width: 600px) {
@@ -575,6 +596,7 @@ margin:0px;
     text-align: center;
     font-size: 48px;
     font-weight: 400;
+
     /* margin-left: 100px; */
     padding-top: 50px;
   }
@@ -643,11 +665,13 @@ main .section[data-section-status='initialized'] {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+
 /* by azam */
 
 h4#view-our-privacy-policy- a {
   color: white;
 }
+
 .default-content-wrapper ol li {
   text-align: left;
   font-size: 16px;
@@ -682,38 +706,46 @@ h4#view-our-privacy-policy- a {
 .section.associations-logos.image-list-container div:nth-child(2) img {
   width:80px;
 }
+
 .section.associations-logos.image-list-container div div:nth-child(3) img {
   width:80px;
 }
+
 .section.associations-logos.image-list-container div div:nth-child(5) img {
   width:80px;
 }
+
 .section.tech-platform-logos.image-list-container > .image-list-wrapper > div > div:nth-child(1) img {
-  
   width:90px;
 }
 
 .carve-career-all-section img {
   width: 100px;
 }
+
 .carve-career-all-section h1{
 color:black;
 
 } 
+
 .carve-career-all-section p{
 color:#313131;
+
 /* font-size:var(--heading-font-size-m)!important; */
 font-size:24px!important;
   width: 60%;
     margin: 0 auto;
     text-align: center!important;
 }
+
 .carve-career-all-section.section.background .default-content-wrapper{
-margin-top:0px;
+margin-top:0;
 }
+
 .section.background.carve-career-all-section {
 height: 450px;
 }
+
 .carve-career-all-section.section.background .default-content-wrapper p.button-container{
 display: block;
   clear: both;
@@ -785,21 +817,25 @@ main .columns-container {
     background: none;
   }
 
-<<<<<<< HEAD
+<<<<<<< head
   .clientele-page h2 {
     font-size: 28px;
   }
+
 =======
 .innovate-with-us h1#innovate-with-us {
-  margin-top: 0px;
+  margin-top: 0;
 }
+
 .section.innovate-with-us {
-  padding: 0px 0px;
+  padding: 0;
 }
+
 .section.background a {
   color: white;
   font-size: 14px;
 }
+
 >>>>>>> 0655b6866731aa9d150692754d4761b242b35e8e
 
   .clientele-page h4 {
@@ -807,11 +843,11 @@ main .columns-container {
   }
 
   .innovate-with-us h1#innovate-with-us {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .section.innovate-with-us {
-    padding: 0px 0px;
+    padding: 0;
   }
 
   .section.background a {
@@ -828,7 +864,7 @@ main .columns-container {
   }
 
   main .section.background.carve-career .default-content-wrapper {
-    margin-left: 0px;
+    margin-left: 0;
     margin-top: 20px;
   }
 
@@ -838,7 +874,7 @@ main .columns-container {
   }
 
   a.button:any-link, button {
-    padding: 5px 0px;
+    padding: 5px 0;
   }
 
   .section.background.carve-career-all-section img {
@@ -855,7 +891,7 @@ main .columns-container {
 
   .section.background.carve-career-all-section 
   .section.background .default-content-wrapper{
-    margin-top:0px;
+    margin-top:0;
   }
 
   main .section.background .default-content-wrapper {
