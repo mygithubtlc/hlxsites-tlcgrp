@@ -58,7 +58,10 @@
     height: 100%;
 }
 
-.history-vision-section .cards .block.fifty-fifty{
+.history-vision-section .fifty-fifty{
+    height:400px;
+}
+.cards .block{
     height:400px;
 }
 
@@ -288,8 +291,8 @@ main .section.cards-container .cards-wrapper {
     height: 500px;
 }
 
-.meet-our-team-desktop-view ul li .cards-card-body p em,
-.meet-our-team-desktop-another-section .cards-card-body p:nth-child(1) em{
+.meet-our-team-desktop-view p em ul li .cards-card-body ,
+.meet-our-team-desktop-another-section em .cards-card-body p:nth-child(1) {
     color:white;
     font-size: 14px;
     line-height: 1px;
