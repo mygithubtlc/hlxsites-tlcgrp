@@ -1,3 +1,4 @@
+
 main .form {
     padding: var(--spacing-m);
   }
@@ -166,7 +167,6 @@ main .form-container p {
   text-align: left;
   display: block;
   margin: 60px 0;
-
 }
 
 main .form {
