@@ -6,8 +6,9 @@
   "scripts": {
     "test": "wtr \"./test/**/*.test.js\" --node-resolve --port=2000 --coverage",
     "test:watch": "npm test -- --watch",
-    "lint:js": "eslint ."
-   
+    "lint:js": "eslint .",
+    "lint": "eslint . --ext js,jsx,ts,tsx --fix"
+  
   },
   "repository": {
     "type": "git",
