@@ -38,8 +38,8 @@ function constructPayload(form) {
   [...form.elements].forEach((fe) => {
     if (fe.type === 'checkbox') {
       if (fe.checked) payload[fe.id] = fe.value;
-    } else if (fe.id) {
-      payload[fe.id] = fe.value;
+    } else if (fe.name) {
+      payload[fe.name] = fe.value;
     }
   });
   return payload;
@@ -62,23 +62,34 @@ async function submitForm(form) {
   return null;
 }
 
+async function prepareFormSubmit() {
+  const form = document.querySelector('form');
+  const button = form.querySelector('button');
+  if (form.checkValidity()) {
+    if (await submitForm(form)) {
+      button.setAttribute('disabled', '');
+      const redirectTo = button.dataset.redirect;
+      if (redirectTo) {
+        window.location.href = redirectTo;
+      }
+    } else {
+      // eslint-disable-next-line no-alert
+      alert('Form submission failed');
+    }
+  } else {
+    [...form.elements].forEach((elem) => {
+      if (elem.checkValidity()) {
+        elem.classList.remove('invalid');
+      } else {
+        elem.classList.add('invalid');
+      }
+    });
+  }
+}
+
 window.handleRecaptchaResponse = async (token) => {
   if (token) {
     document.getElementById('g-recaptcha-response').textContent = token;
-    const form = document.querySelector('form');
-    const button = form.querySelector('button');
-    if (form.checkValidity()) {
-      if (await submitForm(form)) {
-        button.setAttribute('disabled', '');
-        const redirectTo = button.dataset.redirect;
-        if (redirectTo) {
-          window.location.href = redirectTo;
-        }
-      } else {
-        // eslint-disable-next-line no-alert
-        alert('Form submission failed');
-      }
-    }
   }
 };
 
@@ -94,6 +105,7 @@ function createButton(fd) {
     button.dataset.callback = 'handleRecaptchaResponse';
     button.dataset.action = 'submit';
     button.dataset.redirect = fd.Extra || '';
+    button.addEventListener('click', prepareFormSubmit);
     const obs = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -117,6 +129,7 @@ function createInput(fd) {
   const input = document.createElement('input');
   input.type = fd.Type;
   input.id = fd.Field;
+  input.name = fd.Field;
   input.setAttribute('placeholder', fd.Placeholder);
   if (fd.Mandatory === 'x') {
     input.setAttribute('required', 'required');
@@ -127,6 +140,7 @@ function createInput(fd) {
 function createTextArea(fd) {
   const input = document.createElement('textarea');
   input.id = fd.Field;
+  input.name = fd.Field;
   input.setAttribute('placeholder', fd.Placeholder);
   if (fd.Mandatory === 'x') {
     input.setAttribute('required', 'required');
@@ -140,6 +154,13 @@ function createLabel(fd) {
   label.textContent = fd.Label;
   if (fd.Mandatory === 'x') {
     label.classList.add('required');
+  }
+  if (fd.LabelLinks) {
+    const links = JSON.parse(fd.LabelLinks);
+    Object.keys(links).forEach((key) => {
+      const link = `<a href="${links[key]}" target="_blank">${key}</a>`;
+      label.innerHTML = label.innerHTML.replace(key, link);
+    });
   }
   return label;
 }
