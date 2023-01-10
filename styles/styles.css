@@ -15,7 +15,7 @@
   --text-color: #313131;
   --nav-background-color: rgba(0 0 0 / 25%);
 
-  /* fonts */
+  /* fonts */;
   --body-font-family: argesta-display, argesta-display-fallback, "Times New Roman", serif;
   --body-font-weight: 300;
   --heading-font-family: var(--body-font-family);
@@ -88,7 +88,6 @@ a:any-link {
 }
 .new-image-set a {
   font-size: 15px;
-
 }
 
 a:hover {
@@ -780,9 +779,12 @@ main .why-us h4 {
   }
 
   .section.background a {
-    color: black;
+    color: white;
     font-size: 14px;
   }
+  .section.carve-career a {
+    color: black;
+}
 
   main .section .default-content-wrapper p {
     display: flex;

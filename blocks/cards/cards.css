@@ -359,19 +359,13 @@ main .section.cards-container .cards-wrapper {
 }
 .world-class-cutomer-loyality .cards:not(.review) > ul > li:nth-child(2) a:any-link {
     color: white;
+    }
 }
 
-
-
-
-}
-/* by azam */
-
-
-
-/* here start code for mobile */
-
-@media (max-width:480px){
+@media (max-width:600px){
+    .section.related-case-studies-component h3 {
+        padding: 49px 0px;
+    }    
     .cards .cards-card-image img {
       max-width:100%;
       display:block;
@@ -408,8 +402,8 @@ main .section.cards-container .cards-wrapper {
         font-size: 14px;
         font-style: normal;
     }
-/* try */
-.meet-our-team-mobile .cards .cards-card-image picture {
+
+    .meet-our-team-mobile .cards .cards-card-image picture {
     position: relative;
     top: 0;
     left: 0;

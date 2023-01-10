@@ -88,6 +88,12 @@ h2#our-capabilities {
     margin-top: 30px;
 }
 
+.columns .image-set ul li {
+    list-style: none;
+    font-size: 15px;
+    font-family: var(--alt-font-family);
+    line-height: 25px;
+}
 
 @media (min-width: 600px) {
     .columns > div > div h3 {

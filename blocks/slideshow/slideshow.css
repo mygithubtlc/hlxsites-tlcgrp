@@ -152,7 +152,21 @@ main .slideshow .slideshow-overlay .slideshow-btn:hover {
   background: var(--overlay-link-hover-color);
 }
 
-@media (max-width:1px){
+@media (max-width:600px){
+  main .slideshow h1{
+    position:relative;
+    top:5%;
+    }
+
+  main .slideshow h2{
+    position:relative;
+    top:5%;
+  }
+
+  main .slideshow-container > div.slideshow-wrapper {
+     height: 103vh;
+ }
+  
   main .slideshow .slideshow-overlay {
     display: flex;
     flex-direction: column;

@@ -37,6 +37,12 @@ main .subnav a:any-link {
 
     main .subnav p:hover {
         background:#484747;
-        color: white;
     }
+    main .subnav a:hover {
+        color:white;        
+        cursor:pointer;
+    }
+
+
+    
 }
