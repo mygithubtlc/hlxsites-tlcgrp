@@ -706,37 +706,67 @@ main .subnav-container,
 main .columns-container {
   opacity: 0;
 }
-/* start css here for why us component */
-main .why-us h2 {
-  border-bottom: 1px solid gray;
-  padding-bottom: 20px;
-}
-main .why-us p{
- font-size: 18px!important;
- padding:8px 0px;
- margin:0px 3%;
-}
-main .why-us .icon-arrow-about-cta {
-  vertical-align: 13px;
-  margin-left: 15px;
-  display: initial;
-}
-main .why-us h4 {
-  margin-top: 40px;
-  font-family: var(--alt-font-family);
-  font-weight: 200;
-}
-/* code end here why us component */
-/* mobile code start here */
 
-@media (max-width:480px){
-  main .why-us p{
-    font-size: 14px!important;
-    padding:8px 0px;
-    margin:0px 3%;
-    line-height: 25px;
-    
-   }
+/* start job description page here */
+.section.job-description-page > .default-content-wrapper p{
+  display: block;
+}
+
+.job-description-page h3 {
+text-align: left;
+border-bottom: 1px solid gray;
+margin-bottom: 40px;
+margin-top:100px;
+}
+.job-description-page ol{
+padding-left:15px;
+}
+.job-description-page ol li{
+padding: 6px 0px;
+}
+.job-description-page p{
+text-align:left;
+padding: 10px 0px;
+line-height: 25px;
+}
+.job-description-page p{
+display: inline-block;
+}
+.job-description-page h2{
+margin-bottom: 0px;
+}
+.job-description-page p:nth-child(3), .job-description-page p:nth-child(4){
+text-align:center;
+}
+.job-description-page p:nth-child(4),
+.job-description-page p:nth-child(8){
+border:1px solid gray;
+width:100px;
+padding: 3px;
+text-align: center;
+
+margin:0 auto;
+cursor: pointer;
+}
+.job-description-page p:nth-child(8){
+margin-top: 50px!important;
+}
+.job-description-page h2:nth-child(9){
+font-size: 30px;
+margin:50px 0px;
+
+}
+.job-description-page p:nth-child(4):hover, .job-description-page p:nth-child(8):hover{
+background-color: black;
+color:white;
+}
+.job-description-page p{
+text-align: left;
+margin:0px;
+}
+
+@media (max-width:600px){
+  
   main .section .default-content-wrapper h1 {
     font-size: 28px;
     margin-top: 10px;

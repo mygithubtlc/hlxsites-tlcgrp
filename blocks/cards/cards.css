@@ -42,9 +42,6 @@
     text-decoration: underline; 
 }
 
-/* .cards .cards-card-body {
-    padding: 20px 30px;
-} */
 .cards .cards-card-body {
     padding: 20px 30px;
 }
@@ -360,9 +357,7 @@ main .section.cards-container .cards-wrapper {
 .section.fragment-container.world-class-cutomer-loyality.cards-container .button-container a {
     color:white;
     margin-left:-30px;
-   
-    
-}
+  }
 
 .world-class-cutomer-loyality .cards-card-body p em{
     color:white;
@@ -370,7 +365,8 @@ main .section.cards-container .cards-wrapper {
 
 .world-class-cutomer-loyality .cards:not(.review) > ul > li:nth-child(2) a:any-link {
     color: white;
-}}
+    }
+}
 
 /* by azam here start code for mobile */
 
@@ -422,8 +418,7 @@ main .section.cards-container .cards-wrapper {
         font-style: normal;
     }
 
-/* try */
-.meet-our-team-mobile .cards .cards-card-image picture {
+    .meet-our-team-mobile .cards .cards-card-image picture {
     position: relative;
     top: 0;
     left: 0;
@@ -536,12 +531,11 @@ main .section.cards-container .default-content-wrapper a {
     color: white;
     font-size: 14px;
 }
-
-h3#we-follow-the-highest-standards-of-data-governance-and-are-compliant-with-all-prevailing-laws{
+.cards h3{
     font-size:21px;
 }
 
-h4#tlc-compliances-and-statutory-audits-are-managed-by-a-big-4-global-accounting-firm-we-follow-the-highest-levels-of-information-security-with-an-iso-27001-certification-we-are-responsible-conscious-and-have-goals-of-net-zero-carbon-emissions{
+.cards h4{
     font-size: 14px;
 }
 

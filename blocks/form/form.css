@@ -7,7 +7,7 @@ main .field-wrapper .required {
     text-transform: capitalize;
 }
   
-  main .form h2 {
+main .form h2 {
     padding: var(--spacing-m) 0;
     font-size: var(--type-heading-l-lh);
     font-weight: normal;
@@ -52,12 +52,6 @@ main .field-wrapper .required {
     box-sizing: border-box;
     font-weight: 800;
   }
-  
-  /* main .form label.required::after {
-    content: "*";
-    color: red;
-    padding-left: 5px;
-  } */
   
   main .form .field-wrapper {
     margin-bottom: 20px;
@@ -150,11 +144,11 @@ input[type='text-field']::placeholder {
   font-size:20px;
 }
 
-textarea#yourMessage{
+textarea{
   margin-top:30px;
 }
 
-textarea#yourMessage::placeholder{
+textarea::placeholder{
   font-size:20px;
 }
 

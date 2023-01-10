@@ -37,7 +37,7 @@ main .contact-center img {
   }
 }
 
-@media (max-width:480px){
+@media (max-width:600px){
   main .contact-center h2 {
     font-size: 21px;
 }

@@ -77,8 +77,6 @@
 
 .z-pattern .z-row-even:last-of-type > div:last-of-type {
     text-align: center;
-
-    /* z-index: 0; */
 }
 
 .z-pattern > div[class^="z-row"] > div:last-of-type strong {
@@ -192,8 +190,7 @@
   .z-pattern > div[class^="z-row"] > div:last-of-type strong {
     position: absolute;
     top: 10px;
-  }
-}
+  }}
 
 @media (min-width: 1200px) {
   .z-pattern > div.z-row-even > div:last-of-type strong {
@@ -202,8 +199,7 @@
 
   .z-pattern > div.z-row-odd > div:last-of-type strong {
     right: -10px;
-  }
-}
+  }}
 
 @media (max-width:480px){
   .z-pattern-container .default-content-wrapper h4 {
@@ -247,7 +243,4 @@
 .z-pattern .z-row-odd > div:first-of-type picture img {
   padding-top: 30px;
   height: auto;
-}
-
-
-}
+}}
