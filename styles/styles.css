@@ -15,7 +15,7 @@
   --text-color: #313131;
   --nav-background-color: rgba(0 0 0 / 25%);
 
-  /* fonts */;
+  /* fonts */
   --body-font-family: argesta-display, argesta-display-fallback, "Times New Roman", serif;
   --body-font-weight: 300;
   --heading-font-family: var(--body-font-family);
@@ -673,11 +673,7 @@ display: block;
   text-align: left;
   display: block;
   margin-bottom: 20px;
-}
-
-
-
-}
+}}
 
 @media (min-width: 1400px) {
   main .section.background .default-content-wrapper h3 {
@@ -696,8 +692,7 @@ display: block;
 
   main .section.background .default-content-wrapper h4 {
     margin-left: 270px;
-  }
-}
+  }}
 
 /* cls fix */
 main .slideshow-wrapper,
@@ -710,11 +705,11 @@ main .why-us h2 {
   padding-bottom: 20px;
 }
 
-main .why-us p{
- font-size: 18px!important;
- padding:8px 0px;
- margin:0px 3%;
- text-align: center;
+main .why-us .default-content-wrapper p {
+  font-size: 18px;
+  padding:8px 0;
+  margin:0 3%;
+  text-align: center;
 }
 
 main .why-us .icon-arrow-about-cta {
@@ -730,13 +725,14 @@ main .why-us h4 {
 }
 
 @media (max-width:600px){
-  main .why-us p{
-    font-size: 14px!important;
+  
+   main .why-us .default-content-wrapper p {
+    font-size: 14px;
     padding:8px 0px;
     margin:0px 3%;
     line-height: 25px;
-    
-   }
+  }
+  
   main .section .default-content-wrapper h1 {
     font-size: 28px;
     margin-top: 10px;

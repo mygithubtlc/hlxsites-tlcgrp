@@ -351,20 +351,19 @@ main .section.cards-container .cards-wrapper {
 .section.fragment-container.world-class-cutomer-loyality.cards-container .button-container a {
     color:white;
     margin-left:-30px;
-   
-    
 }
+
 .world-class-cutomer-loyality .cards-card-body p em{
     color:white;
 }
+
 .world-class-cutomer-loyality .cards:not(.review) > ul > li:nth-child(2) a:any-link {
     color: white;
-    }
-}
+}}
 
 @media (max-width:600px){
     .section.related-case-studies-component h3 {
-        padding: 49px 0px;
+        padding: 49px 0;
     }    
     .cards .cards-card-image img {
       max-width:100%;
@@ -398,10 +397,11 @@ main .section.cards-container .cards-wrapper {
     main .section.cards-container .default-content-wrapper h3 {
         font-size:28px;
     }
+    
     main .section.cards-container .default-content-wrapper em {
         font-size: 14px;
         font-style: normal;
-    }
+}
 
     .meet-our-team-mobile .cards .cards-card-image picture {
     position: relative;
@@ -458,13 +458,12 @@ main .section.cards-container .cards-wrapper {
 }
 .meet-our-team-mobile-another-section .cards .cards-card-image {
     line-height: 0;
-    /* position: absolute; */
     z-index: -1;
     top: 0;
     width: 100%;
     display: contents;
-    /* height: 100%; */
 }
+
 .meet-our-team-mobile-another-section p {
     text-align: center;
     color: black;
