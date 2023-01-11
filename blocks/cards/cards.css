@@ -335,14 +335,15 @@ main .section.cards-container .cards-wrapper {
     height: 500px;
 }
 
-/* end here */
-
 .cards-card-body p:nth-child(1) em {
     font-style: italic;
     
 }
 
-.section.fragment-container.world-class-cutomer-loyality.cards-container p a {
+.section .world-class-cutomer-loyality p a {
+    font-size: 12px;
+}
+.section .cards-container p a {
     font-size: 12px;
 }
 
@@ -365,10 +366,7 @@ main .section.cards-container .cards-wrapper {
 
 .world-class-cutomer-loyality .cards:not(.review) > ul > li:nth-child(2) a:any-link {
     color: white;
-    }
-}
-
-/* by azam here start code for mobile */
+    }}
 
 @media (max-width:600px){
     .cards .cards-card-image img {
