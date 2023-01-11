@@ -5,6 +5,7 @@ const handleRequest = async (eventReq, env) => {
       // check for recaptcha token
       json = await eventReq.json();
       const token = json.data && json.data['g-recaptcha-response'];
+      //const token = json.data && json.data['recaptcha-token'];
       if (!token) {
         // recaptcha token missing
         return new Response('', {
@@ -19,19 +20,15 @@ const handleRequest = async (eventReq, env) => {
         const formData = new FormData();
         formData.append('secret', env.SECRET_KEY);
         formData.append('response', token);
-
         const result = await fetch('https://www.google.com/recaptcha/api/siteverify', {
           body: formData,
           method: 'POST',
         });
-
         const outcome = await result.json();
         if (!outcome.success) {
           // recaptcha token verification failed
-          console.error('Invalid captcha token provided');
-          // temporarily disabled error handling
           return new Response('', {
-            status: 403,
+            status: 400,
             headers: {
               'x-error': 'Invalid captcha token provided',
             },
