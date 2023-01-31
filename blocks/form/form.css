@@ -118,7 +118,7 @@ main .form .form-checkbox-wrapper label {
   width: 300vw;
 }
 
-main .form .form-checkbox-wrapper .required {
+main .form-checkbox-wrapper .required {
   width: 1000px;
 }
 
@@ -138,7 +138,7 @@ main .form .form-submit-wrapper {
   padding-top: 30px;
 }
 
-main .form .form-submit-wrapper .button {
+main .form-submit-wrapper .button {
   border: 1px solid black;
   border-radius: 0;
   font-size: 0.8em;
@@ -175,13 +175,7 @@ main .form select.invalid {
   border-color: red;
 }
 
-/* main .form label.required::after {
-  content: "*";
-  color: red;
-  padding-left: 5px;
-} */
-
-main .form .form-submit-wrapper .button:hover {
+main .form-submit-wrapper .button:hover {
   background-color: black;
   color: white;
 }
