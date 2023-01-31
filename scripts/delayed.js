@@ -21,7 +21,7 @@ function loadScript(url, type, callback) {
 
 window.targetGlobalSettings = {
   bodyHidingEnabled: false,
-}
+};
 
 // google tag manager
 const gtmId = 'UA-97477922-3';
