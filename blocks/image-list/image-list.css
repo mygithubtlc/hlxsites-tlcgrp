@@ -7,11 +7,6 @@ main .image-list {
   max-width: 1200px;
 }
 
-main .image-list img {
-  width: 300px;
-  margin: 12.5px;
-}    
-
 main .image-list .mobile-only {
   display: block;
 }
@@ -21,40 +16,53 @@ main .image-list .desktop-only {
 }
 
 .section.image-list-container {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
-.section.image-list-container .default-content-wrapper {
-    justify-content: center;
-    text-align: center;
+.section .image-list-container {
+  justify-content: center;
+  text-align: center;
 }
 
-main .section.image-list-container .default-content-wrapper h5 {
-    font-size: 25px;
+main .image-list-container .default-content-wrapper h5 {
+  font-size: 25px;
 }
 
-main .section.image-list-container .image-list {
-    margin-top: 50px;
-    gap: 10px;
-    margin-left: 0;
-    margin-right: 0;
-    background-color: #FFF;
-  }
-
-main .section.image-list-container .image-list > div {
-    width: 150px;   
+main .image-list-container .image-list {
+  margin-top: 50px;
+  gap: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #fff;
 }
 
-main .section.contact .image-list-wrapper .image-list {
-    margin-top: 0;
-    padding-bottom: 30px;
+main .image-list-container .image-list > div {
+  width: 150px;
 }
 
-main .section.contact .image-list-wrapper .image-list > div {
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 70px;
-  }
+main .image-list-wrapper .image-list {
+  margin-top: 0;
+  padding: 30px 0;
+  gap: 125px;
+}
+
+main .image-list-wrapper .image-list > div {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 70px;
+}
+
+.tech-platform-logos img {
+  width: 130px;
+}
+
+.logos-integration img {
+  width: 140px;
+}
+
+.associations-logos img:nth-child(4) {
+  width: 135px;
+}
 
 @media (min-width: 600px) {
   main .image-list {
@@ -63,11 +71,10 @@ main .section.contact .image-list-wrapper .image-list > div {
 
   main .section.image-list-container {
     padding-bottom: 0;
-    padding-top: 70px;
+    padding-top: 40px;
   }
 
-
-  main .section.image-list-container .default-content-wrapper h4 {
+  main .image-list-container .default-content-wrapper h4 {
     display: flex;
     justify-content: center;
     font-size: 28px;
@@ -75,7 +82,7 @@ main .section.contact .image-list-wrapper .image-list > div {
     text-align: center;
   }
 
-  main .section.image-list-container .default-content-wrapper h5 {
+  main .image-list-container .default-content-wrapper h5 {
     display: flex;
     justify-content: center;
     font-size: 28px;
@@ -86,33 +93,44 @@ main .section.contact .image-list-wrapper .image-list > div {
     margin-top: 70px;
   }
 
-  main .section.image-list-container .image-list {
-    margin-top: 00px;
-    gap: 70px;
+  main .image-list-container .image-list {
+    margin-top: 0;
     margin-left: 0;
     margin-right: 0;
   }
 
-  main .section.image-list-container .image-list > div {
-    width: 150px;   
+  main .image-list-container .image-list > div {
+    width: 150px;
   }
 
-  main .section.contact .image-list-wrapper .image-list {
+  main .image-list-wrapper .image-list {
     margin-top: 0;
     margin-bottom: 100px;
   }
 
-  main .section.contact .image-list-wrapper .image-list > div {
+  main .image-list-wrapper .image-list > div {
     padding-left: 20px;
     padding-right: 20px;
     width: 60px;
   }
 }
 
-@media (max-width:480px){
-  main .image-list img{
-    width: 59%;
-    margin: 15%;
-}
+@media (max-width: 600px) {
+  main .image-list-wrapper .image-list {
+    margin-top: 0;
+    padding: 30px 0;
+    gap: 80px;
+  }
 
+  .tech-platform-logos img {
+    width: 90px;
+  }
+
+  .logos-integration img {
+    width: 90px;
+  }
+
+  .associations-logos img:nth-child(4) {
+    width: 90px;
+  }
 }

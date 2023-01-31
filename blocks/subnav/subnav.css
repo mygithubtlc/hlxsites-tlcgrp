@@ -2,41 +2,43 @@ main .section.subnav-container {
     opacity: 1;
     padding: 0;
     border-bottom: 1px solid #616161;
-}
-
-main .subnav {
+  }
+  
+  main .subnav {
     font-size: 13px;
     text-align: center;
-}
-
-main .subnav a:any-link {
+  }
+  
+  main .subnav a:any-link {
     text-decoration: none;
-}
-
-@media (min-width: 900px) {
+  }
+  
+  @media (min-width: 900px) {
     main .subnav-wrapper {
-        margin: 0;
-        max-width: 100%;
-        top: 1%;
+      margin: 0;
+      max-width: 100%;
+      top: 1%;
     }
-
+  
     main .subnav > div > div {
-        display: flex;
-        justify-content: space-around;
+      display: flex;
+      justify-content: space-around;
     }
-
-    main .subnav p { 
-        font-size: 16px;
-        width: 19%;
-        border-left: 1px solid #979797;
-        height: 26px;
-        margin: 0;
-        text-align: center;
-        padding: 10px;
+  
+    main .subnav p {
+      font-size: 16px;
+      width: 19%;
+      border-left: 1px solid #979797;
+      height: 26px;
+      margin: 0;
+      text-align: center;
+      padding: 10px;
     }
-
+  
     main .subnav p:hover {
-        background:#484747;
-        color: white;
+      background: #484747;
+      color: white;
+      cursor: pointer;
     }
-}
+  }
+  

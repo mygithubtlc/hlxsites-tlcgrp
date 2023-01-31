@@ -1,94 +1,119 @@
 .z-pattern {
-    padding: var(--spacing-xxl) 0;
+  padding: var(--spacing-xxl) 0;
 }
 
 .z-pattern-container .default-content-wrapper h4 {
-    font-size:48px;
+  font-size: 48px;
 }
 
 .z-pattern > div {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .z-pattern > .z-pattern-heading {
-    text-align: center;
-    margin: 0 auto var(--spacing-l) auto;
+  text-align: center;
+  margin: 0 auto var(--spacing-l) auto;
 }
 
 .z-pattern h2 {
-    margin: 0;
+  margin: 0;
 }
 
 .z-pattern > div[class^="z-row"] {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap:  var(--spacing-m);
-    margin-bottom: var(--spacing-m);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-m);
+  margin-bottom: var(--spacing-m);
 }
 
 .z-pattern > div[class^="z-row"] > div {
-    max-width: 83.4%;
-    text-align: center;
+  max-width: 83.4%;
+  text-align: center;
 }
 
 .z-pattern > div[class^="z-row"] > div img {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .z-pattern-cta {
-    text-align: center;
+  text-align: center;
 }
 
 .z-pattern .z-row-odd > div:last-of-type {
-    background-color: #FFF;
-    padding: 0 50px;
+  background-color: #fff;
+  padding: 0 50px;
 }
 
 .z-pattern .z-row-even > div:last-of-type {
-    background-color: #FFF;
-    padding: 0 50px;
-    margin-top: 30px;
+  background-color: #fff;
+  padding: 0 50px;
+  margin-top: 30px;
+}
+
+.contact-center .reverse > div > div:last-child {
+  position: relative;
+  right: 0;
+  padding: 20px 60px;
+}
+
+.icon-section .reverse > div > div:last-child {
+  position: relative;
+  right: -50px;
+  padding: 20px 60px;
 }
 
 .z-pattern .z-row-even:first-of-type > div:first-of-type {
-    display: flex;
+  display: flex;
+}
+
+.z-pattern .reverse > div:first-child img {
+  position: relative;
+  left: 0;
+  height: 400px;
+  width: 600px;
 }
 
 .z-pattern .z-row-even > div:first-of-type picture img {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .z-pattern .z-row-odd > div:first-of-type picture img {
-    padding-top: 30px;
-    height: 300px;
+  padding-top: 30px;
+  height: 300px;
 }
 
 .z-pattern-container .default-content-wrapper {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .z-pattern > div[class^="z-row"] > div:last-of-type h3 {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .z-pattern .z-row-even:last-of-type > div:last-of-type {
-    text-align: center;
-    /* z-index: 0; */
+  text-align: center;
 }
 
 .z-pattern > div[class^="z-row"] > div:last-of-type strong {
-    font-family: var(--alt-font-family);
-    font-weight: 350;
-    font-style: normal;
-    font-size: 0.6em;
+  font-family: var(--alt-font-family);
+  font-weight: 350;
+  font-style: normal;
+  font-size: 0.6em;
 }
 
 .z-pattern > div[class^="z-row"] > div:last-of-type em {
-    font-style: normal;
-    font-size: 24px;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.contact-center .reverse > div > div:first-child img {
+  position: relative;
+  left: 0;
+  height: 400px;
+  width: 400px;
 }
 
 @media (min-width: 900px) {
@@ -103,12 +128,12 @@
   }
 
   .z-pattern .z-row-odd > div:last-of-type {
-    background-color: #FFF;
+    background-color: #fff;
     padding: 0 50px;
   }
 
   .z-pattern .z-row-even > div:last-of-type {
-    background-color: #FFF;
+    background-color: #fff;
     padding: 0 50px;
     padding-left: 70px;
     text-align: center;
@@ -120,16 +145,21 @@
     top: 10px;
   }
 
+  .z-pattern.reverse > div:last-child {
+    position: relative;
+    padding: 30px 60px;
+  }
+
   .z-pattern > div.z-row-odd > div:first-child {
+    order: 2;
+  }
+
+  .z-pattern.reverse > div > div:first-child {
     order: 2;
   }
 
   .z-pattern .z-row-even:first-of-type > div:first-of-type {
     display: flex;
-  }
-
-  .z-pattern.reverse > div.z-row-even > div:first-child {
-    order: 2;
   }
 
   .z-pattern .z-row-odd > div:first-of-type picture img {
@@ -141,24 +171,23 @@
     right: -60px;
   }
 
+  .icon-section .reverse > div > div:first-child img {
+    position: relative;
+    left: 0;
+    height: 400px;
+    width: 400px;
+  }
+
   .z-pattern .z-row-even:last-of-type > div:first-of-type img {
     padding-top: 45px;
     position: relative;
     left: 40px;
-   
   }
 
-  .z-pattern.reverse > div.z-row-even > div:first-child img {
-    position: relative;
-    left: 0;
-    height: 400px;
-    width: 600px;
-  }
-
-  .z-pattern.reverse > div.z-row-even > div:last-child {
-    position: relative;
-    right: -50px;
-    padding: 30px 60px;
+  .icon-section .new-image-set > p {
+    font-size: 15px;
+    text-indent: -13px;
+    margin-left: 19px;
   }
 
   .z-pattern > div[class^="z-row"] > div:last-of-type h3 {
@@ -203,42 +232,65 @@
   }
 }
 
-@media (max-width:480px){
+@media (max-width: 600px) {
+  .contact-center .reverse > div > div:first-child img {
+    position: relative;
+    left: 0;
+    height: auto;
+  }
+
   .z-pattern-container .default-content-wrapper h4 {
     font-size: 28px;
-}
-.z-pattern-container .default-content-wrapper {
-  padding-bottom: 0px;
-}
-.z-pattern > div[class^="z-row"] > div:last-of-type h3 {
-  font-size: 21px;
-  margin-top: 69px;
-}
-.z-pattern > div[class^="z-row"] > div:last-of-type em {
-  font-style: normal;
-  font-size: 14px;
-}
-.z-pattern .z-row-even > div:last-of-type {
-  background-color: #FFF;
-  padding: 0 25px;
-  margin-top: -32px;
-  z-index: -1;
-}
-.z-pattern .z-row-odd > div:last-of-type {
-  background-color: #FFF;
-  padding: 0 25px;
-  bottom: 69px;
-  z-index: -1;
-  position: relative;
-}
-.z-pattern .z-row-even > div:first-of-type picture img {
-  padding-top: 30px;
-  width: 70%;
-}
-.z-pattern .z-row-odd > div:first-of-type picture img {
-  padding-top: 30px;
-  height: auto;
-}
+  }
 
+  .z-pattern-container .default-content-wrapper {
+    padding-bottom: 0;
+  }
 
+  .z-pattern > div[class^="z-row"] > div:last-of-type h3 {
+    font-size: 21px;
+    margin-top: 69px;
+  }
+
+  .z-pattern > div[class^="z-row"] > div:last-of-type em {
+    font-style: normal;
+    font-size: 14px;
+  }
+
+  .z-pattern .z-row-even > div:last-of-type {
+    background-color: #fff;
+    padding: 0 25px;
+    margin-top: -32px;
+    z-index: -1;
+  }
+
+  .z-pattern .z-row-odd > div:last-of-type {
+    background-color: #fff;
+    padding: 0 25px;
+    bottom: 69px;
+    z-index: -1;
+    position: relative;
+  }
+
+  .z-pattern .z-row-even > div:first-of-type picture img {
+    padding-top: 30px;
+    width: 100%;
+  }
+
+  .icon-section .reverse > div > div:first-child img {
+    position: relative;
+    left: 0;
+    height: auto;
+  }
+
+  .icon-section .reverse > div > div:last-child {
+    position: relative;
+    right: 0;
+    padding: 20px 60px;
+  }
+
+  .z-pattern .z-row-odd > div:first-of-type picture img {
+    padding-top: 30px;
+    height: auto;
+  }
 }

@@ -30,39 +30,39 @@ main .contact-center img {
   main .contact-center {
     padding: 20px 20%;
   }
-  
+
   main .contact-center p:last-child {
     justify-content: space-between;
     flex-wrap: nowrap;
   }
 }
 
-@media (max-width:480px){
+@media (max-width: 480px) {
   main .contact-center h2 {
     font-size: 21px;
-}
-.contact-center.block p {
-  font-size: 14px;
-}
+  }
 
-main .contact-center {
-  background-color: white;
-  padding: 20px 15px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-main .contact-center img {
-  width: 28px;
- 
-}
+  .contact-center.block p {
+    font-size: 14px;
+  }
 
-main .section.background h3{
-  font-weight: 400;
-  font-size: 21px;
-}
-main .section.background h4{
-  font-size: 14px;
-}
+  main .contact-center {
+    background-color: white;
+    padding: 20px 15px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
+  main .contact-center img {
+    width: 28px;
+  }
 
+  main .section.background h3 {
+    font-weight: 400;
+    font-size: 21px;
+  }
+
+  main .section.background h4 {
+    font-size: 14px;
+  }
 }
