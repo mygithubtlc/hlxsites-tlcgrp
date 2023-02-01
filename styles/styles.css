@@ -1021,7 +1021,7 @@ main .highest-standard-text {
   main .text-wrapped h2 {
     width: 100%;
   }
-  
+
   main .world-class-cutomer-loyality h2 {
     font-size: 21px;
     margin-top: 25px;
@@ -1123,7 +1123,7 @@ main .highest-standard-text {
   }
 
   .section.why-us {
-    padding: 46px 0px 10px 16px;
+    padding: 46px 0 10px 16px;
   }
 
 }
