@@ -567,7 +567,7 @@
     main .cards-container .default-content-wrapper {
       justify-content: center;
       text-align: center;
-      padding: 0px;
+      padding: 0;
     }
 
   }
