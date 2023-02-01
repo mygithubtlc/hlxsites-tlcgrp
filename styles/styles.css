@@ -1021,6 +1021,11 @@ main .highest-standard-text {
   main .text-wrapped h2 {
     width: 100%;
   }
+  
+  main .world-class-cutomer-loyality h2 {
+    font-size: 21px;
+    margin-top: 25px;
+  }
 
   main .cyber-security .default-content-wrapper h2 {
     font-size: 22px;
@@ -1053,7 +1058,7 @@ main .highest-standard-text {
   }
 
   main .section .default-content-wrapper h3 {
-    padding: 0 0 0 0;
+    padding: 0;
   }
 
   main .section .default-content-wrapper h1 {
@@ -1119,11 +1124,6 @@ main .highest-standard-text {
 
   .section.why-us {
     padding: 46px 0px 10px 16px;
-  }
-
-  main .world-class-cutomer-loyality h2 {
-    font-size: 21px;
-    margin-top: 25px;
   }
 
 }
