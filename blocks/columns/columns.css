@@ -3,349 +3,320 @@
     padding-top: 40px;
     margin-bottom: 0;
     padding-bottom: 10px;
-}
-
-.section.columns-container .default-content-wrapper {
+  }
+  
+  .section .default-content-wrapper {
     justify-content: center;
-}
-
-.columns > div > div h4 {
+  }
+  
+  .columns > div > div h4 {
     font-size: 15px;
     color: gray;
-}
-
-.columns > div > div p em {
+    text-align: left;
+  }
+  
+  .columns > div > div p em {
     font-size: 15px;
     font-style: normal;
-}
-
-.columns > div > div .button-container {
+  }
+  
+  .section .button-container,
+  .section .columns-container {
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding-top: 20px;
+  }
+  
+  .columns > div > div .button-container {
     margin-top: 5%;
     font-size: 18px;
     text-decoration: underline;
-}
-
-.section.columns-container .default-content-wrapper h2 {
+  }
+  
+  .section.columns-container h2 {
     display: flex;
     justify-content: center;
     font-size: 48px;
-    margin-top:-40px;
+    margin-top: -40px;
     align-content: center;
     margin-bottom: 5px;
-}
-
-.section.columns-container .default-content-wrapper h4 {
+  }
+  
+  .section .columns-container h4 {
     font-size: 1.5em;
-}
-
-.section.columns-container .default-content-wrapper .button-container {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding-top: 20px;
-}
-
-.section.columns-container .button-container a {
+  }
+  
+  .section .button-container a,
+  .section.columns-container a {
     all: unset;
     cursor: pointer;
-}
-
-.columns > div {
+  }
+  
+  .columns .new-image-set a {
+    font-size: 15px;
+  }
+  
+  .columns > div {
     display: flex;
     flex-direction: column;
-}
-
-.columns > div > div {
-    border-top: 1px solid black ;  
-}
-
-.columns > div > div:first-child {
+  }
+  
+  .columns > div > div {
+    border-top: 1px solid black;
+  }
+  
+  .columns > div > div:first-child {
     margin-top: 2%;
-}
-
-.columns > div > div:last-child {
+  }
+  
+  .columns > div > div:last-child {
     margin-top: 2%;
-}
-
-.columns img {
+  }
+  
+  .columns img {
     width: 100%;
-}
-
-/* logo columns */
-.columns > div > div > p img {
+  }
+  
+  /* logo columns */
+  .columns > div > div > p img {
     display: inline-block;
     width: 100px;
     padding: 0;
-}
-
-.columns > div > div.image-set > p img {
+  }
+  
+  .columns > div > div.image-set > p img {
     width: auto;
     height: 30px;
-    margin:15px;
-}
-
-h2#our-capabilities {
+    margin: 15px;
+  }
+  
+  h2#our-capabilities {
     margin-top: 30px;
-}
-
-
-@media (min-width: 600px) {
+  }
+  
+  .image-set ul li {
+    list-style: none;
+    font-size: 15px;
+    font-family: var(--alt-font-family);
+    line-height: 25px;
+  }
+  
+  @media (min-width: 600px) {
     .columns > div > div h3 {
-        font-size: 28px;
+      font-size: 28px;
     }
-
-    .section.columns-container .default-content-wrapper h4 {
-        font-size: 1.8em;
+  
+    .section .columns-wrapper {
+      padding-bottom: 50px;
     }
-
-    .section.columns-container .columns-wrapper .columns {
-        padding-bottom: 50px;
+  
+    .section .columns-wrapper > div,
+    .section .columns-container {
+      padding-top: 50px;
     }
-
-    .section.columns-container .columns-wrapper .columns > div {
-        padding-top: 50px;
-    }
-}
-
-@media (min-width: 900px) {
+  }
+  
+  @media (min-width: 900px) {
     .columns > div {
-        display: flex;
-        flex-direction: unset;
+      display: flex;
+      flex-direction: unset;
     }
-
+  
     .columns > div > div {
-        flex: 1;
-        margin-left: 32px;
+      flex: 1;
+      margin-left: 32px;
     }
-
+  
     .columns > div > div:first-of-type {
-        margin-left: unset;
+      margin-left: unset;
     }
-
-    .section.columns-container .default-content-wrapper h4 {
-        font-size: 48px;
+  
+    .section .columns-container h4 {
+      font-size: 48px;
     }
+  
     h4#tlc-has-the-capability-to-curate-offers-and-programs-customized-to-partners {
-        font-size: 24px;
+      font-size: 24px;
     }
-
+  
     .case-studies-custom .new-image-set img:nth-last-child(1) {
-        width: 50%;
+      width: 50%;
     }
-
+  
     .new-image-set ul li {
-        list-style: none;
-        font-size: 15px;
-        font-family: var(--alt-font-family);
-        line-height: 25px;
-
+      list-style: none;
+      font-size: 15px;
+      font-family: var(--alt-font-family);
+      line-height: 25px;
     }
-}
-
-@media (max-width:480px){
-    .section.columns-container .default-content-wrapper h2{
-        font-size: 28px;
-        line-height:0px;
-    }
-    .section.columns-container .default-content-wrapper h2 {
-      
-        margin-top: -20px;
-        margin-bottom: 40px;
-    }
-    .section.columns-container .default-content-wrapper .button-container {
-    
-        margin-bottom: 58px;
-    }
-
-    
-    h3#connections-tech-platforms, 
-    h3#mobile-digital, 
-    h3#partnership-partnerships,
-    h3#support-contact-centre, 
-    h3#subscription-subscriptions,
-    h3#benefits-benefits-management,
-    h3#reservation-reservations,
-    h3#delivery-delivery,
-    h3#omni-omnichannel-connect,
-    h3#focus-focus-on-customer-experience,
-    h3#tech-technology,
-    h3#track-processes-and-tracking,
-    h3#web-website-development,
-    h3#mobileapp-mobile-app,
-    h3#marketing-marketing-automation-and-campaigns,
-    h3#analytics-analytics,
-    h3#social-social-media--influencer-marketing,
-    h3#performance-performance-marketing,
-    h3#corporation-corporations,
-    h3#association-associations,
-    h3#finance-financial-institutions,
-    h3#ecom-e-commerce,
-    h3#customer-customer-experience,
-    h3#longevity-longevity,
-    h3#partner-partnerships,
-    h3#integration-integrations,
-    h3#monetization-monetization,
-    h3#digital-digital-content-and-interactions ,
-    h3#support-contact-center{
-        display: block;
-        text-align: center;
-        font-size:21px;
-    }
-    span.icon.icon-connections, 
-    span.icon.icon-mobile, 
-    span.icon.icon-partnership,
-    span.icon.icon-support, span.icon.icon-subscription,
-    span.icon.icon-benefits ,
-    span.icon.icon-reservation,
-    span.icon.icon-delivery,
-    span.icon.icon-omni,
-    span.icon.icon-focus, 
-    span.icon.icon-tech,
-    span.icon.icon-track,
-    span.icon.icon-web,
-    span.icon.icon-mobileapp,
-    span.icon.icon-marketing,
-    span.icon.icon-analytics,
-    span.icon.icon-social, 
-    span.icon.icon-performance,
-    span.icon.icon-corporation,
-    span.icon.icon-association,
-    span.icon.icon-finance,
-    span.icon.icon-ecom,
-    span.icon.icon-customer,
-    span.icon.icon-longevity,
-    span.icon.icon-partner,
-    span.icon.icon-integration,
-    span.icon.icon-monetization,
-    span.icon.icon-digital{
+  }
+  
+  @media (max-width: 600px) {
+    .new-image-set .icon-connections,
+    .new-image-set .icon-mobile,
+    .new-image-set .icon-partnership,
+    .new-image-set .icon-support,
+    .new-image-set .icon-subscription,
+    .new-image-set .icon-benefits,
+    .new-image-set .icon-reservation,
+    .new-image-set .icon-delivery,
+    .new-image-set .icon-omni,
+    .new-image-set .icon-focus,
+    .new-image-set .icon-tech,
+    .new-image-set .icon-track,
+    .new-image-set .icon-web,
+    .new-image-set .icon-mobileapp,
+    .new-image-set .icon-marketing,
+    .new-image-set .icon-analytics,
+    .new-image-set .icon-social,
+    .new-image-set .icon-performance,
+    .new-image-set .icon-corporation,
+    .new-image-set .icon-association,
+    .new-image-set .icon-finance,
+    .new-image-set .icon-ecom {
       display: block;
     }
+  
+    .image-set .icon-customer,
+    .image-set .icon-longevity,
+    .image-set .icon-partner,
+    .new-image-set .icon-integration,
+    .new-image-set .icon-monetization,
+    .new-image-set .icon-digital {
+      display: block;
+      margin: 0 auto;
+      padding: 20px 0;
+      text-align: center;
+    }
+  
+    .image-set h3 {
+      text-align: center;
+    }
+  
+    .section.columns-container h2 {
+      display: flex;
+      justify-content: center;
+      font-size: 28px;
+      margin-top: -40px;
+      color: var(--text-color);
+      align-content: center;
+      margin-bottom: 5px;
+    }
+  
+    .section .columns-container h2 {
+      font-size: 28px;
+      line-height: 0px;
+      margin-top: -20px;
+      margin-bottom: 40px;
+    }
+  
+    .section .button-container {
+      margin-bottom: 47px;
+    }
+  
+    .case-studies-custom h3 {
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    .columns .new-image-set h3 {
+      display: block;
+      text-align: center;
+      font-size: 21px;
+    }
+  
+    .columns span .icon {
+      display: block;
+    }
+  
     .columns > div > div h4 {
-        font-size: 14px;
-        color: gray;
-        text-align: center;
+      font-size: 14px;
+      color: gray;
+      text-align: center;
     }
+  
     .columns-wrapper p {
-        text-align: center;
-        font-size: 14px;
+      text-align: center;
+      font-size: 14px;
     }
-    h3#connections-tech-platforms span,
-     h3#mobile-digital span, 
-     h3#partnership-partnerships span,
-     h3#support-contact-centre span,
-     h3#subscription-subscriptions span,
-     h3#benefits-benefits-management span,
-     h3#reservation-reservations span,
-     h3#delivery-delivery span,
-     h3#omni-omnichannel-connect span,
-     h3#focus-focus-on-customer-experience span,
-     h3#tech-technology span,
-     h3#track-processes-and-tracking span,
-     h3#web-website-development span,
-     h3#mobileapp-mobile-app span,
-     h3#marketing-marketing-automation-and-campaigns span,
-     h3#analytics-analytics span,
-     h3#social-social-media--influencer-marketing span,
-     h3#performance-performance-marketing span,
-     h3#corporation-corporations span,
-     h3#association-associations span,
-     h3#finance-financial-institutions span,
-     h3#ecom-e-commerce span,
-     h3#customer-customer-experience span,
-     h3#longevity-longevity span,
-     h3#partner-partnerships span,
-     h3#integration-integrations span,
-     h3#monetization-monetization span,
-     h3#digital-digital-content-and-interactions span,
-     h3#support-contact-center span   {
-        margin: 22px;
+  
+    .columns .new-image-set h3 > span {
+      margin: 22px;
     }
+  
     .columns > div > div p em {
-        font-size: 14px;
-        font-style: normal;
+      font-size: 14px;
+      font-style: normal;
     }
+  
     .columns > div > div .button-container {
-        font-size: 9px;
+      font-size: 9px;
     }
-    main .section.background{
-        zoom:69%;
+  
+    main .section.background {
+      zoom: 69%;
     }
-   
-    main .section.background .default-content-wrapper h2 {
-        text-align: center;
-        font-size: 28px;
+  
+    main .background .default-content-wrapper h2 {
+      text-align: center;
+      font-size: 28px;
     }
-    main .section.background .default-content-wrapper h2:nth-of-type(2) {
-        font-size: 18px;
+  
+    main .background .default-content-wrapper h2:nth-of-type(2) {
+      font-size: 18px;
     }
+  
     h2#whats-new {
-        font-size: 21px;
+      font-size: 21px;
     }
-
-    /* for career page css */
-    .section.columns-container .default-content-wrapper h4{
-        font-size:28px;
-    }
-    h3#culture-our-culture, 
+  
+    h3#culture-our-culture,
     h3#brand-our-brand-values {
-        display: block;
-        text-align: center;
-        font-size:21px;
+      display: block;
+      text-align: center;
+      font-size: 21px;
     }
+  
     span.icon.icon-culture,
     span.icon.icon-brand {
-        display: block;
-      }
-      h3#culture-our-culture span,
-      #brand-our-brand-values span
-        {
-        margin: 22px;
+      display: block;
     }
+  
+    #brand-our-brand-values span,
+    h3#culture-our-culture span {
+      margin: 22px;
+    }
+  
     main .section .default-content-wrapper em {
-        font-size: 14px;
+      font-size: 14px;
     }
+  
     main .section .default-content-wrapper strong {
-        font-size: 14px;
+      font-size: 14px;
     }
-    h3#product-manager, h3#data-analyst, h3#ionic-developer,
-    h3#manager---influencer-marketing {
-        font-size: 21px;
-        text-align: center;
-    }
+  
     .columns-wrapper ul li {
-        font-size: 14px;
+      font-size: 14px;
     }
-    .case-studies-custom h3{
-        font-size:28px;
+  
+    .case-studies-custom > div > div.image-set > p img {
+      height: auto;
+      width: 110px;
+      margin: 22px;
     }
-    .case-studies-custom .columns > div > div.image-set > p img {
-        height: auto;
-        width: 110px;
-        margin: 22px;
-    }
+  
     .case-studies-custom .columns > div > div > p img {
-        display: inline-block;
-        width: 60%;
-        padding: 0;
+      display: inline-block;
+      width: 25%;
+      height: auto;
+      padding: 0;
     }
-
-    h3#adobe-campaign-manager,
-    h3#senior-salesforce-administrator,
-    h3#ui-designer, h3#membership--ambassador {
-        font-size: 28px;
-        text-align: center;
+  
+    .current-opening .button-container a {
+      font-size: 9px;
+      text-align: center;
+      margin: 0 auto;
     }
-
-   
-
-    
-
-
-
-
-
-    
-    
-
-    
-}
+  }
+  

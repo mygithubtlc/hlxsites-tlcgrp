@@ -28,7 +28,7 @@ main .slideshow.slideshow-transition {
   scroll-behavior: smooth;
 }
 
-main .slideshow::-webkit-scrollbar { 
+main .slideshow::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
 
@@ -101,7 +101,7 @@ main .slideshow .slideshow-overlay {
   width: 100%;
   color: white;
   background: unset;
-  background: linear-gradient(180deg, transparent 0%, var(--overlay-background-color) 100%)
+  background: linear-gradient(180deg, transparent 0%, var(--overlay-background-color) 100%);
 }
 
 @media (min-width: 600px) {
@@ -132,32 +132,46 @@ main .slideshow .slideshow-overlay h2 {
   font-size: var(--heading-font-size-xl);
 }
 
-main .slideshow .slideshow-overlay .slideshow-btn-wrapper {
+main .slideshow .slideshow-btn-wrapper {
   margin: var(--spacing-s) var(--spacing-xs);
 }
 
-main .slideshow .slideshow-overlay .slideshow-btn {
+main .slideshow .slideshow-btn {
   background: var(--overlay-link-color);
   color: var(--background-color);
   font-size: var(--body-font-size-s);
   text-transform: uppercase;
 }
 
-main .slideshow .slideshow-overlay .slideshow-btn::after {
-  content: '';
+main .slideshow .slideshow-btn::after {
+  content: " ";
   padding: 0;
 }
 
-main .slideshow .slideshow-overlay .slideshow-btn:hover {
+main .slideshow .slideshow-btn:hover {
   background: var(--overlay-link-hover-color);
 }
 
-@media (max-width:1px){
+@media (max-width: 600px) {
+  main .slideshow h1 {
+    position: relative;
+    top: 5%;
+  }
+
+  main .slideshow h2 {
+    position: relative;
+    top: 5%;
+  }
+
+  main .slideshow-container > div.slideshow-wrapper {
+    height: 103vh;
+  }
+
   main .slideshow .slideshow-overlay {
     display: flex;
     flex-direction: column;
     position: relative;
-    background:none;
+    background: none;
     top: -30%;
     justify-content: center;
     overflow-y: auto;
@@ -165,12 +179,13 @@ main .slideshow .slideshow-overlay .slideshow-btn:hover {
     padding: 0 20px;
     color: white;
   }
-  
-   main .slideshow .slideshow-overlay h1, main .slideshow .slideshow-overlay h2 {
+
+  main .slideshow .slideshow-overlay h1,
+  main .slideshow .slideshow-overlay h2 {
     font-size: 20px;
     text-align: center;
     overflow-y: hidden;
-    margin-top:-12px;
+    margin-top: -12px;
   }
 
   .section.slideshow-container {

@@ -2,8 +2,8 @@
 header nav {
   display: grid;
   grid-template:
-    'hamburger brand tools' var(--nav-height)
-    'sections sections sections' 1fr / 50px 1fr 50px;
+    "hamburger brand tools" var(--nav-height)
+    "sections sections sections" 1fr / 50px 1fr 50px;
   align-items: center;
   padding: 0 2rem;
   position: absolute;
@@ -24,7 +24,7 @@ header nav a:any-link {
   color: currentcolor;
 }
 
-header nav[aria-expanded='true'] {
+header nav[aria-expanded="true"] {
   overflow-y: scroll;
   min-height: 100vh;
 }
@@ -41,7 +41,7 @@ header nav .nav-brand a:any-link {
   line-height: 0;
   width: 70px;
   height: var(--nav-height);
-  background: url('/icons/tlc.png') no-repeat;
+  background: url("/icons/tlc.png") no-repeat;
   background-size: 70px auto;
   background-position: center left;
 }
@@ -54,9 +54,9 @@ header nav .nav-hamburger {
   cursor: pointer;
 }
 
-header nav[aria-expanded='false'] .nav-hamburger-icon,
-header nav[aria-expanded='false'] .nav-hamburger-icon::after,
-header nav[aria-expanded='false'] .nav-hamburger-icon::before {
+header nav[aria-expanded="false"] .nav-hamburger-icon,
+header nav[aria-expanded="false"] .nav-hamburger-icon::after,
+header nav[aria-expanded="false"] .nav-hamburger-icon::before {
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -67,18 +67,18 @@ header nav[aria-expanded='false'] .nav-hamburger-icon::before {
   background: currentcolor;
 }
 
-header nav[aria-expanded='false'] .nav-hamburger-icon::after,
-header nav[aria-expanded='false'] .nav-hamburger-icon::before {
-  content: '';
+header nav[aria-expanded="false"] .nav-hamburger-icon::after,
+header nav[aria-expanded="false"] .nav-hamburger-icon::before {
+  content: "";
   position: absolute;
   top: -6px;
 }
 
-header nav[aria-expanded='false'] .nav-hamburger-icon::after {
+header nav[aria-expanded="false"] .nav-hamburger-icon::after {
   top: 6px;
 }
 
-header nav[aria-expanded='true'] .nav-hamburger-icon {
+header nav[aria-expanded="true"] .nav-hamburger-icon {
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -89,9 +89,9 @@ header nav[aria-expanded='true'] .nav-hamburger-icon {
   transform: translate(-3px, -2px);
 }
 
-header nav[aria-expanded='true'] .nav-hamburger-icon::after,
-header nav[aria-expanded='true'] .nav-hamburger-icon::before {
-  content: '';
+header nav[aria-expanded="true"] .nav-hamburger-icon::after,
+header nav[aria-expanded="true"] .nav-hamburger-icon::before {
+  content: "";
   display: block;
   box-sizing: border-box;
   position: absolute;
@@ -101,11 +101,11 @@ header nav[aria-expanded='true'] .nav-hamburger-icon::before {
   transform: rotate(45deg);
   border-radius: 5px;
   top: 8px;
-  left: 1px
+  left: 1px;
 }
 
-header nav[aria-expanded='true'] .nav-hamburger-icon::after {
-  transform: rotate(-45deg)
+header nav[aria-expanded="true"] .nav-hamburger-icon::after {
+  transform: rotate(-45deg);
 }
 
 /* sections */
@@ -117,19 +117,19 @@ header nav .nav-sections {
   flex: 1 1 auto;
 }
 
-header nav .nav-sections ul  {
+header nav .nav-sections ul {
   font-size: 16px;
   font-weight: 300;
   list-style: none;
   padding-left: 0;
-} 
+}
 
 header nav .nav-sections li {
   font-size: 20px;
   font-weight: 300;
 }
 
-header nav[aria-expanded='true'] .nav-sections {
+header nav[aria-expanded="true"] .nav-sections {
   display: block;
   align-self: flex-start;
 }
@@ -157,16 +157,16 @@ header nav .nav-tools p span.icon svg {
   top: -3px;
 }
 
-header nav[aria-expanded='true'] .nav-tools img {
+header nav[aria-expanded="true"] .nav-tools img {
   display: unset;
 }
 
-header nav[aria-expanded='true'] .nav-tools ul {
+header nav[aria-expanded="true"] .nav-tools ul {
   font-size: unset;
   flex-direction: column;
 }
 
-header nav[aria-expanded='true'] .nav-tools li {
+header nav[aria-expanded="true"] .nav-tools li {
   padding: 0;
 }
 
@@ -189,7 +189,7 @@ header nav a.active {
   }
 
   header nav .nav-drop::after {
-    content: ' ';
+    content: "";
     border: 1px solid currentolor;
     transform: rotate(135deg);
     border-width: 2px 2px 0 0;
@@ -220,8 +220,8 @@ header nav a.active {
     width: unset;
     margin: 0;
   }
-  
-  header nav[aria-expanded='true'] .nav-sections ol {
+
+  header nav[aria-expanded="true"] .nav-sections ol {
     display: flex;
     min-height: unset;
   }
@@ -253,17 +253,16 @@ header nav a.active {
   }
 
   header nav .nav-sections > ul > li > ul::before {
-    content: '';
+    content: "";
     width: 0;
     height: 0;
     position: absolute;
     border-left: 15px solid transparent;
-    border-right: 15px solid transparent;    
+    border-right: 15px solid transparent;
     border-bottom: 15px solid var(--highlight-background-color);
     top: -15px;
     left: 20px;
   }
-
 
   header nav .nav-sections > ul > li > ul > li {
     font-size: 18px;
@@ -283,7 +282,7 @@ header nav a.active {
     text-decoration: none;
   }
 
-  header nav .nav-sections > ul > li[aria-expanded='true'] ul {
+  header nav .nav-sections > ul > li[aria-expanded="true"] ul {
     display: block;
     position: absolute;
     background-color: var(--highlight-background-color);
@@ -297,32 +296,36 @@ header nav a.active {
     display: block;
     font-size: 15px;
   }
-
 }
 
-@media (max-width:480px){
+@media (max-width: 480px) {
   .nav-sections ul li {
     padding: 18px;
-}
-header nav{
-  height: var(--mobile-nav-height);
-}
-header nav .nav-brand a:any-link {
-  background-size: 50px auto;
-  background-position: 0px 13px;
-}
-header nav[aria-expanded='false'] .nav-hamburger-icon{
-  top:0px;
-}
+  }
 
-header nav[aria-expanded='true'] {
-  overflow-y: scroll;
-  min-height: 100vh;
-  background: #5a5a5a;
-}
-.nav-brand p {
-  position: relative;
-  left: 100%;
-  display: inline-block;
-}
+  header nav {
+    height: var(--mobile-nav-height);
+    position: fixed;
+  }
+
+  header nav .nav-brand a:any-link {
+    background-size: 50px auto;
+    background-position: 0 13px;
+  }
+
+  header nav[aria-expanded="false"] .nav-hamburger-icon {
+    top: 0;
+  }
+
+  header nav[aria-expanded="true"] {
+    overflow-y: scroll;
+    min-height: 100vh;
+    background: #5a5a5a;
+  }
+
+  .nav-brand p {
+    position: relative;
+    left: 100%;
+    display: inline-block;
+  }
 }

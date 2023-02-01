@@ -1,546 +1,566 @@
-.cards > ul {
+.cards > u {
     list-style: none;
     margin: 0;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 0;
-}
-
-.cards > ul > li {
+  }
+  
+  .cards > ul > li {
     position: relative;
     color: white;
-}
-
-.cards > ul > li a:any-link {
+  }
+  
+  .history-vision-section h5#compliances {
+    font-size: 21px;
+  }
+  
+  main .cards-container .default-content-wrapper a {
+    all: unset;
+    cursor: pointer;
+  }
+  
+  .cards > ul > li a:any-link {
     font-family: var(--body-font-family);
     font-weight: 250;
     text-decoration: none;
     color: white;
-}
-
-.cards > ul > li h3 {
+  }
+  
+  .cards > ul > li h3 {
     margin-top: 0;
     font-size: 48px;
     font-weight: 300;
-}
-
-.cards > ul > li em {
-    font-size: 24px; 
+  }
+  
+  .cards > ul > li em {
+    font-size: 24px;
     font-weight: 150;
     font-style: normal;
-}
-
-.cards > ul > li p strong {
+  }
+  
+  .cards > ul > li p strong {
     font-size: 15px;
     font-weight: 300;
-}
-
-.cards > ul > li h4 {
+  }
+  
+  .cards > ul > li h4 {
     font-size: 16px;
     font-weight: 200;
-    text-decoration: underline; 
-}
-
-/* .cards .cards-card-body {
+    text-decoration: underline;
+  }
+  
+  /* .cards .cards-card-body {
+      padding: 20px 30px;
+  } */
+  .cards .cards-card-body {
     padding: 20px 30px;
-} */
-.cards .cards-card-body {
-    padding: 20px 30px;
-}
-
-.cards .cards-card-image {
+  }
+  
+  .cards .cards-card-image {
     line-height: 0;
     position: absolute;
     z-index: -1;
     top: 0;
     width: 100%;
     height: 100%;
-}
-
-.history-vision-section .cards.block.fifty-fifty{
-    height:400px;
-}
-
-.cards .cards-card-image picture {
+  }
+  
+  .history-vision-section .block {
+    height: 400px;
+  }
+  
+  .cards .cards-card-image picture {
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-}
-
-.cards .cards-card-image img {
+  }
+  
+  .cards .cards-card-image img {
     object-fit: cover;
     width: 100%;
     height: 100%;
-}
-
-.cards.fifty-fifty > ul > li .cards-card-body {
+  }
+  
+  .cards.fifty-fifty > ul > li {
     padding-top: 50px;
     padding-bottom: 50px;
-}
-
-main .section.cards-container {
+  }
+  
+  main .section.cards-container {
     padding: 0;
-}
-
-main .section.cards-container .default-content-wrapper {
+  }
+  
+  main .cards-container .default-content-wrapper {
     justify-content: center;
     text-align: center;
     padding: 30px;
-}
-
-main .section.cards-container .default-content-wrapper a {
-    all: unset;
-    cursor: pointer;
-}
-
-main .section.cards-container .default-content-wrapper em {
+  }
+  
+  main .cards-container .default-content-wrapper em {
     font-size: 1.3em;
     font-style: normal;
-}
-
-main .section.cards-container .default-content-wrapper h3 {
+  }
+  
+  main .cards-container .default-content-wrapper h3 {
     display: flex;
     justify-content: center;
     font-size: 2em;
     align-content: center;
     font-weight: 400;
-}
-
-main .section.cards-container .default-content-wrapper p {
+  }
+  
+  main .cards-container .default-content-wrapper p {
     justify-content: center;
     font-style: normal;
     text-align: center;
     align-content: center;
-}
-
-main .section.cards-container .cards-wrapper {
+  }
+  
+  main .cards-container .cards-wrapper {
     max-width: 100%;
-}
-
-.cards:not(.review) > ul > li:nth-child(even),
-.cards:not(.review) > ul > li:nth-child(even) a:any-link {
+  }
+  
+  .cards:not(.review) > ul > li:nth-child(even),
+  .cards:not(.review) > ul > li:nth-child(even) a:any-link {
     color: var(--text-color);
-    color:white;
-}
-
-@media (min-width: 600px) {
+    color: white;
+  }
+  
+  @media (min-width: 600px) {
     main .section.cards-container {
-        padding-top: 50px;
+      padding-top: 50px;
     }
-
+  
     .cards > ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-        grid-gap: 0;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+      grid-gap: 0;
     }
-
-    main .section.cards-container .default-content-wrapper {
-        padding-bottom: 50px;
+  
+    main .cards-container .default-content-wrapper {
+      padding-bottom: 50px;
     }
-
-    main .section.cards-container .default-content-wrapper:last-child {
-        padding-top: 100px;
-        padding-left: 20px;
-        padding-right: 20px;
+  
+    main .cards-container .default-content-wrapper:last-child {
+      padding-top: 100px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
-
-    main .section.cards-container .default-content-wrapper h2 {
-        display: flex;
-        justify-content: center;
-        font-size: 45px;
-        align-content: center;
-        font-weight: 400;
+  
+    main .cards-container .default-content-wrapper h2 {
+      display: flex;
+      justify-content: center;
+      font-size: 45px;
+      align-content: center;
+      font-weight: 400;
     }
-
-    main .section.cards-container .default-content-wrapper h3 {
-        display: flex;
-        justify-content: center;
-        font-size: 48px;
-        align-content: center;
-        font-weight: 400;
-        text-align: center;
+  
+    main .cards-container .default-content-wrapper h3 {
+      display: flex;
+      justify-content: center;
+      font-size: 48px;
+      align-content: center;
+      font-weight: 400;
+      text-align: center;
     }
-
-    main .section.cards-container .default-content-wrapper em {
-        display: flex;
-        justify-content: center;
-        font-size: 28px;
-        align-content: center;
-        font-weight: 400;
-        text-align: center;
+  
+    main .cards-container .default-content-wrapper em {
+      display: flex;
+      justify-content: center;
+      font-size: 28px;
+      align-content: center;
+      font-weight: 400;
+      text-align: center;
     }
-}
-
-@media (min-width: 900px) {
+  }
+  
+  @media (min-width: 900px) {
     main .section.cards-container {
-        max-width: 100%;
-        height: 100%;
+      max-width: 100%;
+      height: 100%;
     }
-
+  
     .cards > ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 0;
-        height: 800px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 0;
+      height: 800px;
     }
-
+  
+    .fifty-fifty > ul > li .cards-card-body {
+      padding-left: 50px;
+    }
+  
+    .world-class-cutomer-loyality .cards-card-body p em {
+      color: white;
+    }
+  
+    .section .world-class-cutomer-loyality a {
+      color: white;
+      margin-left: -30px;
+    }
+  
+    .section.fragment-container p a {
+      font-size: 12px;
+    }
+  
+    .meet-our-team-desktop-another-section ul li {
+      height: 500px;
+    }
+  
     .cards > ul > li:nth-child(1) {
-        grid-row: span 2;
+      grid-row: span 2;
     }
-
-    /* Cards review block */
+  
     .cards.review > ul > li:nth-child(1) {
-        grid-row: span 1;
+      grid-row: span 1;
     }
-
+  
     .cards.review > ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
-        grid-gap: 0;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
+      grid-gap: 0;
     }
-
-    .cards.review > ul > li .cards-card-body {
-        position: absolute;
-        bottom: 0;
+  
+    .review > ul > li .cards-card-body {
+      position: absolute;
+      bottom: 0;
     }
-
-    .cards.review > ul > li .cards-card-body p {
-        margin: 0;
+  
+    .review > ul > li .cards-card-body p {
+      margin: 0;
     }
-
-    .cards.review > ul > li .cards-card-body p br {
-        display: none;
+  
+    .review > ul > li .cards-card-body p br {
+      display: none;
     }
-
-    .cards.review > ul > li .cards-card-body strong {
-        display: block;
-        text-align: right;
+  
+    .review > ul > li .cards-card-body strong {
+      display: block;
+      text-align: right;
     }
-
-    .cards.review > ul > li .cards-card-body strong:first-of-type {
-        padding-top: 10px;
+  
+    .meet-our-team-desktop-view ul li .cards-card-body strong {
+      margin: 0;
     }
-
+  
+    .review > ul > li .cards-card-body strong:first-of-type {
+      padding-top: 10px;
+    }
+  
     .cards > ul > li:first-child .cards-card-body {
-        position: absolute;
-        bottom: 0;
+      position: absolute;
+      bottom: 0;
     }
-
+  
     .cards.fifty-fifty > ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 0;
-        height: 800px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 0;
+      height: 800px;
     }
-
-    .cards.fifty-fifty > ul > li .cards-card-body {
-        padding-left: 50px;
+  
+    .cards-card-body p:nth-child(1) em {
+      font-style: italic;
     }
-
-    .cards.fifty-fifty > ul > li .cards-card-body em {
-        font-size: 24px;
+  
+    .fifty-fifty > ul > li .cards-card-body em {
+      font-size: 24px;
     }
-
+  
     .cards.fifty-fifty > ul > li:nth-child(2n) {
-        grid-row: span 2;
+      grid-row: span 2;
     }
-
-    .cards.fifty-fifty > ul > li:first-child .cards-card-body {
-        position: absolute;
-        top: 0;
+  
+    .fifty-fifty > ul > li:first-child .cards-card-body {
+      position: absolute;
+      top: 53px;
     }
-
-    main .section.cards-container .default-content-wrapper h2 {
-        display: flex;
-        justify-content: center;
-        font-size: 48px;
-        align-content: center;
-        font-weight: 400;
+  
+    main .highest-standard-text h1 {
+      position: relative;
+      top: 150px;
     }
-
-    .history-vision-section .cards .cards-card-image{
-        height: 55%;
+  
+    main .highest-standard-text h4 {
+      position: relative;
+      top: 150px;
     }
-
-    /* desktop view for career page */
-.meet-our-team-desktop-view.cards-container, 
-.meet-our-team-desktop-another-section {
-    width: 1140px;
-    margin: 0 auto;
-}
-.meet-our-team-desktop-view.cards-container img {
-    height: 500px;
-}
-.meet-our-team-desktop-another-section ul li {
-    height: 500px;
-}
-.meet-our-team-desktop-view ul li .cards-card-body p em,
-.meet-our-team-desktop-another-section .cards-card-body p:nth-child(1) em{
-    color:white;
-    font-size: 14px;
-    line-height: 1px;
-}
-.meet-our-team-desktop-another-section.section.cards-container {
-    max-width: 100%;
-    height: 100%;
-    height: 500px;
-}
-
-.meet-our-team-desktop-view .cards.review > ul > li .cards-card-body {
-    position: absolute;
-    bottom: 0;
-    left:0px;
-    right:0px;
-    bottom:290px;
-}
-.meet-our-team-desktop-view .cards.review > ul > li .cards-card-body strong:first-of-type{
-    padding-top: 0px;
-}
-.meet-our-team-desktop-view  ul li .cards-card-body strong a:hover{
-    background:none;
-    margin:0px;
-}
-.meet-our-team-desktop-view  ul li .cards-card-body strong a{
-    
-    margin:0px;
-}
-.meet-our-team-desktop-view  ul li .cards-card-body strong {
-    margin:0px;
-    
-}
-.meet-our-team-desktop-view ul li .cards-card-body strong a {
-    background: none;
-    margin: 0px;
-    text-align: right;
-    display: block;
-    padding: 0px;
-}
-
-/* end here */
-
-.cards-card-body p:nth-child(1) em {
-    font-style: italic;
-    
-}
-.section.fragment-container.world-class-cutomer-loyality.cards-container p a {
-
-    font-size: 12px;
-}
-.world-class-cutomer-loyality p.button-container a:hover {
-    background: none;
-}
-.section.meet-our-team-mobile.meet-our-team-desktop-view.cards-container {
-    height: 800px;
-}
-
-.section.fragment-container.world-class-cutomer-loyality.cards-container .button-container a {
-    color:white;
-    margin-left:-30px;
-   
-    
-}
-.world-class-cutomer-loyality .cards-card-body p em{
-    color:white;
-}
-.world-class-cutomer-loyality .cards:not(.review) > ul > li:nth-child(2) a:any-link {
-    color: white;
-}
-
-
-
-
-}
-/* by azam */
-
-
-
-/* here start code for mobile */
-
-@media (max-width:480px){
-    .cards .cards-card-image img {
-      max-width:100%;
-      display:block;
-      height:181px;
+  
+    main .cards-container .default-content-wrapper h2 {
+      display: flex;
+      justify-content: center;
+      font-size: 48px;
+      align-content: center;
+      font-weight: 400;
     }
-    .cards > ul > li p strong {
-        font-size: 8px;
+  
+    .history-vision-section .cards-card-image {
+      height: 55%;
     }
+  
+    .meet-our-team-desktop-view.cards-container,
+    .meet-our-team-desktop-another-section {
+      width: 1140px;
+      margin: 0 auto;
+    }
+  
+    .meet-our-team-desktop-view.cards-container img {
+      height: 500px;
+    }
+  
+    .meet-our-team-desktop-view ul li .cards-card-body p em,
+    .meet-our-team-desktop-another-section .cards-card-body p:nth-child(1) em {
+      color: white;
+      font-size: 14px;
+      line-height: 1px;
+    }
+  
+    .meet-our-team-desktop-another-section .cards-wrapper {
+      max-width: 100%;
+      height: 100%;
+      height: 500px;
+    }
+  
+    .meet-our-team-desktop-view ul > li:nth-child(1) .cards-card-body,
+    .meet-our-team-desktop-view ul > li:nth-child(2) .cards-card-body,
+    .meet-our-team-desktop-view ul > li:nth-child(3) .cards-card-body {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 290px;
+    }
+  
+    .meet-our-team-desktop-view ul li .cards-card-body strong a {
+      background: none;
+      margin: 0;
+      text-align: right;
+      display: block;
+      padding: 0;
+    }
+  
+    .world-class-cutomer-loyality p.button-container a:hover {
+      background: none;
+    }
+  
+    .meet-our-team-desktop-view ul li .cards-card-body strong a:hover {
+      background: none;
+      margin: 0;
+    }
+  
+    main .meet-our-team-mobile.cards-container {
+      max-width: 100%;
+      height: 800px;
+    }
+  
+    .world-class-cutomer-loyality .cards:not(.review) > ul > li:nth-child(2) a:any-link {
+      color: white;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .history-vision-section .block {
+      height: 500px;
+    }
+  
     .cards > ul > li h3 {
-        font-size: 21px;
+      font-size: 21px;
+      padding: 11px 0;
     }
+  
+    .section.related-case-studies-component h3 {
+      padding: 49px 0;
+    }
+  
+    .cards-wrapper ul {
+      list-style: none;
+      padding: 0;
+    }
+  
+    .cards .cards-card-image img {
+      max-width: 100%;
+      display: block;
+      height: 181px;
+    }
+  
+    .cards > ul > li p strong {
+      font-size: 8px;
+    }
+  
+    .world-class-cutomer-loyality ul li:nth-child(1) {
+      margin-bottom: -25px;
+    }
+  
     .cards > ul > li em {
-        font-size: 14px;
+      font-size: 14px;
     }
-    body{
-        line-height: 17px;
+  
+    body {
+      line-height: 17px;
     }
+  
     .cards .cards-card-body {
-        padding: 10px 10px;
+      padding: 21px 10px;
     }
+  
     .cards-card-body p {
-        margin:0px;
-        padding:0px;
+      margin: 0;
+      padding: 0;
     }
+  
     .cards > ul > li h4 {
-        font-size: 6px;
+      font-size: 6px;
     }
-
-    /* career page css */
-    main .section.cards-container .default-content-wrapper h3 {
-        font-size:28px;
-    }
-    main .section.cards-container .default-content-wrapper em {
-        font-size: 14px;
-        font-style: normal;
-    }
-/* try */
-.meet-our-team-mobile .cards .cards-card-image picture {
-    position: relative;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
-.meet-our-team-mobile .cards .cards-card-image {
-    line-height: 0;
-    /* position: absolute; */
-    z-index: -1;
-    top: 0;
-    width: 100%;
-    display: contents;
-    /* height: 100%; */
-}
-.meet-our-team-mobile p {
-    text-align: center;
-    color: black;
-}
-.meet-our-team-mobile .cards > ul > li p strong {
-    font-size: 21px;
-    font-weight: 600;
-
-}
-.meet-our-team-mobile .cards > ul > li p{
-    margin:10px;
-}
-
-.meet-our-team-mobile .cards-card-body  p:nth-child(3) strong {
-    font-size:14px;
-    position: relative;
-    top: -19px;
-}
-.meet-our-team-mobile .cards > ul > li p:nth-child(2) {
-    margin: 10px;
-    margin-top: 20px;
-}
-.meet-our-team-mobile .cards .cards-card-image img {
   
-    width: calc(100% - 54px);
-    height: calc(100% - 250px);
-    margin: 0 auto;
-}
-
-
-.meet-our-team-mobile-another-section .cards .cards-card-image picture {
-    position: relative;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
-.meet-our-team-mobile-another-section .cards .cards-card-image {
-    line-height: 0;
-    /* position: absolute; */
-    z-index: -1;
-    top: 0;
-    width: 100%;
-    display: contents;
-    /* height: 100%; */
-}
-.meet-our-team-mobile-another-section p {
-    text-align: center;
-    color: black;
-}
-.meet-our-team-mobile-another-section .cards > ul > li p strong {
-    font-size: 21px;
-    font-weight: 600;
-
-}
-.meet-our-team-mobile-another-section .cards > ul > li p{
-    margin:10px;
-}
-
-.meet-our-team-mobile-another-section .cards-card-body  p:nth-child(3) strong {
-    font-size:14px;
-}
-.meet-our-team-mobile-another-section .cards > ul > li p:nth-child(2) {
-    margin: 10px;
-    margin-top: 20px;
-}
-.meet-our-team-mobile-another-section .cards .cards-card-image img {
+    main .cards-container .default-content-wrapper h3 {
+      font-size: 28px;
+    }
   
-    width: calc(100% - 54px);
-    height: calc(100% - 209px);
-    margin: 0 auto;
-}
-main .section.cards-container .default-content-wrapper a {
-    all: unset;
-    cursor: pointer;
-    font-size: 14px;
-}
-.history-vision-section  #we-empower-our-clients-to-build-stronger-relationships-with-their-customers {
-    margin: 50px 0px 25px 0px;
-    color:#313131;
-    
-}
-
-.history-vision-section a:any-link a{
-    color:white;
-}
-.history-vision-section h4#view-our-privacy-policy- a {
-    color: white;
-    font-size: 14px;
-}
-h3#we-follow-the-highest-standards-of-data-governance-and-are-compliant-with-all-prevailing-laws{
-    font-size:21px;
-}
-h4#tlc-compliances-and-statutory-audits-are-managed-by-a-big-4-global-accounting-firm-we-follow-the-highest-levels-of-information-security-with-an-iso-27001-certification-we-are-responsible-conscious-and-have-goals-of-net-zero-carbon-emissions{
-    font-size: 14px;
-}
-.history-vision-section h5#compliances{
-    font-size:21px;
-}
-/* main .section {
-    padding: 10px 16px;
-} */
-.history-vision-section img:nth-child(2){
-    height: 217px;
-    object-position: 0px -18px;
-}
-.section.fragment-container.world-class-cutomer-loyality.cards-container p a {
-    font-size: 10px;
-}
-.meet-our-team-mobile .cards > ul > li a:any-link {
-    font-family: var(--body-font-family);
-    font-weight: 600;
-    text-decoration: none;
-    color: black;
-    margin-top:0px;
-}
-
-
-}
+    main .cards-container .default-content-wrapper em {
+      font-size: 14px;
+      font-style: normal;
+    }
+  
+    .meet-our-team-mobile .cards-card-image picture {
+      position: relative;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+  
+    .meet-our-team-mobile .cards-card-image {
+      line-height: 0;
+      z-index: -1;
+      top: 0;
+      width: 100%;
+      display: contents;
+    }
+  
+    .meet-our-team-mobile p {
+      text-align: center;
+      color: black;
+    }
+  
+    .meet-our-team-mobile .cards > ul > li p strong {
+      font-size: 21px;
+      font-weight: 600;
+      margin: 0 auto;
+      padding: 0 0 20px;
+    }
+  
+    .meet-our-team-mobile-another-section .cards > ul > li p strong {
+      font-size: 21px;
+      font-weight: 600;
+    }
+  
+    .meet-our-team-mobile-another-section p {
+      text-align: center;
+      color: black;
+    }
+  
+    .meet-our-team-mobile .cards > ul > li p {
+      margin: 10px;
+    }
+  
+    .meet-our-team-mobile .cards-card-body p:nth-child(3) strong {
+      font-size: 14px;
+      position: relative;
+      top: -19px;
+    }
+  
+    .meet-our-team-mobile-another-section .cards > ul > li p {
+      margin: 10px;
+    }
+  
+    .meet-our-team-mobile .cards > ul > li p:nth-child(2) {
+      margin: 10px;
+      margin-top: 20px;
+    }
+  
+    .meet-our-team-mobile .cards-card-image img {
+      width: calc(100% - 54px);
+      height: calc(100% - 250px);
+      margin: 0 auto;
+    }
+  
+    .meet-our-team-mobile-another-section .cards-card-image picture {
+      position: relative;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+  
+    .meet-our-team-mobile-another-section .cards-card-image {
+      line-height: 0;
+      z-index: -1;
+      top: 0;
+      width: 100%;
+      display: contents;
+    }
+  
+    .meet-our-team-mobile-another-section .cards-card-body p:nth-child(3) strong {
+      font-size: 14px;
+    }
+  
+    .meet-our-team-mobile-another-section .cards > ul > li p:nth-child(2) {
+      margin: 10px;
+      margin-top: 20px;
+    }
+  
+    .meet-our-team-mobile-another-section .cards-card-image img {
+      width: calc(100% - 54px);
+      height: calc(100% - 209px);
+      margin: 0 auto;
+    }
+  
+    .history-vision-section a:any-link a {
+      color: white;
+    }
+  
+    main .cards-container .default-content-wrapper a {
+      all: unset;
+      cursor: pointer;
+      font-size: 14px;
+    }
+  
+    .history-vision-section #we-empower-our-clients-to-build-stronger-relationships-with-their-customers {
+      margin: 50px 0 25px;
+      color: #313131;
+    }
+  
+    .history-vision-section img:nth-child(2) {
+      height: 217px;
+      object-position: 0 -18px;
+    }
+  
+    .fragment-container.cards-container p a {
+      font-size: 10px;
+    }
+  
+    .meet-our-team-mobile .cards > ul > li a:any-link {
+      font-family: var(--body-font-family);
+      font-weight: 600;
+      text-decoration: none;
+      color: black;
+      margin-top: 0;
+    }
+  }
+  

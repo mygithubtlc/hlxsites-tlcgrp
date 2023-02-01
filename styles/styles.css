@@ -7,9 +7,7 @@
 
 :root {
   /* colors */
-  --link-color: var(--text-color);
-  --link-hover-color: var(--text-color);
-  --background-color: #EFEEE7;
+  --background-color: #eeeee7;
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
   --text-color: #313131;
@@ -21,7 +19,7 @@
   --heading-font-family: var(--body-font-family);
   --heading-font-weight: var(--body-font-weight);
   --alt-font-family: "Helvetica Neue", helvetica, arial, sans-serif;
-  --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
+  --fixed-font-family: "Roboto Mono", menlo, consolas, "Liberation Mono", monospace;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -38,7 +36,7 @@
 
   /* nav height */
   --nav-height: 80px;
-  --mobile-nav-height:60px;
+  --mobile-nav-height: 60px;
 }
 
 body {
@@ -56,39 +54,49 @@ body.appear {
   display: unset;
 }
 
-h1, h2, h3,
-h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--heading-font-family);
   font-weight: var(--heading-font-weight);
   line-height: 1.25;
-  margin-top: .5em;
-  margin-bottom: .5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   scroll-margin: calc(var(--nav-height) + 1em);
 }
 
-h1 { font-size: var(--heading-font-size-xxl) }
-h2 { font-size: var(--heading-font-size-xl) }
-h3 { font-size: var(--heading-font-size-l) }
-h4 { font-size: var(--heading-font-size-m) }
-h5 { font-size: var(--heading-font-size-s) }
-h6 { font-size: var(--heading-font-size-xs) }
+h1 { font-size: var(--heading-font-size-xxl); }
+h2 { font-size: var(--heading-font-size-xl); }
+h3 { font-size: var(--heading-font-size-l); }
+h4 { font-size: var(--heading-font-size-m); }
+h5 { font-size: var(--heading-font-size-s); }
+h6 { font-size: var(--heading-font-size-xs); }
 
-p, dl, ol, ul, pre, blockquote {
+p,
+dl,
+ol,
+ul,
+pre,
+blockquote {
   margin-top: 1em;
   margin-bottom: 1em;
 }
-p{
+
+p {
   font-family: var(--alt-font-family);
 }
+
 a:any-link {
   font-family: var(--alt-font-family);
   color: var(--link-color);
   text-decoration: none;
-  
 }
+
 .new-image-set a {
   font-size: 15px;
-
 }
 
 a:hover {
@@ -96,13 +104,16 @@ a:hover {
   color: var(--link-hover-color);
 }
 
-code, pre, samp {
+code,
+pre,
+samp {
   font-family: var(--fixed-font-family);
   font-size: var(--body-font-size-s);
 }
 
-code, samp {
-  padding: .125em;
+code,
+samp {
+  padding: 0.125em;
 }
 
 pre {
@@ -111,15 +122,16 @@ pre {
 
 /* buttons */
 
-a.button:any-link, button {
+a.button:any-link,
+button {
   font-family: var(--alt-font-family);
   display: inline-block;
   box-sizing: border-box;
   text-decoration: none;
   border: 2px solid transparent;
-  padding: 5px 30px;
+  padding: 5px 0;
   text-align: center;
-  font-style: normal; 
+  font-style: normal;
   font-weight: 600;
   cursor: pointer;
   margin: 16px 0;
@@ -129,22 +141,26 @@ a.button:any-link, button {
   border-radius: 30px;
 }
 
-a.button:hover, a.button:focus, button:hover, button:focus  {
+a.button:hover,
+a.button:focus,
+button:hover,
+button:focus {
   background-color: var(--link-hover-color);
   cursor: pointer;
 }
 
-button:disabled, button:disabled:hover {
+button:disabled,
+button:disabled:hover {
   background-color: var(--overlay-background-color);
   cursor: unset;
 }
 
-a.button.secondary, button.secondary {
+a.button.secondary,
+button.secondary {
   background-color: unset;
   border: 2px solid currentcolor;
-  color: var(--text-color)
-} 
-
+  color: var(--text-color);
+}
 
 main input {
   font-size: 1.25rem;
@@ -152,7 +168,7 @@ main input {
   max-width: 50rem;
   display: block;
   margin-bottom: 1rem;
-  padding: 0.75rem 0.6rem;    
+  padding: 0.75rem 0.6rem;
   border-radius: 0.25rem;
   box-sizing: border-box;
   border: 1px solid var(--text-color);
@@ -169,7 +185,7 @@ main .section {
 }
 
 main img {
-  max-width: 100%;
+  /* max-width: 100%; */
   width: 100%;
   height: auto;
 }
@@ -198,19 +214,33 @@ main .section.background > picture {
   right: 0;
 }
 
+main .integration-free-solutions img {
+  margin: 0 auto;
+  display: block;
+}
+
 main .section.background > picture img {
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
 
-.section .default-content-wrapper {
-  text-align: center;
+.job-description-page ol li {
+  padding: 6px 0;
+}
+
+.privacy-policy-section * ul li {
+  font-size: 15px;
+  text-align: left;
+}
+
+.privacy-policy-section * ol li {
+  font-size: 15px;
+  text-align: left;
 }
 
 .section .default-content-wrapper ul li {
   text-align: left;
-  font-size:0.8em;
 }
 
 .section .default-content-wrapper h1 {
@@ -225,12 +255,143 @@ main .section.background > picture img {
   font-size: 0.7em;
 }
 
-main .section.background .default-content-wrapper {
+main .background .default-content-wrapper {
   padding-left: 20px;
   margin-top: 50px;
   max-width: 100%;
   padding-right: 20px;
   padding-bottom: 30px;
+}
+
+.job-description-page h3 {
+  text-align: left;
+  border-bottom: 1px solid gray;
+  margin-bottom: 40px;
+  margin-top: 100px;
+}
+
+main .carve-career h3 {
+  color: gray;
+  font-size: 28px;
+  padding: 0;
+}
+
+.section.background > h1 {
+  color: black;
+}
+
+.section.carve-career h1 {
+  color: #000;
+}
+
+.job-description-page h2 {
+  margin-bottom: 0;
+}
+
+.payment-term-section h2 {
+  font-size: 36px;
+}
+
+main .why-us h2 {
+  padding-bottom: 20px;
+}
+
+main .clientele-page h4 {
+  text-align: center;
+}
+
+main .z-pattern-container h4 {
+  text-align: center;
+}
+
+.section.integration-free-solutions h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 28px;
+}
+
+main .job-description-page h2 {
+  text-align: center;
+}
+
+.job-description-page p {
+  text-align: left;
+  padding: 10px 0;
+  line-height: 25px;
+  display: inline-block;
+  margin: 0;
+}
+
+.privacy-policy-section * p {
+  font-size: 15px;
+  text-align: left;
+}
+
+.payment-term-section p {
+  font-size: 15px;
+}
+
+main .job-description-page p {
+  text-align: center;
+  display: block;
+}
+
+main .disclaimer-section p {
+  font-size: 15px;
+  text-align: left;
+}
+
+main .carve-career p {
+  color: black;
+  padding: 0 0 100px;
+}
+
+main .disclaimer-section * p {
+  font-size: 15px;
+  text-align: left;
+}
+
+main .arrow-icon-style p {
+  font-size: 15px;
+  text-indent: -13px;
+  margin-left: 19px;
+}
+
+main .integration-free-solutions p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.job-description-page p:nth-child(8) {
+  margin-top: 50px;
+}
+
+main .clientele-page h2 {
+  text-align: center;
+}
+
+main .text-wrapped h2 {
+  width: 43%;
+}
+
+.job-description-page h2:nth-child(9) {
+  font-size: 30px;
+  margin: 50px 0;
+}
+
+.section.clientele-page h4 {
+  font-size: 28px;
+}
+
+main .why-us h5 {
+  text-align: center;
+}
+
+main .disclaimer-section * h3 {
+  font-size: 18px;
+  text-align: left;
 }
 
 main .section.background h1,
@@ -242,12 +403,59 @@ main .section.background h6 {
   font-weight: 400;
 }
 
+.job-description-page p:nth-child(3),
+.job-description-page p:nth-child(4) {
+  text-align: center;
+}
+
+.job-description-page p:nth-child(4),
+.job-description-page p:nth-child(8) {
+  border: 1px solid gray;
+  width: 145px;
+  padding: 8px;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
 main .section.background p {
   font-weight: 200;
   font-size: 28px;
 }
 
-main .section.background .button-container a {
+main .section .default-content-wrapper p {
+  gap: 10px;
+  margin-top: 0;
+}
+
+main.section .default-content-wrapper p {
+  display: block;
+  text-align: left;
+  padding: 0 20px;
+  justify-content: left;
+  gap: 10px;
+  font-size: 0.7em;
+}
+
+main .background .carve-career p {
+  color: black;
+  padding: 50px 0;
+}
+
+main .why-us .default-content-wrapper p {
+  font-size: 18px;
+  padding: 8px 0;
+  margin: 0 3%;
+  text-align: center;
+}
+
+.job-description-page p:nth-child(4):hover,
+.job-description-page p:nth-child(8):hover {
+  background-color: black;
+  color: white;
+}
+
+main .background .button-container a {
   all: unset;
   cursor: pointer;
   font-family: var(--alt-font-family);
@@ -257,7 +465,7 @@ main .section.background .button-container a {
 main pre {
   background-color: var(--overlay-background-color);
   padding: 1em;
-  border-radius: .25em;
+  border-radius: 0.25em;
   overflow-x: auto;
   white-space: pre;
 }
@@ -286,24 +494,28 @@ hr {
   border-bottom: 1px solid var(--overlay-background-color);
 }
 
-main .section.background .default-content-wrapper h2 {
+main .background .default-content-wrapper h2 {
   text-align: center;
   font-size: 48px;
 }
 
-main .section.align .default-content-wrapper h2 {
+main .align .default-content-wrapper h2 {
   text-align: center;
   margin-bottom: 50px;
   padding: 10px;
   font-size: 1.8em;
 }
 
-main .section.background .default-content-wrapper h2:nth-of-type(2) {
+main .background .default-content-wrapper h2:nth-of-type(2) {
   font-size: 28px;
 }
 
 .section.divide {
   padding: 0;
+}
+
+.carve-career-all-section .default-content-wrapper strong {
+  font-size: 24px;
 }
 
 main .section .default-content-wrapper strong {
@@ -316,41 +528,15 @@ main .section .default-content-wrapper em {
   align-content: center;
 }
 
-main .section .default-content-wrapper p {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  font-size: 0.8em;
-  margin-top: 0;
-}
-
 main .section .default-content-wrapper h1 {
   font-size: 2em;
 }
 
-/* legal theme */
-.legal main .section .default-content-wrapper p {
-  display: block;
-  text-align: left;
-  padding: 0 20px;
-  justify-content: left;
-  gap: 10px;
-  font-size: 0.7em;
-}
-
-.legal main .section .default-content-wrapper p a {
+main .section .default-content-wrapper p a {
   display: block;
 }
 
-.legal main .section .default-content-wrapper h3 {
-  text-align: left;
-  padding: 30px 20px;
-  font-size: 1.2em;
-}
-
-.legal main .section .default-content-wrapper h4 {
-  text-align: left;
-  font-size: 0.7em;
+main .section .default-content-wrapper h4 {
   padding: 0 20px;
   padding-bottom: 10px;
 }
@@ -358,85 +544,80 @@ main .section .default-content-wrapper h1 {
 .legal main .section {
   padding-bottom: 60px;
 }
-/* by azam */
+
 .new-image-set .icon-arrow-icon svg {
   top: -3px;
 }
 
-.arrow-icon-style p {
-  font-size: 15px;
-  text-indent: -13px;
-  margin-left: 19px;
-}
-
-/* for carve-section */
-main .section.background.carve-career .default-content-wrapper p{
-  color:black;
-  padding:50px 0px;
-}
-main .section.background.carve-career .default-content-wrapper h3 {
+main .background .carve-career h3 {
   text-align: center;
   font-size: 28px;
   font-weight: 400;
-  margin-left:0px;
-  max-width:700px;
-  color:gray;
-  margin:0 auto;
-    padding-top: 0px;
-}
-.section.background.carve-career h1{
-  color:black;
+  max-width: 700px;
+  color: gray;
+  margin: 0 auto;
+  margin-left: 0;
+  padding-top: 0;
 }
 
-.section.background.carve-career p em{
- color:gray;
- font-size:28px;
+.section.carve-career p em {
+  color: gray;
+  font-size: 28px;
 }
-.section.background.carve-career p:nth-child(1) {
-  width:90px;
-  height:90px;
-  margin:0 auto;
-  padding:70px 0px;
-  
+
+.section.background p:nth-child(1) {
+  width: 90px;
+  height: 50px;
+  margin: 0 auto;
 }
-.section.background.carve-career {
-  height: 500px;
+
+main .why-us .icon-arrow-about-cta {
+  vertical-align: 13px;
+  margin-left: 15px;
+  display: initial;
 }
-main .section.background.carve-career .default-content-wrapper {
-  margin-left: 50px;
-  margin-top: 20px;
+
+.job-description-page ol {
+  padding-left: 15px;
 }
 
 @media (min-width: 600px) {
+  main .why-us h4 {
+    margin-top: 20px;
+    font-family: var(--alt-font-family);
+    font-weight: 200;
+  }
+
   main .section {
     padding: 64px 32px;
     padding-bottom: 20px;
-  }  
+  }
 
-  main .section.background .default-content-wrapper h3 {
+  main .background .default-content-wrapper h3 {
     text-align: center;
-    font-size: 45px;
     font-weight: 400;
     padding-left: 0;
     padding-right: 20px;
     padding-top: 10px;
   }
 
-  main .section.background .default-content-wrapper h4 {
+  main .career-head-section h4 {
+    text-align: center;
+    font-size: 48px;
+  }
+
+  main .current-opening h4 {
+    text-align: center;
+    font-size: 48px;
+  }
+
+  main .background .default-content-wrapper h4 {
     font-size: 24px;
     font-weight: 300;
     text-align: center;
     padding-left: 0;
     color: white;
     padding-bottom: 20px;
-  }
-
-  main .section .default-content-wrapper p {
-    gap: 10px;
-    font-size: 15px;
-    margin-top: 0;
-    display: flex;
-    justify-content: center;
   }
 
   main .section .default-content-wrapper em {
@@ -453,7 +634,33 @@ main .section.background.carve-career .default-content-wrapper {
     font-weight: 100;
   }
 
-  main .section.background .default-content-wrapper {
+  main .carve-career-all-section .default-content-wrapper h1 {
+    font-size: 48px;
+    margin-top: 0;
+    padding-top: 66px;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+  }
+
+  main .carve-career-all-section .default-content-wrapper p em {
+    font-size: 24px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+
+  main .carve-career-all-section .default-content-wrapper strong a {
+    font-size: 24px;
+    padding-bottom: 15px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  main .carve-career-all-section {
+    height: 450px;
+  }
+
+  main .background .default-content-wrapper {
     margin-bottom: 50px;
   }
 
@@ -467,11 +674,6 @@ main .section.background.carve-career .default-content-wrapper {
     font-weight: 200;
     text-align: center;
     padding-bottom: 20px;
-    border-bottom: 1px solid black;
-  }
-
-  main .section .default-content-wrapper p picture {
-    padding-top: 30px;
   }
 }
 
@@ -482,85 +684,91 @@ main .section.background.carve-career .default-content-wrapper {
     --heading-font-size-l: 36px;
     --heading-font-size-m: 28px;
     --heading-font-size-s: 24px;
-    --heading-font-size-xs: 22px;  
+    --heading-font-size-xs: 22px;
   }
-  
+
   .section > div {
     max-width: 1200px;
     margin: auto;
   }
 
-  main .section.background{
-    height: 700px;
+  main .section.background {
+    height: 600px;
   }
 
-  main .section.background .default-content-wrapper {
+  main .section.carve-career,
+  main .section.carve-career-all-section {
+    height: 500px;
+  }
+
+  main .background .default-content-wrapper h2 {
+    text-align: left;
+  }
+
+  main .cyber-security .default-content-wrapper h2 {
+    text-align: center;
+  }
+
+  main .background .default-content-wrapper h2:nth-child(1) {
+    padding-top: 200px;
     margin-left: 50px;
-    margin-top: 200px;
+  }
+
+  main .background .default-content-wrapper h2:nth-child(2) {
+    margin-left: 50px;
+  }
+
+  main p.button-container strong a {
+    all: unset;
+    cursor: pointer;
+  }
+
+  main .background .default-content-wrapper em a {
+    margin-left: 50px;
   }
 
   main .section.background > picture {
     margin-left: -200px;
-}
+  }
 
-  main .section.background  .default-content-wrapper > * {
+  main .background .default-content-wrapper > * {
     max-width: 100%;
   }
 
-  main .section.background .default-content-wrapper h2 {
-    text-align: left;
-  }
-
-  main .section.background .default-content-wrapper h3 {
+  main .background .default-content-wrapper h3 {
     text-align: center;
-    font-size: 48px;
     font-weight: 400;
-    /* margin-left: 100px; */
-    padding-top: 50px;
   }
 
-  main .section.background .default-content-wrapper h4 {
-    /* margin-left: 100px; */
+  main .background .default-content-wrapper h4 {
     text-align: center;
   }
 
-  main .section.background .default-content-wrapper p {
-    text-align: left;
+  main .case-studies-custom h3:only-child {
+    text-align: center;
   }
 
-  main .section.background .default-content-wrapper .button-container {
+  main .current-opening p:nth-child(2) {
+    text-align: center;
+  }
+
+  main .background .button-container {
     justify-content: left;
-  }
-
-  main .section .default-content-wrapper p.button-container strong a {
-    all: unset;
-    cursor: pointer;
   }
 
   main .section.divide {
     background-color: #454545;
     padding: 30px;
   }
-
- 
 }
 
 @media (min-width: 1200px) {
-  main .section.background .default-content-wrapper h3 {
-    /* margin-left: 150px; */
+  main .background .default-content-wrapper h3 {
     max-width: 82%;
-    margin:0 auto;
+    margin: 0 auto;
   }
 
-  main .section.background .default-content-wrapper h4 {
-    /* margin-left: 150px; */
-  }
-
-  main .section.background .default-content-wrapper p {
-    text-align: left;
-  }
-
-  main .section.background .default-content-wrapper p.button-container {
+  main .background p.button-container {
     display: block;
     clear: both;
   }
@@ -569,147 +777,271 @@ main .section.background.carve-career .default-content-wrapper {
     font-size: 1em;
   }
 
-  h2#be-a-part-of-our-innovative-teams-that-work-on-the-best-technology-and-inspire-you-to-create-extraordinary-outcomes {
-    width: 600px;
-    font-family: var( --alt-font-family);
-}
+  main .section[data-section-status="loading"],
+  main .section[data-section-status="initialized"] {
+    display: none;
+  }
 
-/* progressive section and block appearance */
-main .section[data-section-status='loading'],
-main .section[data-section-status='initialized'] {
-  display: none;
-}
+  main .section.highlight {
+    background-color: var(--highlight-background-color);
+  }
 
-main .section.highlight {
-  background-color: var(--highlight-background-color);
-}
-/* by azam */
+  .default-content-wrapper ol li {
+    text-align: left;
+    font-size: 16px;
+  }
 
-h4#view-our-privacy-policy- a {
-  color: white;
-}
-.default-content-wrapper ol li {
-  text-align: left;
-  font-size: 16px;
-}
+  .carve-career-all-section img {
+    width: 100px;
+  }
 
-.section.compliances-logos.image-list-container div:nth-child(1) img {
-  width:60px;
-}
+  .integration-free-solutions img {
+    width: 55%;
+  }
 
-.section.compliances-logos.image-list-container div:nth-child(2) img {
-  width:60px;
-  
-}
+  .section .image-list-container div:nth-child(1) img {
+    width: 60px;
+  }
 
-.section.compliances-logos.image-list-container div div:nth-child(3) img{
-  width:150px;
-  position: relative;
+  .section .image-list-container div:nth-child(2) img {
+    width: 60px;
+  }
+
+  .section.compliances-logos div:nth-child(5) img {
+    width: 60px;
+  }
+
+  .section.associations-logos div:nth-child(2) img {
+    width: 80px;
+  }
+
+  .section.image-list-container div div:nth-child(3) img {
+    width: 150px;
+    position: relative;
     right: 34px;
-    
-}
+  }
 
-.section.compliances-logos.image-list-container div div:nth-child(4) img{
-  width:100px;
-    
-}
+  .section.compliances-logos div div:nth-child(4) img {
+    width: 100px;
+  }
 
-.section.compliances-logos.image-list-container div:nth-child(5) img {
-  width:60px;
-  
-}
+  .section.associations-logos div div:nth-child(3) img {
+    width: 80px;
+  }
 
-.section.associations-logos.image-list-container div:nth-child(2) img {
-  width:80px;
-}
-.section.associations-logos.image-list-container div div:nth-child(3) img {
-  width:80px;
-}
-.section.associations-logos.image-list-container div div:nth-child(5) img {
-  width:80px;
-}
-.section.tech-platform-logos.image-list-container > .image-list-wrapper > div > div:nth-child(1) img {
-  
-  width:90px;
-}
+  .section.associations-logos div div:nth-child(5) img {
+    width: 80px;
+  }
 
-.carve-career-all-section img {
-  width: 100px;
-}
-.carve-career-all-section h1{
-color:black;
+  .section.tech-platform-logo div > div:nth-child(1) img {
+    width: 90px;
+  }
 
-} 
-.carve-career-all-section p{
-color:#313131;
-/* font-size:var(--heading-font-size-m)!important; */
-font-size:24px!important;
-  width: 60%;
+  .carve-career-all-section h1 {
+    color: black;
+  }
+
+  .carve-career-all-section p {
+    color: #313131;
+    font-size: 24px;
+    padding: 0 20%;
     margin: 0 auto;
-    text-align: center!important;
-}
-.carve-career-all-section.section.background .default-content-wrapper{
-margin-top:0px;
-}
-.section.background.carve-career-all-section {
-height: 450px;
-}
-.carve-career-all-section.section.background .default-content-wrapper p.button-container{
-display: block;
-  clear: both;
-  text-align:center;
-  
-}
+    text-align: center;
+  }
 
-.carve-career-all-section.section .default-content-wrapper strong {
-  font-size: 24px;
-}
+  .carve-career-all-section .default-content-wrapper {
+    margin-top: 0;
+  }
 
-.integration-free-solutions img {
-  width: 70%;
-}
+  .carve-career-all-section .background {
+    display: block;
+    clear: both;
+    text-align: center;
+  }
 
-.section.contact-us-section.form-container h1 {
-  line-height: 0.9;
-  text-align: left;
-  display: block;
-  margin-bottom: 20px;
-}
-
-
-
+  main .form-container h1 {
+    text-align: left;
+  }
 }
 
 @media (min-width: 1400px) {
-  main .section.background .default-content-wrapper h3 {
+  main .background .default-content-wrapper h3 {
     margin-left: 200px;
   }
 
-  main .section.background .default-content-wrapper h4 {
+  main .background .default-content-wrapper h4 {
     margin-left: 200px;
   }
 }
 
 @media (min-width: 1600px) {
-  main .section.background .default-content-wrapper h3 {
+  main .background .default-content-wrapper h3 {
     margin-left: 270px;
   }
 
-  main .section.background .default-content-wrapper h4 {
+  main .background .default-content-wrapper h4 {
     margin-left: 270px;
   }
 }
 
-/* cls fix */
 main .slideshow-wrapper,
 main .subnav-container,
 main .columns-container {
   opacity: 0;
 }
 
-/* mobile code start here */
+main .carve-career h3:nth-child(4) {
+  font-size: 15px;
+  padding: 30px 0;
+}
 
-@media (max-width:480px){
+main .highest-standard-text {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .clientele-page h4 {
+    font-size: 14px;
+  }
+
+  main .cyber-security h4 {
+    text-align: center;
+  }
+
+  .carve-career-all-section h1 {
+    color: black;
+  }
+
+  main .compliances-logos h1,
+  main .compliances-logos h4 {
+    text-align: center;
+  }
+
+  main .tech-platform-logos h1,
+  main .tech-platform-logos h4 {
+    text-align: center;
+  }
+
+  main .logos-integration h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  main .carve-career-all-section h1 {
+    text-align: center;
+  }
+
+  main .associations-logos h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  main .disclaimer-section * h3 {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  main .carve-career h3 {
+    text-align: center;
+  }
+
+  main .carve-career h3:nth-child(4) {
+    font-size: 15px;
+    padding: 20px 0;
+  }
+
+  main .carve-career h1 {
+    text-align: center;
+  }
+
+  .payment-term-section h2 {
+    font-size: 22px;
+  }
+
+  .privacy-policy-section h2 {
+    font-size: 22px;
+  }
+
+  .privacy-policy-section * p,
+  .privacy-policy-section * ul li,
+  .privacy-policy-section * ol li {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .clientele-page h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  main .disclaimer-section * h2 {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .carve-career-all-section p {
+    color: #313131;
+    font-size: 24px;
+    padding: 8px 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  main .disclaimer-section * p {
+    text-align: justify;
+  }
+
+  main .career-head-section h4 {
+    text-align: center;
+  }
+
+  main .current-opening h4 {
+    text-align: center;
+  }
+
+  .section.clientele-page h4 {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  main .text-wrapped h2 {
+    width: 100%;
+  }
+
+  main .cyber-security .default-content-wrapper h2 {
+    font-size: 22px;
+  }
+
+  main .fragment-container p {
+    font-size: 14px;
+  }
+
+  main .cards p:first-of-type {
+    font-size: 14px;
+  }
+
+  .carve-career-all-section a {
+    color: black;
+  }
+
+  .section.background a {
+    font-size: 14px;
+  }
+
+  .carve-career .default-content-wrapper p a {
+    color: black;
+  }
+
+  .carve-career-all-section img {
+    width: 100px;
+    position: relative;
+    top: -42px;
+  }
+
+  main .section .default-content-wrapper h3 {
+    padding: 30px 0;
+  }
+
   main .section .default-content-wrapper h1 {
     font-size: 28px;
     margin-top: 10px;
@@ -721,39 +1053,19 @@ main .columns-container {
     align-content: center;
   }
 
-  a.button:hover, a.button:focus, button:hover, button:focus {
+  a.button:hover,
+  a.button:focus,
+  button:hover,
+  button:focus {
     background: none;
   }
 
-  .clientele-page h2 {
-    font-size: 28px;
-  }
-.innovate-with-us h1#innovate-with-us {
-  margin-top: 0px;
-}
-.section.innovate-with-us {
-  padding: 0px 0px;
-}
-.section.background a {
-  color: white;
-  font-size: 14px;
-}
-
-  .clientele-page h4 {
-    font-size: 14px;
-  }
-
   .innovate-with-us h1#innovate-with-us {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .section.innovate-with-us {
-    padding: 0px 0px;
-  }
-
-  .section.background a {
-    color: black;
-    font-size: 14px;
+    padding: 0;
   }
 
   main .section .default-content-wrapper p {
@@ -764,44 +1076,30 @@ main .columns-container {
     margin-top: 0;
   }
 
-  main .section.background.carve-career .default-content-wrapper {
-    margin-left: 0px;
+  main .background.carve-career {
+    margin-left: 0;
     margin-top: 20px;
   }
 
-  .section.background.carve-career {
+  .main .carve-career {
     height: 500px;
     margin-top: 50px;
   }
 
-  a.button:any-link, button {
-    padding: 5px 0px;
+  .main .carve-career-all-section img {
+    width: 100px;
   }
 
-  .section.background.carve-career-all-section img {
-      width: 100px;
-  }
-
-  .section.background.carve-career-all-section h1{
-    color:black;
-  }
-
-  .section.background.carve-career-all-section p{
-    color:black;  
-  }
-
-  .section.background.carve-career-all-section 
-  .section.background .default-content-wrapper{
-    margin-top:0px;
-  }
-
-  main .section.background .default-content-wrapper {
+  main .background .default-content-wrapper {
     margin-top: 40px;
     padding-bottom: 30px;
   }
 
-  .section.background.carve-career-all-section {
+  main .carve-career-all-section {
     margin-top: 30px;
   }
-}
 
+  main .meet-our-team-mobile {
+    margin-top: -84px;
+  }
+}
