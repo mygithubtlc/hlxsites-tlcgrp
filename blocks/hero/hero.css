@@ -88,6 +88,7 @@ main .hero-container > div {
       text-align: center;
       font-size: 28px;
       width: 100%;
+      margin:0px;
     }
   
     main .hero-container > div {
