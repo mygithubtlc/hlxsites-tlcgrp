@@ -416,6 +416,9 @@ main .section.background h6 {
   text-align: center;
   margin: 0 auto;
   cursor: pointer;
+  position: relative;
+  top: 20px;
+  bottom: 43px;
 }
 
 main .section.background p {
@@ -533,7 +536,7 @@ main .section .default-content-wrapper h1 {
 }
 
 main .section .default-content-wrapper p a {
-  display: block;
+  display: inline-block;
 }
 
 main .section .default-content-wrapper h4 {
@@ -579,6 +582,10 @@ main .why-us .icon-arrow-about-cta {
 
 .job-description-page ol {
   padding-left: 15px;
+}
+
+main .why-us svg {
+  margin: 11px;
 }
 
 @media (min-width: 600px) {
@@ -899,6 +906,15 @@ main .highest-standard-text {
   text-align: center;
 }
 
+main .job-description-page p a{
+  display: inline;
+}
+
+main .job-description-page p {
+  font-size: 16px;
+  text-align: left;
+}
+
 @media (max-width: 600px) {
   .clientele-page h4 {
     font-size: 14px;
@@ -1039,7 +1055,7 @@ main .highest-standard-text {
   }
 
   main .section .default-content-wrapper h3 {
-    padding: 30px 0;
+    padding: 0px 0px 0px 0;
   }
 
   main .section .default-content-wrapper h1 {
@@ -1102,4 +1118,14 @@ main .highest-standard-text {
   main .meet-our-team-mobile {
     margin-top: -84px;
   }
+
+  .section.why-us {
+    padding: 46px 0px 10px 16px;
+  }
+
+  main .world-class-cutomer-loyality h2 {
+    font-size: 21px;
+    margin-top: 25px;
+  }
+
 }
