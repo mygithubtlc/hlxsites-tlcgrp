@@ -334,8 +334,9 @@ main .job-description-page h2 {
 }
 
 main .job-description-page p {
-  text-align: center;
   display: block;
+  font-size: 16px;
+  text-align: left;
 }
 
 main .disclaimer-section p {
@@ -458,6 +459,10 @@ main .why-us .default-content-wrapper p {
   color: white;
 }
 
+main .job-description-page p a{
+  display: inline;
+}
+
 main .background .button-container a {
   all: unset;
   cursor: pointer;
@@ -548,6 +553,10 @@ main .section .default-content-wrapper h4 {
   padding-bottom: 60px;
 }
 
+main .why-us svg {
+  margin: 11px;
+}
+
 .new-image-set .icon-arrow-icon svg {
   top: -3px;
 }
@@ -584,9 +593,7 @@ main .why-us .icon-arrow-about-cta {
   padding-left: 15px;
 }
 
-main .why-us svg {
-  margin: 11px;
-}
+
 
 @media (min-width: 600px) {
   main .why-us h4 {
@@ -906,15 +913,6 @@ main .highest-standard-text {
   text-align: center;
 }
 
-main .job-description-page p a{
-  display: inline;
-}
-
-main .job-description-page p {
-  font-size: 16px;
-  text-align: left;
-}
-
 @media (max-width: 600px) {
   .clientele-page h4 {
     font-size: 14px;
@@ -1055,7 +1053,7 @@ main .job-description-page p {
   }
 
   main .section .default-content-wrapper h3 {
-    padding: 0px 0px 0px 0;
+    padding: 0 0 0 0;
   }
 
   main .section .default-content-wrapper h1 {
