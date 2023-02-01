@@ -85,9 +85,10 @@ main .hero-container > div {
     main .hero h1 {
       color: white;
       position: relative;
-      top: 155px;
       text-align: center;
       font-size: 28px;
+      width: 100%;
+      margin:0;
     }
   
     main .hero-container > div {

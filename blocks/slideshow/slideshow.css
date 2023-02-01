@@ -172,7 +172,8 @@ main .slideshow .slideshow-btn:hover {
     flex-direction: column;
     position: relative;
     background: none;
-    top: -30%;
+    top: -8%;
+    height: 8%;
     justify-content: center;
     overflow-y: auto;
     margin: 0;
@@ -202,7 +203,7 @@ main .slideshow .slideshow-btn:hover {
 
   main .slideshow .slideshow-img {
     position: relative;
-    height: 120vh;
+    height: 44vh;
     width: 100%;
   }
 }

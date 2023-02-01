@@ -334,8 +334,9 @@ main .job-description-page h2 {
 }
 
 main .job-description-page p {
-  text-align: center;
   display: block;
+  font-size: 16px;
+  text-align: left;
 }
 
 main .disclaimer-section p {
@@ -416,6 +417,9 @@ main .section.background h6 {
   text-align: center;
   margin: 0 auto;
   cursor: pointer;
+  position: relative;
+  top: 20px;
+  bottom: 43px;
 }
 
 main .section.background p {
@@ -453,6 +457,10 @@ main .why-us .default-content-wrapper p {
 .job-description-page p:nth-child(8):hover {
   background-color: black;
   color: white;
+}
+
+main .job-description-page p a{
+  display: inline;
 }
 
 main .background .button-container a {
@@ -533,7 +541,7 @@ main .section .default-content-wrapper h1 {
 }
 
 main .section .default-content-wrapper p a {
-  display: block;
+  display: inline-block;
 }
 
 main .section .default-content-wrapper h4 {
@@ -543,6 +551,10 @@ main .section .default-content-wrapper h4 {
 
 .legal main .section {
   padding-bottom: 60px;
+}
+
+main .why-us svg {
+  margin: 11px;
 }
 
 .new-image-set .icon-arrow-icon svg {
@@ -580,6 +592,8 @@ main .why-us .icon-arrow-about-cta {
 .job-description-page ol {
   padding-left: 15px;
 }
+
+
 
 @media (min-width: 600px) {
   main .why-us h4 {
@@ -1008,6 +1022,11 @@ main .highest-standard-text {
     width: 100%;
   }
 
+  main .world-class-cutomer-loyality h2 {
+    font-size: 21px;
+    margin-top: 25px;
+  }
+
   main .cyber-security .default-content-wrapper h2 {
     font-size: 22px;
   }
@@ -1039,7 +1058,7 @@ main .highest-standard-text {
   }
 
   main .section .default-content-wrapper h3 {
-    padding: 30px 0;
+    padding: 0;
   }
 
   main .section .default-content-wrapper h1 {
@@ -1102,4 +1121,9 @@ main .highest-standard-text {
   main .meet-our-team-mobile {
     margin-top: -84px;
   }
+
+  .section.why-us {
+    padding: 46px 0 10px 16px;
+  }
+
 }
