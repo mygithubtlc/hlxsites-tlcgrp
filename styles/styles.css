@@ -365,6 +365,12 @@ main .integration-free-solutions p {
   font-size: 15px;
 }
 
+main .support-services p {
+  font-size: 15px;
+  text-indent: -13px;
+  margin-left: 19px;
+}
+
 .job-description-page p:nth-child(8) {
   margin-top: 50px;
 }
@@ -393,6 +399,14 @@ main .why-us h5 {
 main .disclaimer-section * h3 {
   font-size: 18px;
   text-align: left;
+}
+
+main .tech-product-section h6 {
+  text-align: center;
+}
+
+main .support-services h6 {
+  text-align: center;
 }
 
 main .section.background h1,
@@ -459,7 +473,7 @@ main .why-us .default-content-wrapper p {
   color: white;
 }
 
-main .job-description-page p a{
+main .job-description-page p a {
   display: inline;
 }
 
@@ -592,8 +606,6 @@ main .why-us .icon-arrow-about-cta {
 .job-description-page ol {
   padding-left: 15px;
 }
-
-
 
 @media (min-width: 600px) {
   main .why-us h4 {
@@ -913,35 +925,23 @@ main .highest-standard-text {
   text-align: center;
 }
 
-main .tech-product-section h6 {
-  text-align: center; 
-}
-
-main .support-services h6 {
-  text-align: center;
-}
-
-main .support-services p {
-  font-size: 15px;
-  text-indent: -13px;
-  margin-left: 19px;
-}
-
-
 @media (max-width: 600px) {
+  .carve-career-all-section h1 {
+    color: black;
+  }
 
   main .support-services h1 {
     text-align: center;
     font-size: 14px;
-}
+  }
 
   main .support-services h6 {
     text-align: center;
     font-size: 14px;
-}
-  
+  }
+
   main .tech-product-section h1 {
-    text-align: center; 
+    text-align: center;
   }
 
   .clientele-page h4 {
@@ -950,10 +950,6 @@ main .support-services p {
 
   main .cyber-security h4 {
     text-align: center;
-  }
-
-  .carve-career-all-section h1 {
-    color: black;
   }
 
   main .compliances-logos h1,
@@ -1155,5 +1151,4 @@ main .support-services p {
   .section.why-us {
     padding: 46px 0 10px 16px;
   }
-
 }
