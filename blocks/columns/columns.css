@@ -1,323 +1,333 @@
 .section.columns-container {
-    opacity: 1;
-    padding-top: 40px;
-    margin-bottom: 0;
-    padding-bottom: 10px;
+  opacity: 1;
+  padding-top: 40px;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.section .default-content-wrapper {
+  justify-content: center;
+}
+
+.columns > div > div h4 {
+  font-size: 15px;
+  color: gray;
+  text-align: left;
+}
+
+.columns > div > div p em {
+  font-size: 15px;
+  font-style: normal;
+}
+
+.section .button-container,
+.section .columns-container {
+  display: flex;
+  justify-content: left;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.columns > div > div .button-container {
+  margin-top: 5%;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.section.columns-container h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  margin-top: -40px;
+  align-content: center;
+  margin-bottom: 5px;
+}
+
+.section .columns-container h4 {
+  font-size: 1.5em;
+}
+
+.section .button-container a,
+.section.columns-container a {
+  all: unset;
+  cursor: pointer;
+}
+
+.columns .new-image-set a {
+  font-size: 15px;
+}
+
+.columns > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns > div > div {
+  border-top: 1px solid black;
+}
+
+.columns > div > div:first-child {
+  margin-top: 2%;
+}
+
+.columns > div > div:last-child {
+  margin-top: 2%;
+}
+
+.columns img {
+  width: 100%;
+}
+
+/* logo columns */
+.columns > div > div > p img {
+  display: inline-block;
+  width: 100px;
+  padding: 0;
+}
+
+.columns > div > div.image-set > p img {
+  width: auto;
+  height: 30px;
+  margin: 15px;
+}
+
+h2#our-capabilities {
+  margin-top: 30px;
+}
+
+.image-set ul li {
+  list-style: none;
+  font-size: 15px;
+  font-family: var(--alt-font-family);
+  line-height: 25px;
+}
+
+@media (min-width: 600px) {
+  .columns > div > div h3 {
+    font-size: 28px;
   }
-  
-  .section .default-content-wrapper {
-    justify-content: center;
+
+  .section .columns-wrapper {
+    padding-bottom: 50px;
   }
-  
-  .columns > div > div h4 {
-    font-size: 15px;
-    color: gray;
-    text-align: left;
-  }
-  
-  .columns > div > div p em {
-    font-size: 15px;
-    font-style: normal;
-  }
-  
-  .section .button-container,
+
+  .section .columns-wrapper > div,
   .section .columns-container {
-    display: flex;
-    justify-content: left;
-    margin: 0;
-    padding-top: 20px;
+    padding-top: 50px;
   }
-  
-  .columns > div > div .button-container {
-    margin-top: 5%;
-    font-size: 18px;
-    text-decoration: underline;
-  }
-  
-  .section.columns-container h2 {
-    display: flex;
-    justify-content: center;
-    font-size: 48px;
-    margin-top: -40px;
-    align-content: center;
-    margin-bottom: 5px;
-  }
-  
-  .section .columns-container h4 {
-    font-size: 1.5em;
-  }
-  
-  .section .button-container a,
-  .section.columns-container a {
-    all: unset;
-    cursor: pointer;
-  }
-  
-  .columns .new-image-set a {
-    font-size: 15px;
-  }
-  
+}
+
+@media (min-width: 900px) {
   .columns > div {
     display: flex;
-    flex-direction: column;
+    flex-direction: unset;
   }
-  
+
   .columns > div > div {
-    border-top: 1px solid black;
+    flex: 1;
+    margin-left: 32px;
   }
-  
-  .columns > div > div:first-child {
-    margin-top: 2%;
+
+  .columns > div > div:first-of-type {
+    margin-left: unset;
   }
-  
-  .columns > div > div:last-child {
-    margin-top: 2%;
+
+  .section .columns-container h4 {
+    font-size: 48px;
   }
-  
-  .columns img {
-    width: 100%;
+
+  h4#tlc-has-the-capability-to-curate-offers-and-programs-customized-to-partners {
+    font-size: 24px;
   }
-  
-  /* logo columns */
-  .columns > div > div > p img {
-    display: inline-block;
-    width: 100px;
-    padding: 0;
+
+  .case-studies-custom .new-image-set img:nth-last-child(1) {
+    width: 50%;
   }
-  
-  .columns > div > div.image-set > p img {
-    width: auto;
-    height: 30px;
-    margin: 15px;
-  }
-  
-  h2#our-capabilities {
-    margin-top: 30px;
-  }
-  
-  .image-set ul li {
+
+  .new-image-set ul li {
     list-style: none;
     font-size: 15px;
     font-family: var(--alt-font-family);
     line-height: 25px;
   }
-  
-  @media (min-width: 600px) {
-    .columns > div > div h3 {
-      font-size: 28px;
-    }
-  
-    .section .columns-wrapper {
-      padding-bottom: 50px;
-    }
-  
-    .section .columns-wrapper > div,
-    .section .columns-container {
-      padding-top: 50px;
-    }
+}
+
+@media (max-width: 600px) {
+  .new-image-set .icon-connections,
+  .new-image-set .icon-mobile,
+  .new-image-set .icon-partnership,
+  .new-image-set .icon-support,
+  .new-image-set .icon-subscription,
+  .new-image-set .icon-benefits,
+  .new-image-set .icon-reservation,
+  .new-image-set .icon-delivery,
+  .new-image-set .icon-omni,
+  .new-image-set .icon-focus,
+  .new-image-set .icon-tech,
+  .new-image-set .icon-track,
+  .new-image-set .icon-web,
+  .new-image-set .icon-mobileapp,
+  .new-image-set .icon-marketing,
+  .new-image-set .icon-analytics,
+  .new-image-set .icon-social,
+  .new-image-set .icon-performance,
+  .new-image-set .icon-corporation,
+  .new-image-set .icon-association,
+  .new-image-set .icon-finance,
+  .new-image-set .icon-ecom {
+    display: block;
   }
-  
-  @media (min-width: 900px) {
-    .columns > div {
-      display: flex;
-      flex-direction: unset;
-    }
-  
-    .columns > div > div {
-      flex: 1;
-      margin-left: 32px;
-    }
-  
-    .columns > div > div:first-of-type {
-      margin-left: unset;
-    }
-  
-    .section .columns-container h4 {
-      font-size: 48px;
-    }
-  
-    h4#tlc-has-the-capability-to-curate-offers-and-programs-customized-to-partners {
-      font-size: 24px;
-    }
-  
-    .case-studies-custom .new-image-set img:nth-last-child(1) {
-      width: 50%;
-    }
-  
-    .new-image-set ul li {
-      list-style: none;
-      font-size: 15px;
-      font-family: var(--alt-font-family);
-      line-height: 25px;
-    }
+
+  .image-set .icon-customer,
+  .image-set .icon-longevity,
+  .image-set .icon-partner,
+  .new-image-set .icon-integration,
+  .new-image-set .icon-monetization,
+  .new-image-set .icon-digital {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
   }
-  
-  @media (max-width: 600px) {
-    .new-image-set .icon-connections,
-    .new-image-set .icon-mobile,
-    .new-image-set .icon-partnership,
-    .new-image-set .icon-support,
-    .new-image-set .icon-subscription,
-    .new-image-set .icon-benefits,
-    .new-image-set .icon-reservation,
-    .new-image-set .icon-delivery,
-    .new-image-set .icon-omni,
-    .new-image-set .icon-focus,
-    .new-image-set .icon-tech,
-    .new-image-set .icon-track,
-    .new-image-set .icon-web,
-    .new-image-set .icon-mobileapp,
-    .new-image-set .icon-marketing,
-    .new-image-set .icon-analytics,
-    .new-image-set .icon-social,
-    .new-image-set .icon-performance,
-    .new-image-set .icon-corporation,
-    .new-image-set .icon-association,
-    .new-image-set .icon-finance,
-    .new-image-set .icon-ecom {
-      display: block;
-    }
-  
-    .image-set .icon-customer,
-    .image-set .icon-longevity,
-    .image-set .icon-partner,
-    .new-image-set .icon-integration,
-    .new-image-set .icon-monetization,
-    .new-image-set .icon-digital {
-      display: block;
-      margin: 0 auto;
-      padding: 20px 0;
-      text-align: center;
-    }
-  
-    .image-set h3 {
-      text-align: center;
-    }
-  
-    .section.columns-container h2 {
-      display: flex;
-      justify-content: center;
-      font-size: 28px;
-      margin-top: 30px;
-      color: var(--text-color);
-      align-content: center;
-      margin-bottom: 5px;
-    }
-  
-    .section .columns-container h2 {
-      font-size: 28px;
-      line-height: 0px;
-      margin-top: -20px;
-      margin-bottom: 40px;
-    }
-  
-    .section .button-container {
-      margin-bottom: 47px;
-    }
-  
-    .case-studies-custom h3 {
-      font-size: 28px;
-      text-align: center;
-    }
-  
-    .columns .new-image-set h3 {
-      display: block;
-      text-align: center;
-      font-size: 21px;
-    }
-  
-    .columns span .icon {
-      display: block;
-    }
-  
-    .columns > div > div h4 {
-      font-size: 14px;
-      color: gray;
-      text-align: center;
-    }
-  
-    .columns-wrapper p {
-      text-align: center;
-      font-size: 14px;
-    }
-  
-    .columns .new-image-set h3 > span {
-      margin: 22px;
-    }
-  
-    .columns > div > div p em {
-      font-size: 14px;
-      font-style: normal;
-    }
-  
-    .columns > div > div .button-container {
-      font-size: 9px;
-    }
-  
-    main .section.background {
-      zoom: 69%;
-    }
-  
-    main .background .default-content-wrapper h2 {
-      text-align: center;
-      font-size: 28px;
-    }
-  
-    main .background .default-content-wrapper h2:nth-of-type(2) {
-      font-size: 18px;
-    }
-  
-    h2#whats-new {
-      font-size: 21px;
-      margin-top:35px;
-    }
-  
-    h3#culture-our-culture,
-    h3#brand-our-brand-values {
-      display: block;
-      text-align: center;
-      font-size: 21px;
-    }
-  
-    span.icon.icon-culture,
-    span.icon.icon-brand {
-      display: block;
-    }
-  
-    #brand-our-brand-values span,
-    h3#culture-our-culture span {
-      margin: 22px;
-    }
-  
-    main .section .default-content-wrapper em {
-      font-size: 14px;
-    }
-  
-    main .section .default-content-wrapper strong {
-      font-size: 14px;
-    }
-  
-    .columns-wrapper ul li {
-      font-size: 14px;
-    }
-  
-    .case-studies-custom > div > div.image-set > p img {
-      height: auto;
-      width: 110px;
-      margin: 22px;
-    }
-  
-    .case-studies-custom .columns > div > div > p img {
-      display: inline-block;
-      width: 25%;
-      height: auto;
-      padding: 0;
-    }
-  
-    .current-opening .button-container a {
-      font-size: 9px;
-      text-align: center;
-      margin: 0 auto;
-    }
+
+  .image-set h3 {
+    text-align: center;
   }
-  
+
+  .section.columns-container h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    margin-top: 30px;
+    color: var(--text-color);
+    align-content: center;
+    margin-bottom: 5px;
+  }
+
+  .section .columns-container h2 {
+    font-size: 28px;
+    line-height: 0px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+  }
+
+  .section .button-container {
+    margin-bottom: 47px;
+  }
+
+  .case-studies-custom h3 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .columns .new-image-set h3 {
+    display: block;
+    text-align: center;
+    font-size: 21px;
+  }
+
+  .columns span .icon {
+    display: block;
+  }
+
+  .columns > div > div h4 {
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+  }
+
+  .columns-wrapper p {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .columns .new-image-set h3 > span {
+    margin: 22px;
+  }
+
+  .columns > div > div p em {
+    font-size: 14px;
+    font-style: normal;
+  }
+
+  .columns > div > div .button-container {
+    font-size: 9px;
+  }
+
+  main .section.background {
+    zoom: 69%;
+  }
+
+  main .background .default-content-wrapper h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  main .background .default-content-wrapper h2:nth-of-type(2) {
+    font-size: 18px;
+  }
+
+  h2#whats-new {
+    font-size: 21px;
+    margin-top: 35px;
+  }
+
+  h3#culture-our-culture,
+  h3#brand-our-brand-values {
+    display: block;
+    text-align: center;
+    font-size: 21px;
+  }
+
+  span.icon.icon-culture,
+  span.icon.icon-brand {
+    display: block;
+  }
+
+  #brand-our-brand-values span,
+  h3#culture-our-culture span {
+    margin: 22px;
+  }
+
+  main .section .default-content-wrapper em {
+    font-size: 14px;
+  }
+
+  main .section .default-content-wrapper strong {
+    font-size: 14px;
+  }
+
+  .columns-wrapper ul li {
+    font-size: 14px;
+  }
+
+  .columns > div > div > p img {
+    display: block;
+    width: 100px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .case-studies-custom > div > div.image-set > p img {
+    height: auto;
+    width: 110px;
+    margin: 22px;
+  }
+
+  .case-studies-custom .columns > div > div > p img {
+    display: inline-block;
+    width: 25%;
+    height: auto;
+    padding: 0;
+  }
+
+  .current-opening .button-container a {
+    font-size: 9px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .columns > div > div.image-set > p img {
+    display: inline-block;
+  }
+}

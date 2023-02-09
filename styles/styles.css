@@ -913,7 +913,37 @@ main .highest-standard-text {
   text-align: center;
 }
 
+main .tech-product-section h6 {
+  text-align: center; 
+}
+
+main .support-services h6 {
+  text-align: center;
+}
+
+main .support-services p {
+  font-size: 15px;
+  text-indent: -13px;
+  margin-left: 19px;
+}
+
+
 @media (max-width: 600px) {
+
+  main .support-services h1 {
+    text-align: center;
+    font-size: 14px;
+}
+
+  main .support-services h6 {
+    text-align: center;
+    font-size: 14px;
+}
+  
+  main .tech-product-section h1 {
+    text-align: center; 
+  }
+
   .clientele-page h4 {
     font-size: 14px;
   }
