@@ -925,7 +925,62 @@ main .highest-standard-text {
   text-align: center;
 }
 
+main .online-orders h2 {
+  text-align: center;
+}
+
+
+main .online-orders p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+main .online-orders h5:last-child {
+  text-align: center;
+  font-size: 21px;
+  color:white;
+  font-weight: 300;
+  border-radius: 24px;
+  display: table;
+  margin:0 auto;
+  margin-top: 100px;
+  padding: 11px 49px 12px 50px;
+  background-image: linear-gradient(89deg, #fde159 -24%, #fe0817 125%);
+}
+
+main .online-order-logo-section img {
+  width: 60%;
+  text-align: center;
+  display: block;
+  margin:0 auto;
+  margin-bottom: 150px;
+}
+
+main .online-order-logo-section p {
+  font-size: 15px;
+  text-indent: -13px;
+  margin-left: 19px;
+}
+
+.online-order-logo-section .columns > div > div {
+  border:none;
+}
+
+main .online-order-logo-section h3{
+  border-bottom: 1px solid #313131;
+  padding:30px 0 30px 0;
+  margin-bottom: 30px;
+}
+.columns > div > div:first-of-type {
+  margin-left: unset;
+  order: 0;
+}
+
+
 @media (max-width: 600px) {
+
+  
   .carve-career-all-section h1 {
     color: black;
   }
