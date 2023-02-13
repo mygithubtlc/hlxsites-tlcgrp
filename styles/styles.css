@@ -219,6 +219,14 @@ main .integration-free-solutions img {
   display: block;
 }
 
+main .online-order-logo-section img {
+  width: 60%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
 main .section.background > picture img {
   object-fit: cover;
   width: 100%;
@@ -365,6 +373,24 @@ main .integration-free-solutions p {
   font-size: 15px;
 }
 
+main .support-services p {
+  font-size: 15px;
+  text-indent: -13px;
+  margin-left: 19px;
+}
+
+main .online-orders p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+main .online-order-logo-section p {
+  font-size: 15px;
+  text-indent: -13px;
+  margin-left: 19px;
+}
+
 .job-description-page p:nth-child(8) {
   margin-top: 50px;
 }
@@ -375,6 +401,10 @@ main .clientele-page h2 {
 
 main .text-wrapped h2 {
   width: 43%;
+}
+
+main .online-orders h2 {
+  text-align: center;
 }
 
 .job-description-page h2:nth-child(9) {
@@ -393,6 +423,20 @@ main .why-us h5 {
 main .disclaimer-section * h3 {
   font-size: 18px;
   text-align: left;
+}
+
+main .tech-product-section h6 {
+  text-align: center;
+}
+
+main .support-services h6 {
+  text-align: center;
+}
+
+main .online-order-logo-section h3 {
+  border-bottom: 1px solid #313131;
+  padding: 30px 0;
+  margin-bottom: 30px;
 }
 
 main .section.background h1,
@@ -459,7 +503,7 @@ main .why-us .default-content-wrapper p {
   color: white;
 }
 
-main .job-description-page p a{
+main .job-description-page p a {
   display: inline;
 }
 
@@ -593,8 +637,6 @@ main .why-us .icon-arrow-about-cta {
   padding-left: 15px;
 }
 
-
-
 @media (min-width: 600px) {
   main .why-us h4 {
     margin-top: 20px;
@@ -655,23 +697,28 @@ main .why-us .icon-arrow-about-cta {
     display: flex;
     justify-content: center;
     font-weight: 100;
+    color:black
   }
 
   main .carve-career-all-section .default-content-wrapper p em {
     font-size: 24px;
     padding-bottom: 15px;
     text-align: center;
+    color:black;
   }
 
-  main .carve-career-all-section .default-content-wrapper strong a {
+  main .carve-career-all-section .default-content-wrapper strong {
     font-size: 24px;
     padding-bottom: 15px;
     font-weight: 600;
     text-align: center;
+    margin: 0 auto;
+    color:black;
   }
 
   main .carve-career-all-section {
     height: 450px;
+    text-align: center;
   }
 
   main .background .default-content-wrapper {
@@ -913,17 +960,53 @@ main .highest-standard-text {
   text-align: center;
 }
 
+main .online-orders h5:last-child {
+  text-align: center;
+  font-size: 21px;
+  color: white;
+  font-weight: 300;
+  border-radius: 24px;
+  display: table;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 11px 49px 12px 50px;
+  background-image: linear-gradient(89deg, #fde159 -24%, #fe0817 125%);
+}
+
+.online-order-logo-section .columns > div > div {
+  border: none;
+}
+
+.columns > div > div:first-of-type {
+  margin-left: unset;
+  order: 0;
+}
+
 @media (max-width: 600px) {
+  .carve-career-all-section h1 {
+    color: black;
+  }
+
+  main .support-services h1 {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  main .support-services h6 {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  main .tech-product-section h1 {
+    text-align: center;
+  }
+
   .clientele-page h4 {
     font-size: 14px;
   }
 
   main .cyber-security h4 {
     text-align: center;
-  }
-
-  .carve-career-all-section h1 {
-    color: black;
   }
 
   main .compliances-logos h1,
@@ -1125,5 +1208,4 @@ main .highest-standard-text {
   .section.why-us {
     padding: 46px 0 10px 16px;
   }
-
 }

@@ -29,6 +29,10 @@
   margin-bottom: var(--spacing-m);
 }
 
+.our-resources-product img {
+  right: -60px;
+}
+
 .z-pattern > div[class^="z-row"] > div {
   max-width: 83.4%;
   text-align: center;
@@ -95,6 +99,9 @@
 
 .z-pattern .z-row-even:last-of-type > div:last-of-type {
   text-align: center;
+  position: relative;
+  padding: 0 60px;
+  z-index: -1;
 }
 
 .z-pattern > div[class^="z-row"] > div:last-of-type strong {
@@ -125,11 +132,13 @@
     flex: 0 0 35%;
     text-align: center;
     max-width: 500px;
+    position: relative;
   }
 
   .z-pattern .z-row-odd > div:last-of-type {
     background-color: #fff;
     padding: 0 50px;
+    z-index: -1;
   }
 
   .z-pattern .z-row-even > div:last-of-type {
@@ -168,7 +177,6 @@
 
   .z-pattern .z-row-even > div:first-of-type picture img {
     position: relative;
-    right: -60px;
   }
 
   .icon-section .reverse > div > div:first-child img {
@@ -180,8 +188,6 @@
 
   .z-pattern .z-row-even:last-of-type > div:first-of-type img {
     padding-top: 45px;
-    position: relative;
-    left: 40px;
   }
 
   .icon-section .new-image-set > p {
@@ -233,6 +239,33 @@
 }
 
 @media (max-width: 600px) {
+  .z-pattern .z-row-even > div:last-of-type {
+    background-color: #fff;
+    padding: 0 25px;
+    margin-top: -32px;
+    z-index: -1;
+  }
+
+  .z-pattern .z-row-odd > div:last-of-type {
+    background-color: #fff;
+    padding: 0 25px;
+    bottom: 69px;
+    z-index: -1;
+    position: relative;
+  }
+
+  .icon-section .reverse > div > div:last-child {
+    position: relative;
+    right: 0;
+    padding: 20px 60px;
+  }
+
+  .z-pattern .z-row-even:last-of-type > div:last-of-type {
+    text-align: center;
+    position: relative;
+    padding: 66px 30px;
+  }
+
   .contact-center .reverse > div > div:first-child img {
     position: relative;
     left: 0;
@@ -241,7 +274,7 @@
 
   .z-pattern-container .default-content-wrapper h4 {
     font-size: 28px;
-    margin-top:35px;
+    margin-top: 35px;
   }
 
   .z-pattern-container .default-content-wrapper {
@@ -258,21 +291,6 @@
     font-size: 14px;
   }
 
-  .z-pattern .z-row-even > div:last-of-type {
-    background-color: #fff;
-    padding: 0 25px;
-    margin-top: -32px;
-    z-index: -1;
-  }
-
-  .z-pattern .z-row-odd > div:last-of-type {
-    background-color: #fff;
-    padding: 0 25px;
-    bottom: 69px;
-    z-index: -1;
-    position: relative;
-  }
-
   .z-pattern .z-row-even > div:first-of-type picture img {
     padding-top: 30px;
     width: 100%;
@@ -282,12 +300,6 @@
     position: relative;
     left: 0;
     height: auto;
-  }
-
-  .icon-section .reverse > div > div:last-child {
-    position: relative;
-    right: 0;
-    padding: 20px 60px;
   }
 
   .z-pattern .z-row-odd > div:first-of-type picture img {
