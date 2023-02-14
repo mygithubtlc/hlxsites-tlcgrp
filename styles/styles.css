@@ -220,11 +220,10 @@ main .integration-free-solutions img {
 }
 
 main .online-order-logo-section img {
-  width: 60%;
+  width: 80%;
   text-align: center;
   display: block;
   margin: 0 auto;
-  margin-bottom: 150px;
 }
 
 main .section.background > picture img {
@@ -304,6 +303,28 @@ main .why-us h2 {
   padding-bottom: 20px;
 }
 
+main .job-description-page h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+main .clientele-page h2 {
+  text-align: center;
+}
+
+main .text-wrapped h2 {
+  width: 43%;
+}
+
+main .online-orders h2 {
+  text-align: center;
+}
+
+.job-description-page h2:last-child {
+  margin-bottom: 37px;
+  margin-top: 74px;
+}
+
 main .clientele-page h4 {
   text-align: center;
 }
@@ -318,10 +339,6 @@ main .z-pattern-container h4 {
   align-items: center;
   text-align: center;
   font-size: 28px;
-}
-
-main .job-description-page h2 {
-  text-align: center;
 }
 
 .job-description-page p {
@@ -395,18 +412,6 @@ main .online-order-logo-section p {
   margin-top: 50px;
 }
 
-main .clientele-page h2 {
-  text-align: center;
-}
-
-main .text-wrapped h2 {
-  width: 43%;
-}
-
-main .online-orders h2 {
-  text-align: center;
-}
-
 .job-description-page h2:nth-child(9) {
   font-size: 30px;
   margin: 50px 0;
@@ -454,7 +459,7 @@ main .section.background h6 {
 }
 
 .job-description-page p:nth-child(4),
-.job-description-page p:nth-child(8) {
+.job-description-page p:nth-child(7) {
   border: 1px solid gray;
   width: 145px;
   padding: 8px;
@@ -498,7 +503,7 @@ main .why-us .default-content-wrapper p {
 }
 
 .job-description-page p:nth-child(4):hover,
-.job-description-page p:nth-child(8):hover {
+.job-description-page p:nth-child(7):hover {
   background-color: black;
   color: white;
 }
@@ -585,7 +590,7 @@ main .section .default-content-wrapper h1 {
 }
 
 main .section .default-content-wrapper p a {
-  display: inline-block;
+  display: contents;
 }
 
 main .section .default-content-wrapper h4 {
@@ -697,6 +702,18 @@ main .why-us .icon-arrow-about-cta {
     display: flex;
     justify-content: center;
     font-weight: 100;
+    color: black;
+  }
+
+  main .carve-career-all-section p {
+    color: black;
+    text-align: center;
+  }
+
+  main .carve-career-all-section strong {
+    color: black;
+    text-align: center;
+    margin: 0 auto;
   }
 
   main .carve-career-all-section .default-content-wrapper p em {
@@ -774,9 +791,23 @@ main .why-us .icon-arrow-about-cta {
     margin-left: 50px;
   }
 
+  main .current-opening p:nth-child(2) {
+    text-align: center;
+  }
+
+  main .background .default-content-wrapper p:nth-child(3) {
+    margin-left: 50px;
+  }
+
   main p.button-container strong a {
     all: unset;
     cursor: pointer;
+  }
+
+  main .text-wrapped .icon svg {
+    position: relative;
+    top: 3px;
+    left: 8px;
   }
 
   main .background .default-content-wrapper em a {
@@ -801,10 +832,6 @@ main .why-us .icon-arrow-about-cta {
   }
 
   main .case-studies-custom h3:only-child {
-    text-align: center;
-  }
-
-  main .current-opening p:nth-child(2) {
     text-align: center;
   }
 
@@ -972,12 +999,77 @@ main .online-orders h5:last-child {
   border: none;
 }
 
-.columns > div > div:first-of-type {
-  margin-left: unset;
-  order: 0;
-}
-
 @media (max-width: 600px) {
+  .privacy-policy-section * p,
+  .privacy-policy-section * ul li,
+  .privacy-policy-section * ol li {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  main .job-description-page ol li {
+    font-size: 14px;
+  }
+
+  main .online-order-logo-section > div:nth-child(3) > div div {
+    flex-direction: column-reverse;
+  }
+
+  main .online-order-logo-section > div:nth-child(5) > div div {
+    flex-direction: column-reverse;
+  }
+
+  .carve-career-all-section img {
+    width: 100px;
+    position: relative;
+    top: -42px;
+  }
+
+  main .online-order-logo-section img {
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+
+  .payment-term-section h2 {
+    font-size: 22px;
+  }
+
+  .privacy-policy-section h2 {
+    font-size: 22px;
+  }
+
+  .clientele-page h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  main .online-orders h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .carve-career-all-section p {
+    color: #313131;
+    font-size: 24px;
+    padding: 8px 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  main .online-order-logo-section p {
+    font-size: 15px;
+    text-indent: -13px;
+    margin-left: 19px;
+    text-align: left;
+  }
+
+  .online-order-logo-section {
+    order: 2;
+  }
+
   .carve-career-all-section h1 {
     color: black;
   }
@@ -1046,37 +1138,9 @@ main .online-orders h5:last-child {
     text-align: center;
   }
 
-  .payment-term-section h2 {
-    font-size: 22px;
-  }
-
-  .privacy-policy-section h2 {
-    font-size: 22px;
-  }
-
-  .privacy-policy-section * p,
-  .privacy-policy-section * ul li,
-  .privacy-policy-section * ol li {
-    font-size: 14px;
-    text-align: left;
-  }
-
-  .clientele-page h2 {
-    font-size: 28px;
-    text-align: center;
-  }
-
   main .disclaimer-section * h2 {
     font-size: 22px;
     text-align: left;
-  }
-
-  .carve-career-all-section p {
-    color: #313131;
-    font-size: 24px;
-    padding: 8px 0;
-    margin: 0 auto;
-    text-align: center;
   }
 
   main .disclaimer-section * p {
@@ -1127,12 +1191,6 @@ main .online-orders h5:last-child {
 
   .carve-career .default-content-wrapper p a {
     color: black;
-  }
-
-  .carve-career-all-section img {
-    width: 100px;
-    position: relative;
-    top: -42px;
   }
 
   main .section .default-content-wrapper h3 {
