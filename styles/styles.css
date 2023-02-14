@@ -714,23 +714,28 @@ main .why-us .icon-arrow-about-cta {
     color: black;
     text-align: center;
     margin: 0 auto;
+    color:black
   }
 
   main .carve-career-all-section .default-content-wrapper p em {
     font-size: 24px;
     padding-bottom: 15px;
     text-align: center;
+    color:black;
   }
 
-  main .carve-career-all-section .default-content-wrapper strong a {
+  main .carve-career-all-section .default-content-wrapper strong {
     font-size: 24px;
     padding-bottom: 15px;
     font-weight: 600;
     text-align: center;
+    margin: 0 auto;
+    color:black;
   }
 
   main .carve-career-all-section {
     height: 450px;
+    text-align: center;
   }
 
   main .background .default-content-wrapper {
