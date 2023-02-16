@@ -152,6 +152,12 @@ h2#our-capabilities {
   }
 }
 
+.columns .image-set p > picture:nth-child(3) img {
+  width: 120px;
+  height: auto;
+  margin: -5px;
+}
+
 @media (max-width: 600px) {
   .new-image-set .icon-connections,
   .new-image-set .icon-mobile,
