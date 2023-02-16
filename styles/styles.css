@@ -220,7 +220,7 @@ main .integration-free-solutions img {
 }
 
 main .online-order-logo-section img {
-  width: 80%;
+  width: 70%;
   text-align: center;
   display: block;
   margin: 0 auto;
@@ -880,6 +880,12 @@ main .why-us .icon-arrow-about-cta {
 
   .integration-free-solutions img {
     width: 55%;
+  }
+
+  main .experience-voucher-image-list div div:nth-child(1) img {
+    width: 150px;
+    position: relative;
+    right: 34px;
   }
 
   .section .image-list-container div:nth-child(1) img {
