@@ -46,7 +46,7 @@ export default async function decorate(block) {
           }
         }, 1000);
       }
-    }, 7000);
+    }, 3000);
     window.addEventListener('resize', () => {
       block.scrollLeft = 0;
       index = 0;

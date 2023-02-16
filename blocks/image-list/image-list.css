@@ -36,6 +36,10 @@ main .image-list-container .image-list {
   background-color: #fff;
 }
 
+main .experience-voucher-image-list .image-list {
+  background: none;
+}
+
 main .image-list-container .image-list > div {
   width: 150px;
 }
@@ -50,6 +54,12 @@ main .image-list-wrapper .image-list > div {
   padding-left: 10px;
   padding-right: 10px;
   width: 70px;
+}
+
+main .experience-voucher-image-list .image-list > div {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 150px;
 }
 
 .tech-platform-logos img {
@@ -116,18 +126,29 @@ main .image-list-wrapper .image-list > div {
 }
 
 @media (max-width: 600px) {
-  main .image-list-wrapper .image-list {
-    margin-top: 0;
-    padding: 30px 0;
-    gap: 80px;
-  }
-
   .tech-platform-logos img {
     width: 90px;
   }
 
   .logos-integration img {
     width: 90px;
+  }
+
+  main .experience-voucher-image-list img {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  main .image-list-wrapper .image-list {
+    margin-top: 0;
+    padding: 30px 0;
+    gap: 80px;
+  }
+
+  main .experience-voucher-image-list .image-list {
+    margin-top: 0;
+    padding: 30px 0;
+    gap: 15px;
   }
 
   .associations-logos img:nth-child(4) {

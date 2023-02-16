@@ -128,6 +128,12 @@ h2#our-capabilities {
     margin-left: 32px;
   }
 
+  .online-order-logo-section .columns > div {
+    display: flex;
+    flex-direction: unset;
+    align-items: center;
+  }
+
   .columns > div > div:first-of-type {
     margin-left: unset;
   }
