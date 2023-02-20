@@ -398,14 +398,24 @@ main .support-services p {
 
 main .online-orders p {
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 300;
+}
+
+main .online-orders.member-subscriptions {
+  padding: 0;
+  text-align: center;
 }
 
 main .online-order-logo-section p {
   font-size: 15px;
   text-indent: -13px;
   margin-left: 19px;
+}
+
+main .futuristic-product p {
+  font-size: 18px;
+  text-align: center;
 }
 
 .job-description-page p:nth-child(8) {
@@ -1001,6 +1011,20 @@ main .online-orders h5:last-child {
   background-image: linear-gradient(89deg, #fde159 -24%, #fe0817 125%);
 }
 
+main .member-subscriptions h5:last-child {
+  text-align: center;
+  font-size: 21px;
+  color: white;
+  font-weight: 300;
+  border-radius: 24px;
+  display: table;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 11px 49px 12px 50px;
+  background-image: linear-gradient(89deg, #fde159 -24%, #fe0817 125%);
+}
+
 .online-order-logo-section .columns > div > div {
   border: none;
 }
@@ -1206,6 +1230,11 @@ main .online-orders h5:last-child {
   main .section .default-content-wrapper h1 {
     font-size: 28px;
     margin-top: 10px;
+  }
+
+  main .futuristic-product .default-content-wrapper h1 {
+    text-align: center;
+    margin-top: 190px;
   }
 
   main .section .default-content-wrapper em {
