@@ -226,6 +226,11 @@ main .online-order-logo-section img {
   margin: 0 auto;
 }
 
+main .restaurants-logo img {
+  margin: 5px auto;
+  width: 20%;
+}
+
 main .section.background > picture img {
   object-fit: cover;
   width: 100%;
@@ -333,6 +338,10 @@ main .z-pattern-container h4 {
   text-align: center;
 }
 
+main .customer-journey-section h4 {
+  text-align: center;
+}
+
 .section.integration-free-solutions h4 {
   display: flex;
   justify-content: center;
@@ -415,6 +424,11 @@ main .online-order-logo-section p {
 
 main .futuristic-product p {
   font-size: 18px;
+  text-align: center;
+}
+
+main .restaurants-logo p {
+  font-size: 28px;
   text-align: center;
 }
 
@@ -1025,20 +1039,87 @@ main .member-subscriptions h5:last-child {
   background-image: linear-gradient(89deg, #fde159 -24%, #fe0817 125%);
 }
 
-.online-order-logo-section .columns > div > div {
+main .online-order-logo-section .columns > div > div {
   border: none;
 }
 
+main .customer-journey-section .new-image-set > ul li {
+  list-style: disc;
+  font-size: 13px;
+}
+
+main .customer-journey-section .new-image-set > ul {
+  margin-left: -22px;
+  padding: 0 60px;
+}
+
+main .customer-journey-section .columns > div > div {
+  border: none;
+  border: 1px solid #4e4e4e;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  height: 380px;
+  margin: 0 30px 50px;
+  box-shadow: 5px 5px 5px #0000002b;
+}
+
+main .restaurants-logo .columns > div > div {
+  border: none;
+  text-align: center;
+}
+
+main .customer-journey-section .columns > div > div:first-child {
+  margin-top: 0;
+}
+
+main .customer-journey-section .columns > div > div:last-child {
+  margin-top: 0;
+}
+
+main .customer-journey-section .new-image-set h3 {
+  font-size: 18px;
+  padding-left: 25px;
+  margin-top: 20px;
+}
+
+main .customer-journey-section .new-image-set {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+main .customer-journey-section .new-image-set > h5 {
+  text-align: center;
+  position: absolute;
+  right: 0;
+  height: 10px;
+  display: inline;
+  color: white;
+  width: 40px;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-image: linear-gradient(89deg, #fde159 -24%, #fe0817 125%);
+  bottom: 0;
+  border: 1px solid #4e4e4e;
+  border: none;
+  padding: 8px 15px;
+  padding-bottom: 28px;
+  border-right: 0;
+}
+
 @media (max-width: 600px) {
-  .privacy-policy-section * p,
-  .privacy-policy-section * ul li,
-  .privacy-policy-section * ol li {
-    font-size: 14px;
-    text-align: left;
+  .carve-career-all-section img {
+    width: 100px;
+    position: relative;
+    top: -42px;
   }
 
-  main .job-description-page ol li {
-    font-size: 14px;
+  main .restaurants-logo img {
+    margin: 5px auto;
+    width: 29%;
   }
 
   main .online-order-logo-section > div:nth-child(3) > div div {
@@ -1049,10 +1130,42 @@ main .member-subscriptions h5:last-child {
     flex-direction: column-reverse;
   }
 
-  .carve-career-all-section img {
-    width: 100px;
-    position: relative;
-    top: -42px;
+  main .mobile-pattern .columns > div:nth-child(2) {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-m);
+    margin-bottom: var(--spacing-m);
+  }
+
+  main .mobile-pattern .columns > div:nth-child(4) {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-m);
+    margin-bottom: var(--spacing-m);
+  }
+
+  main .mobile-pattern .columns > img > div:nth-child(1) {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-m);
+    margin-bottom: var(--spacing-m);
+  }
+
+  .privacy-policy-section * p,
+  .privacy-policy-section * ul li,
+  .privacy-policy-section * ol li {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  main .job-description-page ol li {
+    font-size: 14px;
   }
 
   main .online-order-logo-section img {
@@ -1069,6 +1182,14 @@ main .member-subscriptions h5:last-child {
 
   .privacy-policy-section h2 {
     font-size: 22px;
+  }
+
+  .carve-career-all-section h1 {
+    color: black;
+  }
+
+  main .customer-journey-section h1 {
+    text-align: center;
   }
 
   .clientele-page h2 {
@@ -1098,10 +1219,6 @@ main .member-subscriptions h5:last-child {
 
   .online-order-logo-section {
     order: 2;
-  }
-
-  .carve-career-all-section h1 {
-    color: black;
   }
 
   main .support-services h1 {

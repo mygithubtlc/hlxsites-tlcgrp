@@ -239,6 +239,7 @@
 }
 
 @media (max-width: 600px) {
+
   .z-pattern .z-row-even > div:last-of-type {
     background-color: #fff;
     padding: 0 25px;
