@@ -24,7 +24,7 @@ window.targetGlobalSettings = {
 };
 
 // google tag manager
-const gtmId = 'UA-97477922-3';
+const gtmId = 'GTM-58VC5NG';
 window.dataLayer = window.dataLayer || [];
 function gtag(key, value) {
   window.dataLayer.push(key, value);
