@@ -191,3 +191,32 @@ main .form-submit-wrapper .button:hover {
   margin-top: 30px;
   margin-left: 0;
 }
+
+
+main  .form-countyCode-wrapper {
+  width: 15%;
+  float:left;
+  margin:0;
+}
+
+main .form-mobileNumber-wrapper {
+  width: 49%;
+  float: left;
+  margin: 0 30px;  
+}
+
+main .form-wrapper  .form-yourMessage-wrapper {
+  clear: both;
+}
+
+@media (max-width:600px){
+  main .form-countyCode-wrapper {
+    width: 100%;
+    margin:0;
+  }
+  
+  main .form-mobileNumber-wrapper {
+    width: 100%;
+    margin: 0; 
+  }
+}
