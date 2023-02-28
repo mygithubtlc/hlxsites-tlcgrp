@@ -1,5 +1,7 @@
 export default async function decorate(block) {
   const slides = [...block.children];
+  const buttons = document.createElement('div');
+  buttons.className = 'carousel-buttons';
   slides.forEach((slide) => {
     const overlay = document.createElement('div');
     overlay.classList.add('slideshow-overlay');
@@ -27,12 +29,26 @@ export default async function decorate(block) {
   // setup for multiple slides
   if (slides.length > 1) {
     // duplicate first slide at the end of the slideshow to create illusion of endless loop
-    block.append(slides[0].cloneNode(true));
-
+    block.append(slides[0].cloneNode(true));   
+    /*
+    let ibtn1 = 0;
+    for (ibtn1 = 0; ibtn1 <= 4;) {
+      document.getElementById(ibtn1).classList.remove('selected');
+      ibtn1 += 1;
+    }
+    */
     let index = 0;
     setInterval(() => {
       if (index < slides.length) {
         // next slide
+        [...buttons.children].forEach((r, i) => {
+          if (i === index) {
+            document.getElementById(i).classList.add('selected');
+          }
+          else {
+            document.getElementById(i).classList.remove('selected');
+          }
+        });
         block.classList.add('slideshow-transition');
         block.scrollLeft += block.offsetWidth;
         index += 1;
@@ -52,4 +68,17 @@ export default async function decorate(block) {
       index = 0;
     });
   }
+  [...block.children].forEach((row, i) => {
+  /* buttons */
+    const button = document.createElement('button');
+    button.setAttribute('id', i);
+    if (!i === 0) button.classList.add('selected');
+    button.addEventListener('click', () => {
+      block.scrollTo({ top: 0, left: row.offsetLeft - row.parentNode.offsetLeft, behavior: 'smooth' });
+      [...buttons.children].forEach((r) => r.classList.remove('selected'));
+      button.classList.add('selected');
+    });
+    buttons.append(button);
+  });
+  block.parentElement.append(buttons);
 }

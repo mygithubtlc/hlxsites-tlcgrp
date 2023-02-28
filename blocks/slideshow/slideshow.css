@@ -173,6 +173,52 @@ main .slideshow .slideshow-btn:hover {
   background: var(--overlay-link-hover-color);
 }
 
+/* slider */
+main .carousel-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 4%;
+}
+
+main .carousel-wrapper .carousel-buttons {
+  text-align: center;
+  margin-top: -60px;
+  position: absolute;
+  display: flex;
+  right: 0;
+  left: 0;
+  justify-content: center;
+}
+
+main .carousel-buttons button {
+  display: block;
+  height: 14px;
+  width: 14px;
+  padding: 0;
+  margin: 10px;
+  border-radius: 7px;
+  background-color: #ccc;
+  border: 1px solid #fff;
+  opacity: 0.5;
+}
+
+main .carousel-buttons button.selected {
+  background-color: #000;
+  opacity: 1 . 0;
+}
+
+main .carousel p.button-container {
+  margin: 0;
+}
+
+main .carousel-buttons button:nth-child(5) {
+  display: none;
+}
+
 @media (max-width: 600px) {
   main .member-subscription-slide .slideshow img {
     object-fit: cover;
