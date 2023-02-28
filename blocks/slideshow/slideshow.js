@@ -29,14 +29,8 @@ export default async function decorate(block) {
   // setup for multiple slides
   if (slides.length > 1) {
     // duplicate first slide at the end of the slideshow to create illusion of endless loop
-    block.append(slides[0].cloneNode(true));   
-    /*
-    let ibtn1 = 0;
-    for (ibtn1 = 0; ibtn1 <= 4;) {
-      document.getElementById(ibtn1).classList.remove('selected');
-      ibtn1 += 1;
-    }
-    */
+    block.append(slides[0].cloneNode(true));
+
     let index = 0;
     setInterval(() => {
       if (index < slides.length) {
@@ -44,11 +38,11 @@ export default async function decorate(block) {
         [...buttons.children].forEach((r, i) => {
           if (i === index) {
             document.getElementById(i).classList.add('selected');
-          }
-          else {
+          } else {
             document.getElementById(i).classList.remove('selected');
           }
         });
+
         block.classList.add('slideshow-transition');
         block.scrollLeft += block.offsetWidth;
         index += 1;
