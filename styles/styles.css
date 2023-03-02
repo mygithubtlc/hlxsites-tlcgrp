@@ -1157,6 +1157,10 @@ main .customer-journey-section .new-image-set > h5 {
     margin-bottom: var(--spacing-m);
   }
 
+  main .member-subscriptions h5:last-child {
+    margin-bottom: 50px;
+  }
+
   .privacy-policy-section * p,
   .privacy-policy-section * ul li,
   .privacy-policy-section * ol li {
@@ -1324,6 +1328,10 @@ main .customer-journey-section .new-image-set > h5 {
     font-size: 14px;
   }
 
+  main .online-orders p {
+    padding: 0 20px;
+  }
+
   main .cards p:first-of-type {
     font-size: 14px;
   }
@@ -1346,7 +1354,10 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .section .default-content-wrapper h1 {
     font-size: 28px;
-    margin-top: 10px;
+  }
+
+  main .online-orders [id^="m"] {
+    margin-top: -50px;
   }
 
   main .futuristic-product .default-content-wrapper h1 {
