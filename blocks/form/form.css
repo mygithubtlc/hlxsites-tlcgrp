@@ -30,6 +30,12 @@ main .form h3 {
   text-transform: uppercase;
 }
 
+main .field-wrapper > [id^="m"] {
+  width: 49%;
+  float: left;
+  margin: 0 30px;
+}
+
 main .form input,
 main .form textarea,
 main .form select {
@@ -190,4 +196,27 @@ main .form-submit-wrapper .button:hover {
 .button.g-recaptcha {
   margin-top: 30px;
   margin-left: 0;
+}
+
+main .field-wrapper > [id^="c"] {
+  width: 15%;
+  float: left;
+  margin: 0;
+}
+
+main .field-wrapper > [id^="y"] {
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  main .field-wrapper > [id^="c"] {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  main .field-wrapper > [id^="m"] {
+    width: 100%;
+    margin: 0;
+  }
 }

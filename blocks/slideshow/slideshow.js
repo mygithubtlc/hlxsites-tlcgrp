@@ -1,5 +1,7 @@
 export default async function decorate(block) {
   const slides = [...block.children];
+  const buttons = document.createElement('div');
+  buttons.className = 'carousel-buttons';
   slides.forEach((slide) => {
     const overlay = document.createElement('div');
     overlay.classList.add('slideshow-overlay');
@@ -33,6 +35,14 @@ export default async function decorate(block) {
     setInterval(() => {
       if (index < slides.length) {
         // next slide
+        [...buttons.children].forEach((r, i) => {
+          if (i === index) {
+            document.getElementById(i).classList.add('selected');
+          } else {
+            document.getElementById(i).classList.remove('selected');
+          }
+        });
+
         block.classList.add('slideshow-transition');
         block.scrollLeft += block.offsetWidth;
         index += 1;
@@ -52,4 +62,17 @@ export default async function decorate(block) {
       index = 0;
     });
   }
+  [...block.children].forEach((row, i) => {
+  /* buttons */
+    const button = document.createElement('button');
+    button.setAttribute('id', i);
+    if (!i === 0) button.classList.add('selected');
+    button.addEventListener('click', () => {
+      block.scrollTo({ top: 0, left: row.offsetLeft - row.parentNode.offsetLeft, behavior: 'smooth' });
+      [...buttons.children].forEach((r) => r.classList.remove('selected'));
+      button.classList.add('selected');
+    });
+    buttons.append(button);
+  });
+  block.parentElement.append(buttons);
 }
