@@ -981,18 +981,10 @@ main .why-us .icon-arrow-about-cta {
   main .background .default-content-wrapper h3 {
     margin-left: 200px;
   }
-
-  main .background .default-content-wrapper h4 {
-    margin-left: 200px;
-  }
 }
 
 @media (min-width: 1600px) {
   main .background .default-content-wrapper h3 {
-    margin-left: 270px;
-  }
-
-  main .background .default-content-wrapper h4 {
     margin-left: 270px;
   }
 }
