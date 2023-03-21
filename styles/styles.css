@@ -208,7 +208,10 @@ main .section.background {
 main .section.background > picture {
   position: absolute;
   z-index: -1;
-  inset: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 main .integration-free-solutions img {
@@ -606,9 +609,9 @@ main .section .default-content-wrapper em {
   align-content: center;
 }
 
-/* main .section .default-content-wrapper h1 {
+main .section .default-content-wrapper h1 {
   font-size: 2em;
-} */
+}
 
 main .section .default-content-wrapper p a {
   display: contents;
@@ -1073,7 +1076,10 @@ main .customer-journey-section .new-image-set h3 {
 
 main .customer-journey-section .new-image-set {
   position: relative;
-  inset: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 main .customer-journey-section .new-image-set > h5 {
@@ -1338,10 +1344,9 @@ main .customer-journey-section .new-image-set > h5 {
     padding: 0;
   }
 
-  /* main .section .default-content-wrapper h1 {
+  main .section .default-content-wrapper h1 {
     font-size: 28px;
-  } */
-  
+  }
 
   main .online-orders [id^="m"] {
     margin-top: -50px;

@@ -231,12 +231,4 @@ main .field-wrapper > [id^="y"] {
     width: 100%;
     margin: 0;
   }
-
-  main .contact-us-section h1 {
-    font-size: 20px;
-  }
-
-  main .contact-us-section .form-checkbox-wrapper label {
-    font-size: 12px;
-  }
 }
