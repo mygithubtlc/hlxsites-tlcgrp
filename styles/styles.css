@@ -208,10 +208,7 @@ main .section.background {
 main .section.background > picture {
   position: absolute;
   z-index: -1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  inset: 0;
 }
 
 main .integration-free-solutions img {
@@ -1076,10 +1073,7 @@ main .customer-journey-section .new-image-set h3 {
 
 main .customer-journey-section .new-image-set {
   position: relative;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  inset: 0;
 }
 
 main .customer-journey-section .new-image-set > h5 {
