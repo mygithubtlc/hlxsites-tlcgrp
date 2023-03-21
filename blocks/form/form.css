@@ -161,6 +161,18 @@ main .form input[type="text-field"] {
   padding-left: 0;
 }
 
+main .form input[type="tel"] {
+  border: none;
+  border-bottom: 1px solid rgb(193 193 195);
+  outline: none;
+}
+
+main .iti {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
 main .form input[type="text-field"]::placeholder {
   font-size: 20px;
 }
