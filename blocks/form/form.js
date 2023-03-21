@@ -1,3 +1,5 @@
+import { loadCSS } from '../../scripts/scripts.js';
+
 const SITE_KEY = '6LdYzWMjAAAAAJZw3YBaRxqtskr9sNSkXg1gPGTU';
 
 function loadScript(url, callback, container = document.querySelector('head')) {
@@ -150,6 +152,30 @@ function createTextArea(fd) {
   return input;
 }
 
+function createTel(fd) {
+  const tel = createInput(fd);
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        loadCSS('https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css');
+        loadScript(
+          'https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js',
+          () => {
+            window.intlTelInput(tel, {
+              preferredCountries: ['in'],
+              utilsScript:
+                'https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js',
+            });
+          },
+        );
+        obs.disconnect();
+      }
+    });
+  });
+  obs.observe(tel);
+  return tel;
+}
+
 function createLabel(fd) {
   const label = document.createElement('label');
   label.setAttribute('for', fd.Field);
@@ -213,6 +239,10 @@ async function createForm(formURL) {
       case 'text-area':
         fieldWrapper.append(createLabel(fd));
         fieldWrapper.append(createTextArea(fd));
+        break;
+      case 'tel':
+        fieldWrapper.append(createLabel(fd));
+        fieldWrapper.append(createTel(fd));
         break;
       case 'submit':
         fieldWrapper.append(createButton(fd));
