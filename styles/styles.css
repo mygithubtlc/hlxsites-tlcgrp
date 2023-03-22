@@ -666,6 +666,11 @@ main .why-us .icon-arrow-about-cta {
   padding-left: 15px;
 }
 
+main .form {
+  height: 800px;
+  visibility: hidden;
+}
+
 @media (min-width: 600px) {
   main .why-us h4 {
     margin-top: 20px;
@@ -981,18 +986,10 @@ main .why-us .icon-arrow-about-cta {
   main .background .default-content-wrapper h3 {
     margin-left: 200px;
   }
-
-  main .background .default-content-wrapper h4 {
-    margin-left: 200px;
-  }
 }
 
 @media (min-width: 1600px) {
   main .background .default-content-wrapper h3 {
-    margin-left: 270px;
-  }
-
-  main .background .default-content-wrapper h4 {
     margin-left: 270px;
   }
 }
