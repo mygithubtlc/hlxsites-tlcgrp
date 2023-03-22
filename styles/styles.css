@@ -666,6 +666,11 @@ main .why-us .icon-arrow-about-cta {
   padding-left: 15px;
 }
 
+main .form {
+  height: 800px;
+  visibility: hidden;
+}
+
 @media (min-width: 600px) {
   main .why-us h4 {
     margin-top: 20px;
