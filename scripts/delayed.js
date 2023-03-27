@@ -41,3 +41,6 @@ const launchUrl = isProd
   ? 'https://assets.adobedtm.com/0b11157d649c/ea4457f87a55/launch-8ce7ba668a1c.min.js'
   : 'https://assets.adobedtm.com/0b11157d649c/ea4457f87a55/launch-52fa4168ab4d-staging.min.js';
 loadScript(launchUrl);
+
+const cookId = 'cookiesId';
+loadScript(`https://cdn-cookieyes.com/client_data/e9c7bcf16e0e144a5a75e71c/script.js?id=${cookId}`);
