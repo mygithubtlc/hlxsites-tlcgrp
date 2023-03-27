@@ -110,14 +110,9 @@ h2#our-capabilities {
     padding-top: 50px;
   }
 
-  .online-order-logo-section > .columns-wrapper  div {
-    padding-top: 0;
-  }
-
   .online-order-logo-section > .columns-wrapper div {
     padding-top: 0;
   }
-
 }
 
 @media (min-width: 900px) {
