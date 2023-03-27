@@ -81,14 +81,8 @@
 /* logo columns */
 .columns > div > div > p img {
   display: inline-block;
-  width: 100px;
+  width: 23%;
   padding: 0;
-}
-
-.columns > div > div.image-set > p img {
-  width: auto;
-  height: 30px;
-  margin: 15px;
 }
 
 h2#our-capabilities {
@@ -116,10 +110,9 @@ h2#our-capabilities {
     padding-top: 50px;
   }
 
-  .online-order-logo-section > .columns-wrapper  div {
+  .online-order-logo-section > .columns-wrapper div {
     padding-top: 0;
   }
-
 }
 
 @media (min-width: 900px) {
@@ -151,8 +144,16 @@ h2#our-capabilities {
     font-size: 24px;
   }
 
-  .case-studies-custom .new-image-set img:nth-last-child(1) {
+  main .case-studies-custom [alt|="Digital Content"] {
     width: 50%;
+  }
+
+  main .case-studies-custom [alt|="Monetization"] {
+    width: 50%;
+  }
+
+  main .case-studies-custom [alt|="MuleSoft"] {
+    width: 30%;
   }
 
   .new-image-set ul li {
@@ -161,12 +162,6 @@ h2#our-capabilities {
     font-family: var(--alt-font-family);
     line-height: 25px;
   }
-}
-
-.columns .image-set p > picture:nth-child(3) img {
-  width: 120px;
-  height: auto;
-  margin: -5px;
 }
 
 @media (max-width: 600px) {
@@ -319,23 +314,15 @@ h2#our-capabilities {
   }
 
   .columns > div > div > p img {
-    display: block;
-    width: 100px;
+    display: inline-block;
+    width: 45vw;
     padding: 0;
-    margin: 0 auto;
   }
 
   .case-studies-custom > div > div.image-set > p img {
     height: auto;
     width: 110px;
     margin: 22px;
-  }
-
-  .case-studies-custom .columns > div > div > p img {
-    display: inline-block;
-    width: 25%;
-    height: auto;
-    padding: 0;
   }
 
   .current-opening .button-container a {
@@ -346,5 +333,14 @@ h2#our-capabilities {
 
   .columns > div > div.image-set > p img {
     display: inline-block;
+  }
+
+  .columns .image-set p > picture:nth-child(3) img {
+    width: 45vw;
+    height: auto;
+  }
+
+  main .case-studies-custom h1 {
+    text-align: center;
   }
 }
