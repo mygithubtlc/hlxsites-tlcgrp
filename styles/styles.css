@@ -982,6 +982,10 @@ main .form {
   }
 }
 
+main .slideshow-container {
+  padding: 0;
+}
+
 @media (min-width: 1400px) {
   main .background .default-content-wrapper h3 {
     margin-left: 200px;
