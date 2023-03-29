@@ -672,6 +672,14 @@ main .form {
 }
 
 @media (min-width: 600px) {
+  main .slideshow {
+    height: 670px;
+  }
+
+  main .subnav-wrapper {
+    height: auto;
+  }
+
   main .why-us h4 {
     margin-top: 20px;
     font-family: var(--alt-font-family);
@@ -982,8 +990,18 @@ main .form {
   }
 }
 
-main .slideshow-container {
+main .slideshow-container,
+main .subnav-container {
   padding: 0;
+}
+
+main .slideshow {
+  height: 370px;
+}
+
+main .subnav-wrapper {
+  max-height: 130px;
+  border-bottom: 1px solid 616161;
 }
 
 @media (min-width: 1400px) {
