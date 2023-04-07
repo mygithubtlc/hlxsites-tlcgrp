@@ -672,6 +672,14 @@ main .form {
 }
 
 @media (min-width: 600px) {
+  main .slideshow {
+    height: 670px;
+  }
+
+  main .subnav-wrapper {
+    height: auto;
+  }
+
   main .why-us h4 {
     margin-top: 20px;
     font-family: var(--alt-font-family);
@@ -982,6 +990,27 @@ main .form {
   }
 }
 
+main .slideshow-container,
+main .subnav-container {
+  padding: 0;
+}
+
+main .slideshow-container {
+  background-color:rgba(0 0 0 / 25%);
+}
+
+main .subnav-container {
+  border-bottom: 1px solid #616161;
+}
+
+main .slideshow {
+  height: 370px;
+}
+
+main .subnav-wrapper {
+  max-height: 130px;
+}
+
 @media (min-width: 1400px) {
   main .background .default-content-wrapper h3 {
     margin-left: 200px;
@@ -995,7 +1024,7 @@ main .form {
 }
 
 main .slideshow-wrapper,
-main .subnav-container,
+main .subnav-wrapper,
 main .columns-container {
   opacity: 0;
 }
