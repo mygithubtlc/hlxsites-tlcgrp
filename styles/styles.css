@@ -208,10 +208,7 @@ main .section.background {
 main .section.background > picture {
   position: absolute;
   z-index: -1;
-  top: 0;
-  left: 0;
-  bottom: -50px;
-  right: 0;
+  inset: 0 0 -50px;
 }
 
 main .integration-free-solutions img {
@@ -1048,7 +1045,7 @@ main .online-orders h5:last-child {
   margin: 0 auto;
   margin-top: 100px;
   padding: 11px 49px 12px 50px;
-  background-image: linear-gradient(89deg, #fde159 -24%, #fe0817 125%);
+  background-color: #00582e;
 }
 
 main .member-subscriptions h5:last-child {
@@ -1062,7 +1059,7 @@ main .member-subscriptions h5:last-child {
   margin-top: 50px;
   margin-bottom: 100px;
   padding: 11px 49px 12px 50px;
-  background-image: linear-gradient(89deg, #fde159 -24%, #fe0817 125%);
+  background-color: #00582e;
 }
 
 main .online-order-logo-section .columns > div > div {
@@ -1110,10 +1107,7 @@ main .customer-journey-section .new-image-set h3 {
 
 main .customer-journey-section .new-image-set {
   position: relative;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  inset: 0;
 }
 
 main .customer-journey-section .new-image-set > h5 {
@@ -1127,7 +1121,7 @@ main .customer-journey-section .new-image-set > h5 {
   border-radius: 5px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  background-image: linear-gradient(89deg, #fde159 -24%, #fe0817 125%);
+  background-color: #00582e;
   bottom: 0;
   border: 1px solid #4e4e4e;
   border: none;
