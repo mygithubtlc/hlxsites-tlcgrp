@@ -128,8 +128,10 @@ main .member-subscription-slide.slideshow-container p {
 main .member-subscription-slide .slideshow-overlay {
   justify-content: left;
   padding: 0 80px;
-  display: grid;
+  display: block;
   background: none;
+  position: absolute;
+  top:40%;
 }
 
 main .slideshow .slideshow-btn-wrapper {
@@ -206,3 +208,20 @@ main .carousel-buttons button:nth-child(5) {
     text-align: left;
   }
 }
+
+@media (max-width: 600px) {
+  main .member-subscription-slide .slideshow-overlay {
+    justify-content: left;
+    padding: 0 10px;
+    display: block;
+    background: none;
+    position: absolute;
+    top: 15%;
+    width: 300px;
+}
+
+main .member-subscription-slide .slideshow-container p {
+  width: 100%;
+  margin: 5px 0;
+}
+  }
