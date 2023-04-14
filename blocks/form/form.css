@@ -55,6 +55,10 @@ main .form textarea {
   margin-top: 30px;
 }
 
+::placeholder {
+  font-family: var(--body-font-family);
+}
+
 main .form input:hover,
 main .form select:hover {
   border-color: rgb(90 92 96);

@@ -371,6 +371,11 @@ main .cards-container .cards-wrapper {
   }
 }
 
+main .history-vision-section .cards p em:nth-child(1) {
+  padding-right: 200px;
+  display: block;
+}
+
 @media (max-width: 600px) {
   .history-vision-section .block {
     height: 500px;
@@ -394,6 +399,7 @@ main .cards-container .cards-wrapper {
     max-width: 100%;
     display: block;
     height: 181px;
+    object-position: top;
   }
 
   .cards > ul > li p strong {
@@ -542,8 +548,13 @@ main .cards-container .cards-wrapper {
   }
 
   .history-vision-section img:nth-child(2) {
-    height: auto;
+    height: 90%;
     object-position: 0 -18px;
+  }
+
+  main .history-vision-section .cards p em:nth-child(1) {
+    width: 280px;
+    display: block;
   }
 
   .fragment-container.cards-container p a {

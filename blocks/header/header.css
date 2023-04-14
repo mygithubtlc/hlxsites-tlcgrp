@@ -14,10 +14,11 @@ header nav {
   height: var(--nav-height);
   box-sizing: border-box;
   background-color: var(--nav-background-color);
-  border-bottom: solid 1px rgba(255 255 255 / 25%);
+  border-bottom: solid 1px rgba(255 255 255 / 75%);
   font-family: var(--alt-font-family);
   color: white;
   font-weight: normal;
+  border: none;
 }
 
 header nav a:any-link {
