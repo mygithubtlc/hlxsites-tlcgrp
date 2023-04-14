@@ -982,18 +982,6 @@ main .form {
   }
 }
 
-@media (min-width: 1400px) {
-  main .background .default-content-wrapper h3 {
-    margin-left: 200px;
-  }
-}
-
-@media (min-width: 1600px) {
-  main .background .default-content-wrapper h3 {
-    margin-left: 270px;
-  }
-}
-
 main .slideshow-wrapper,
 main .subnav-container,
 main .columns-container {
