@@ -135,8 +135,7 @@ function createInput(fd) {
   input.id = fd.Field;
   input.name = fd.Field;
   input.setAttribute('placeholder', fd.Placeholder);
-  input.setAttribute('maxlength', fd.Options);
-  input.setAttribute('pattern', fd.Rules);
+  input.setAttribute('maxlength', fd.maxLength);
   input.setAttribute('onkeypress', fd.Extra);
 
   if (fd.Mandatory === 'x') {

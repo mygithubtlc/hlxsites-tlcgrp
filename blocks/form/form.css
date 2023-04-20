@@ -159,7 +159,9 @@ main .form-submit-wrapper .button {
   color: black;
 }
 
-main .form input[type="text-field"] {
+main .form input[type="text-field"],
+main .form input[type="email"]
+ {
   border: none;
   border-bottom: 1px solid rgb(193 193 195);
   outline: none;
