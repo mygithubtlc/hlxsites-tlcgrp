@@ -66,18 +66,18 @@ async function submitForm(form) {
   return null;
 }
 
-const errorMap = ["Invalid number", "Invalid country code", "Too short", "Too long", "Invalid number"];
+const errorMap = ['Invalid number', 'Invalid country code', 'Too short', 'Too long', 'Invalid number'];
 
 function validateForm(form) {
   const valid = form.checkValidity();
-  const tels = [...document.querySelectorAll('input[type="tel"]')]
+  const tels = [...document.querySelectorAll('input[type="tel"]')];
   const telValid = tels.every((tel) => {
     if (tel.value) {
       const iti = window.intlTelInputGlobals.getInstance(tel);
-      const valid = iti.isValidNumber();
-      const errorMessage = valid ? "" : errorMap[iti.getValidationError()]
-      tel.setCustomValidity(errorMessage)
-      return valid;
+      const validField = iti.isValidNumber();
+      const errorMessage = validField ? '' : errorMap[iti.getValidationError()];
+      tel.setCustomValidity(errorMessage);
+      return validField;
     }
     return false;
   });
