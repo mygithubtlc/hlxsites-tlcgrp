@@ -153,6 +153,8 @@ function createInput(fd) {
   input.id = fd.Field;
   input.name = fd.Field;
   input.setAttribute('placeholder', fd.Placeholder);
+  input.setAttribute('maxlength', fd.maxLength);
+
   if (fd.Mandatory === 'x') {
     input.setAttribute('required', 'required');
   }
@@ -164,6 +166,7 @@ function createTextArea(fd) {
   input.id = fd.Field;
   input.name = fd.Field;
   input.setAttribute('placeholder', fd.Placeholder);
+  input.setAttribute('maxlength', fd.maxLength);
   if (fd.Mandatory === 'x') {
     input.setAttribute('required', 'required');
   }
