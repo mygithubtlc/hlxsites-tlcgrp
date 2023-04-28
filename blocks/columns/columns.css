@@ -25,7 +25,6 @@
   display: flex;
   justify-content: left;
   margin: 0;
-  padding-top: 20px;
 }
 
 .columns > div > div .button-container {
@@ -90,7 +89,7 @@ h2#our-capabilities {
 }
 
 .image-set ul li {
-  list-style: none;
+  /* list-style: none; */
   font-size: 15px;
   font-family: var(--alt-font-family);
   line-height: 25px;
@@ -157,7 +156,7 @@ h2#our-capabilities {
   }
 
   .new-image-set ul li {
-    list-style: none;
+    /* list-style: none; */
     font-size: 15px;
     font-family: var(--alt-font-family);
     line-height: 25px;

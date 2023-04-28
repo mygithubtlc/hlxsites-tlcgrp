@@ -209,6 +209,7 @@
     position: relative;
     font-size: 19px;
     margin-bottom: 60px;
+    margin-left:20px;
   }
 
   .z-pattern .z-row-even > div:last-of-type strong {

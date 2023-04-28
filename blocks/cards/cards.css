@@ -70,10 +70,7 @@ main .cards-container .default-content-wrapper a {
 
 .cards .cards-card-image picture {
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  inset: 0;
 }
 
 .cards .cards-card-image img {
@@ -129,7 +126,7 @@ main .cards-container .cards-wrapper {
 
 @media (min-width: 600px) {
   main .section.cards-container {
-    padding-top: 50px;
+    /* padding-top: 50px; */
   }
 
   .cards > ul {
@@ -209,6 +206,7 @@ main .cards-container .cards-wrapper {
 
   .section.fragment-container p a {
     font-size: 12px;
+    margin: 0;
   }
 
   .meet-our-team-desktop-another-section ul li {
@@ -217,6 +215,10 @@ main .cards-container .cards-wrapper {
 
   .cards > ul > li:nth-child(1) {
     grid-row: span 2;
+  }
+
+  main .meet-out-team-second-section.cards-container ul li {
+    height: 771px;
   }
 
   .cards.review > ul > li:nth-child(1) {
@@ -259,6 +261,21 @@ main .cards-container .cards-wrapper {
   }
 
   .cards > ul > li:first-child .cards-card-body {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .cards > ul > li:nth-child(2) .cards-card-body {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .fifty-fifty > ul > li:nth-child(2) .cards-card-body {
+    position: relative;
+    bottom: 0;
+  }
+
+  .cards > ul > li:nth-child(3) .cards-card-body {
     position: absolute;
     bottom: 0;
   }
@@ -332,7 +349,7 @@ main .cards-container .cards-wrapper {
   .meet-our-team-desktop-another-section .cards-wrapper {
     max-width: 100%;
     height: 100%;
-    height: 500px;
+    height: auto;
   }
 
   .meet-our-team-desktop-view ul > li:nth-child(1) .cards-card-body,
@@ -341,7 +358,10 @@ main .cards-container .cards-wrapper {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 290px;
+    display: block;
+    bottom: 50px;
+    background: #727171;
+    margin: 0 2px 5px;
   }
 
   .meet-our-team-desktop-view ul li .cards-card-body strong a {
@@ -363,7 +383,7 @@ main .cards-container .cards-wrapper {
 
   main .meet-our-team-mobile.cards-container {
     max-width: 100%;
-    height: 800px;
+    height: auto;
   }
 
   .world-class-cutomer-loyality .cards:not(.review) > ul > li:nth-child(2) a:any-link {
@@ -440,10 +460,7 @@ main .history-vision-section .cards p em:nth-child(1) {
 
   .meet-our-team-mobile .cards-card-image picture {
     position: relative;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    inset: 0;
   }
 
   .meet-our-team-mobile .cards-card-image {
@@ -483,7 +500,6 @@ main .history-vision-section .cards p em:nth-child(1) {
   .meet-our-team-mobile .cards-card-body p:nth-child(3) strong {
     font-size: 14px;
     position: relative;
-    top: -19px;
   }
 
   .meet-our-team-mobile-another-section .cards > ul > li p {
@@ -503,10 +519,7 @@ main .history-vision-section .cards p em:nth-child(1) {
 
   .meet-our-team-mobile-another-section .cards-card-image picture {
     position: relative;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    inset: 0;
   }
 
   .meet-our-team-mobile-another-section .cards-card-image {

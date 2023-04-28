@@ -993,7 +993,7 @@ main .subnav-container {
 }
 
 main .slideshow-container {
-  background-color:rgba(0 0 0 / 25%);
+  background-color: rgba(0 0 0 / 25%);
 }
 
 main .subnav-container {
@@ -1370,7 +1370,6 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .futuristic-product .default-content-wrapper h1 {
     text-align: center;
-    margin-top: 190px;
   }
 
   main .section .default-content-wrapper em {
@@ -1423,10 +1422,6 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .carve-career-all-section {
     margin-top: 30px;
-  }
-
-  main .meet-our-team-mobile {
-    margin-top: -84px;
   }
 
   .section.why-us {
