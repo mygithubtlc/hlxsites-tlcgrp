@@ -533,6 +533,33 @@ main .job-description-page p a {
   display: inline;
 }
 
+main .online-orders h5 > a {
+  text-align: center;
+  font-size: 21px;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 24px;
+  display: table;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 11px 49px 12px 50px;
+  background-color: #00582e;
+}
+
+main .member-subscriptions h5 > a {
+  text-align: center;
+  font-size: 21px;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 24px;
+  display: table;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 11px 49px 12px 50px;
+  background-color: #00582e;
+}
+
 main .background .button-container a {
   all: unset;
   cursor: pointer;
@@ -608,33 +635,6 @@ main .section .default-content-wrapper em {
 
 main .section .default-content-wrapper h1 {
   font-size: 2em;
-}
-
-main .online-orders h5 > a {
-  text-align: center;
-  font-size: 21px;
-  color: #fff;
-  font-weight: 300;
-  border-radius: 24px;
-  display: table;
-  margin: 0 auto;
-  margin-top: 100px;
-  padding: 11px 49px 12px 50px;
-  background-color: #00582e;
-}
-
-main .member-subscriptions h5 > a {
-  text-align: center;
-  font-size: 21px;
-  color: #fff;
-  font-weight: 300;
-  border-radius: 24px;
-  display: table;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 100px;
-  padding: 11px 49px 12px 50px;
-  background-color: #00582e;
 }
 
 main .section .default-content-wrapper p a {
