@@ -1023,7 +1023,7 @@ main .highest-standard-text {
   text-align: center;
 }
 
-main .online-orders h5:last-child a {
+main .online-orders h5 > a {
   text-align: center;
   font-size: 21px;
   color: #fff;
@@ -1036,7 +1036,7 @@ main .online-orders h5:last-child a {
   background-color: #00582e;
 }
 
-main .member-subscriptions h5:last-child a {
+main .member-subscriptions h5 > a {
   text-align: center;
   font-size: 21px;
   color: #fff;
