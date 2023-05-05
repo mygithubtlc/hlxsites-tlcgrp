@@ -481,7 +481,7 @@ main .section.background h6 {
 
 .job-description-page p:nth-child(4),
 .job-description-page p:nth-child(7) {
-  border: 1px solid gray;
+  border: 1px solid #00582e;
   width: 145px;
   padding: 8px;
   text-align: center;
@@ -525,7 +525,7 @@ main .why-us .default-content-wrapper p {
 
 .job-description-page p:nth-child(4):hover,
 .job-description-page p:nth-child(7):hover {
-  background-color: #000;
+  background-color: #00582e;
   color: #fff;
 }
 
@@ -719,7 +719,6 @@ main .form {
     text-align: center;
     font-weight: 400;
     padding-left: 0;
-    padding-right: 20px;
     padding-top: 10px;
   }
 
@@ -940,7 +939,7 @@ main .form {
   }
 
   .integration-free-solutions img {
-    width: 55%;
+    width: 100%;
   }
 
   main .experience-voucher-image-list div div:nth-child(1) img {
