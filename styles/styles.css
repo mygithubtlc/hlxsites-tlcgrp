@@ -441,6 +441,17 @@ main .online-orders h2 {
   margin-bottom: 37px;
 }
 
+.job-description-page h2:nth-child(9) {
+  font-size: 30px;
+  margin: 50px 0;
+}
+
+main .job-description-page:last-child h2 {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
 main .clientele-page h4 {
   text-align: center;
 }
@@ -545,11 +556,6 @@ main .restaurants-logo p {
 
 .job-description-page p:nth-child(8) {
   margin-top: 50px;
-}
-
-.job-description-page h2:nth-child(9) {
-  font-size: 30px;
-  margin: 50px 0;
 }
 
 .section.clientele-page h4 {
