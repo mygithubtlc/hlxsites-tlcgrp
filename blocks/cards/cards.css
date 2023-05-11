@@ -26,7 +26,7 @@
   left: 10px;
 }
 
-.highest-standard-text h4 a { 
+.highest-standard-text h4 a {
   font-size: 15px;
   text-decoration: none;
 }
@@ -40,7 +40,7 @@
 main .cards-container .default-content-wrapper a {
   all: unset;
   cursor: pointer;
-  font-size:24px;
+  font-size: 24px;
 }
 
 .cards > ul > li a:any-link {

@@ -151,22 +151,20 @@ main .form .form-submit-wrapper {
 
 main .form-submit-wrapper .button {
   text-align: center;
-    font-size: 24px;
-    color: #fff;
-    font-weight: 300;
-    border-radius: 24px;
-    display: inline;
-    margin: 0 auto;
-    margin-top: 50px;
-    padding: 11px 49px 12px 50px;
-    background-color: #00582e;
-    font-family: var(--heading-font-family);
-    
+  font-size: 24px;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 24px;
+  display: inline;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 11px 49px 12px 50px;
+  background-color: #00582e;
+  font-family: var(--heading-font-family);
 }
 
 main .form input[type="text-field"],
-main .form input[type="email"]
- {
+main .form input[type="email"] {
   border: none;
   border-bottom: 1px solid rgb(193 193 195);
   outline: none;
