@@ -89,7 +89,7 @@ p {
 }
 
 a:any-link {
-  font-family: var(--heading-font-family);
+  font-family: var(--alt-font-family);
   color: var(--link-color);
   text-decoration: none;
 }
@@ -101,6 +101,75 @@ a:any-link {
 a:hover {
   text-decoration: none;
   color: var(--link-hover-color);
+}
+
+main .why-us a {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 24px;
+  display: table;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding: 11px 49px 12px 50px;
+  background-color: #00582e;
+  text-decoration: none;
+}
+
+.job-description-page h5 a {
+  text-align: center;
+  font-size: 21px;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 24px;
+  display: table;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 11px 49px 12px 50px;
+  background-color: #00582e;
+  text-decoration: none;
+}
+
+main .job-description-page p a {
+  display: inline;
+}
+
+main .online-orders h5 > a {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 24px;
+  display: table;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 11px 49px 12px 50px;
+  background-color: #00582e;
+  text-decoration: none;
+}
+
+main .member-subscriptions h5 > a {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 24px;
+  display: table;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 11px 49px 12px 50px;
+  background-color: #00582e;
+  text-decoration: none;
+}
+
+.privacy-policy-section a:any-link {
+  font-family: var(--alt-font-family);
+  color: var(--link-color);
+  text-decoration: underline;
 }
 
 code,
@@ -219,69 +288,6 @@ main .why-us svg {
   height: 45px;
 }
 
-main .why-us a {
-  text-align: center;
-  font-size: 24px;
-  color: #fff;
-  font-weight: 300;
-  border-radius: 24px;
-  display: table;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 0;
-  padding: 11px 49px 12px 50px;
-  background-color: #00582e;
-  text-decoration: none;
-}
-
-.job-description-page h5 a {
-  text-align: center;
-  font-size: 21px;
-  color: #fff;
-  font-weight: 300;
-  border-radius: 24px;
-  display: table;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 11px 49px 12px 50px;
-  background-color: #00582e;
-  text-decoration: none;
-}
-
-main .job-description-page p a {
-  display: inline;
-}
-
-main .online-orders h5 > a {
-  text-align: center;
-  font-size: 24px;
-  color: #fff;
-  font-weight: 300;
-  border-radius: 24px;
-  display: table;
-  margin: 0 auto;
-  margin-top: 100px;
-  padding: 11px 49px 12px 50px;
-  background-color: #00582e;
-  text-decoration: none;
-}
-
-main .member-subscriptions h5 > a {
-  text-align: center;
-  font-size: 24px;
-  color: #fff;
-  font-weight: 300;
-  border-radius: 24px;
-  display: table;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 100px;
-  padding: 11px 49px 12px 50px;
-  background-color: #00582e;
-  text-decoration: none;
-}
-
 main .background .button-container a {
   all: unset;
   cursor: pointer;
@@ -291,10 +297,6 @@ main .background .button-container a {
 
 main .job-description-page a:hover {
   text-decoration: none;
-}
-
-main .section .default-content-wrapper p a {
-  display: contents;
 }
 
 main .world-class-cutomer-loyality .cards ul > li p a {
