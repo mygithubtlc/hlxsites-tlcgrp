@@ -150,13 +150,18 @@ main .form .form-submit-wrapper {
 }
 
 main .form-submit-wrapper .button {
-  border: 1px solid black;
-  border-radius: 0;
-  font-size: 0.8em;
-  width: 120px;
-  height: 40px;
-  background-color: #efeee7;
-  color: black;
+  text-align: center;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 24px;
+    display: inline;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 11px 49px 12px 50px;
+    background-color: #00582e;
+    font-family: var(--heading-font-family);
+    
 }
 
 main .form input[type="text-field"],
@@ -198,11 +203,6 @@ main .form input.invalid,
 main .form textarea.invalid,
 main .form select.invalid {
   border-color: red;
-}
-
-main .form-submit-wrapper .button:hover {
-  background-color: black;
-  color: white;
 }
 
 .grecaptcha-badge[style] {

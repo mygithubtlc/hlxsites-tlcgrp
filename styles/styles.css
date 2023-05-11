@@ -70,7 +70,7 @@ h6 {
 
 h1 { font-size: var(--heading-font-size-xxl); }
 h2 { font-size: var(--heading-font-size-xl); }
-h3 { font-size: var(--heading-font-size-l); }
+/* h3 { font-size: var(--heading-font-size-l); } */
 h4 { font-size: var(--heading-font-size-m); }
 h5 { font-size: var(--heading-font-size-s); }
 h6 { font-size: var(--heading-font-size-xs); }
@@ -90,7 +90,7 @@ p {
 }
 
 a:any-link {
-  font-family: var(--alt-font-family);
+  font-family: var(--heading-font-family);
   color: var(--link-color);
   text-decoration: none;
 }
@@ -100,7 +100,7 @@ a:any-link {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--link-hover-color);
 }
 
@@ -195,6 +195,25 @@ main .icon svg {
   top: 12px;
 }
 
+main .world-class-cutomer-loyality  .icon-arrow-white {
+  position: relative;
+  top: -8px;
+  left: 10px;
+  
+}
+
+.our-capabilities .icon:nth-child(1) svg,
+.arrow-icon-style .icon:nth-child(1) svg,
+.icon-section .icon:nth-child(1) svg,
+.case-studies-custom .icon:nth-child(1) svg,
+.career-head-section .icon:nth-child(1) svg {
+  height: 45px;
+}
+
+main .world-class-cutomer-loyality .cards  ul > li  p a {
+  font-size: 15px;
+}
+
 /* section with background */
 main .section.background {
   box-sizing: border-box;
@@ -250,6 +269,7 @@ main .section.background > picture img {
 
 .section .default-content-wrapper ul li {
   text-align: left;
+  font-family: var(--alt-font-family);
 }
 
 .section .default-content-wrapper h1 {
@@ -276,10 +296,10 @@ main .background .default-content-wrapper {
   text-align: left;
   border-bottom: 1px solid gray;
   margin-bottom: 40px;
-  margin-top: 100px;
 }
 
-main .carve-career h3 {
+main .carve-career h3,
+main .carve-career-all-section h3 {
   color: #808080;
   font-size: 28px;
   padding: 0;
@@ -305,6 +325,38 @@ main .why-us h2 {
   padding-bottom: 20px;
 }
 
+main .history-vision-section h5{
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 24px;
+  display: table;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding: 11px 49px 12px 50px;
+  background-color: #00582e;
+  text-decoration: none;
+  
+}
+
+main .why-us a {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 24px;
+    display: table;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 11px 49px 12px 50px;
+    background-color: #00582e;
+    text-decoration: none;
+    
+}
+
 main .job-description-page h2 {
   text-align: center;
   font-size: 28px;
@@ -324,7 +376,6 @@ main .online-orders h2 {
 
 .job-description-page h2:last-child {
   margin-bottom: 37px;
-  margin-top: 74px;
 }
 
 main .clientele-page h4 {
@@ -357,7 +408,11 @@ main .customer-journey-section h4 {
 
 .privacy-policy-section * p {
   font-size: 15px;
-  text-align: left;
+  text-align: justify;
+}
+
+.privacy-policy-section * li {
+  text-align: justify;
 }
 
 .payment-term-section p {
@@ -480,16 +535,20 @@ main .section.background h6 {
 }
 
 .job-description-page p:nth-child(4),
-.job-description-page p:nth-child(7) {
-  border: 1px solid #00582e;
-  width: 145px;
-  padding: 8px;
+.job-description-page h5 a {
   text-align: center;
-  margin: 0 auto;
-  cursor: pointer;
-  position: relative;
-  top: 20px;
-  bottom: 43px;
+    font-size: 21px;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 24px;
+    display: table;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 11px 49px 12px 50px;
+    background-color: #00582e;
+    text-decoration: none;
+ 
 }
 
 main .section.background p {
@@ -523,11 +582,11 @@ main .why-us .default-content-wrapper p {
   text-align: center;
 }
 
-.job-description-page p:nth-child(4):hover,
+/* .job-description-page p:nth-child(4):hover,
 .job-description-page p:nth-child(7):hover {
   background-color: #00582e;
   color: #fff;
-}
+} */
 
 main .job-description-page p a {
   display: inline;
@@ -535,7 +594,7 @@ main .job-description-page p a {
 
 main .online-orders h5 > a {
   text-align: center;
-  font-size: 21px;
+  font-size: 24px;
   color: #fff;
   font-weight: 300;
   border-radius: 24px;
@@ -544,11 +603,12 @@ main .online-orders h5 > a {
   margin-top: 100px;
   padding: 11px 49px 12px 50px;
   background-color: #00582e;
+  text-decoration: none;
 }
 
 main .member-subscriptions h5 > a {
   text-align: center;
-  font-size: 21px;
+  font-size: 24px;
   color: #fff;
   font-weight: 300;
   border-radius: 24px;
@@ -558,6 +618,7 @@ main .member-subscriptions h5 > a {
   margin-bottom: 100px;
   padding: 11px 49px 12px 50px;
   background-color: #00582e;
+  text-decoration: none;
 }
 
 main .background .button-container a {
@@ -657,6 +718,26 @@ main .why-us svg {
 .new-image-set .icon-arrow-icon svg {
   top: -3px;
 }
+
+.new-image-set  .icon-arrow-web {
+  position: relative;
+  top: -10px;
+  left: 10px;
+}
+
+main .job-description-page h2 {
+  font-size: 15px;
+}
+main .job-description-page a:hover {
+  text-decoration: none;
+}
+
+main .job-description-page .icon-arrow-web {
+  position: relative;
+  top: -10px;
+  left: 10px;
+}
+
 
 main .background .carve-career h3 {
   text-align: center;
@@ -803,10 +884,9 @@ main .form {
   }
 
   main .section .default-content-wrapper h5 {
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 200;
-    text-align: center;
-    padding-bottom: 20px;
+    text-align: left;
   }
 }
 
@@ -872,6 +952,7 @@ main .form {
 
   main .background .default-content-wrapper em a {
     margin-left: 50px;
+    font-size: 15px;
   }
 
   main .section.background > picture {
@@ -931,7 +1012,7 @@ main .form {
 
   .default-content-wrapper ol li {
     text-align: left;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .carve-career-all-section img {
@@ -1043,6 +1124,12 @@ main .columns-container {
 main .carve-career h3:nth-child(4) {
   font-size: 15px;
   padding: 30px 0;
+}
+
+main .carve-career-all-section h3:nth-child(4){
+  font-size: 15px;
+  text-decoration: none;
+  padding:30px 0px;
 }
 
 main .highest-standard-text {
@@ -1195,6 +1282,11 @@ main .customer-journey-section .new-image-set > h5 {
     font-size: 22px;
   }
 
+  main .privacy-policy-section > ul{
+    padding:0px;
+    margin:0px;
+  }
+
   .carve-career-all-section h1 {
     color: #000;
   }
@@ -1326,7 +1418,6 @@ main .customer-journey-section .new-image-set > h5 {
     font-size: 21px;
     margin-top: 25px;
   }
-
   main .cyber-security .default-content-wrapper h2 {
     font-size: 22px;
   }
