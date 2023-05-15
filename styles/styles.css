@@ -89,7 +89,6 @@ p {
 }
 
 a:any-link {
-  font-family: var(--alt-font-family);
   color: var(--link-color);
   text-decoration: none;
 }
