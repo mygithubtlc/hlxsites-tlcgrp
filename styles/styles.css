@@ -949,7 +949,7 @@ main .form {
   }
 
   main .background .default-content-wrapper em a {
-    margin-left: 50px;
+    /* margin-left: 50px; */
     font-size: 15px;
   }
 
