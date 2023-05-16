@@ -54,8 +54,8 @@
 
 .columns .new-image-set a {
   font-size: 15px;
-  font-weight: normal;
-  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-family: var(--alt-font-family);
 }
 
 .columns > div {

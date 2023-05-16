@@ -87,7 +87,7 @@ main .experience-voucher-image-list .image-list > div {
   main .image-list-container .default-content-wrapper h4 {
     display: flex;
     justify-content: center;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 200;
     text-align: center;
   }
