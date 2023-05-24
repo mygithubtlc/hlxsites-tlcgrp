@@ -1225,6 +1225,13 @@ main .customer-journey-section .new-image-set > h5 {
     top: -42px;
   }
 
+  main .icon svg {
+    position: relative;
+    top: 12px;
+    margin: 0 auto;
+    display: block;
+}
+
   main .restaurants-logo img {
     margin: 5px auto;
     width: 29%;
