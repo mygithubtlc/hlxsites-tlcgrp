@@ -27,10 +27,10 @@ main .subnav a:any-link {
     font-size: 16px;
     width: 100%;
     border-left: 1px solid #979797;
-    height: 26px;
+    height: 20px;
     margin: 0;
     text-align: center;
-    padding: 10px;
+    padding: 14px;
   }
 
   main .subnav p:hover {

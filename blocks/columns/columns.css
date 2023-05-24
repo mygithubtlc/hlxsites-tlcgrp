@@ -30,7 +30,7 @@
 .columns > div > div .button-container {
   margin-top: 5%;
   font-size: 18px;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .section.columns-container h2 {
@@ -54,6 +54,8 @@
 
 .columns .new-image-set a {
   font-size: 15px;
+  font-weight: bold;
+  font-family: var(--alt-font-family);
 }
 
 .columns > div {
