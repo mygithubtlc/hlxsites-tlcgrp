@@ -10,6 +10,7 @@
 .cards > ul > li {
   position: relative;
   color: white;
+  margin: 10px 0px;
 }
 
 .history-vision-section h5#compliances {
@@ -41,7 +42,7 @@
 main .cards-container .default-content-wrapper a {
   all: unset;
   cursor: pointer;
-  font-size: 28px;
+  font-size: 15px;
   font-family: var(--alt-font-family);
 }
 

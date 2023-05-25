@@ -104,7 +104,7 @@ a:hover {
 
 main .why-us a {
   text-align: center;
-  font-size: 28px;
+  font-size: 15px;
   color: #fff;
   font-weight: 300;
   border-radius: 24px;
@@ -112,7 +112,7 @@ main .why-us a {
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 0;
-  padding: 11px 49px 12px 50px;
+  padding: 11px 30px 12px 30px;
   background-color: #00582e;
   text-decoration: none;
   font-family: var(--alt-font-family);
@@ -120,7 +120,7 @@ main .why-us a {
 
 .job-description-page h5 a {
   text-align: center;
-  font-size: 28px;
+  font-size: 15px;
   color: #fff;
   font-weight: 300;
   border-radius: 24px;
@@ -128,7 +128,7 @@ main .why-us a {
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  padding: 11px 49px 12px 50px;
+  padding: 11px 30px 12px 30px;
   background-color: #00582e;
   text-decoration: none;
   font-family: var(--alt-font-family);
@@ -140,14 +140,14 @@ main .job-description-page p a {
 
 main .online-orders h5 > a {
   text-align: center;
-  font-size: 28px;
+  font-size: 15px;
   color: #fff;
   font-weight: 300;
   border-radius: 24px;
   display: table;
   margin: 0 auto;
   margin-top: 100px;
-  padding: 11px 49px 12px 50px;
+  padding: 11px 30px 12px 30px;
   background-color: #00582e;
   text-decoration: none;
   font-family: var(--alt-font-family);
@@ -155,7 +155,7 @@ main .online-orders h5 > a {
 
 main .member-subscriptions h5 > a {
   text-align: center;
-  font-size: 24px;
+  font-size: 15px;
   color: #fff;
   font-weight: 300;
   border-radius: 24px;
@@ -163,7 +163,7 @@ main .member-subscriptions h5 > a {
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 100px;
-  padding: 11px 49px 12px 50px;
+  padding: 11px 30px 12px 30px;
   background-color: #00582e;
   text-decoration: none;
 }
