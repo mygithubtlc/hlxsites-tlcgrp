@@ -112,7 +112,7 @@ main .why-us a {
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 0;
-  padding: 11px 30px 12px 30px;
+  padding: 11px 30px 12px;
   background-color: #00582e;
   text-decoration: none;
   font-family: var(--alt-font-family);
@@ -128,7 +128,7 @@ main .why-us a {
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  padding: 11px 30px 12px 30px;
+  padding: 11px 30px 12px;
   background-color: #00582e;
   text-decoration: none;
   font-family: var(--alt-font-family);
@@ -147,7 +147,7 @@ main .online-orders h5 > a {
   display: table;
   margin: 0 auto;
   margin-top: 100px;
-  padding: 11px 30px 12px 30px;
+  padding: 11px 30px 12px;
   background-color: #00582e;
   text-decoration: none;
   font-family: var(--alt-font-family);
@@ -163,7 +163,7 @@ main .member-subscriptions h5 > a {
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 100px;
-  padding: 11px 30px 12px 30px;
+  padding: 11px 30px 12px;
   background-color: #00582e;
   text-decoration: none;
 }

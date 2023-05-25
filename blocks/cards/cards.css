@@ -10,7 +10,7 @@
 .cards > ul > li {
   position: relative;
   color: white;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 .history-vision-section h5#compliances {
