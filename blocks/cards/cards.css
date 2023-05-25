@@ -431,7 +431,7 @@ main .history-vision-section .cards p em:nth-child(1) {
   }
 
   .section.related-case-studies-component h3 {
-    padding: 49px 0;
+    padding: 27px 0;
   }
 
   .cards-wrapper ul {
@@ -442,7 +442,6 @@ main .history-vision-section .cards p em:nth-child(1) {
   .cards .cards-card-image img {
     max-width: 100%;
     display: block;
-    height: 181px;
     object-position: top;
   }
 
