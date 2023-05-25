@@ -44,4 +44,9 @@ main .subnav a:any-link {
   .subnav-wrapper {
     min-height: 130px;
   }
+
+  main .subnav {
+    font-size: 15px;
+    text-align: center;
+  }
 }
