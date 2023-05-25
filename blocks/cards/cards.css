@@ -41,7 +41,7 @@
 main .cards-container .default-content-wrapper a {
   all: unset;
   cursor: pointer;
-  font-size: 28px;
+  font-size: 15px;
   font-family: var(--alt-font-family);
 }
 
@@ -423,6 +423,12 @@ main .history-vision-section .cards p em:nth-child(1) {
 @media (max-width: 600px) {
   .history-vision-section .block {
     height: 500px;
+  }
+
+  .cards > ul > li {
+    position: relative;
+    color: white;
+    margin: 10px 0;
   }
 
   .cards > ul > li h3 {
