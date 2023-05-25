@@ -10,7 +10,6 @@
 .cards > ul > li {
   position: relative;
   color: white;
-  margin: 10px 0;
 }
 
 .history-vision-section h5#compliances {
@@ -424,6 +423,12 @@ main .history-vision-section .cards p em:nth-child(1) {
 @media (max-width: 600px) {
   .history-vision-section .block {
     height: 500px;
+  }
+
+  .cards > ul > li {
+    position: relative;
+    color: white;
+    margin: 10px 0;
   }
 
   .cards > ul > li h3 {
