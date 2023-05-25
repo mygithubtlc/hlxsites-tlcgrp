@@ -322,6 +322,7 @@ header nav a.active {
     overflow-y: scroll;
     min-height: 100vh;
     background: #5a5a5a;
+    z-index: 9;
   }
 
   .nav-brand p {
