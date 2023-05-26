@@ -1348,6 +1348,7 @@ main .customer-journey-section .new-image-set > h5 {
     text-indent: -13px;
     margin-left: 19px;
     text-align: left;
+    font-family: var(--body-font-family);
   }
 
   .online-order-logo-section {

@@ -313,6 +313,7 @@ h2#our-capabilities {
   .columns-wrapper ul li {
     font-size: 15px;
     padding: 4px 0;
+    font-family: var(--alt-font-family);
   }
 
   .columns > div > div > p img {
