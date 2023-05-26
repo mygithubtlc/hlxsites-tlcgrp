@@ -1547,6 +1547,7 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .background .default-content-wrapper {
     padding-bottom: 30px;
+    margin-top: 10px;
   }
 
   .section.why-us {
@@ -1557,5 +1558,11 @@ main .customer-journey-section .new-image-set > h5 {
     text-align: center;
     font-family: var(--alt-font-family);
     font-size: 22px;
+  }
+
+  .section.background p:nth-child(1) {
+    width: 90px;
+    height: 10px;
+    margin: 0 auto;
   }
 }
