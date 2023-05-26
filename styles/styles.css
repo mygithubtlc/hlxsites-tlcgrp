@@ -1430,6 +1430,11 @@ main .customer-journey-section .new-image-set > h5 {
     text-align: justify;
   }
 
+  main .online-orders h5 > a {
+    margin-top: 50px;
+    margin-bottom: -50px;
+  }
+
   main .career-head-section h4 {
     text-align: center;
   }
