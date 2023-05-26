@@ -239,7 +239,7 @@ main .member-subscription-slide button:nth-child(3) {
     text-align: left;
   }
 
-  main .member-subscription-slide.slideshow-container  {
+  main .member-subscription-slide .slideshow-slide  {
     margin-top:50px;
   }
 
