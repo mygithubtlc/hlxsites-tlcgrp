@@ -243,8 +243,7 @@ main .field-wrapper > [id^="y"] {
     text-transform: none;
     display: block;
     width: 300vw;
-    font-size:15px;
+    font-size: 15px;
     font-family: var(--alt-font-family);
   }
-
 }

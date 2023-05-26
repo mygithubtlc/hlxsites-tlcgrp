@@ -21,7 +21,7 @@ main .address picture {
   margin-right: 20px;
 }
 
-@media(max-width:600px){
+@media (max-width: 600px) {
   main .address h2 {
     font-size: 28px;
     text-align: left;

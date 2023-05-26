@@ -420,7 +420,7 @@ main .history-vision-section h5 {
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 0;
-  padding: 11px 30px 12px 30px;
+  padding: 11px 30px 12px;
   background-color: #00582e;
   text-decoration: none;
 }
@@ -1276,6 +1276,11 @@ main .customer-journey-section .new-image-set > h5 {
     margin-bottom: var(--spacing-m);
   }
 
+  main .history-vision-section h5 {
+    padding: 6px 30px 12px;
+    font-family: var(--alt-font-family);
+  }
+
   main .member-subscriptions h5:last-child {
     margin-bottom: 50px;
   }
@@ -1468,7 +1473,7 @@ main .customer-journey-section .new-image-set > h5 {
 
   .section.background a {
     font-size: 14px;
-    padding-top:10px;
+    padding-top: 10px;
   }
 
   .carve-career .default-content-wrapper p a {
@@ -1542,15 +1547,9 @@ main .customer-journey-section .new-image-set > h5 {
     padding: 46px 0 11px 16px;
   }
 
-  main .history-vision-section h5 {
-    padding: 6px 30px 12px 30px;
-    font-family: var(--alt-font-family);
-  }
-  
   main .tech-product-section h6 {
     text-align: center;
     font-family: var(--alt-font-family);
     font-size: 22px;
   }
-
 }
