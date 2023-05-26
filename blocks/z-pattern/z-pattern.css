@@ -283,13 +283,13 @@
   }
 
   .z-pattern > div[class^="z-row"] > div:last-of-type h3 {
-    font-size: 21px;
+    font-size: 22px;
     margin-top: 69px;
   }
 
   .z-pattern > div[class^="z-row"] > div:last-of-type em {
     font-style: normal;
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .z-pattern .z-row-even > div:first-of-type picture img {
