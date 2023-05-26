@@ -237,4 +237,14 @@ main .field-wrapper > [id^="y"] {
     width: 100%;
     margin: 0;
   }
+
+  main .form .form-checkbox-wrapper label {
+    font-size: var(--type-body-m-size);
+    font-weight: normal;
+    text-transform: none;
+    display: block;
+    width: 300vw;
+    font-family: var(--alt-font-family);
+    font-size:15px;
+  }
 }

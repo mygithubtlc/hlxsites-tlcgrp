@@ -229,7 +229,7 @@ main .cards-container .cards-wrapper {
   }
 
   .section.fragment-container p a {
-    font-size: 12px;
+    font-size: 15px;
     margin: 0;
   }
 
@@ -456,7 +456,7 @@ main .history-vision-section .cards p em:nth-child(1) {
   }
 
   .cards > ul > li em {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   body {
@@ -477,7 +477,7 @@ main .history-vision-section .cards p em:nth-child(1) {
   }
 
   main .cards-container .default-content-wrapper h3 {
-    font-size: 24px;
+    font-size: 22px;
     margin-top: 60px;
     display: flex;
   }

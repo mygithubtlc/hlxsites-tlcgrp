@@ -20,3 +20,12 @@ main .address picture {
   margin-top: 2px;
   margin-right: 20px;
 }
+
+@media(max-width:600px){
+  main .address h2 {
+    font-size: 28px;
+    text-align: left;
+    padding-bottom: 20px;
+  }
+  
+}

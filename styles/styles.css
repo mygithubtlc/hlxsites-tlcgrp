@@ -420,7 +420,7 @@ main .history-vision-section h5 {
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 0;
-  padding: 11px 49px 12px 50px;
+  padding: 11px 30px 12px 30px;
   background-color: #00582e;
   text-decoration: none;
 }
@@ -1230,6 +1230,17 @@ main .customer-journey-section .new-image-set > h5 {
     margin-top: 30px;
   }
 
+  .section.integration-free-solutions h4 {
+    font-size: 22px;
+  }
+
+  main .history-vision-section h5 {
+    padding: 6px 30px 12px 30px;
+    background-color: #00582e;
+    text-decoration: none;
+    font-family: var(--alt-font-family);
+  }
+
   main .icon svg {
     position: relative;
     top: 12px;
@@ -1327,7 +1338,7 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .online-orders h2 {
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .carve-career-all-section p {
@@ -1356,7 +1367,7 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .support-services h6 {
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
   }
 
   main .tech-product-section h1 {
@@ -1374,6 +1385,7 @@ main .customer-journey-section .new-image-set > h5 {
   main .compliances-logos h1,
   main .compliances-logos h4 {
     text-align: center;
+    font-size:22px;
   }
 
   main .tech-platform-logos h1,
@@ -1431,7 +1443,7 @@ main .customer-journey-section .new-image-set > h5 {
   }
 
   .section.clientele-page h4 {
-    font-size: 14px;
+    font-size: 15px;
     text-align: center;
   }
 
@@ -1465,7 +1477,7 @@ main .customer-journey-section .new-image-set > h5 {
   }
 
   .section.background a {
-    font-size: 14px;
+    font-size: 15px;
     padding-top:10px;
   }
 
@@ -1514,7 +1526,7 @@ main .customer-journey-section .new-image-set > h5 {
     display: flex;
     justify-content: center;
     gap: 10px;
-    font-size: 14px;
+    font-size: 15px;
     margin-top: 0;
   }
 
@@ -1538,5 +1550,11 @@ main .customer-journey-section .new-image-set > h5 {
 
   .section.why-us {
     padding: 46px 0 11px 16px;
+  }
+
+  main .tech-product-section h6 {
+    text-align: center;
+    font-family: var(--alt-font-family);
+    font-size: 22px;
   }
 }
