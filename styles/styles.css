@@ -420,7 +420,7 @@ main .history-vision-section h5 {
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 0;
-  padding: 11px 30px 12px 30px;
+  padding: 11px 49px 12px 50px;
   background-color: #00582e;
   text-decoration: none;
 }
@@ -1287,6 +1287,11 @@ main .customer-journey-section .new-image-set > h5 {
     margin-bottom: var(--spacing-m);
   }
 
+  main .history-vision-section h5 {
+    padding: 6px 30px 12px;
+    font-family: var(--alt-font-family);
+  }
+
   main .member-subscriptions h5:last-child {
     margin-bottom: 50px;
   }
@@ -1354,6 +1359,7 @@ main .customer-journey-section .new-image-set > h5 {
     text-indent: -13px;
     margin-left: 19px;
     text-align: left;
+    font-family: var(--body-font-family);
   }
 
   .online-order-logo-section {
@@ -1385,12 +1391,12 @@ main .customer-journey-section .new-image-set > h5 {
   main .compliances-logos h1,
   main .compliances-logos h4 {
     text-align: center;
-    font-size:22px;
   }
 
   main .tech-platform-logos h1,
   main .tech-platform-logos h4 {
     text-align: center;
+    font-size: 22px;
   }
 
   main .logos-integration h1 {
@@ -1434,6 +1440,15 @@ main .customer-journey-section .new-image-set > h5 {
     text-align: justify;
   }
 
+  .carve-career-all-section a {
+    color: #000;
+  }
+
+  main .online-orders h5 > a {
+    margin-top: 50px;
+    margin-bottom: -50px;
+  }
+
   main .career-head-section h4 {
     text-align: center;
   }
@@ -1472,12 +1487,8 @@ main .customer-journey-section .new-image-set > h5 {
     font-size: 14px;
   }
 
-  .carve-career-all-section a {
-    color: #000;
-  }
-
   .section.background a {
-    font-size: 15px;
+    font-size: 14px;
     padding-top:10px;
   }
 
@@ -1546,15 +1557,10 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .background .default-content-wrapper {
     padding-bottom: 30px;
+    margin-top: 10px;
   }
 
   .section.why-us {
     padding: 46px 0 11px 16px;
-  }
-
-  main .tech-product-section h6 {
-    text-align: center;
-    font-family: var(--alt-font-family);
-    font-size: 22px;
   }
 }

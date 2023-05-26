@@ -246,5 +246,8 @@ main .field-wrapper > [id^="y"] {
     width: 300vw;
     font-family: var(--alt-font-family);
     font-size:15px;
+    font-size: 15px;
+    font-family: var(--alt-font-family);
+
   }
 }
