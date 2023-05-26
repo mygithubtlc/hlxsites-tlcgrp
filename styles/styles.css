@@ -1430,6 +1430,10 @@ main .customer-journey-section .new-image-set > h5 {
     text-align: justify;
   }
 
+  .carve-career-all-section a {
+    color: #000;
+  }
+
   main .online-orders h5 > a {
     margin-top: 50px;
     margin-bottom: -50px;
@@ -1471,10 +1475,6 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .cards p:first-of-type {
     font-size: 14px;
-  }
-
-  .carve-career-all-section a {
-    color: #000;
   }
 
   .section.background a {
