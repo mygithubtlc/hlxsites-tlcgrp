@@ -649,6 +649,10 @@ function decorateExternalLinks(main) {
     const href = a.getAttribute('href');
     if (!href.startsWith('/')
       && !href.startsWith('#')) {
+      a.setAttribute('target', '_self');
+    } if (href.endsWith('tlc-digitech-case-study.html')
+    || href.endsWith('/customer-stories/tlc-digitech/')
+    || href.endsWith('resource-library/case-studies/api-led-transformation')) {
       a.setAttribute('target', '_blank');
     }
   });
