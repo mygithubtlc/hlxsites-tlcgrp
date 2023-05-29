@@ -229,14 +229,14 @@ h2#our-capabilities {
   } */
 
   .case-studies-custom h3 {
-    font-size: 28px;
+    font-size: 22px;
     text-align: center;
   }
 
   .columns .new-image-set h3 {
     display: block;
     text-align: center;
-    font-size: 21px;
+    font-size: 22px;
   }
 
   .columns span .icon {
@@ -311,9 +311,7 @@ h2#our-capabilities {
   }
 
   .columns-wrapper ul li {
-    font-size: 15px;
-    padding: 4px 0;
-    font-family: var(--alt-font-family);
+    font-size: 14px;
   }
 
   .columns > div > div > p img {
