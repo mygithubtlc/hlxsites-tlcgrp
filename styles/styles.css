@@ -1219,15 +1219,40 @@ main .customer-journey-section .new-image-set > h5 {
 }
 
 @media (max-width: 600px) {
-  .carve-career-all-section img {
+  /* .carve-career-all-section img {
     width: 100px;
     position: relative;
     top: -42px;
-  }
+  } */
 
   main .carve-career-all-section {
     text-align: center;
     margin-top: 30px;
+  }
+
+  .clientele-page h4 {
+    font-size: 14px;
+  }
+
+  main .tech-platform-logos h4 {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  main .cyber-security h4 {
+    text-align: center;
+  }
+
+  main .compliances-logos h4 {
+    text-align: center;
+  }
+
+  main .career-head-section h4 {
+    text-align: center;
+  }
+
+  main .current-opening h4 {
+    text-align: center;
   }
 
   .section.integration-free-solutions h4 {
@@ -1235,7 +1260,7 @@ main .customer-journey-section .new-image-set > h5 {
   }
 
   main .history-vision-section h5 {
-    padding: 6px 30px 12px 30px;
+    padding: 6px 30px 12px;
     background-color: #00582e;
     text-decoration: none;
     font-family: var(--alt-font-family);
@@ -1285,11 +1310,6 @@ main .customer-journey-section .new-image-set > h5 {
     justify-content: center;
     gap: var(--spacing-m);
     margin-bottom: var(--spacing-m);
-  }
-
-  main .history-vision-section h5 {
-    padding: 6px 30px 12px;
-    font-family: var(--alt-font-family);
   }
 
   main .member-subscriptions h5:last-child {
@@ -1380,21 +1400,11 @@ main .customer-journey-section .new-image-set > h5 {
     text-align: center;
   }
 
-  .clientele-page h4 {
-    font-size: 14px;
-  }
-
-  main .cyber-security h4 {
+  main .compliances-logos h1 {
     text-align: center;
   }
 
-  main .compliances-logos h1,
-  main .compliances-logos h4 {
-    text-align: center;
-  }
-
-  main .tech-platform-logos h1,
-  main .tech-platform-logos h4 {
+  main .tech-platform-logos h1 {
     text-align: center;
     font-size: 22px;
   }
@@ -1406,6 +1416,7 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .carve-career-all-section h1 {
     text-align: center;
+    display: block;
   }
 
   main .associations-logos h1 {
@@ -1449,14 +1460,6 @@ main .customer-journey-section .new-image-set > h5 {
     margin-bottom: -50px;
   }
 
-  main .career-head-section h4 {
-    text-align: center;
-  }
-
-  main .current-opening h4 {
-    text-align: center;
-  }
-
   .section.clientele-page h4 {
     font-size: 15px;
     text-align: center;
@@ -1487,9 +1490,13 @@ main .customer-journey-section .new-image-set > h5 {
     font-size: 14px;
   }
 
+  main .job-description-page p a {
+    display: contents;
+  }
+
   .section.background a {
     font-size: 14px;
-    padding-top:10px;
+    padding-top: 10px;
   }
 
   .carve-career .default-content-wrapper p a {
@@ -1502,6 +1509,25 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .section .default-content-wrapper h1 {
     font-size: 28px;
+    padding-top: 20px;
+  }
+
+  main .section .default-content-wrapper p {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+    margin-top: 0;
+  }
+
+  .section.carve-career-all-section p:nth-child(1) {
+    display: inline-block;
+  }
+
+  .section.background p:nth-child(1) {
+    width: 90px;
+    height: 0;
+    margin: 0 auto;
   }
 
   main .online-orders [id^="m"] {
@@ -1531,14 +1557,6 @@ main .customer-journey-section .new-image-set > h5 {
 
   .section.innovate-with-us {
     padding: 0;
-  }
-
-  main .section .default-content-wrapper p {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    font-size: 15px;
-    margin-top: 0;
   }
 
   main .background.carve-career {
