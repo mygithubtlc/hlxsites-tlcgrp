@@ -121,7 +121,7 @@ main .slideshow .slideshow-overlay h2 {
 }
 
 main .member-subscription-slide.slideshow-container p {
-  width: 70%;
+  width: 100%;
   margin: 5px 0;
 }
 
@@ -131,7 +131,7 @@ main .member-subscription-slide .slideshow-overlay {
   display: block;
   background: none;
   position: absolute;
-  top:40%;
+  top: 40%;
 }
 
 main .slideshow .slideshow-btn-wrapper {
@@ -186,6 +186,10 @@ main .carousel-buttons button:nth-child(5) {
   display: none;
 }
 
+main .member-subscription-slide button:nth-child(3) {
+  display: none;
+}
+
 @media (min-width: 600px) {
   main .slideshow {
     height: 670px;
@@ -207,6 +211,11 @@ main .carousel-buttons button:nth-child(5) {
     max-width: 50vw;
     text-align: left;
   }
+
+  main .member-subscription-slide .slideshow-overlay > * {
+    max-width: 45vw;
+    text-align: left;
+  }
 }
 
 @media (max-width: 600px) {
@@ -218,10 +227,24 @@ main .carousel-buttons button:nth-child(5) {
     position: absolute;
     top: 15%;
     width: 300px;
-}
-
-main .member-subscription-slide .slideshow-container p {
-  width: 100%;
-  margin: 5px 0;
-}
   }
+
+  main .member-subscription-slide.slideshow-container p {
+    width: 75%;
+    margin: 5px 0;
+    font-size: 12px;
+  }
+
+  main .member-subscription-slide.slideshow-container h1 {
+    text-align: left;
+  }
+
+  main .member-subscription-slide .slideshow-slide {
+    margin-top: 50px;
+  }
+
+  main .member-subscription-slide .slideshow-container p {
+    width: 100%;
+    margin: 5px 0;
+  }
+}

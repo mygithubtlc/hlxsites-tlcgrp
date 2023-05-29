@@ -127,6 +127,7 @@ main .form .form-checkbox-wrapper label {
   text-transform: none;
   display: block;
   width: 300vw;
+  font-family: var(--alt-font-family);
 }
 
 main .form-checkbox-wrapper .required {
@@ -150,18 +151,21 @@ main .form .form-submit-wrapper {
 }
 
 main .form-submit-wrapper .button {
-  border: 1px solid black;
-  border-radius: 0;
-  font-size: 0.8em;
-  width: 120px;
-  height: 40px;
-  background-color: #efeee7;
-  color: black;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 24px;
+  display: inline;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 11px 49px 12px 50px;
+  background-color: #00582e;
+  font-family: var(--alt-font-family);
 }
 
 main .form input[type="text-field"],
-main .form input[type="email"]
- {
+main .form input[type="email"] {
   border: none;
   border-bottom: 1px solid rgb(193 193 195);
   outline: none;
@@ -200,11 +204,6 @@ main .form select.invalid {
   border-color: red;
 }
 
-main .form-submit-wrapper .button:hover {
-  background-color: black;
-  color: white;
-}
-
 .grecaptcha-badge[style] {
   right: 0 !important;
   left: 20px !important;
@@ -237,5 +236,14 @@ main .field-wrapper > [id^="y"] {
   main .field-wrapper > [id^="m"] {
     width: 100%;
     margin: 0;
+  }
+
+  main .form .form-checkbox-wrapper label {
+    font-weight: normal;
+    text-transform: none;
+    display: block;
+    width: 300vw;
+    font-size: 15px;
+    font-family: var(--alt-font-family);
   }
 }
