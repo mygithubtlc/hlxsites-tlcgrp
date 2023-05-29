@@ -454,7 +454,7 @@ main .online-orders h2 {
 
 main .job-description-page:last-child h2 {
   text-align: center;
-  font-size: 15px;
+  font-size: 28px;
   margin-bottom: 0;
   font-weight: bold;
   font-family: var(--alt-font-family);
@@ -1327,20 +1327,52 @@ main .customer-journey-section .new-image-set > h5 {
     font-size: 14px;
   }
 
-  main .online-order-logo-section img {
-    width: 60%;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 0;
-  }
-
   .payment-term-section h2 {
     font-size: 22px;
   }
 
   .privacy-policy-section h2 {
     font-size: 22px;
+  }
+
+  .clientele-page h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  main .online-orders h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  main .disclaimer-section * h2 {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  main .text-wrapped h2 {
+    width: 100%;
+  }
+
+  main .world-class-cutomer-loyality h2 {
+    font-size: 21px;
+    margin-top: 25px;
+  }
+
+  main .job-description-page:last-child h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: var(--alt-font-family);
+  }
+
+  main .online-order-logo-section img {
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0;
   }
 
   main .privacy-policy-section > ul {
@@ -1354,16 +1386,6 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .customer-journey-section h1 {
     text-align: center;
-  }
-
-  .clientele-page h2 {
-    font-size: 28px;
-    text-align: center;
-  }
-
-  main .online-orders h2 {
-    text-align: center;
-    font-size: 28px;
   }
 
   .carve-career-all-section p {
@@ -1442,11 +1464,6 @@ main .customer-journey-section .new-image-set > h5 {
     text-align: center;
   }
 
-  main .disclaimer-section * h2 {
-    font-size: 22px;
-    text-align: left;
-  }
-
   main .disclaimer-section * p {
     text-align: justify;
   }
@@ -1463,15 +1480,6 @@ main .customer-journey-section .new-image-set > h5 {
   .section.clientele-page h4 {
     font-size: 15px;
     text-align: center;
-  }
-
-  main .text-wrapped h2 {
-    width: 100%;
-  }
-
-  main .world-class-cutomer-loyality h2 {
-    font-size: 21px;
-    margin-top: 25px;
   }
 
   main .cyber-security .default-content-wrapper h2 {
