@@ -290,6 +290,10 @@ main .why-us svg {
   height: 45px;
 }
 
+.job-description-page a:any-link {
+  font-size: 15px;
+}
+
 main .background .button-container a {
   all: unset;
   cursor: pointer;
