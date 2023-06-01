@@ -38,16 +38,16 @@ main .delivery-feature-list h1 {
   box-shadow: 0 3px 6px 0 rgba (0, 0, 0, 0.09);
   background-color: #fdfdfb;
   font-size: 18px;
-  font-family: ArgestaDisplay;
+  font-family: argesta-display, argesta-display-fallback, "Times New Roman", serif;
   height: 60px;
-}
-
-.mobile-view-section .table table thead tr{
-  background:none;
 }
 
 .table table tbody tr {
   border-bottom: 1px solid #d6d6d6;
+}
+
+.mobile-view-section .table table thead tr {
+  background: none;
 }
 
 .table table th {
@@ -179,6 +179,11 @@ main .plan-list-delivery tr td:first-child svg {
 }
 
 @media (max-width: 600px) {
+  .table table td {
+    padding: 8px 4px;
+    text-align: left;
+  }
+
   .delivery-feature-list table tr td {
     font-size: 10px;
   }
@@ -208,7 +213,7 @@ main .plan-list-delivery tr td:first-child svg {
 
   .table table thead tr {
     font-size: 15px;
-    font-family: ArgestaDisplay;
+    font-family: argesta-display, argesta-display-fallback, "Times New Roman", serif;
   }
 
   .delivery-feature-list table tr td:nth-child(1) {
@@ -249,12 +254,12 @@ main .plan-list-delivery tr td:first-child svg {
     font-size: 14px;
   }
 
-  .plan-list-delivery .table table th, .table table td {
+  .plan-list-delivery .table table th {
     padding: 8px 4px;
     text-align: left;
   }
 
-  main .table-container    {
+  main .table-container {
     padding: 64px 4px;
   }
 }
