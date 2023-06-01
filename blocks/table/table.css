@@ -259,7 +259,17 @@ main .plan-list-delivery tr td:first-child svg {
     text-align: left;
   }
 
+  main .delivery-feature-list {
+    padding: 10px 32px;
+    padding-bottom: 20px;
+  }
+
+  main .plan-list-delivery h1 {
+    text-align: center;
+  }
+
   main .table-container {
-    padding: 64px 5px;
+    padding: 0px 5px;
+    margin: -60px 0px;
   }
 }
