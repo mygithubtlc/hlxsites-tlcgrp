@@ -234,8 +234,9 @@ main .plan-list-delivery tr td:first-child svg {
     padding: 10px 32px;
     padding-bottom: 20px;
   }
-
-  main .delivery-feature-list h5 {
+  
+  main .delivery-feature-list h5,
+  main .plan-list-delivery h5 {
     text-align: center;
     font-size: 15px;
     color: #fff;
