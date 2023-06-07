@@ -465,6 +465,9 @@ main .history-vision-section .cards p em:nth-child(1) {
 
   .cards > ul > li em {
     font-size: 15px;
+    color: #000;
+    -webkit-text-fill-color: #000;
+    
   }
 
   body {
