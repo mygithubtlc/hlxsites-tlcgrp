@@ -214,6 +214,11 @@ h2#our-capabilities {
     color: var(--text-color);
     align-content: center;
     margin-bottom: 5px;
+    font-size:28px;
+  }
+
+  .related-case-studies-component h2{
+    font-size: 28px;
   }
 
   .section .columns-container h2 {
