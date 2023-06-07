@@ -207,11 +207,14 @@ h2#our-capabilities {
     text-align: center;
   }
 
+  .section.columns-container {
+    padding-top: 0;
+  }
+
   .section.columns-container h2 {
     display: flex;
     justify-content: center;
-    font-size: 28px;
-    margin-top: 30px;
+    margin-top: 0;
     color: var(--text-color);
     align-content: center;
     margin-bottom: 5px;

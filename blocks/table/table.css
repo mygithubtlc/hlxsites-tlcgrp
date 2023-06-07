@@ -31,6 +31,10 @@ main .delivery-feature-list h1 {
   }
 }
 
+.table table thead {
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 9%);
+}
+
 .table table thead tr {
   border-top: 2px solid;
   border-bottom: 2px solid;
@@ -118,7 +122,7 @@ main .plan-list-delivery h5 {
 }
 
 .delivery-feature-list .table table td {
-  padding: 8px 5px;
+  padding: 8px 17px;
   text-align: left;
 }
 
@@ -175,7 +179,14 @@ main .plan-list-delivery tr td:first-child svg {
 .delivery-feature-list .table table tbody tr:nth-child(25),
 .delivery-feature-list .table table tbody tr:nth-child(28),
 .delivery-feature-list .table table tbody tr:nth-child(31) {
-  border-top: 2px solid  #d6d6d6;
+  border-top: 3px solid  #d6d6d6;
+}
+
+.plan-list-delivery .table table tbody tr:nth-child(16),
+.plan-list-delivery .table table tbody tr:nth-child(19),
+.plan-list-delivery .table table tbody tr:nth-child(23),
+.plan-list-delivery .table table tbody tr:nth-child(31) {
+  border-top: 3px solid  #d6d6d6;
 }
 
 @media (max-width: 600px) {
@@ -234,7 +245,7 @@ main .plan-list-delivery tr td:first-child svg {
     padding: 10px 32px;
     padding-bottom: 20px;
   }
-  
+
   main .delivery-feature-list h5,
   main .plan-list-delivery h5 {
     text-align: center;

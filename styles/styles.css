@@ -1272,7 +1272,7 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .icon svg {
     position: relative;
-    top: 12px;
+    top: 9px;
     margin: 0 auto;
   }
 
@@ -1521,7 +1521,7 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .section .default-content-wrapper h1 {
     font-size: 28px;
-    padding-top: 20px;
+    padding-top: 20px 10px;
   }
 
   main .section .default-content-wrapper p {
@@ -1591,6 +1591,11 @@ main .customer-journey-section .new-image-set > h5 {
   }
 
   .section.why-us {
-    padding: 46px 0 11px 16px;
+    padding: 46px 16px 11px;
+  }
+
+  main .subnav-container {
+    width: 94%;
+    margin: 0 auto;
   }
 }

@@ -231,6 +231,8 @@ main .cards-container .cards-wrapper {
   .section.fragment-container p a {
     font-size: 15px;
     margin: 0;
+    font-weight: bold;
+    font-family: var(--alt-font-family);
   }
 
   .meet-our-team-desktop-another-section ul li {
