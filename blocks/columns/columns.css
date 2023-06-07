@@ -207,10 +207,6 @@ h2#our-capabilities {
     text-align: center;
   }
 
-  .section.columns-container {
-    padding-top: 0;
-  }
-
   .section.columns-container h2 {
     display: flex;
     justify-content: center;
