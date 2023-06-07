@@ -508,6 +508,12 @@ main .history-vision-section .cards p em:nth-child(1) {
     -webkit-text-fill-color: #000;
   }
 
+  .meet-our-team-mobile p em{
+    text-align: center;
+    color: #000;
+    -webkit-text-fill-color: #000;
+  }
+
   .meet-our-team-mobile .cards > ul > li p strong {
     font-size: 21px;
     font-weight: 600;
