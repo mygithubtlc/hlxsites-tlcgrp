@@ -19,6 +19,7 @@
   --heading-font-family: var(--body-font-family);
   --heading-font-weight: var(--body-font-weight);
   --alt-font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  --new-body-font: "Helvetica Neue", helvetica, arial, sans-serif;
   --fixed-font-family: "Roboto Mono", menlo, consolas, "Liberation Mono", monospace;
 
   /* body sizes */
@@ -43,7 +44,8 @@ body {
   font-size: var(--body-font-size-m);
   font-weight: var(--body-font-weight);
   margin: 0;
-  font-family: var(--body-font-family);
+  /* font-family: var(--body-font-family); */
+  font-family: var(--new-body-font);
   line-height: 1.3;
   color: var(--text-color);
   background-color: var(--background-color);
@@ -461,7 +463,7 @@ main .job-description-page:last-child h2 {
   font-size: 28px;
   margin-bottom: 0;
   font-weight: bold;
-  font-family: var(--alt-font-family);
+  font-family: var(--heading-font-family);
 }
 
 main .clientele-page h4 {
@@ -1272,9 +1274,15 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .icon svg {
     position: relative;
-    top: 9px;
+    top: 12px;
     margin: 0 auto;
   }
+
+  main .world-class-cutomer-loyality .cards ul > li p a {
+    font-size: 12px;
+    font-family: var(--alt-font-family);
+    font-weight: bold;
+}
 
   main .restaurants-logo img {
     margin: 5px auto;
@@ -1368,7 +1376,7 @@ main .customer-journey-section .new-image-set > h5 {
     font-size: 22px;
     margin-bottom: 0;
     font-weight: bold;
-    font-family: var(--alt-font-family);
+    font-family: var(--heading-font-family);
   }
 
   main .online-order-logo-section img {
@@ -1507,7 +1515,7 @@ main .customer-journey-section .new-image-set > h5 {
   }
 
   .section.background a {
-    font-size: 14px;
+    font-size: 16px;
     padding-top: 10px;
   }
 
