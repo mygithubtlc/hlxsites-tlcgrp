@@ -58,6 +58,12 @@ main .cards-container .default-content-wrapper a {
   font-weight: 300;
 }
 
+.meet-our-team-mobile p em {
+  text-align: center;
+  color: #000;
+  -webkit-text-fill-color: #000;
+}
+
 .cards > ul > li em {
   font-size: 24px;
   font-weight: 150;
@@ -503,12 +509,6 @@ main .history-vision-section .cards p em:nth-child(1) {
   }
 
   .meet-our-team-mobile p {
-    text-align: center;
-    color: #000;
-    -webkit-text-fill-color: #000;
-  }
-
-  .meet-our-team-mobile p em{
     text-align: center;
     color: #000;
     -webkit-text-fill-color: #000;
