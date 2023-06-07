@@ -1526,10 +1526,11 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .section .default-content-wrapper p {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     gap: 10px;
     font-size: 15px;
     margin-top: 0;
+    
   }
 
   .section.carve-career-all-section p:nth-child(1) {
