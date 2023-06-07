@@ -262,11 +262,9 @@ main .cards-container .cards-wrapper {
   }
 
   .review > ul > li .cards-card-body p {
-    margin: 0;
     font-style: italic;
     font-size: 14px;
-    /* padding: 7px; */
-    margin: 2px 0px;
+    margin: 2px 0;
     line-height: 25px;
   }
 
@@ -462,7 +460,6 @@ main .history-vision-section .cards p em:nth-child(1) {
     font-size: 15px;
     color: #000;
     -webkit-text-fill-color: #000;
-    
   }
 
   body {
