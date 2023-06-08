@@ -217,7 +217,7 @@ main .plan-list-delivery tr td:first-child svg {
   }
 
   .delivery-feature-list .table table th {
-    padding: 8px 5px;
+    padding: 8px 16px;
     text-align: left;
     font-size: 15px;
   }
