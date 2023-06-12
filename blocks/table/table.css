@@ -266,6 +266,12 @@ main .plan-list-delivery tr td:first-child svg {
     font-size: 14px;
   }
 
+  main .delivery-feature-list tr td:first-child svg,
+  main .plan-list-delivery tr td:first-child svg {
+    width: 22px;
+    height: 22px;
+  }
+
   .plan-list-delivery .table table th {
     padding: 8px 4px;
     text-align: left;
