@@ -797,9 +797,9 @@ main .form {
     height: 670px;
   }
 
-  main .arrow-icon-style p {
+  /* main .arrow-icon-style p {
     margin-left: 0;
-  }
+  } */
 
   main .subnav-wrapper {
     height: auto;
@@ -1236,6 +1236,23 @@ main .customer-journey-section .new-image-set > h5 {
     top: -42px;
   } */
 
+  .privacy-policy-section * p {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .carve-career-all-section p {
+    color: #313131;
+    font-size: 24px;
+    padding: 8px 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  main .arrow-icon-style p {
+    margin-left: 0;
+  }
+
   main .carve-career-all-section {
     text-align: center;
     margin-top: 30px;
@@ -1356,7 +1373,6 @@ main .customer-journey-section .new-image-set > h5 {
     margin-bottom: 50px;
   }
 
-  .privacy-policy-section * p,
   .privacy-policy-section * ul li,
   .privacy-policy-section * ol li {
     font-size: 14px;
@@ -1425,14 +1441,6 @@ main .customer-journey-section .new-image-set > h5 {
   }
 
   main .customer-journey-section h1 {
-    text-align: center;
-  }
-
-  .carve-career-all-section p {
-    color: #313131;
-    font-size: 24px;
-    padding: 8px 0;
-    margin: 0 auto;
     text-align: center;
   }
 
