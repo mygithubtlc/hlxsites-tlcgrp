@@ -528,7 +528,7 @@ main .disclaimer-section * p {
 main .arrow-icon-style p {
   font-size: 15px;
   text-indent: -13px;
-  margin-left: 19px;
+  margin-left: 79px;
 }
 
 main .integration-free-solutions p {
@@ -795,6 +795,10 @@ main .form {
 @media (min-width: 600px) {
   main .slideshow {
     height: 670px;
+  }
+
+  main .arrow-icon-style p {
+    margin-left: 0;
   }
 
   main .subnav-wrapper {
@@ -1235,7 +1239,7 @@ main .customer-journey-section .new-image-set > h5 {
   main .carve-career-all-section {
     text-align: center;
     margin-top: 30px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
   }
 
   .clientele-page h4 {
