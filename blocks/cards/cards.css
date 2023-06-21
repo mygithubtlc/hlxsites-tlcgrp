@@ -149,10 +149,6 @@ main .cards-container .cards-wrapper {
 }
 
 @media (min-width: 600px) {
-  main .section.cards-container {
-    /* padding-top: 50px; */
-  }
-
   .cards > ul {
     list-style: none;
     margin: 0;
@@ -231,6 +227,8 @@ main .cards-container .cards-wrapper {
   .section.fragment-container p a {
     font-size: 15px;
     margin: 0;
+    font-weight: bold;
+    font-family: var(--alt-font-family);
   }
 
   .meet-our-team-desktop-another-section ul li {
@@ -264,7 +262,10 @@ main .cards-container .cards-wrapper {
   }
 
   .review > ul > li .cards-card-body p {
-    margin: 0;
+    font-style: italic;
+    font-size: 14px;
+    margin: 2px 0;
+    line-height: 25px;
   }
 
   .review > ul > li .cards-card-body p br {
@@ -383,7 +384,7 @@ main .cards-container .cards-wrapper {
     left: 0;
     right: 0;
     display: block;
-    bottom: 50px;
+    bottom: 53px;
     background: #727171;
     margin: 0 2px 5px;
   }
@@ -457,6 +458,8 @@ main .history-vision-section .cards p em:nth-child(1) {
 
   .cards > ul > li em {
     font-size: 15px;
+    color: #000;
+    -webkit-text-fill-color: #000;
   }
 
   body {
@@ -502,7 +505,8 @@ main .history-vision-section .cards p em:nth-child(1) {
 
   .meet-our-team-mobile p {
     text-align: center;
-    color: black;
+    color: #000;
+    -webkit-text-fill-color: #000;
   }
 
   .meet-our-team-mobile .cards > ul > li p strong {

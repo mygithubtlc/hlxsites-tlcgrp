@@ -19,6 +19,7 @@
   --heading-font-family: var(--body-font-family);
   --heading-font-weight: var(--body-font-weight);
   --alt-font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  --new-body-font: "Helvetica Neue", helvetica, arial, sans-serif;
   --fixed-font-family: "Roboto Mono", menlo, consolas, "Liberation Mono", monospace;
 
   /* body sizes */
@@ -43,7 +44,9 @@ body {
   font-size: var(--body-font-size-m);
   font-weight: var(--body-font-weight);
   margin: 0;
-  font-family: var(--body-font-family);
+
+  /* font-family: var(--body-font-family); */
+  font-family: var(--new-body-font);
   line-height: 1.3;
   color: var(--text-color);
   background-color: var(--background-color);
@@ -266,7 +269,7 @@ main .icon svg {
 
 main .world-class-cutomer-loyality .icon-arrow-white {
   position: relative;
-  top: -8px;
+  top: -10px;
   left: 10px;
 }
 
@@ -461,7 +464,7 @@ main .job-description-page:last-child h2 {
   font-size: 28px;
   margin-bottom: 0;
   font-weight: bold;
-  font-family: var(--alt-font-family);
+  font-family: var(--heading-font-family);
 }
 
 main .clientele-page h4 {
@@ -525,7 +528,7 @@ main .disclaimer-section * p {
 main .arrow-icon-style p {
   font-size: 15px;
   text-indent: -13px;
-  margin-left: 19px;
+  margin-left: 79px;
 }
 
 main .integration-free-solutions p {
@@ -742,7 +745,7 @@ main .section .default-content-wrapper h4 {
 
 .new-image-set .icon-arrow-web {
   position: relative;
-  top: -10px;
+  top: -11px;
   left: 10px;
 }
 
@@ -793,6 +796,10 @@ main .form {
   main .slideshow {
     height: 670px;
   }
+
+  /* main .arrow-icon-style p {
+    margin-left: 0;
+  } */
 
   main .subnav-wrapper {
     height: auto;
@@ -1229,9 +1236,27 @@ main .customer-journey-section .new-image-set > h5 {
     top: -42px;
   } */
 
+  .privacy-policy-section * p {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .carve-career-all-section p {
+    color: #313131;
+    font-size: 24px;
+    padding: 8px 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  main .arrow-icon-style p {
+    margin-left: 0;
+  }
+
   main .carve-career-all-section {
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 20px;
   }
 
   .clientele-page h4 {
@@ -1274,6 +1299,34 @@ main .customer-journey-section .new-image-set > h5 {
     position: relative;
     top: 12px;
     margin: 0 auto;
+  }
+
+  .carve-career-all-section a {
+    color: #000;
+  }
+
+  main .online-orders h5 > a {
+    margin-top: 50px;
+    margin-bottom: -50px;
+  }
+
+  main .job-description-page p a {
+    display: contents;
+  }
+
+  .section.background a {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  .carve-career .default-content-wrapper p a {
+    color: #000;
+  }
+
+  main .world-class-cutomer-loyality .cards ul > li p a {
+    font-size: 12px;
+    font-family: var(--alt-font-family);
+    font-weight: bold;
   }
 
   main .restaurants-logo img {
@@ -1320,7 +1373,6 @@ main .customer-journey-section .new-image-set > h5 {
     margin-bottom: 50px;
   }
 
-  .privacy-policy-section * p,
   .privacy-policy-section * ul li,
   .privacy-policy-section * ol li {
     font-size: 14px;
@@ -1368,7 +1420,7 @@ main .customer-journey-section .new-image-set > h5 {
     font-size: 22px;
     margin-bottom: 0;
     font-weight: bold;
-    font-family: var(--alt-font-family);
+    font-family: var(--heading-font-family);
   }
 
   main .online-order-logo-section img {
@@ -1389,14 +1441,6 @@ main .customer-journey-section .new-image-set > h5 {
   }
 
   main .customer-journey-section h1 {
-    text-align: center;
-  }
-
-  .carve-career-all-section p {
-    color: #313131;
-    font-size: 24px;
-    padding: 8px 0;
-    margin: 0 auto;
     text-align: center;
   }
 
@@ -1472,15 +1516,6 @@ main .customer-journey-section .new-image-set > h5 {
     text-align: justify;
   }
 
-  .carve-career-all-section a {
-    color: #000;
-  }
-
-  main .online-orders h5 > a {
-    margin-top: 50px;
-    margin-bottom: -50px;
-  }
-
   .section.clientele-page h4 {
     font-size: 15px;
     text-align: center;
@@ -1502,31 +1537,18 @@ main .customer-journey-section .new-image-set > h5 {
     font-size: 14px;
   }
 
-  main .job-description-page p a {
-    display: contents;
-  }
-
-  .section.background a {
-    font-size: 14px;
-    padding-top: 10px;
-  }
-
-  .carve-career .default-content-wrapper p a {
-    color: #000;
-  }
-
   main .section .default-content-wrapper h3 {
     padding: 0;
   }
 
   main .section .default-content-wrapper h1 {
     font-size: 28px;
-    padding-top: 20px;
+    padding-top: 20px 10px;
   }
 
   main .section .default-content-wrapper p {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     gap: 10px;
     font-size: 15px;
     margin-top: 0;
@@ -1591,6 +1613,11 @@ main .customer-journey-section .new-image-set > h5 {
   }
 
   .section.why-us {
-    padding: 46px 0 11px 16px;
+    padding: 46px 16px 11px;
+  }
+
+  main .subnav-container {
+    width: 94%;
+    margin: 0 auto;
   }
 }

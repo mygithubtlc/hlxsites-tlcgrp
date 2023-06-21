@@ -64,7 +64,7 @@
 }
 
 .columns > div > div {
-  border-top: 1px solid black;
+  border-top: 1px solid #cecece;
 }
 
 .columns > div > div:first-child {
@@ -97,9 +97,14 @@ h2#our-capabilities {
   line-height: 25px;
 }
 
+.columns > div > div h3 {
+  font-weight: 600;
+}
+
 @media (min-width: 600px) {
   .columns > div > div h3 {
     font-size: 28px;
+    font-weight: 600;
   }
 
   .section .columns-wrapper {
@@ -157,11 +162,18 @@ h2#our-capabilities {
     width: 30%;
   }
 
+  .new-image-set ul {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
   .new-image-set ul li {
     /* list-style: none; */
     font-size: 15px;
     font-family: var(--alt-font-family);
     line-height: 25px;
+    margin-left: 39px;
+    padding-left: 10px;
   }
 }
 
@@ -207,14 +219,18 @@ h2#our-capabilities {
     text-align: center;
   }
 
+  .related-case-studies-component h2 {
+    font-size: 28px;
+  }
+
   .section.columns-container h2 {
     display: flex;
     justify-content: center;
-    font-size: 28px;
-    margin-top: 30px;
+    margin-top: 0;
     color: var(--text-color);
     align-content: center;
     margin-bottom: 5px;
+    font-size: 28px;
   }
 
   .section .columns-container h2 {
@@ -224,9 +240,13 @@ h2#our-capabilities {
     margin-bottom: 40px;
   }
 
-  /* .section .button-container {
-    margin-bottom: 47px;
-  } */
+  main .select-clientele-logo-section {
+    opacity: 1;
+    padding-top: 1px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: -69px;
+  }
 
   .case-studies-custom h3 {
     font-size: 22px;
@@ -272,7 +292,7 @@ h2#our-capabilities {
   }
 
   main .background .default-content-wrapper h2 {
-    text-align: center;
+    text-align: left;
     font-size: 28px;
   }
 
@@ -304,6 +324,12 @@ h2#our-capabilities {
 
   main .section .default-content-wrapper em {
     font-size: 15px;
+  }
+
+  main .select-clientele-logo-section .columns-container {
+    padding-top: 40px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
   }
 
   main .section .default-content-wrapper strong {
