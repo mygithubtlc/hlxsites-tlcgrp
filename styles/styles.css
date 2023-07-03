@@ -1255,7 +1255,7 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .carve-career-all-section {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 0;
     margin-bottom: 20px;
   }
 
@@ -1293,6 +1293,11 @@ main .customer-journey-section .new-image-set > h5 {
     background-color: #00582e;
     text-decoration: none;
     font-family: var(--alt-font-family);
+    margin-top: 20px;
+  }
+
+  main .section {
+    padding: 20px 16px;
   }
 
   main .icon svg {
@@ -1543,12 +1548,13 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .section .default-content-wrapper h1 {
     font-size: 28px;
-    padding-top: 20px 10px;
+    padding-top: 0 20px;
+    text-align: center;
   }
 
   main .section .default-content-wrapper p {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     gap: 10px;
     font-size: 15px;
     margin-top: 0;
@@ -1610,6 +1616,7 @@ main .customer-journey-section .new-image-set > h5 {
   main .background .default-content-wrapper {
     padding-bottom: 30px;
     margin-top: 10px;
+    padding-top: 40px;
   }
 
   .section.why-us {

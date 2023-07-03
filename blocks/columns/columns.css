@@ -98,7 +98,8 @@ h2#our-capabilities {
 }
 
 .columns > div > div h3 {
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 28px;
 }
 
 .arrow-icon-style .new-image-set ul {
@@ -108,7 +109,7 @@ h2#our-capabilities {
 @media (min-width: 600px) {
   .columns > div > div h3 {
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .section .columns-wrapper {

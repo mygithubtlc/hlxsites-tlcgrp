@@ -125,8 +125,7 @@ main .cards-container .default-content-wrapper em {
 
 main .cards-container .default-content-wrapper h3 {
   display: flex;
-  justify-content: center;
-  font-size: 2em;
+  justify-content: center; /* font-size: 2em; */
   align-content: center;
   font-weight: 400;
 }
@@ -432,6 +431,11 @@ main .history-vision-section .cards p em:nth-child(1) {
     margin: 10px 0;
   }
 
+  main > .history-vision-section h3 {
+    font-size: 22px;
+    margin: 20px 0;
+  }
+
   .cards > ul > li h3 {
     font-size: 18px;
     padding: 11px 0;
@@ -458,8 +462,8 @@ main .history-vision-section .cards p em:nth-child(1) {
 
   .cards > ul > li em {
     font-size: 15px;
-    color: #000;
-    -webkit-text-fill-color: #000;
+    color: #fbfbfb;
+    -webkit-text-fill-color: #fdfdfd;
   }
 
   body {
@@ -479,11 +483,11 @@ main .history-vision-section .cards p em:nth-child(1) {
     font-size: 6px;
   }
 
-  main .cards-container .default-content-wrapper h3 {
+  /* main .cards-container .default-content-wrapper h3 {
     font-size: 22px;
-    margin-top: 60px;
     display: flex;
-  }
+    margin-top:60px;
+  } */
 
   main .cards-container .default-content-wrapper em {
     font-size: 14px;
