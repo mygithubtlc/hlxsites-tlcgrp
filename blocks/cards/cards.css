@@ -281,13 +281,13 @@ main .cards-container .cards-wrapper {
   }
 
   .review > ul > li .cards-card-body strong:first-of-type {
-    padding-top: 0px;
+    padding-top: 0;
   }
 
   .cards > ul > li:first-child .cards-card-body {
     position: absolute;
     bottom: 0;
-    margin-left:0px;
+    margin-left: 0;
   }
 
   .cards > ul > li:nth-child(2) .cards-card-body {
@@ -303,7 +303,7 @@ main .cards-container .cards-wrapper {
   .cards > ul > li:nth-child(3) .cards-card-body {
     position: absolute;
     bottom: 0;
-    margin-right:0px;
+    margin-right: 0;
   }
 
   .cards.fifty-fifty > ul {
@@ -392,7 +392,7 @@ main .cards-container .cards-wrapper {
   .meet-our-team-desktop-view ul > li:nth-child(1) .cards-card-body {
     position: absolute;
     left: -2px;
-    right: 0px;
+    right: 0;
     display: block;
     bottom: 72px;
     background: #727171;
@@ -401,7 +401,7 @@ main .cards-container .cards-wrapper {
 
   .meet-our-team-desktop-view ul > li:nth-child(3) .cards-card-body {
     position: absolute;
-    left: 0px;
+    left: 0;
     right: -2px;
     display: block;
     bottom: 72px;
