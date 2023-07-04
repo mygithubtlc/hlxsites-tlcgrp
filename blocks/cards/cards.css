@@ -626,6 +626,7 @@ main .history-vision-section .cards p em:nth-child(1) {
   main .history-vision-section .cards p em:nth-child(1) {
     width: 280px;
     display: block;
+    -webkit-font-smoothing: antialiased;
   }
 
   .fragment-container.cards-container p a {
