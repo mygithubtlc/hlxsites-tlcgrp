@@ -101,6 +101,10 @@ h2#our-capabilities {
   font-weight: 600;
 }
 
+.arrow-icon-style .new-image-set ul {
+  padding-left: 14%;
+}
+
 @media (min-width: 600px) {
   .columns > div > div h3 {
     font-size: 28px;
@@ -162,17 +166,17 @@ h2#our-capabilities {
     width: 30%;
   }
 
-  .new-image-set ul {
+  /* .new-image-set ul {
     margin-top: 30px;
     margin-bottom: 30px;
-  }
+  } */
 
   .new-image-set ul li {
     /* list-style: none; */
     font-size: 15px;
     font-family: var(--alt-font-family);
     line-height: 25px;
-    margin-left: 39px;
+    margin-left: 0 px;
     padding-left: 10px;
   }
 }
