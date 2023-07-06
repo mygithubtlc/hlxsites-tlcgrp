@@ -226,7 +226,78 @@ main .field-wrapper > [id^="y"] {
   clear: both;
 }
 
+.button-container .form-name-wrapper:nth-child(1) {
+  width: 9%;
+  margin-right:20px;
+  display: inline-block;
+}
+
+.button-container .form-name-wrapper select {
+  background:none;
+  border:none;
+  border-bottom: 1px solid rgb(193 193 195);
+  outline: none;
+  padding:11px 0px;
+  font-size: 1.25rem;
+  color: #808080;
+  background-color: var(--background-color);
+  font-family: var(--heading-font-family);
+}
+
+.button-container .form-firstName-wrapper {
+  width: 33%;
+  margin-right:20px;
+  display: inline-block;
+}
+
+.button-container .form-lastName-wrapper {
+  width: 33%;
+
+  display: inline-block;
+}
+
+.button-container .form-emailAddress-wrapper {
+  width: 44%;
+  margin-right:20px;
+  margin-left:0px;
+  display: inline-block;
+}
+
+.button-container .form-mobileNumber-wrapper {
+  width: 33%;
+  display: inline-block;
+}
+
+main .section .default-content-wrapper h1{
+  justify-content: left;
+}
+
+.address-container img{
+  width:30px;
+}
+
+
+
+
+
 @media (max-width: 600px) {
+
+  .button-container .form-name-wrapper:nth-child(1) {
+    width: 100%;
+  }
+  .button-container .form-firstName-wrapper {
+    width: 100%;
+  }
+  .button-container .form-lastName-wrapper {
+    width: 100%;
+  }
+  .button-container .form-emailAddress-wrapper {
+    width: 100%;
+  }
+  .button-container .form-mobileNumber-wrapper {
+    width: 100%;
+  }
+  
   main .field-wrapper > [id^="c"] {
     width: 100%;
     margin: 0;
