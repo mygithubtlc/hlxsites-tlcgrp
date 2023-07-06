@@ -59,6 +59,18 @@ main .form textarea {
   font-family: var(--body-font-family);
 }
 
+.button-container .form-name-wrapper select {
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(193 193 195);
+  outline: none;
+  padding: 11px 0;
+  font-size: 1.25rem;
+  color: #808080;
+  background-color: var(--background-color);
+  font-family: var(--heading-font-family);
+}
+
 main .form input:hover,
 main .form select:hover {
   border-color: rgb(90 92 96);
@@ -226,78 +238,64 @@ main .field-wrapper > [id^="y"] {
   clear: both;
 }
 
-.button-container .form-name-wrapper:nth-child(1) {
+.button-container [class^="form-name-wrapper"] {
   width: 9%;
-  margin-right:20px;
+  margin-right: 20px;
   display: inline-block;
 }
 
-.button-container .form-name-wrapper select {
-  background:none;
-  border:none;
-  border-bottom: 1px solid rgb(193 193 195);
-  outline: none;
-  padding:11px 0px;
-  font-size: 1.25rem;
-  color: #808080;
-  background-color: var(--background-color);
-  font-family: var(--heading-font-family);
-}
-
-.button-container .form-firstName-wrapper {
+.button-container [class^="form-firstName"] {
   width: 33%;
-  margin-right:20px;
+  margin-right: 20px;
   display: inline-block;
 }
 
-.button-container .form-lastName-wrapper {
+.button-container [class^="form-lastName"] {
   width: 33%;
-
   display: inline-block;
 }
 
-.button-container .form-emailAddress-wrapper {
+.button-container [class^="form-email"] {
   width: 44%;
-  margin-right:20px;
-  margin-left:0px;
+  margin-right: 20px;
+  margin-left: 0;
   display: inline-block;
 }
 
-.button-container .form-mobileNumber-wrapper {
+.button-container [class^="form-mobile"] {
   width: 33%;
   display: inline-block;
 }
 
-main .section .default-content-wrapper h1{
+main .section .default-content-wrapper h1 {
   justify-content: left;
 }
 
-.address-container img{
-  width:30px;
+.address-container img {
+  width: 30px;
 }
 
-
-
-
-
 @media (max-width: 600px) {
+  .button-container [class^="form-name-wrapper"] {
+    width: 100%;
+  }
 
-  .button-container .form-name-wrapper:nth-child(1) {
+  .button-container [class^="form-firstName"] {
     width: 100%;
   }
-  .button-container .form-firstName-wrapper {
+
+  .button-container [class^="form-lastName"] {
     width: 100%;
   }
-  .button-container .form-lastName-wrapper {
+
+  .button-container [class^="form-email"] {
     width: 100%;
   }
-  .button-container .form-emailAddress-wrapper {
+
+  .button-container [class^="form-mobile"] {
     width: 100%;
   }
-  .button-container .form-mobileNumber-wrapper {
-    width: 100%;
-  }
-  
+
   main .field-wrapper > [id^="c"] {
     width: 100%;
     margin: 0;
