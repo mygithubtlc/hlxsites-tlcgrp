@@ -241,8 +241,11 @@ main .cards-container .cards-wrapper {
   }
 
   main .meet-out-team-second-section.cards-container ul li {
-    height: 771px;
+    height: 740px;
   }
+
+  
+
 
   .cards.review > ul > li:nth-child(1) {
     grid-row: span 1;
@@ -263,11 +266,19 @@ main .cards-container .cards-wrapper {
   }
 
   .review > ul > li .cards-card-body p {
-    font-style: italic;
     font-size: 14px;
     margin: 2px 0;
-    line-height: 25px;
+    line-height: 22px;
+    padding: 0px 15px;
   }
+
+  .review > ul > li .cards-card-body p:nth-child(2),
+  .review > ul > li .cards-card-body p:nth-child(3) {
+    font-style: normal;
+  }
+
+
+  
 
   .review > ul > li .cards-card-body p br {
     display: none;
@@ -284,6 +295,32 @@ main .cards-container .cards-wrapper {
 
   .review > ul > li .cards-card-body strong:first-of-type {
     padding-top: 0;
+  }
+
+  .meet-our-team-desktop-view .cards > ul > li:nth-child(1){
+    margin:5px;
+  }
+  .meet-our-team-desktop-view .cards > ul > li {
+    margin:5px;
+  }
+  .meet-our-team-desktop-view  .cards-card-body {
+    padding: 20px 0px;
+  }
+
+  .meet-our-team-desktop-view .review > ul > li  strong {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+  }
+
+
+
+
+
+
+  .meet-our-team-desktop-view ul li > div p {
+    font-style: normal;
+    text-align: center;
   }
 
   .cards > ul > li:first-child .cards-card-body {
@@ -387,8 +424,8 @@ main .cards-container .cards-wrapper {
     right: 0;
     display: block;
     bottom: 72px;
-    background: #727171;
     margin: 0 2px 5px;
+    color: rgb(0, 0, 0);
   }
 
   .meet-our-team-desktop-view ul > li:nth-child(1) .cards-card-body {
@@ -396,8 +433,18 @@ main .cards-container .cards-wrapper {
     left: -2px;
     right: 0;
     display: block;
-    bottom: 72px;
-    background: #727171;
+    bottom: 60px;
+    color: rgb(0, 0, 0);
+    margin: 0 2px 5px;
+  }
+
+  .meet-our-team-desktop-view ul > li:nth-child(2) .cards-card-body {
+    position: absolute;
+    left: -2px;
+    right: 0;
+    display: block;
+    bottom: 60px;
+    color: rgb(0, 0, 0);
     margin: 0 2px 5px;
   }
 
@@ -406,8 +453,8 @@ main .cards-container .cards-wrapper {
     left: 0;
     right: -2px;
     display: block;
-    bottom: 72px;
-    background: #727171;
+    bottom: 60px;
+    color: rgb(0, 0, 0);
     margin: 0 2px 5px;
   }
 
@@ -442,6 +489,13 @@ main .history-vision-section .cards p em:nth-child(1) {
   padding-right: 200px;
   display: block;
 }
+
+
+.meet-our-team-desktop-view .cards > ul > li p:nth-child(2) strong{
+  font-size: 18px;
+  padding-top:15px;
+}
+
 
 @media (max-width: 600px) {
   .history-vision-section .block {
