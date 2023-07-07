@@ -745,8 +745,13 @@ main .section .default-content-wrapper h4 {
 
 .new-image-set .icon-arrow-web {
   position: relative;
-  top: -11px;
+  top: 6px;
   left: 10px;
+}
+
+main .current-opening .icon svg {
+  position: relative;
+  top: -4px;
 }
 
 main .job-description-page .icon-arrow-web {
