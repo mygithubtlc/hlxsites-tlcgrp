@@ -188,7 +188,7 @@ main .form input[type="tel"] {
   border: none;
   border-bottom: 1px solid rgb(193 193 195);
   outline: none;
-  padding-left:60px;
+  padding-left: 60px;
 }
 
 main .iti {
@@ -276,24 +276,15 @@ main .section .default-content-wrapper h1 {
   width: 26px;
 }
 
-/* main .iti__arrow {
-  margin-left: 6px;
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 6px solid #555;
-} */
-
-main .iti__arrow {
+main [class^="iti__arrow"] {
   box-sizing: border-box;
   height: 7px;
   width: 7px;
   border-style: solid;
   border-color: gray;
-  border-width: 0px 2px 2px 0px;
+  border-width: 0 2px 2px 0;
   transform: rotate(45deg);
-  margin-left:10px;
+  margin-left: 10px;
   margin-bottom: 5px;
 }
 
