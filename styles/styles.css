@@ -285,6 +285,11 @@ main .why-us svg {
   top: -3px;
 }
 
+main .current-opening .icon svg {
+  position: relative;
+  top: -4px;
+}
+
 .our-capabilities .icon:nth-child(1) svg,
 .arrow-icon-style .icon:nth-child(1) svg,
 .icon-section .icon:nth-child(1) svg,
@@ -749,11 +754,6 @@ main .section .default-content-wrapper h4 {
   left: 10px;
 }
 
-main .current-opening .icon svg {
-  position: relative;
-  top: -4px;
-}
-
 main .job-description-page .icon-arrow-web {
   position: relative;
   top: -10px;
@@ -864,8 +864,6 @@ main .form {
     justify-content: center;
     font-weight: 100;
   }
-
-
 
   main .carve-career-all-section .default-content-wrapper h1 {
     font-size: 48px;
