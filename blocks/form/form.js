@@ -18,11 +18,13 @@ function loadScript(url, callback, container = document.querySelector('head')) {
 function createSelect(fd) {
   const select = document.createElement('select');
   select.id = fd.Field;
+  select.name = fd.Field;
   if (fd.Placeholder) {
     const ph = document.createElement('option');
     ph.textContent = fd.Placeholder;
     ph.setAttribute('selected', '');
     ph.setAttribute('disabled', '');
+    ph.setAttribute('value', '');
     select.append(ph);
   }
   fd.Options.split(',').forEach((o) => {
