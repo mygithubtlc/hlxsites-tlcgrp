@@ -24,6 +24,7 @@ function createSelect(fd) {
     ph.textContent = fd.Placeholder;
     ph.setAttribute('selected', '');
     ph.setAttribute('disabled', '');
+    ph.setAttribute('value', '');
     select.append(ph);
   }
   fd.Options.split(',').forEach((o) => {
