@@ -22,10 +22,9 @@ export default async function decorate(block) {
     else thead.append(row, td, colspan);
     [...child.children].forEach((col) => {
       const cell = buildCell(i);
-      const cell2 = buildCell(colspan);
       cell.innerHTML = col.innerHTML;
       row.append(cell);
-      colspan.appendChild(cell2);
+      colspan.append(cell);
     });
   });
   block.innerHTML = '';
