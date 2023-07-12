@@ -485,6 +485,16 @@ main .history-vision-section .cards p em:nth-child(1) {
   padding-top: 15px;
 }
 
+@media only screen and (min-width:600px) and (max-width:992px){
+  main .history-vision-section .default-content-wrapper:last-child {
+    padding-top: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+
+
 @media (max-width: 600px) {
   .history-vision-section .block {
     height: 500px;
