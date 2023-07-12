@@ -53,10 +53,15 @@ main .form textarea {
   min-height: 100px;
   background-color: #efeee7;
   margin-top: 30px;
+  font-size:1.4rem;
+  letter-spacing: 0px;
+  color:#585858;
+
 }
 
 ::placeholder {
-  font-family: var(--body-font-family);
+  /* font-family: var(--body-font-family); */
+  font-family: var(--alt-font-family);
 }
 
 .button-container .form-name-wrapper select {
@@ -68,7 +73,7 @@ main .form textarea {
   font-size: 1.25rem;
   color: #808080;
   background-color: var(--background-color);
-  font-family: var(--heading-font-family);
+  font-family: var(--alt-font-family);
 }
 
 main .form input:hover,
