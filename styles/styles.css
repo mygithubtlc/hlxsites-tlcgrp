@@ -12,6 +12,7 @@
   --highlight-background-color: #ccc;
   --text-color: #313131;
   --nav-background-color: rgba(0 0 0 / 25%);
+  --new-text-color: #808080;
 
   /* fonts */
   --body-font-family: argesta-display, argesta-display-fallback, "Times New Roman", serif;
@@ -939,7 +940,7 @@ main .form {
   }
 
   main .section.background {
-    height: auto;
+    height: 600px;
   }
 
   main .section.carve-career {
@@ -1318,7 +1319,7 @@ main .customer-journey-section .new-image-set > h5 {
   }
 
   main .carve-career-all-section a {
-    color: #808080;
+    color: var(--new-text-color);
   }
 
   main .online-orders h5 > a {
@@ -1520,6 +1521,14 @@ main .customer-journey-section .new-image-set > h5 {
   }
 
   main .carve-career h3 {
+    font-size: 24px;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  main .carve-career-all-section h3 {
+    font-size: 24px;
+    padding: 0 20px;
     text-align: center;
   }
 
@@ -1579,20 +1588,12 @@ main .customer-journey-section .new-image-set > h5 {
     padding: 0;
   }
 
-  main .carve-career-all-section .default-content-wrapper h3:nth-child(3) {
-    font-size: 24px;
-    padding: 0 20px;
-    text-align: center;
-  }
-
-  main .carve-career .default-content-wrapper h3:nth-child(3) {
-    font-size: 24px;
-    padding: 0 20px;
-    text-align: center;
-  }
-
   main .carve-career-all-section .icon-omni svg {
     font-size: 28px;
+  }
+
+  main .section.background {
+    height: auto;
   }
 
   main .background .default-content-wrapper {

@@ -70,7 +70,7 @@ main .form textarea {
   outline: none;
   padding: 11px 0;
   font-size: 1.25rem;
-  color: #808080;
+  color: var(--new-text-color);
   background-color: var(--background-color);
   font-family: var(--alt-font-family);
 }
