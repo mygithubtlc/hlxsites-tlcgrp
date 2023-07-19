@@ -44,7 +44,7 @@ main .form select {
   padding: 11px;
   border-radius: 0;
   width: 100%;
-  max-width: 50rem;
+  max-width: 59rem;
   box-sizing: border-box;
   margin-top: 4px;
 }
@@ -53,10 +53,26 @@ main .form textarea {
   min-height: 100px;
   background-color: #efeee7;
   margin-top: 30px;
+  font-size: 1.4rem;
+  letter-spacing: 0;
+  color: #585858;
 }
 
 ::placeholder {
-  font-family: var(--body-font-family);
+  /* font-family: var(--body-font-family); */
+  font-family: var(--alt-font-family);
+}
+
+.button-container .form-name-wrapper select {
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(193 193 195);
+  outline: none;
+  padding: 11px 0;
+  font-size: 1.25rem;
+  color: var(--new-text-color);
+  background-color: var(--background-color);
+  font-family: var(--alt-font-family);
 }
 
 main .form input:hover,
@@ -126,7 +142,7 @@ main .form .form-checkbox-wrapper label {
   font-weight: normal;
   text-transform: none;
   display: block;
-  width: 300vw;
+  width: 70vw;
   font-family: var(--alt-font-family);
 }
 
@@ -176,6 +192,7 @@ main .form input[type="tel"] {
   border: none;
   border-bottom: 1px solid rgb(193 193 195);
   outline: none;
+  padding-left: 60px;
 }
 
 main .iti {
@@ -226,7 +243,81 @@ main .field-wrapper > [id^="y"] {
   clear: both;
 }
 
+.button-container [class^="form-name-wrapper"] {
+  width: 9%;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.button-container [class^="form-firstName"] {
+  width: 33%;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.button-container [class^="form-lastName"] {
+  width: 33%;
+  display: inline-block;
+}
+
+.button-container [class^="form-email"] {
+  width: 44%;
+  margin-right: 20px;
+  margin-left: 0;
+  display: inline-block;
+}
+
+.button-container [class^="form-mobile"] {
+  width: 33%;
+  display: inline-block;
+}
+
+main .section .default-content-wrapper h1 {
+  justify-content: left;
+}
+
+.address-container img {
+  width: 26px;
+}
+
+main [class^="iti__arrow"] {
+  box-sizing: border-box;
+  height: 7px;
+  width: 7px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+/* main .iti__arrow--up {
+  border-top: none;
+  border-bottom: 6px solid #555;
+} */
+
 @media (max-width: 600px) {
+  .button-container [class^="form-name-wrapper"] {
+    width: 100%;
+  }
+
+  .button-container [class^="form-firstName"] {
+    width: 100%;
+  }
+
+  .button-container [class^="form-lastName"] {
+    width: 100%;
+  }
+
+  .button-container [class^="form-email"] {
+    width: 100%;
+  }
+
+  .button-container [class^="form-mobile"] {
+    width: 100%;
+  }
+
   main .field-wrapper > [id^="c"] {
     width: 100%;
     margin: 0;

@@ -93,6 +93,7 @@ main .hero h6 {
   main .hero-container > div {
     max-width: unset;
     max-height: 224px;
+    margin-bottom: 50px;
   }
 
   main .hero h6 {

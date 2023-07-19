@@ -17,7 +17,8 @@
 }
 
 .history-vision-section p {
-  font-size: 15px;
+  font-size: 24px;
+  padding-right: 200px;
 }
 
 .history-vision-section .icon-arrow-web {
@@ -125,8 +126,7 @@ main .cards-container .default-content-wrapper em {
 
 main .cards-container .default-content-wrapper h3 {
   display: flex;
-  justify-content: center;
-  font-size: 2em;
+  justify-content: center; /* font-size: 2em; */
   align-content: center;
   font-weight: 400;
 }
@@ -211,6 +211,10 @@ main .cards-container .cards-wrapper {
     height: 800px;
   }
 
+  .meet-our-team-desktop-view .cards-card-body {
+    padding: 20px 0;
+  }
+
   .fifty-fifty > ul > li .cards-card-body {
     padding-left: 50px;
   }
@@ -239,8 +243,12 @@ main .cards-container .cards-wrapper {
     grid-row: span 2;
   }
 
+  .meet-our-team-desktop-view .cards > ul > li {
+    margin: 5px;
+  }
+
   main .meet-out-team-second-section.cards-container ul li {
-    height: 771px;
+    height: 740px;
   }
 
   .cards.review > ul > li:nth-child(1) {
@@ -261,11 +269,21 @@ main .cards-container .cards-wrapper {
     bottom: 0;
   }
 
+  .meet-our-team-desktop-view ul li > div p {
+    font-style: normal;
+    text-align: center;
+  }
+
   .review > ul > li .cards-card-body p {
-    font-style: italic;
     font-size: 14px;
     margin: 2px 0;
-    line-height: 25px;
+    line-height: 22px;
+    padding: 0 15px;
+  }
+
+  .review > ul > li .cards-card-body p:nth-child(2),
+  .review > ul > li .cards-card-body p:nth-child(3) {
+    font-style: normal;
   }
 
   .review > ul > li .cards-card-body p br {
@@ -281,13 +299,24 @@ main .cards-container .cards-wrapper {
     margin: 0;
   }
 
+  .meet-our-team-desktop-view .review > ul > li strong {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+  }
+
   .review > ul > li .cards-card-body strong:first-of-type {
-    padding-top: 10px;
+    padding-top: 0;
+  }
+
+  .meet-our-team-desktop-view .cards > ul > li:nth-child(1) {
+    margin: 5px;
   }
 
   .cards > ul > li:first-child .cards-card-body {
     position: absolute;
     bottom: 0;
+    margin-left: 0;
   }
 
   .cards > ul > li:nth-child(2) .cards-card-body {
@@ -303,6 +332,7 @@ main .cards-container .cards-wrapper {
   .cards > ul > li:nth-child(3) .cards-card-body {
     position: absolute;
     bottom: 0;
+    margin-right: 0;
   }
 
   .cards.fifty-fifty > ul {
@@ -377,15 +407,44 @@ main .cards-container .cards-wrapper {
     height: auto;
   }
 
-  .meet-our-team-desktop-view ul > li:nth-child(1) .cards-card-body,
   .meet-our-team-desktop-view ul > li:nth-child(2) .cards-card-body,
   .meet-our-team-desktop-view ul > li:nth-child(3) .cards-card-body {
     position: absolute;
     left: 0;
     right: 0;
     display: block;
-    bottom: 53px;
-    background: #727171;
+    bottom: 72px;
+    margin: 0 2px 5px;
+    color: rgb(0 0 0);
+  }
+
+  .meet-our-team-desktop-view ul > li:nth-child(1) .cards-card-body {
+    position: absolute;
+    left: -2px;
+    right: 0;
+    display: block;
+    bottom: 60px;
+    color: rgb(0 0 0);
+    margin: 0 2px 5px;
+  }
+
+  .meet-our-team-desktop-view ul > li:nth-child(2) .cards-card-body {
+    position: absolute;
+    left: -2px;
+    right: 0;
+    display: block;
+    bottom: 60px;
+    color: rgb(0 0 0);
+    margin: 0 2px 5px;
+  }
+
+  .meet-our-team-desktop-view ul > li:nth-child(3) .cards-card-body {
+    position: absolute;
+    left: 0;
+    right: -2px;
+    display: block;
+    bottom: 60px;
+    color: rgb(0 0 0);
     margin: 0 2px 5px;
   }
 
@@ -421,6 +480,21 @@ main .history-vision-section .cards p em:nth-child(1) {
   display: block;
 }
 
+.meet-our-team-desktop-view .cards > ul > li p:nth-child(2) strong {
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+@media only screen and (min-width:600px) and (max-width:992px){
+  main .history-vision-section .default-content-wrapper:last-child {
+    padding-top: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+
+
 @media (max-width: 600px) {
   .history-vision-section .block {
     height: 500px;
@@ -430,6 +504,11 @@ main .history-vision-section .cards p em:nth-child(1) {
     position: relative;
     color: white;
     margin: 10px 0;
+  }
+
+  main > .history-vision-section h3 {
+    font-size: 22px;
+    margin: 20px 0;
   }
 
   .cards > ul > li h3 {
@@ -458,8 +537,8 @@ main .history-vision-section .cards p em:nth-child(1) {
 
   .cards > ul > li em {
     font-size: 15px;
-    color: #000;
-    -webkit-text-fill-color: #000;
+    color: #fbfbfb;
+    -webkit-text-fill-color: #fdfdfd;
   }
 
   body {
@@ -479,11 +558,11 @@ main .history-vision-section .cards p em:nth-child(1) {
     font-size: 6px;
   }
 
-  main .cards-container .default-content-wrapper h3 {
+  /* main .cards-container .default-content-wrapper h3 {
     font-size: 22px;
-    margin-top: 60px;
     display: flex;
-  }
+    margin-top:60px;
+  } */
 
   main .cards-container .default-content-wrapper em {
     font-size: 14px;
@@ -601,6 +680,7 @@ main .history-vision-section .cards p em:nth-child(1) {
   main .history-vision-section .cards p em:nth-child(1) {
     width: 280px;
     display: block;
+    -webkit-font-smoothing: antialiased;
   }
 
   .fragment-container.cards-container p a {
