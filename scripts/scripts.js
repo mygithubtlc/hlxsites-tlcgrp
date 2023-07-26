@@ -162,7 +162,7 @@ export async function decorateIcons(element) {
       ICONS_CACHE[iconName] = true;
       try {
         // eslint-disable-next-line no-use-before-define
-        const response = await fetch(`${window.location.origin}${window.hlx.codeBasePath}/${ICON_ROOT}/${iconName}.svg`);
+        const response = await fetch(`${window.location.origin}${window.hlx.codeBasePath}${ICON_ROOT}/${iconName}.svg`);
         if (!response.ok) {
           ICONS_CACHE[iconName] = false;
           return;
