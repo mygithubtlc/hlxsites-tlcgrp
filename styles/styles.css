@@ -1312,6 +1312,10 @@ main .customer-journey-section .new-image-set > h5 {
     padding: 20px 16px;
   }
 
+  main .integration-free-solutions h1 {
+    text-align: center;
+  }
+
   main .icon svg {
     position: relative;
     top: 12px;
