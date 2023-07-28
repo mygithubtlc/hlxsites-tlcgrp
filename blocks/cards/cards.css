@@ -33,12 +33,6 @@
   font-family: var(--alt-font-family);
 }
 
-.highest-standard-text .icon-arrow-white {
-  position: relative;
-  top: -10px;
-  left: 10px;
-}
-
 main .cards-container .default-content-wrapper a {
   all: unset;
   cursor: pointer;
