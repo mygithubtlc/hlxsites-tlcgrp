@@ -1312,6 +1312,10 @@ main .customer-journey-section .new-image-set > h5 {
     padding: 20px 16px;
   }
 
+  .carve-career-all-section h1 {
+    color: #000;
+  }
+
   main .integration-free-solutions h1 {
     text-align: center;
   }
@@ -1459,10 +1463,6 @@ main .customer-journey-section .new-image-set > h5 {
   main .privacy-policy-section > ul {
     padding: 0;
     margin: 0;
-  }
-
-  .carve-career-all-section h1 {
-    color: #000;
   }
 
   main .customer-journey-section h1 {
