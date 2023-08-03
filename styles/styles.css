@@ -138,6 +138,11 @@ main .why-us a {
   font-family: var(--alt-font-family);
 }
 
+main .delivery-feature-list a,
+main .plan-list-delivery a {
+  font-family: var(--alt-font-family);
+}
+
 main .job-description-page p a {
   display: inline;
 }
@@ -150,7 +155,7 @@ main .online-orders h5 > a {
   border-radius: 24px;
   display: table;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 85px;
   padding: 11px 30px 12px;
   background-color: #00582e;
   text-decoration: none;
@@ -165,7 +170,7 @@ main .member-subscriptions h5 > a {
   border-radius: 24px;
   display: table;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 110px;
   margin-bottom: 100px;
   padding: 11px 30px 12px;
   background-color: #00582e;
@@ -176,6 +181,30 @@ main .member-subscriptions h5 > a {
   font-family: var(--alt-font-family);
   color: var(--link-color);
   text-decoration: underline;
+}
+
+main .history-vision-section h5 {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 24px;
+  display: table;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding: 11px 49px 12px 50px;
+  background-color: #00582e;
+  text-decoration: none;
+}
+
+main .why-us h5 {
+  text-align: center;
+}
+
+main .delivery-feature-list h5:hover,
+main .plan-list-delivery h5:hover {
+  cursor: pointer;
 }
 
 code,
@@ -435,21 +464,6 @@ main .why-us h2 {
   padding-bottom: 20px;
 }
 
-main .history-vision-section h5 {
-  text-align: center;
-  font-size: 24px;
-  color: #fff;
-  font-weight: 300;
-  border-radius: 24px;
-  display: table;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 0;
-  padding: 11px 49px 12px 50px;
-  background-color: #00582e;
-  text-decoration: none;
-}
-
 main .job-description-page h2 {
   text-align: center;
   font-size: 28px;
@@ -593,10 +607,6 @@ main .restaurants-logo p {
 
 .section.clientele-page h4 {
   font-size: 24px;
-}
-
-main .why-us h5 {
-  text-align: center;
 }
 
 main .disclaimer-section * h3 {
