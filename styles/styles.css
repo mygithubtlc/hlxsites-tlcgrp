@@ -294,38 +294,22 @@ main img {
 
 main .icon svg {
   position: relative;
-  top: 12px;
-}
-
-main .world-class-cutomer-loyality .icon-arrow-white {
-  position: relative;
-  top: -10px;
-  left: 10px;
+  top: 4px;
+  height: 1rem;
+  width: 1rem;
+  margin-left: 12px;
 }
 
 .payment-term-section h2 {
   font-size: 36px;
 }
 
-main .why-us svg {
-  margin: 11px;
-}
-
-.new-image-set .icon-arrow-icon svg {
-  top: -3px;
-}
-
-main .current-opening .icon svg {
-  position: relative;
-  top: -4px;
-}
-
-.our-capabilities .icon:nth-child(1) svg,
-.arrow-icon-style .icon:nth-child(1) svg,
-.icon-section .icon:nth-child(1) svg,
-.case-studies-custom .icon:nth-child(1) svg,
-.career-head-section .icon:nth-child(1) svg {
+main h3 .icon svg {
+  top: 12px;
+  width: 45px;
   height: 45px;
+  margin-left: 0;
+  margin-right: 12px;
 }
 
 .job-description-page a:any-link {
@@ -767,18 +751,6 @@ main .section .default-content-wrapper h4 {
   padding-bottom: 60px;
 }
 
-.new-image-set .icon-arrow-web {
-  position: relative;
-  top: 6px;
-  left: 10px;
-}
-
-main .job-description-page .icon-arrow-web {
-  position: relative;
-  top: -10px;
-  left: 10px;
-}
-
 main .background .carve-career h3 {
   text-align: center;
   font-size: 28px;
@@ -997,12 +969,6 @@ main .form {
   main p.button-container strong a {
     all: unset;
     cursor: pointer;
-  }
-
-  main .text-wrapped .icon svg {
-    position: relative;
-    top: 3px;
-    left: 8px;
   }
 
   main .background .default-content-wrapper em a {
@@ -1608,10 +1574,6 @@ main .customer-journey-section .new-image-set > h5 {
   main .carve-career-all-section h3:nth-child(4) {
     font-size: 15px;
     padding: 0;
-  }
-
-  main .carve-career-all-section .icon-omni svg {
-    font-size: 28px;
   }
 
   main .section.background {
