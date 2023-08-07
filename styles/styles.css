@@ -1638,6 +1638,11 @@ main .customer-journey-section .new-image-set > h5 {
     margin-top: 0;
   }
 
+  main .member-subscriptions > .default-content-wrapper h1 {
+    font-size: 28px;
+    margin-top: 0;
+  }
+
   .section.carve-career-all-section p:nth-child(1) {
     display: inline-block;
   }
@@ -1655,6 +1660,7 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .futuristic-product .default-content-wrapper h1 {
     text-align: center;
+    font-size: 28px;
   }
 
   main .section .default-content-wrapper em {
