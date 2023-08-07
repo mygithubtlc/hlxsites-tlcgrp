@@ -757,10 +757,6 @@ main .section .default-content-wrapper em {
   align-content: center;
 }
 
-main .section .default-content-wrapper h1 {
-  font-size: 2em;
-}
-
 main .section .default-content-wrapper h4 {
   padding: 0 20px;
   padding-bottom: 10px;
@@ -1638,11 +1634,6 @@ main .customer-journey-section .new-image-set > h5 {
     margin-top: 0;
   }
 
-  main .member-subscriptions > .default-content-wrapper h1 {
-    font-size: 28px;
-    margin-top: 0;
-  }
-
   .section.carve-career-all-section p:nth-child(1) {
     display: inline-block;
   }
@@ -1655,7 +1646,8 @@ main .customer-journey-section .new-image-set > h5 {
   }
 
   main .online-orders [id^="m"] {
-    margin-top: -50px;
+    margin-top: 0px;
+    font-size: 28px;
   }
 
   main .futuristic-product .default-content-wrapper h1 {
