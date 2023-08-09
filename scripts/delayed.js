@@ -44,3 +44,5 @@ loadScript(launchUrl);
 
 const cookId = 'cookiesId';
 loadScript(`https://cdn-cookieyes.com/client_data/e9c7bcf16e0e144a5a75e71c/script.js?id=${cookId}`);
+
+loadScript('<link rel="canonical" href="https://tlcgroup.com/" />');
