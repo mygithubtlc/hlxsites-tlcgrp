@@ -341,8 +341,8 @@ main .related-case-studies-component .cards ul > li p a {
 
 main .related-case-studies-component .icon-arrow-white {
   position: relative;
-  top: -10px;
-  left: 10px;
+  top: 0px;
+  left: 0px;
 }
 
 /* section with background */
