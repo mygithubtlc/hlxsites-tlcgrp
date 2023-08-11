@@ -237,6 +237,7 @@ main .member-subscription-slide button:nth-child(3) {
 
   main .member-subscription-slide.slideshow-container h1 {
     text-align: left;
+    margin-top: -12px;
   }
 
   main .member-subscription-slide .slideshow-slide {

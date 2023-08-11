@@ -341,8 +341,8 @@ main .related-case-studies-component .cards ul > li p a {
 
 main .related-case-studies-component .icon-arrow-white {
   position: relative;
-  top: -10px;
-  left: 10px;
+  top: 0;
+  left: 0;
 }
 
 /* section with background */
@@ -1306,8 +1306,10 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .icon svg {
     position: relative;
-    top: 12px;
-    margin: 0 auto;
+    top: 4px;
+    height: 1rem;
+    width: 1rem;
+    margin-left: 6px;
   }
 
   main .carve-career-all-section a {
