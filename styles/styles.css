@@ -1306,8 +1306,10 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .icon svg {
     position: relative;
-    top: 12px;
-    margin: 0 auto;
+    top: 4px;
+    height: 1rem;
+    width: 1rem;
+    margin-left: 6px;
   }
 
   main .carve-career-all-section a {
