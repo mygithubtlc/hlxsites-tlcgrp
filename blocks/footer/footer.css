@@ -34,7 +34,7 @@ footer .footer p a.active {
 
 footer .footer > div > div:first-child {
   float: left;
-  width: 16%;
+  width: 19%;
   line-height: 40px;
   color: white;
   font-weight: 400;
@@ -50,7 +50,7 @@ footer .footer > div > div:nth-child(2) {
 
 footer .footer > div > div:nth-child(3) {
   float: left;
-  width: 29%;
+  width: 26%;
   line-height: 40px;
   color: white;
   font-weight: 400;
