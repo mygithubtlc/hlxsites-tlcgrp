@@ -125,7 +125,11 @@ main .plan-list-delivery h5 {
   width: 15%;
 }
 
-.delivery-feature-list table td strong, .plan-list-delivery table td strong {
+main .delivery-feature-list table td strong {
+  padding-left: 10px;
+}
+
+main .plan-list-delivery table td strong {
   padding-left: 10px;
 }
 
