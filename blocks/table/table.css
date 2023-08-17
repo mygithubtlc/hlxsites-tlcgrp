@@ -69,6 +69,10 @@ main .delivery-feature-list h1 {
   background-color: var(--overlay-background-color);
 }
 
+main .plan-list-delivery table tbody tr td {
+  padding: 8px 17px;
+}
+
 /* bordered variant */
 .table.bordered table th,
 .table.bordered table td {
@@ -121,9 +125,14 @@ main .plan-list-delivery h5 {
   width: 15%;
 }
 
-.delivery-feature-list .table table td {
-  padding: 8px 17px;
+/* .delivery-feature-list .table table td {
+  padding: 8px 0;
   text-align: left;
+} */
+
+.delivery-feature-list table td strong,
+.plan-list-delivery table td strong {
+  padding-left: 10px;
 }
 
 .delivery-feature-list table tr td:nth-child(1) {
@@ -170,6 +179,7 @@ main .plan-list-delivery tr td:first-child svg {
   padding: 2px;
   padding-bottom: 0;
   margin-bottom: 20px;
+  margin-left: -2px;
 }
 
 .delivery-feature-list .table table tbody tr:nth-child(6),
