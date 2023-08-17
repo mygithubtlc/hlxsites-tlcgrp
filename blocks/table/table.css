@@ -125,13 +125,7 @@ main .plan-list-delivery h5 {
   width: 15%;
 }
 
-/* .delivery-feature-list .table table td {
-  padding: 8px 0;
-  text-align: left;
-} */
-
-.delivery-feature-list table td strong,
-.plan-list-delivery table td strong {
+.delivery-feature-list table td strong, .plan-list-delivery table td strong {
   padding-left: 10px;
 }
 
