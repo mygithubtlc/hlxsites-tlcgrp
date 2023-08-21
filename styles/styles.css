@@ -1598,6 +1598,18 @@ main .customer-journey-section .new-image-set > h5 {
     margin-top: 0;
   }
 
+  main .general-terms-tlc-saas .default-content-wrapper p {
+    display: block;
+    justify-content: left;
+    gap: 10px;
+    font-size: 15px;
+    margin-top: 0;
+  }
+
+  main .general-terms-tlc-saas .default-content-wrapper h2 {
+    font-size: 22px;
+  }
+
   .section.carve-career-all-section p:nth-child(1) {
     display: inline-block;
   }
