@@ -1557,9 +1557,9 @@ main .customer-journey-section .new-image-set > h5 {
     -webkit-font-smoothing: antialiased;
   }
 
-  main .section .default-content-wrapper h3 {
+  /* main .section .default-content-wrapper h3 {
     padding: 0 20px;
-  }
+  } */
 
   main .carve-career-all-section .default-content-wrapper h1 {
     font-size: 24px;
