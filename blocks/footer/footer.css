@@ -34,7 +34,7 @@ footer .footer p a.active {
 
 footer .footer > div > div:first-child {
   float: left;
-  width: 25%;
+  width: 19%;
   line-height: 40px;
   color: white;
   font-weight: 400;
@@ -42,7 +42,15 @@ footer .footer > div > div:first-child {
 
 footer .footer > div > div:nth-child(2) {
   float: left;
-  width: 25%;
+  width: 23%;
+  line-height: 40px;
+  color: white;
+  font-weight: 400;
+}
+
+footer .footer > div > div:nth-child(3) {
+  float: left;
+  width: 26%;
   line-height: 40px;
   color: white;
   font-weight: 400;
@@ -50,7 +58,7 @@ footer .footer > div > div:nth-child(2) {
 
 footer .footer > div > div:last-child {
   float: right;
-  width: 50%;
+  width: 32%;
   height: auto;
   text-align: right;
   color: white;
@@ -71,7 +79,7 @@ footer.footer-wrapper p:nth-child(2) {
   margin-top: 20px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   footer .footer > div > div:last-child {
     float: left;
     width: 100%;
@@ -86,11 +94,16 @@ footer.footer-wrapper p:nth-child(2) {
     font-weight: 400;
   }
 
-  footer .footer > div > div:nth-child(1),
-  footer .footer > div > div:nth-child(2) {
-    font-size: 14px;
+  footer .footer > div > div:nth-child(1) {
+    font-size: 12px;
     font-weight: 600;
-    width: 50%;
+    width: 36%;
+  }
+
+  footer .footer > div > div:nth-child(2) {
+    font-size: 12px;
+    font-weight: 600;
+    width: 38%;
   }
 
   footer .footer p a {

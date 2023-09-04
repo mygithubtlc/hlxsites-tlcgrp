@@ -1306,8 +1306,10 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .icon svg {
     position: relative;
-    top: 12px;
-    margin: 0 auto;
+    top: 4px;
+    height: 1rem;
+    width: 1rem;
+    margin-left: 6px;
   }
 
   main .carve-career-all-section a {
@@ -1555,9 +1557,9 @@ main .customer-journey-section .new-image-set > h5 {
     -webkit-font-smoothing: antialiased;
   }
 
-  main .section .default-content-wrapper h3 {
+  /* main .section .default-content-wrapper h3 {
     padding: 0 20px;
-  }
+  } */
 
   main .carve-career-all-section .default-content-wrapper h1 {
     font-size: 24px;
@@ -1594,6 +1596,18 @@ main .customer-journey-section .new-image-set > h5 {
     gap: 10px;
     font-size: 15px;
     margin-top: 0;
+  }
+
+  main .general-terms-tlc-saas .default-content-wrapper p {
+    display: block;
+    justify-content: left;
+    gap: 10px;
+    font-size: 15px;
+    margin-top: 0;
+  }
+
+  main .general-terms-tlc-saas .default-content-wrapper h2 {
+    font-size: 22px;
   }
 
   .section.carve-career-all-section p:nth-child(1) {
