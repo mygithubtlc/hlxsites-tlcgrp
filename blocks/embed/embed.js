@@ -6,10 +6,10 @@
 
 const loadScript = (url, callback, type) => {
     const head = document.querySelector('head');
-    const script = document.createElement('script');
-    script.src = url;
-    if (type) {
-      script.setAttribute('type', type);
+const script = document.createElement('script');
+script.src = url;
+if (type) {
+    script.setAttribute('type', type);
     }
     script.onload = callback;
     head.append(script);
