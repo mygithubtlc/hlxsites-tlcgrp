@@ -856,6 +856,10 @@ main .form {
     font-weight: 100;
   }
 
+  .career-head-section h1 {
+    text-align: center;
+  }
+
   /* main .carve-career .default-content-wrapper h1 {
     margin:0px;
   } */
@@ -1469,8 +1473,21 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .support-services h1 {
     text-align: center;
-    font-size: 14px;
+    font-size: 28px;
   }
+
+  main .career-head-section h1,
+  main .contact-us-section h1{
+    font-size: 28px;
+    text-align: center;
+
+  }
+
+  main .address h2 {
+    font-size: 28px;
+    text-align: left;
+    padding-bottom: 20px;
+}
 
   main .support-services h6 {
     text-align: center;
