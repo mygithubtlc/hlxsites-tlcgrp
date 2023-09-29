@@ -11,18 +11,16 @@ const loadScript = (url, callback, type) => {
   if (type) {
     script.setAttribute('type', type);
   }
+
   script.onload = callback;
   head.append(script);
   return script;
 };
 
-const getDefaultEmbed = (
-  url
-) => `<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
+const getDefaultEmbed = (url) => `<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
     <iframe src="${url.href}" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen=""
       scrolling="no" allow="encrypted-media" title="Content from ${url.hostname}" loading="lazy">
-    </iframe>
-  </div>`;
+    </iframe></div>`;
 
 const embedYoutube = (url, autoplay) => {
   const usp = new URLSearchParams(url.search);
@@ -110,7 +108,7 @@ export default function decorate(block) {
 
     loadEmbed(block, link, true);
 
-    block.append(wrapper);
+    // block.append(wrapper);
   } else {
     const observer = new IntersectionObserver((entries) => {
       if (entries.some((e) => e.isIntersecting)) {
