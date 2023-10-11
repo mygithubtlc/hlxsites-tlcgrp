@@ -37,23 +37,23 @@ const embedYoutube = (url, autoplay) => {
   return embedHTML;
 };
 
-const embedVimeo = (url, autoplay) => {
-  const [, video] = url.pathname.split('/');
-  const suffix = autoplay ? '?muted=1&autoplay=1' : '';
-  const embedHTML = `<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
-      <iframe src="https://player.vimeo.com/video/${video}${suffix}" 
-      style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" 
-      frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen  
-      title="Content from Vimeo" loading="lazy"></iframe>
-    </div>`;
-  return embedHTML;
-};
+// const embedVimeo = (url, autoplay) => {
+//   const [, video] = url.pathname.split('/');
+//   const suffix = autoplay ? '?muted=1&autoplay=1' : '';
+//   const embedHTML = `<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
+//       <iframe src="https://player.vimeo.com/video/${video}${suffix}" 
+//       style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" 
+//       frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen  
+//       title="Content from Vimeo" loading="lazy"></iframe>
+//     </div>`;
+//   return embedHTML;
+// };
 
-const embedTwitter = (url) => {
-  const embedHTML = `<blockquote class="twitter-tweet"><a href="${url.href}"></a></blockquote>`;
-  loadScript('https://platform.twitter.com/widgets.js');
-  return embedHTML;
-};
+// const embedTwitter = (url) => {
+//   const embedHTML = `<blockquote class="twitter-tweet"><a href="${url.href}"></a></blockquote>`;
+//   loadScript('https://platform.twitter.com/widgets.js');
+//   return embedHTML;
+// };
 
 const loadEmbed = (block, link, autoplay) => {
   if (block.classList.contains('embed-is-loaded')) {
@@ -65,14 +65,14 @@ const loadEmbed = (block, link, autoplay) => {
       match: ['youtube', 'youtu.be'],
       embed: embedYoutube,
     },
-    {
-      match: ['vimeo'],
-      embed: embedVimeo,
-    },
-    {
-      match: ['twitter'],
-      embed: embedTwitter,
-    },
+    // {
+    //   match: ['vimeo'],
+    //   embed: embedVimeo,
+    // },
+    // {
+    //   match: ['twitter'],
+    //   embed: embedTwitter,
+    // },
   ];
 
   const config = EMBEDS_CONFIG.find((e) => e.match.some((match) => link.includes(match)));
