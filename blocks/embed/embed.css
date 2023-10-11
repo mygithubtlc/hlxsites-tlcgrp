@@ -10,10 +10,10 @@ main .embed > div {
   justify-content: center;
 }
 
-main .embed-twitter .twitter-tweet-rendered {
+/* main .embed-twitter .twitter-tweet-rendered {
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 main .embed .embed-placeholder {
   width: 100%;
@@ -35,7 +35,7 @@ main .embed .embed-placeholder picture img {
   object-fit: cover;
 }
 
-main .embed .embed-placeholder-play button {
+/* main .embed .embed-placeholder-play button {
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -45,9 +45,9 @@ main .embed .embed-placeholder-play button {
   border: 2px solid;
   border-radius: 20px;
   padding: 0;
-}
+} */
 
-main .embed .embed-placeholder-play button::before {
+/* main .embed .embed-placeholder-play button::before {
   content: "";
   display: block;
   box-sizing: border-box;
@@ -59,4 +59,4 @@ main .embed .embed-placeholder-play button::before {
   border-left: 6px solid;
   top: 4px;
   left: 7px;
-}
+} */
