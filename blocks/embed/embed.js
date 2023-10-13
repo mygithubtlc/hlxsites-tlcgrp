@@ -54,11 +54,11 @@ export default function decorate(block) {
   block.textContent = '';
 
   if (placeholder) {
-    loadEmbed(block, link, true);
+    // loadEmbed(block, link, true);
   } else {
     const observer = new IntersectionObserver((entries) => {
       if (entries.some((e) => e.isIntersecting)) {
-        loadEmbed(block, link);
+        loadEmbed(block, link, true);
         observer.disconnect();
       }
     });
