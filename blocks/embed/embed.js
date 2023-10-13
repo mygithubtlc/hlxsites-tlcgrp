@@ -49,19 +49,20 @@ const loadEmbed = (block, link, autoplay) => {
 };
 
 export default function decorate(block) {
-  const placeholder = block.querySelector('picture');
+  // const placeholder = block.querySelector('picture');
   const link = block.querySelector('a').href;
   block.textContent = '';
 
-  if (placeholder) {
-    loadEmbed(block, link, true);
-  } else {
-    const observer = new IntersectionObserver((entries) => {
-      if (entries.some((e) => e.isIntersecting)) {
-        loadEmbed(block, link);
-        observer.disconnect();
-      }
-    });
-    observer.observe(block);
-  }
+  // if (placeholder) {
+  //   loadEmbed(block, link, true);
+  //   console.log('Hello');
+  // } else {
+  const observer = new IntersectionObserver((entries) => {
+    if (entries.some((e) => e.isIntersecting)) {
+      observer.disconnect();
+      loadEmbed(block, link, true);
+    }
+  });
+  observer.observe(block);
+  // }
 }
