@@ -48,7 +48,7 @@ main .cards-container .default-content-wrapper a {
 }
 
 .cards > ul > li h3 {
-  margin-top: 0;
+  margin-top: 1;
   font-size: 48px;
   font-weight: 300;
 }
