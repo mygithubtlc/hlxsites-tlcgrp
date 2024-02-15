@@ -479,6 +479,10 @@ main .history-vision-section .cards p em:nth-child(1) {
   padding-top: 15px;
 }
 
+.cards > ul > li:last-child h3:has(a) {
+  visibility: hidden;
+}
+
 @media only screen and (min-width:600px) and (max-width:992px){
   main .history-vision-section .default-content-wrapper:last-child {
     padding-top: 400px;
@@ -490,6 +494,7 @@ main .history-vision-section .cards p em:nth-child(1) {
 
 
 @media (max-width: 600px) {
+  
   .history-vision-section .block {
     height: 500px;
   }
