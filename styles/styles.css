@@ -1294,6 +1294,7 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .section {
     padding: 20px 16px;
+    box-sizing: border-box;
   }
 
   .carve-career-all-section h1 {
@@ -1681,3 +1682,4 @@ main .customer-journey-section .new-image-set > h5 {
     margin: 0 auto;
   }
 }
+
