@@ -173,6 +173,7 @@
 
   .z-pattern .z-row-odd > div:first-of-type picture img {
     height: 400px;
+    object-fit: contain;
   }
 
   .z-pattern .z-row-even > div:first-of-type picture img {
