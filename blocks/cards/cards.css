@@ -143,6 +143,10 @@ main .cards-container .cards-wrapper {
   color: white;
 }
 
+.cards > ul > li:nth-child(1) img {
+    object-position: center;
+}
+
 @media (min-width: 600px) {
   .cards > ul {
     list-style: none;
@@ -495,6 +499,9 @@ main .history-vision-section .cards p em:nth-child(1) {
 
 
 @media (max-width: 600px) {
+  .cards > ul > li:nth-child(1) img {
+    object-position: top;
+}
   
   .history-vision-section .block {
     height: 500px;
