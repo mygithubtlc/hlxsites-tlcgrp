@@ -189,6 +189,8 @@
 
   .z-pattern .z-row-even:last-of-type > div:first-of-type img {
     padding-top: 45px;
+    width: 550px;
+    right: -30px;
   }
 
   .icon-section .new-image-set > p {
@@ -294,7 +296,7 @@
   }
 
   .z-pattern .z-row-even > div:first-of-type picture img {
-    padding-top: 30px;
+    padding-top: 0px;
     width: 100%;
   }
 
@@ -305,7 +307,7 @@
   }
 
   .z-pattern .z-row-odd > div:first-of-type picture img {
-    padding-top: 30px;
+    padding-top: 80px;
     height: auto;
   }
 }
