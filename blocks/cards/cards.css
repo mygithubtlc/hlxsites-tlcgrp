@@ -18,7 +18,7 @@
 
 .history-vision-section p {
   font-size: 24px;
-  padding-right: 200px;
+  padding-right: 100px;
 }
 
 .history-vision-section .icon-arrow-web {
@@ -488,6 +488,10 @@ main .history-vision-section .cards p em:nth-child(1) {
   visibility: hidden;
 }
 
+main .history-vision-section .cards-wrapper{
+  width:86%;
+}
+
 @media only screen and (min-width:600px) and (max-width:992px){
   main .history-vision-section .default-content-wrapper:last-child {
     padding-top: 400px;
@@ -499,6 +503,10 @@ main .history-vision-section .cards p em:nth-child(1) {
 
 
 @media (max-width: 600px) {
+  main .history-vision-section .cards-wrapper{
+    width:100%;
+  }
+
   .cards > ul > li:nth-child(1) img {
     object-position: top;
 }
