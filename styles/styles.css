@@ -812,6 +812,19 @@ main .form {
     padding-bottom: 20px;
   }
 
+  main .address-container{
+    padding:0px 32px;
+  }
+  main .address-container h2{
+    margin:0px;
+  }
+  main .contact-us-section {
+    padding:10px 32px;
+  }
+  main .form-container {
+    padding:10px 32px;
+  }
+
   main .background .default-content-wrapper h3 {
     text-align: center;
     font-weight: 400;
