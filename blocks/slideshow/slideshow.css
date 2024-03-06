@@ -193,6 +193,13 @@ main .carousel-buttons button:nth-child(3){
   display: none;
 }
 
+@media screen and (width <= 1366px) and (width <= 1439px){
+	main .slideshow-container {
+    background-color: transparent;
+    zoom:80%;
+  }
+}
+
 @media (min-width: 600px) {
   main .slideshow {
     height: 670px;
