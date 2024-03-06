@@ -207,11 +207,14 @@ header nav a.active {
   }
 
   header nav .nav-sections {
-    display: unset;
+    display: flex;
+    align-items: flex-end;
+    margin-right:50px;
   }
 
   header nav .nav-brand {
     flex: 0 0 110px;
+    margin-left:50px;
   }
 
   header nav .nav-sections ul {
