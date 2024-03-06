@@ -302,6 +302,12 @@ header nav a.active {
   }
 }
 
+@media screen and (width <= 1366px) and (width <= 1439px){
+	header nav .nav-brand {
+    margin-left: 38px;
+  }
+}
+
 @media (max-width: 480px) {
   .nav-sections ul li {
     padding: 18px;
