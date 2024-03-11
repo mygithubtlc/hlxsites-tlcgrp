@@ -45,6 +45,37 @@ loadScript(launchUrl);
 const cookId = 'cookiesId';
 loadScript(`https://cdn-cookieyes.com/client_data/e9c7bcf16e0e144a5a75e71c/script.js?id=${cookId}`);
 
+const iframe = document.createElement("iframe");
+
+// Set the attributes for the iframe
+iframe.id = 'Iframe1';
+iframe.className = 'dunsLogo';
+iframe.src = 'https://dunsregistered.dnb.com/SealAuthentication.aspx?Cid=1';
+iframe.width = '114px';
+iframe.height = '97px';
+iframe.frameBorder = '0';
+iframe.scrolling = 'no';
+iframe.allowTransparency = 'true';
+
+// Append the iframe element to the body
+document.body.appendChild(iframe);
+
+let lastScrollTop = 0;
+
+// Add scroll event listener
+
+window.addEventListener('scroll', function() {
+const st = window.pageYOffset || document.documentElement.scrollTop;
+  // Check if scrolling down
+  if (st > lastScrollTop) {
+    iframe.style.display = 'block'; // or 'inline' or 'your_preferred_display_value'
+  } else {
+    // Scrolling up
+    iframe.style.display = 'none';
+  }
+
+  lastScrollTop = st;
+});
 loadScript('https://dunsregistered.dnb.com/');
 
 loadScript('<link rel="canonical" href="https://tlcgroup.com/" />');
