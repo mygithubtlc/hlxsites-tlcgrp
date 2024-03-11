@@ -788,6 +788,12 @@ main .form {
   visibility: hidden;
 }
 
+.dunsLogo{
+  position: fixed;
+  bottom:0;
+  right:0;
+}
+
 @media (min-width: 600px) {
   main .slideshow {
     height: 670px;
