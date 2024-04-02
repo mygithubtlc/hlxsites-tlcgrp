@@ -80,6 +80,17 @@ main .experience-voucher-image-list .image-list > div {
   width: 135px;
 }
 
+main .image-list-container h3{
+  text-align: center;
+  font-size: 48px;
+  color:#000;
+}
+main .integration-free-solutions h3{
+  text-align: center;
+  font-size: 48px;
+  color:#000;
+}
+
 @media (min-width: 600px) {
   main .image-list {
     margin: 50px;
@@ -89,6 +100,8 @@ main .experience-voucher-image-list .image-list > div {
     padding-bottom: 0;
     padding-top: 40px;
   }
+
+
 
   main .image-list-container .default-content-wrapper h4 {
     display: flex;

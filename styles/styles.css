@@ -866,13 +866,15 @@ main .form {
     padding-bottom: 15px;
   }
 
-  main .section .default-content-wrapper h1 {
+  main .section .default-content-wrapper h2 {
     font-size: 48px;
     margin-top: 0;
     padding-top: 0;
     display: flex;
     justify-content: center;
     font-weight: 100;
+    color:#000;
+    margin-top:20px;
   }
 
   /* main .carve-career .default-content-wrapper h1 {
@@ -968,13 +970,35 @@ main .form {
     text-align: center;
   }
 
-  main .background .default-content-wrapper h2:nth-child(1) {
-    padding-top: 200px;
+  main .fragment-container .default-content-wrapper h2:nth-child(1) {
     margin-left: 50px;
+    color:#fff;
+    display: flex;
+    justify-content:flex-start;
   }
 
-  main .background .default-content-wrapper h2:nth-child(2) {
+  main .world-class-cutomer-loyality .default-content-wrapper h2:nth-child(1) {
     margin-left: 50px;
+    color:#000;
+    display: flex;
+    justify-content:center;
+  }
+
+
+  main .fragment-container .default-content-wrapper h2:nth-child(2) {
+    margin-left: 28px;
+    color:#fff;
+}
+
+  main .fragment-container .default-content-wrapper p:nth-child(3) {
+  margin-left: 50px;
+  }
+
+  
+   main .background .default-content-wrapper h2:nth-child(1) {
+    padding-top: 200px;
+    margin-left: 50px;
+    color:#fff;
   }
 
   main .current-opening p:nth-child(2) {
@@ -1245,12 +1269,26 @@ main .customer-journey-section .new-image-set > h5 {
   border-right: 0;
 }
 
+main .online-orders h1 {
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   /* .carve-career-all-section img {
     width: 100px;
     position: relative;
     top: -42px;
   } */
+
+  .tech-product-section h2 {
+    text-align: center;
+  }
+
+  main .background .default-content-wrapper h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+  }
 
   .privacy-policy-section * p {
     font-size: 14px;
@@ -1431,7 +1469,7 @@ main .customer-journey-section .new-image-set > h5 {
     text-align: center;
   }
 
-  main .online-orders h2 {
+  main .online-orders h1 {
     text-align: center;
     font-size: 28px;
   }
@@ -1587,10 +1625,12 @@ main .customer-journey-section .new-image-set > h5 {
     text-align: center;
   }
 
-  main .carve-career .default-content-wrapper h1 {
+  main .carve-career .default-content-wrapper h2 {
     font-size: 24px;
     padding: 0 20px;
     text-align: center;
+    color:#000;
+    padding: 0px;
   }
 
   main .carve-career-all-section h3:nth-child(4) {
@@ -1646,7 +1686,7 @@ main .customer-journey-section .new-image-set > h5 {
     font-size: 28px;
   }
 
-  main .futuristic-product .default-content-wrapper h1 {
+  main .futuristic-product .default-content-wrapper h2 {
     text-align: center;
     font-size: 28px;
   }
