@@ -361,7 +361,7 @@ main .cards-container .cards-wrapper {
     top: 53px;
   }
 
-  main .highest-standard-text h3 {
+  main .highest-standard-text h2 {
     position: relative;
     top: 150px;
     font-size:48px;
@@ -504,6 +504,8 @@ main .history-vision-section .cards-wrapper{
 
 
 @media (max-width: 600px) {
+
+ 
   main .history-vision-section .cards-wrapper{
     width:100%;
   }
