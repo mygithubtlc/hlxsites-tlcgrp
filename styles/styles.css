@@ -1014,7 +1014,7 @@ main .form {
     color:#fff;
   }
 
-  main .fragment-container .default-content-wrapper h2:nth-child(1) {
+  main .text-wrapped .default-content-wrapper h2:nth-child(1) {
     padding-top: 200px;
   }
 
