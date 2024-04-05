@@ -1000,8 +1000,9 @@ main .form {
 
 
   main .fragment-container .default-content-wrapper h2:nth-child(2) {
-    margin-left: 28px;
+    margin-left: 51px;
     color:#fff;
+    justify-content: flex-start;
   }
 
   main .fragment-container .default-content-wrapper p:nth-child(3) {
