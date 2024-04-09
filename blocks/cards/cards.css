@@ -324,8 +324,8 @@ main .cards-container .cards-wrapper {
   }
 
   .fifty-fifty > ul > li:nth-child(2) .cards-card-body {
-    position: relative;
-    bottom: 0;
+    position: absolute;
+    top: 75px;
   }
 
   .cards > ul > li:nth-child(3) .cards-card-body {
@@ -358,7 +358,7 @@ main .cards-container .cards-wrapper {
 
   .fifty-fifty > ul > li:first-child .cards-card-body {
     position: absolute;
-    top: 53px;
+    top: 75px;
   }
 
   main .highest-standard-text h2 {
