@@ -1303,6 +1303,14 @@ main .customer-journey-section .new-image-set > h5 {
 
 main .online-orders h1 {
   text-align: center;
+  font-size: 48px;
+  margin-top: 0;
+  padding-top: 0;
+  display: flex;
+  justify-content: center;
+  font-weight: 100;
+  color:#000;
+  margin-top:20px;
 }
 
 @media (max-width: 600px) {
