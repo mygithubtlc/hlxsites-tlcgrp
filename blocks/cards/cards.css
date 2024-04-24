@@ -137,6 +137,10 @@ main .cards-container .cards-wrapper {
   max-width: 100%;
 }
 
+.meet-our-team-desktop-view .cards-wrapper:nth-child(2) {
+  height: 700px;
+}
+
 .cards:not(.review) > ul > li:nth-child(even),
 .cards:not(.review) > ul > li:nth-child(even) a:any-link {
   color: var(--text-color);
@@ -148,6 +152,7 @@ main .cards-container .cards-wrapper {
 }
 
 @media (min-width: 600px) {
+
   .cards > ul {
     list-style: none;
     margin: 0;
@@ -501,11 +506,11 @@ main .history-vision-section .cards-wrapper{
   }
 }
 
-
-
 @media (max-width: 600px) {
+  .meet-our-team-desktop-view .cards-wrapper:nth-child(2) {
+    height:auto;
+  }
 
- 
   main .history-vision-section .cards-wrapper{
     width:100%;
   }
