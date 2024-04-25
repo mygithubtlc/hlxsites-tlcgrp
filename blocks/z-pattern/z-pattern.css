@@ -239,8 +239,17 @@
     width:100%;
     height: 100%;
     font-style: normal;
-   } 
+   }
 
+  .tech-product-section .z-row-even p:last-child{
+    position: absolute;
+    font-size: 19px;
+    left: 120px;
+    width:100%;
+    height: 100%;
+    font-style: normal;
+ } 
+ 
   .z-pattern .z-row-even > div:last-of-type strong {
     display: block;
     text-align: left;
