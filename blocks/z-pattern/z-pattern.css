@@ -232,7 +232,7 @@
     font-size: 24px;
   }
 
-  .z-row-even p:last-child{
+  .our-resources-product .z-row-even p:last-child{
     position: absolute;
     font-size: 19px;
     left: 100px;
