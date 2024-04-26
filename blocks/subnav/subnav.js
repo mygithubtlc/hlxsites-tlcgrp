@@ -10,7 +10,7 @@ childElements.forEach(function(childElement, index) {
 });
 // Hover changes start 
 const customElements = document.querySelectorAll('.custom-class');
-const newTexts = ['Lorem Ipsum is simply dummy text of the printing and typesetting industry.', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'];
+const newTexts = ['Monetize data through prepaid benefits & experiences. ', ' The right positioning for your products by co-bundling vouchers & more.', 'Scale your gourmet restaurant with our white labelled solution.', 'A platform that provides seamless dining experiences to high value customers.'];
 customElements.forEach((element, index) => {
     const originalText = element.querySelector('p').innerHTML;
     element.addEventListener('mouseenter', () => {
