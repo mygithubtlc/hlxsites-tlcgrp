@@ -11,10 +11,9 @@ main .subnav a:any-link {
   text-decoration: none;
 }
 
-@media (min-width: 900px) {
   main .subnav-wrapper {
-    margin: 0;
-    max-width: 100%;
+    margin: 0 auto;
+    max-width: 1230px;
     top: 1%;
   }
 
@@ -23,22 +22,47 @@ main .subnav a:any-link {
     justify-content: space-around;
   }
 
-  main .subnav p {
-    font-size: 16px;
+  main .subnav a {
+    font-size: 22px;
     width: 100%;
-    border-left: 1px solid #979797;
-    height: 20px;
-    margin: 0;
+    margin: 50px 12px 0px 12px;
     text-align: center;
-    padding: 14px;
+    padding: 10px 39px 20px 39px;
+    box-shadow: 0px 4px 14px 0px #00000014;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+  main .subnav p{
+    margin:1px;
   }
 
-  main .subnav p:hover {
+  main .subnav svg {
+    padding: 0px 0px 10px 0px;
+  }
+
+  main .subnav-wrapper .icon svg {
+    position: relative;
+    top: 4px;
+    bottom:4px;
+    height: 60px;
+    width: 70px;
+    margin-left: 12px;
+    display: block;
+    margin:0 auto;
+  }
+
+  /* main .subnav p:hover {
     background: #484747;
     color: white;
     cursor: pointer;
-  }
-}
+  } */
+
+  /* .subnav p:hover {
+    background-color: lightblue;
+  } */
+
+  
+
 
 @media (max-width: 600px) {
   .subnav-wrapper {
@@ -48,5 +72,38 @@ main .subnav a:any-link {
   main .subnav {
     font-size: 15px;
     text-align: center;
+  }
+
+  main .subnav > div > div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  main .subnav a {
+    font-size: 16px;
+    width:40%;
+    margin:8px 5px;
+    text-align: center;
+    padding: 0px 10px 10px 10px;
+    box-shadow: 0px 4px 14px 0px #00000014;
+
+  }
+
+  main .subnav-wrapper .icon svg {
+    position: relative;
+    top: 4px;
+    bottom: 4px;
+    height: 40px;
+    width: 50px;
+    margin-left: 12px;
+    display: block;
+    margin: 0 auto;
+  }
+  main .why-us .default-content-wrapper p{
+    margin-top:25%;
+  }
+
+  main .subnav p:hover{
+    font-size:12px;
+    padding:12px 10px 0px 10px;
   }
 }

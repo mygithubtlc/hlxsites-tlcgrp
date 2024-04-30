@@ -671,8 +671,9 @@ main .background .carve-career p {
 main .why-us .default-content-wrapper p {
   font-size: 18px;
   padding: 8px 0;
-  margin: 0 3%;
+  margin: 0 0%;
   text-align: center;
+  margin-top:85px;
 }
 
 main pre {
@@ -1202,10 +1203,6 @@ main .subnav-container {
 
 main .slideshow-container {
   background-color: rgba(0 0 0 / 25%);
-}
-
-main .subnav-container {
-  border-bottom: 1px solid #616161;
 }
 
 main .slideshow {
