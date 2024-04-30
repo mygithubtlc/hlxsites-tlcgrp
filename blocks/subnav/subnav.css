@@ -33,7 +33,7 @@ main .subnav a:any-link {
     cursor: pointer;
   }
   main .subnav p{
-    margin:0px;
+    margin:1px;
   }
 
   main .subnav svg {
@@ -100,5 +100,10 @@ main .subnav a:any-link {
   }
   main .why-us .default-content-wrapper p{
     margin-top:25%;
+  }
+
+  main .subnav p{
+    font-size:12px;
+    padding:20px 10px 10px 10px;
   }
 }
