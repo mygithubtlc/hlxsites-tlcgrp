@@ -740,4 +740,12 @@ main .history-vision-section .cards-wrapper{
     text-align: center;
     padding: 0;
   }
+
+  .fragment-container .cards > ul > li h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-right: 90px;
+  }
+
 }

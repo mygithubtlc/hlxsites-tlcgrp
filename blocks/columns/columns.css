@@ -277,7 +277,7 @@
   }
 
   .columns .new-image-set h3 {
-    display: block;
+    display: grid;
     text-align: center;
     font-size: 22px;
   }
@@ -295,10 +295,11 @@
   .columns-wrapper p {
     text-align: center;
     font-size: 14px;
+    padding-bottom: 6px;
   }
 
   .columns .new-image-set h3 > span {
-    margin: 22px;
+    margin: 0px 0px 10px 0px;
   }
 
   .columns > div > div p em {
@@ -308,6 +309,8 @@
 
   .columns > div > div .button-container {
     font-size: 9px;
+    display: block;
+    padding-bottom: 15px;
   }
 
   /* main .section.background {
@@ -315,13 +318,16 @@
   } */
 
   main .background .default-content-wrapper h2 {
-    text-align: center;
+    text-align: left;
     font-size: 28px;
+    color:#313131;
   }
 
   main .background .default-content-wrapper h2:nth-of-type(2) {
     font-size: 18px;
+    width:300px;
   }
+  
 
   h2#whats-new {
     font-size: 21px;
@@ -392,5 +398,16 @@
 
   main .case-studies-custom h1 {
     text-align: center;
+  }
+
+  .columns > div > div {
+  border-top: 1px solid #cecece;
+  }
+  .our-capabilities .default-content-wrapper {
+    border:none;
+  }
+  .our-capabilities h2 {
+    padding-top: 0px;
+    padding-bottom: 30px;
   }
 }

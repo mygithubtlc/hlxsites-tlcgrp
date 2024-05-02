@@ -1075,6 +1075,7 @@ main .form {
     font-family: var(--alt-font-family);
     font-size:20px;
     font-weight: 300;
+    width:460px;
   }
 
   main .fragment-container .default-content-wrapper p:nth-child(3) {
@@ -1405,6 +1406,17 @@ main .online-orders h1 {
     margin-top:20px;
   }
 
+  main .carve-career .default-content-wrapper h5 {
+    font-size: 24px;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    color:#000;
+    margin-top:0px;
+  }
+
     .tech-product-section h2 {
     text-align: center;
   }
@@ -1517,6 +1529,7 @@ main .online-orders h1 {
   .section.background a {
     font-size: 16px;
     padding-top: 10px;
+    color:#313131;
   }
 
   .carve-career .default-content-wrapper p a {
@@ -1705,6 +1718,12 @@ main .online-orders h1 {
     text-align: center;
   }
 
+  main .carve-career h3:last-child {
+    font-size: 16px;
+    padding: 0 20px;
+    text-align: center;
+  }
+
   main .carve-career-all-section h3 {
     font-size: 24px;
     padding: 0 20px;
@@ -1781,6 +1800,16 @@ main .online-orders h1 {
     padding-bottom: 30px;
   }
 
+  
+  main .carve-career .default-content-wrapper {
+    padding-left: 20px;
+    margin-top: 0px;
+    max-width: 100%;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+
+
   main .section .default-content-wrapper p {
     display: flex;
     justify-content: left;
@@ -1845,8 +1874,9 @@ main .online-orders h1 {
 
   main .background.carve-career {
     margin-left: 0;
-    margin-top: 20px;
+    margin-top: 0;
   }
+
 
   .main .carve-career {
     height: 500px;
