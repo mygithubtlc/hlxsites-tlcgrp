@@ -1,6 +1,6 @@
 const parentElement = document.querySelector('.subnav');
 const childElements = parentElement.querySelectorAll('p');
-const urls = ['#', '#', '#', '#'];
+const urls = ['https://tlcgroup.com/memberships-subscriptions', 'https://www.tlcgroup.com/experience-vouchers', 'https://www.tlcgroup.com/online-food-delivery-platform', 'https://www.tlcgroup.com/online-table-reservations-platform'];
 childElements.forEach((childElement, index) => {
   const anchorTag = document.createElement('a');
   anchorTag.href = urls[index] || '#';
