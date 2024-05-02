@@ -690,7 +690,7 @@ main .why-us .default-content-wrapper p {
   padding: 8px 0;
   margin: 0 0%;
   text-align: center;
-  margin-top:0px;
+  margin-top:50px;
 }
 
 main pre {
@@ -1205,9 +1205,9 @@ main .form {
     right: 34px;
   }
 
-  main .subnav-container {
+  /* main .subnav-container {
     border-bottom: 1px solid #616161;
-  }
+  } */
 
   .section .image-list-container div:nth-child(1) img {
     width: 60px;
