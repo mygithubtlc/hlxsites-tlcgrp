@@ -99,8 +99,14 @@ main .subnav a:any-link {
     margin: 0 auto;
   }
   main .why-us .default-content-wrapper p{
-    margin-top:25%;
+    margin-top:12%;
   }
+
+  main .subnav p {
+    margin: 1px;
+    font-size: 12px;
+    padding:0px 10px 0px 10px;
+}
 
   main .subnav p:hover{
     font-size:12px;

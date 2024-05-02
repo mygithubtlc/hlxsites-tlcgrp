@@ -1901,5 +1901,12 @@ main .online-orders h1 {
     width: 94%;
     margin: 0 auto;
   }
+  main .text-wrapped .icon svg {
+    position: relative;
+    top: 11px;
+    height: 1rem;
+    width: 1rem;
+    margin-left: 0px;
+  }
 }
 
