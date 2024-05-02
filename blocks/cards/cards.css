@@ -53,6 +53,14 @@ main .cards-container .default-content-wrapper a {
   font-weight: 300;
 }
 
+.fragment-container  .cards  > ul > li h3{
+  font-size: 36px;
+  font-weight: 400;
+  color:#fff;
+  margin-right:90px;
+}
+
+
 .cards > ul > li em {
   font-size: 24px;
   font-weight: 150;
@@ -73,7 +81,9 @@ main .cards-container .default-content-wrapper a {
 .cards .cards-card-body {
   padding: 20px 30px;
 }
-
+.fragment-container .cards-card-body{
+  padding: 20px 65px;
+} 
 .cards .cards-card-image {
   line-height: 0;
   position: absolute;
@@ -148,7 +158,7 @@ main .cards-container .cards-wrapper {
 }
 
 .cards > ul > li:nth-child(1) img {
-    object-position: center;
+    object-position:right;
 }
 
 @media (min-width: 600px) {
@@ -233,9 +243,10 @@ main .cards-container .cards-wrapper {
   }
 
   .section.fragment-container p a {
-    font-size: 15px;
+    font-size: 16px;
     margin: 0;
-    font-weight: bold;
+    font-weight: 500;
+    color:#666666;
     font-family: var(--alt-font-family);
   }
 
@@ -319,8 +330,14 @@ main .cards-container .cards-wrapper {
 
   .cards > ul > li:first-child .cards-card-body {
     position: absolute;
-    bottom: 0;
+    bottom: 40px;
     margin-left: 0;
+    right:100px;
+  }
+
+  .cards > ul > li:first-child .cards-card-body p {
+    font-size:20px;
+    font-weight: 300;
   }
 
   .cards > ul > li:nth-child(2) .cards-card-body {

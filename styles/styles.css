@@ -41,6 +41,7 @@
   --mobile-nav-height: 60px;
 }
 
+
 body {
   font-size: var(--body-font-size-m);
   font-weight: var(--body-font-weight);
@@ -53,6 +54,7 @@ body {
   background-color: var(--background-color);
   display: none;
 }
+
 
 body.appear {
   display: unset;
@@ -108,9 +110,9 @@ a:hover {
 
 main .why-us a {
   text-align: center;
-  font-size: 15px;
+  font-size: 16px;
   color: #fff;
-  font-weight: 300;
+  font-weight: 700;
   border-radius: 24px;
   display: table;
   margin: 0 auto;
@@ -300,6 +302,14 @@ main .icon svg {
   margin-left: 12px;
 }
 
+main .icon-home_blackArrow svg {
+  position: relative;
+  top: 4px;
+  height: 1rem;
+  width: 1.3rem;
+  margin-left: 12px;
+}
+
 .payment-term-section h2 {
   font-size: 36px;
 }
@@ -309,6 +319,13 @@ main h3 .icon svg {
   width: 45px;
   height: 45px;
   margin-left: 0;
+  margin-right: 12px;
+}
+main .our-capabilities h3  .icon svg {
+  top: 12px;
+  width: 45px;
+  height: 45px;
+  margin-left: -6px;
   margin-right: 12px;
 }
 
@@ -719,6 +736,7 @@ main .background .default-content-wrapper h5 {
     margin-top: 20px;
 }
 
+
 main .align .default-content-wrapper h2 {
   text-align: center;
   margin-bottom: 50px;
@@ -728,6 +746,10 @@ main .align .default-content-wrapper h2 {
 
 main .background .default-content-wrapper h2:nth-of-type(2) {
   font-size: 28px;
+}
+
+main .fragment-container .default-content-wrapper h2:nth-of-type(2) {
+  font-size: 20px;
 }
 
 .section.divide {
@@ -869,8 +891,9 @@ main .form {
   }
 
   main .section .default-content-wrapper em {
-    font-size: 24px;
+    font-size: 20px;
     padding-bottom: 15px;
+    color:#313131;
   }
 
   main .section .default-content-wrapper h2 {
@@ -882,6 +905,17 @@ main .form {
     font-weight: 100;
     color:#000;
     margin-top:20px;
+  }
+
+  main .our-capabilities .default-content-wrapper h2 {
+    font-size: 36px;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    color:#313131;
+    margin-top:50px;
   }
 
   main .career-head-section .default-content-wrapper h2 {
@@ -985,6 +1019,36 @@ main .form {
     margin-top:20px;
   }
 
+  main .carve-career .default-content-wrapper h5 {
+    text-align: center;
+    font-size: 36px;
+    padding-top: 0;
+      display: flex;
+      justify-content: center;
+      font-weight: 100;
+      color: #313131;
+      margin-top: 20px;
+  }
+
+  main .carve-career .default-content-wrapper h3 {
+    font-size: 20px;
+    color:#313131;
+    font-weight: 300;
+  }
+  main .carve-career .default-content-wrapper h3:last-child {
+    font-size: 16px;
+    color:#313131;
+    font-weight: 300;
+  }
+
+  main .carve-career .default-content-wrapper {
+    padding-left: 20px;
+    margin-top: 0px;
+    max-width: 100%;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+
   main .cyber-security .default-content-wrapper h2 {
     text-align: center;
   }
@@ -1006,8 +1070,11 @@ main .form {
 
   main .fragment-container .default-content-wrapper h2:nth-child(2) {
     margin-left: 51px;
-    color:#fff;
+    color:#313131;
     justify-content: flex-start;
+    font-family: var(--alt-font-family);
+    font-size:20px;
+    font-weight: 300;
   }
 
   main .fragment-container .default-content-wrapper p:nth-child(3) {
@@ -1023,6 +1090,12 @@ main .form {
   main .background .default-content-wrapper h2:nth-child(1) {
     margin-left: 50px;
     color:#fff;
+  }
+
+  main .fragment-container .default-content-wrapper h2:nth-child(1) {
+    margin-left: 50px;
+    color:#313131;
+    font-size:36px;
   }
 
   main .cyber-security .default-content-wrapper h2:nth-child(1) {
