@@ -256,10 +256,11 @@ h2#our-capabilities {
   .case-studies-custom h3 {
     font-size: 22px;
     text-align: center;
+    display: grid;
   }
 
   .columns .new-image-set h3 {
-    display: block;
+    display: grid;
     text-align: center;
     font-size: 22px;
   }
