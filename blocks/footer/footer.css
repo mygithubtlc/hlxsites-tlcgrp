@@ -84,6 +84,7 @@ footer.footer-wrapper p:nth-child(2) {
     float: left;
     width: 100%;
     text-align: left;
+    
   }
 
   footer .footer > div > div:first-child {
@@ -122,4 +123,19 @@ footer.footer-wrapper p:nth-child(2) {
     height: 100%;
     display: flex;
   }
-}
+  .footer-wrapper img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 25px 0px;
+  }
+
+  footer.footer-wrapper > div  div:nth-child(4) {
+    text-align: center;
+  
+  
+  
+
+
+  
+}}

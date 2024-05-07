@@ -277,8 +277,8 @@
   }
 
   .columns .new-image-set h3 {
-    display: grid;
-    text-align: center;
+    display: block;
+    text-align: left;
     font-size: 22px;
   }
 
@@ -293,7 +293,7 @@
   }
 
   .columns-wrapper p {
-    text-align: center;
+    text-align: left;
     font-size: 14px;
     padding-bottom: 6px;
   }
@@ -325,7 +325,8 @@
 
   main .background .default-content-wrapper h2:nth-of-type(2) {
     font-size: 18px;
-    width:300px;
+    width:255px;
+    text-align: justify;
   }
   
 

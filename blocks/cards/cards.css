@@ -508,7 +508,8 @@ main .history-vision-section .cards p em:nth-child(1) {
 }
 
 .cards > ul > li:last-child h3:has(a) {
-  visibility: hidden;
+  /* visibility: hidden; */
+  display: none;
 }
 
 main .history-vision-section .cards-wrapper{
@@ -533,7 +534,8 @@ main .history-vision-section .cards-wrapper{
   }
 
   .cards > ul > li:nth-child(1) img {
-    object-position: top;
+    /* object-position: top; */
+    object-position: -88px 0px;
 }
   
   .history-vision-section .block {
@@ -546,6 +548,21 @@ main .history-vision-section .cards-wrapper{
     margin: 10px 0;
   }
 
+  
+  .world-class-cutomer-loyality .cards > ul > li {
+    position: relative;
+    color: white;
+    margin: 0px 0;
+    height: 350px;
+  }
+
+  .world-class-cutomer-loyality .cards > ul > li:nth-child(1) {
+    position: relative;
+    color: white;
+    margin: 0px 0;
+    height: 625px;
+  }
+
   main > .history-vision-section h3 {
     font-size: 22px;
     margin: 20px 0;
@@ -553,7 +570,8 @@ main .history-vision-section .cards-wrapper{
 
   .cards > ul > li h3 {
     font-size: 18px;
-    padding: 11px 0;
+    /* padding: 11px 0; */
+    padding:0px 0px 10px 10px
   }
 
   .section.related-case-studies-component h3 {
@@ -568,7 +586,7 @@ main .history-vision-section .cards-wrapper{
   .cards .cards-card-image img {
     max-width: 100%;
     display: block;
-    object-position: top;
+    /* object-position: top; */
   }
 
   .cards > ul > li p strong {
@@ -588,6 +606,30 @@ main .history-vision-section .cards-wrapper{
   .cards .cards-card-body {
     padding: 10px;
   }
+
+  .world-class-cutomer-loyality .cards-card-body {
+    padding: 10px;
+    position: absolute;
+    bottom:0;
+    padding-bottom: 40px;
+  }
+  
+  .world-class-cutomer-loyality .cards-card-body:nth-child(2) {
+    padding: 10px;
+    position: absolute;
+    bottom:0;
+    padding-bottom: 40px;
+  }
+  .world-class-cutomer-loyality ul li .cards-card-body:nth-child(4) {
+    padding: 10px;
+    position: absolute;
+    bottom:0;
+    padding-bottom: 40px;
+  }
+  
+
+  
+
 
   .cards-card-body p {
     margin: 0;
@@ -742,10 +784,25 @@ main .history-vision-section .cards-wrapper{
   }
 
   .fragment-container .cards > ul > li h3 {
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 400;
     color: #fff;
-    margin-right: 90px;
+    margin-right: 0px;
   }
+
+  .fragment-container .cards > ul > li:nth-child(2) h3 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+    margin-right: 0px;
+  }
+
+
+
+
+
+  
+
+
 
 }
