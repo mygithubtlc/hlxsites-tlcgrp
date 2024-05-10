@@ -26,6 +26,7 @@ main .contact-center img {
   width: 50px;
 }
 
+
 @media (min-width: 900px) {
   main .contact-center {
     padding: 20px 20%;

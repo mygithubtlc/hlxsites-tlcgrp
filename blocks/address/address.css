@@ -4,19 +4,47 @@ main .address {
 
 main .address h2 {
   font-size: 45px;
-  text-align: left;
-  padding-bottom: 20px;
+  text-align: center;
+  padding: 100px 0 30px;
 }
 
 main .address p {
   text-align: left;
   font-family: var(--alt-font-family);
-  font-size: 1rem;
-  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  color:#898989;
+  display: inline-flex;
+    margin: 0 20px 20px 70px;
+    vertical-align: middle;
+    align-items: center;
 }
 
 main .address picture {
   width: 16px;
   margin-top: 2px;
   margin-right: 20px;
+}
+
+@media (width <= 600px){
+  main .address p {
+    text-align: left;
+    font-family: var(--alt-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    color:#898989;
+    margin: 0 20px 20px 20px;
+    vertical-align: middle;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  main .address h2 {
+    font-size: 32px;
+    text-align: center;
+    padding: 10px 0 30px;
+    color:#313131;
+}
+
 }
