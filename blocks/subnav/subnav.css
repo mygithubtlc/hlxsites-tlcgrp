@@ -25,9 +25,9 @@ main .subnav a:any-link {
   main .subnav a {
     font-size: 22px;
     width: 100%;
-    margin: 50px 12px 0px 12px;
+    margin: 62px 12px 0px 12px;
     text-align: center;
-    padding: 10px 39px 20px 39px;
+    padding: 20px 39px 20px 39px;
     box-shadow: 0px 4px 14px 0px #00000014;
     border-radius: 16px;
     cursor: pointer;
@@ -51,20 +51,7 @@ main .subnav a:any-link {
     margin:0 auto;
   }
 
-  /* main .subnav p:hover {
-    background: #484747;
-    color: white;
-    cursor: pointer;
-  } */
-
-  /* .subnav p:hover {
-    background-color: lightblue;
-  } */
-
-  
-
-
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .subnav-wrapper {
     min-height: 130px;
   }
@@ -72,6 +59,7 @@ main .subnav a:any-link {
   main .subnav {
     font-size: 15px;
     text-align: center;
+    margin-top:25px;
   }
 
   main .subnav > div > div {
@@ -81,7 +69,7 @@ main .subnav a:any-link {
   main .subnav a {
     font-size: 16px;
     width:40%;
-    margin:8px 5px;
+    margin:8px 4px;
     text-align: center;
     padding: 0px 10px 10px 10px;
     box-shadow: 0px 4px 14px 0px #00000014;
@@ -99,17 +87,22 @@ main .subnav a:any-link {
     margin: 0 auto;
   }
   main .why-us .default-content-wrapper p{
-    margin-top:20%;
+    margin-top:150px;
   }
 
   main .subnav p {
     margin: 1px;
-    font-size: 12px;
-    padding:0px 10px 0px 10px;
+    font-size: 20px;
+    padding: 6px 0px 0px 0px;
+    line-height: 25px;
+    color:#313131;
+    font-weight: 300;
+}
+main .subnav-container {
+  width: 100%;
+  margin: 0 auto;
 }
 
-  main .subnav p:hover{
-    font-size:12px;
-    padding:0px 10px 0px 10px;
-  }
+
 }
+

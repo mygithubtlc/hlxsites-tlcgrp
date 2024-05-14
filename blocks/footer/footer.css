@@ -132,10 +132,21 @@ footer.footer-wrapper p:nth-child(2) {
 
   footer.footer-wrapper > div  div:nth-child(4) {
     text-align: center;
-  
-  
-  
+  }
 
+  footer.footer-wrapper p:nth-child(1) {
+    border-bottom: 1px solid gray;
+    line-height: 60px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
 
-  
-}}
+footer .footer p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+
+}

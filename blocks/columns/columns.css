@@ -20,6 +20,7 @@
   font-style: normal;
 }
 
+
 .section .button-container,
 .section .columns-container {
   display: flex;
@@ -119,6 +120,12 @@
   padding-left: 14%;
 }
 
+.our-capabilities p{
+  font-size:16px;
+  color:#777777;
+  font-weight: 300;
+}
+
 @media (min-width: 600px) {
   .columns > div > div h3 {
     font-size: 28px;
@@ -199,6 +206,8 @@
     padding-left: 10px;
   }
 }
+
+
 
 @media (max-width: 600px) {
   .new-image-set .icon-connections,
@@ -324,9 +333,12 @@
   }
 
   main .background .default-content-wrapper h2:nth-of-type(2) {
-    font-size: 18px;
+    font-size: 20px;
     width:255px;
-    text-align: justify;
+    text-align: left;
+    font-weight: 300;
+    color:#313131;
+    font-family: var(--alt-font-family);
   }
   
 
@@ -353,7 +365,10 @@
   }
 
   main .section .default-content-wrapper em {
-    font-size: 15px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #313131;
+    font-weight: 300;
   }
 
   main .select-clientele-logo-section .columns-container {
@@ -410,5 +425,19 @@
   .our-capabilities h2 {
     padding-top: 0px;
     padding-bottom: 30px;
+  }
+  .our-capabilities .columns > div > div p em {
+    font-size: 16px;
+    font-style: normal;
+    color:#777777;
+    font-weight: 300;
+    font-size:16px;
+  }
+  .our-capabilities .default-content-wrapper {
+    border-top: 1px solid #DCDCDC;
+    padding:51px 0px 0px 0px;
+  }
+  .columns > div > div:nth-child(1) {
+    border:none;
   }
 }

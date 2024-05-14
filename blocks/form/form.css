@@ -338,3 +338,7 @@ main [class^="iti__arrow"] {
     font-family: var(--alt-font-family);
   }
 }
+
+input[type="text"]::first-letter {
+  text-transform: capitalize;
+}

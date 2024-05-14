@@ -18,25 +18,30 @@ customElements.forEach((element, index) => {
 
   // Function to handle hover effect
   const handleHover = () => {
-    element.style.backgroundColor = '#676767';
-    element.style.color = '#fff';
-    element.style.fontSize = '16px';
-    element.style.textAlign = 'left';
-    element.style.display = 'flex';
-    element.style.alignItems = 'center';
-    element.querySelector('p').innerHTML = newText;
+    if (!isMobile()) {
+      element.style.backgroundColor = '#FFFFFF';
+      element.style.color = '#313131';
+      element.style.fontSize = '16px';
+      element.style.textAlign = 'left';
+      element.style.display = 'flex';
+      element.style.alignItems = 'center';
+      element.style.justifyContent = 'center';
+      element.querySelector('p').innerHTML = newText;
+    }
   };
 
   // Function to handle removing hover effect
   const removeHover = () => {
-    element.style.backgroundColor = '';
-    element.style.color = '';
-    element.style.fontSize = '';
-    element.style.padding = '';
-    element.style.textAlign = '';
-    element.style.display = '';
-    element.style.alignItems = '';
-    element.querySelector('p').innerHTML = originalText;
+    if (!isMobile()) {
+      element.style.backgroundColor = '';
+      element.style.color = '';
+      element.style.fontSize = '';
+      element.style.padding = '';
+      element.style.textAlign = '';
+      element.style.display = '';
+      element.style.alignItems = '';
+      element.querySelector('p').innerHTML = originalText;
+    }
   };
 
   // Adding hover effect for both mouse and touch events
@@ -46,3 +51,8 @@ customElements.forEach((element, index) => {
   element.addEventListener('mouseleave', removeHover);
   element.addEventListener('touchend', removeHover);
 });
+
+// Function to check if the device is mobile
+function isMobile() {
+  return window.matchMedia("only screen and (max-width: 768px)").matches;
+}

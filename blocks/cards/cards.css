@@ -161,8 +161,18 @@ main .cards-container .cards-wrapper {
     object-position:right;
 }
 
-@media (min-width: 600px) {
+.cards > ul > li:first-child .cards-card-body {
+  position: absolute;
+  bottom: 40px;
+  margin-left: 0;
+  right:30px;
+}
 
+
+@media (min-width: 600px) {
+  .cards > ul > li:nth-child(1) img {
+    object-position: right;
+}
   .cards > ul {
     list-style: none;
     margin: 0;
@@ -173,7 +183,7 @@ main .cards-container .cards-wrapper {
   }
 
   main .cards-container .default-content-wrapper {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 
   main .cards-container .default-content-wrapper:last-child {
@@ -207,6 +217,16 @@ main .cards-container .cards-wrapper {
     font-weight: 400;
     text-align: center;
   }
+}
+
+@media screen and (min-width: 15in) {
+ .cards > ul > li:first-child .cards-card-body {
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    right:0px;
+  }
+
 }
 
 @media (min-width: 900px) {
@@ -327,13 +347,13 @@ main .cards-container .cards-wrapper {
   .meet-our-team-desktop-view .cards > ul > li:nth-child(1) {
     margin: 5px;
   }
-
+/* 
   .cards > ul > li:first-child .cards-card-body {
     position: absolute;
     bottom: 40px;
     margin-left: 0;
     right:100px;
-  }
+  } */
 
   .cards > ul > li:first-child .cards-card-body p {
     font-size:20px;
@@ -536,6 +556,7 @@ main .history-vision-section .cards-wrapper{
   .cards > ul > li:nth-child(1) img {
     /* object-position: top; */
     object-position: -88px 0px;
+    object-fit: cover;
 }
   
   .history-vision-section .block {

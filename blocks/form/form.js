@@ -298,3 +298,4 @@ export default async function decorate(block) {
     form.replaceWith(await createForm(form.href));
   }
 }
+
