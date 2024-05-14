@@ -219,15 +219,17 @@ main .cards-container .cards-wrapper {
   }
 }
 
-@media screen and (min-width: 15in) {
- .cards > ul > li:first-child .cards-card-body {
+@media only screen and (min-width: 1400px) and (max-width: 3840px){
+  .cards > ul > li:first-child .cards-card-body {
     position: absolute;
     bottom: 40px;
-    left: 100px;
+    left: 120px;
     right:0px;
   }
-
 }
+
+
+
 
 @media (min-width: 900px) {
   main .section.cards-container {
