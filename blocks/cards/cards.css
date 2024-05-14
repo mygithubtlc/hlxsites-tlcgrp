@@ -818,12 +818,10 @@ main .history-vision-section .cards-wrapper{
     margin-right: 0px;
   }
 
-
-
-
-
-  
-
-
-
+  .cards > ul > li:first-child .cards-card-body {
+    position: absolute;
+    bottom: 0px;
+    margin-left: 0;
+    right:30px;
+  }
 }
