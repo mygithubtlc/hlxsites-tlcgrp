@@ -112,7 +112,7 @@ main .cards-container .default-content-wrapper h3 {
 }
 
 .cards .cards-card-image img {
-  object-fit: cover;
+  object-fit:cover;
   width: 100%;
   height: 100%;
   object-position: center top;
@@ -279,7 +279,7 @@ main .history-vision-section .cards-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0;
-    height: 135vh;
+    min-height: 800px;
     overflow: auto;
   }
 
@@ -871,13 +871,33 @@ main .history-vision-section .cards p em:nth-child(1) {
 }
 
 
-@media (min-width: 1400px){
+ @media (min-width: 1400px){
  
-  .cards > ul > li:first-child .cards-card-body {
+   .cards > ul > li:first-child .cards-card-body {
     position: absolute;
-    bottom: 30vh;
-    margin-left: 0;
+    bottom: 14vh;
+    margin-left: 5vw;
     right:7vh;
   }
+  /* .cards > ul > li:nth-child(1) img {
+    object-position: right;
+}  */
+.cards > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
+  height: 110vh;
+  overflow: auto;
 }
+.cards .cards-card-image img {
+  object-fit:fill;
+  width: 100%;
+  height: 100%;
+  object-position: center top;
+}
+
+} 
 
