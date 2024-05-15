@@ -1124,7 +1124,7 @@ main .form {
   
   main .background .default-content-wrapper h2:nth-child(1) {
     margin-left: 0px;
-    color:#313131;
+    color:#fff;
   }
 
 
@@ -1135,6 +1135,7 @@ main .form {
 
   main .text-wrapped .default-content-wrapper h2:nth-child(1) {
     padding-top: 200px;
+    color:#313131;
   }
 
   
