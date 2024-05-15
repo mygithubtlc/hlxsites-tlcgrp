@@ -25,7 +25,7 @@ main .subnav a:any-link {
   main .subnav a {
     font-size: 22px;
     width: 100%;
-    margin: 62px 12px 0px 12px;
+    margin: 62px 12px 0px 0px;
     text-align: center;
     padding: 20px 39px 20px 39px;
     box-shadow: 0px 4px 14px 0px #00000014;
