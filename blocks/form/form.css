@@ -13,6 +13,10 @@ main .form[data-block-status="loaded"] {
   height: unset;
   visibility: unset;
 }
+main input[type='text-field']{
+  text-transform: capitalize;
+  white-space: nowrap;
+}
 
 main .field-wrapper .required {
   text-transform: capitalize;
