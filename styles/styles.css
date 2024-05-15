@@ -351,9 +351,10 @@ main .job-description-page a:hover {
 }
 
 main .world-class-cutomer-loyality .cards ul > li p a {
-  font-size: 15px;
+  font-size: 16px;
   font-family: var(--alt-font-family);
-  font-weight: bold;
+  font-weight: 500;
+  color:#fff;
 }
 
 main .related-case-studies-component .cards ul > li p a {
