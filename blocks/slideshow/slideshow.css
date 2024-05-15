@@ -190,6 +190,7 @@ main .carousel-buttons button:nth-child(5) {
 main .member-subscription-slide button:nth-child(3) {
   display: none;
 }
+
 main .carousel-buttons button:nth-child(3){
   display: none;
 }
@@ -199,11 +200,11 @@ main .carousel-buttons button:nth-child(3){
 	main .slideshow-container {
     background-color: transparent;
     zoom:80%;
-    padding:0px;
+    padding:0;
   }
 }
 
-@media (min-width: 600px) {
+@media (width >= 600px) {
   main .slideshow {
     /* height: 670px; */
     min-height: 74vh;
@@ -232,7 +233,7 @@ main .carousel-buttons button:nth-child(3){
   }
 }
 
-@media (max-width: 600px) {
+@media (width <= 600px) {
   main .member-subscription-slide .slideshow-overlay {
     justify-content: left;
     padding: 0 10px;
@@ -282,13 +283,14 @@ main .carousel-buttons button:nth-child(3){
     flex-flow: row wrap;
     align-items: flex-end;
     justify-content: center;
-    padding: 0 0px 10px;
+    padding: 0 0 10px;
     height: 100%;
     width: 100%;
     color: white;
     background: unset;
     background: linear-gradient(180deg, transparent 0%, var(--overlay-background-color) 100%);
   }
+	
   main .slideshow .slideshow-overlay h1,
   main .slideshow .slideshow-overlay h2 {
   font-size: 24px;
@@ -296,8 +298,8 @@ main .carousel-buttons button:nth-child(3){
   overflow-y: hidden;
   margin-top: 0;
 }
+
 main .carousel-buttons {
-  display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
@@ -311,7 +313,7 @@ main .carousel-buttons {
 main .slideshow-container {
   background-color: transparent;
   zoom:90%;
-  padding:0px;
+  padding:0;
 }
 
 /* main .slideshow img:nth-child(1) {

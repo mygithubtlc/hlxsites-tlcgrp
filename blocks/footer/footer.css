@@ -79,7 +79,7 @@ footer.footer-wrapper p:nth-child(2) {
   margin-top: 20px;
 }
 
-@media (max-width: 600px) {
+@media (width<= 600px) {
   footer .footer > div > div:last-child {
     float: left;
     width: 100%;
@@ -123,16 +123,24 @@ footer.footer-wrapper p:nth-child(2) {
     height: 100%;
     display: flex;
   }
+	
   .footer-wrapper img {
     text-align: center;
     display: block;
     margin: 0 auto;
-    padding: 25px 0px;
+    padding: 25px 0;
   }
 
   footer.footer-wrapper > div  div:nth-child(4) {
     text-align: center;
   }
+
+	footer .footer p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
 
   footer.footer-wrapper p:nth-child(1) {
     border-bottom: 1px solid gray;
@@ -141,12 +149,4 @@ footer.footer-wrapper p:nth-child(2) {
     font-size: 16px;
     color: #fff;
 }
-
-footer .footer p {
-  margin: 0;
-  font-size: 14px;
-  font-weight: 400;
-  color: #fff;
-}
-
 }
