@@ -237,13 +237,18 @@ main .carousel-buttons button:nth-child(3){
     background: none;
     position: absolute;
     top: 15%;
-    width: 300px;
+    width: 220px;
   }
+  main .member-subscription-slide h2 {
+    color: #313131;
+    width:220px;
+}
 
   main .member-subscription-slide.slideshow-container p {
-    width: 63%;
+    width: 100%;
     margin: 5px 0;
     font-size: 12px;
+    line-height: 15px;
   }
 
   main .member-subscription-slide.slideshow-container h1 {
@@ -270,4 +275,11 @@ main .carousel-buttons button:nth-child(3){
     flex-shrink: 0;
     overflow-y: hidden;
   }
+  
+main .member-subscription-slide .slideshow img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position:center;
+}
 }

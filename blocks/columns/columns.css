@@ -301,6 +301,13 @@ h2#our-capabilities {
     font-size: 28px;
   }
 
+  main .carve-career .default-content-wrapper h2 {
+    text-align: center;
+    font-size: 32px;
+    color:#313131;
+    font-weight: 400;
+  }
+
   main .background .default-content-wrapper h2:nth-of-type(2) {
     font-size: 18px;
   }
