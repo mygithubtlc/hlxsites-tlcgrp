@@ -356,8 +356,10 @@ main [class^="iti__arrow"] {
 
 main .contact-us-section h1{
   text-align: center;
-  font-size:48px;
+  font-size:36px;
   padding: 20px 0px 40px 0px;
+  font-weight: 400;
+  color:#313131;
 }
 
 .section > .form-wrapper {

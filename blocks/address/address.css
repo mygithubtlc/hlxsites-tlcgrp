@@ -3,9 +3,11 @@ main .address {
 }
 
 main .address h2 {
-  font-size: 45px;
+  font-size: 36px;
   text-align: center;
   padding: 100px 0 30px;
+  font-weight: 400;
+  color:#313131;
 }
 
 main .address p {
@@ -26,7 +28,60 @@ main .address picture {
   margin-right: 20px;
 }
 
+.thankyouaddress .address p {
+  font-family: var(--alt-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  color: #898989;
+  display: inline-flex;
+  margin: 0 20px 20px 55px;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.thankyouaddress img {
+width: 26px;
+}
+
+main .thankyouaddress h2 {
+font-size: 36px;
+text-align: center;
+padding: 100px 0 30px;
+font-weight: 400;
+}
+
+main .thankyou .default-content-wrapper h2 {
+  font-size: 36px;
+  margin-top: 0;
+  padding-top: 0;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  color:#313131;
+  margin-top:20px;
+}
+main .thankyou .default-content-wrapper p {
+  font-size: 20px;
+  margin-top: 0;
+  padding-top: 0;
+  display: flex;
+  text-align: center;
+  font-weight: 300;
+  color:#313131;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+
 @media (width <= 600px){
+  main .thankyou .default-content-wrapper p {
+    font-size: 16px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  main .thankyou .default-content-wrapper h2 {
+    font-size: 32px;
+  }
   main .address p {
     text-align: left;
     font-family: var(--alt-font-family);
@@ -39,6 +94,29 @@ main .address picture {
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+
+  main .thankyouaddress .address p {
+    font-family: var(--alt-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    color:#898989;
+    margin: 0 20px 20px 20px;
+    vertical-align: middle;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  
+main .thankyou h2 {
+  font-size: 32px;
+  text-align: center;
+  padding: 0px 0 30px;
+  font-weight: 400;
+  color:#313131;
+  
   }
   main .address h2 {
     font-size: 32px;
