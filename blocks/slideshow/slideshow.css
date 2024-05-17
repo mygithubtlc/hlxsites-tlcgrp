@@ -93,7 +93,7 @@ main .slideshow img {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  object-position: right;
+  object-position:center;
 }
 
 /* overlay */
@@ -241,9 +241,11 @@ main .carousel-buttons button:nth-child(3){
   }
 
   main .member-subscription-slide.slideshow-container p {
-    width: 63%;
+    width: 100%;
     margin: 5px 0;
     font-size: 12px;
+    width:220px;
+    line-height: 15px;
   }
 
   main .member-subscription-slide.slideshow-container h1 {
