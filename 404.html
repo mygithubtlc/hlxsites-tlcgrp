@@ -18,7 +18,7 @@
         const { origin, pathname } = new URL(document.referrer);
         if (origin === window.location.origin) {
           const backBtn = document.createElement('a');
-          backBtn.classList.add('button', 'error-button-back');
+          backBtn.classList.add('button', 'error-button-back',);
           backBtn.href = pathname;
           backBtn.textContent = 'Go back';
           backBtn.title = 'Go back';
@@ -44,20 +44,52 @@
     main.error .error-number text {
       font-family: var(--fixed-font-family);
     }
+    main.errorPage {
+      margin-left:40px;
+      padding-top:30px;
+    }
+    main.errorPage h1{
+      font-size:150px;
+      font-family:var(--new-body-font);
+      font-weight:700;
+      margin:0px;
+      margin-top:30px;
+      
+    }
+    
+    main.errorPage .section .default-content-wrapper h2{
+      font-family:var(--new-body-font);
+      font-size:32px;
+      font-weight:500;
+      margin:0px;
+      justify-content:start;  
+
+    }
+    main.errorPage .button-container a{
+      color:#FFFFFF;
+      border:none;
+      background-color: #00582E!important;
+      font-size:16px;
+      font-family:var(--new-body-font);
+      padding:15px 50px;
+      margin-top:25px;
+    }
   </style>
   <link rel="stylesheet" href="/styles/lazy-styles.css">
 </head>
 
 <body>
   <header></header>
-  <main class="error">
+  <main class="error errorPage">
     <div class="section">
-      <svg viewBox="1 0 38 18" class="error-number">
+      <!--/* <svg viewBox="1 0 38 18" class="error-number">
         <text x="0" y="17">404</text>
-      </svg>
+      </svg> */-->
+      <h1>404</h1>
       <h2 class="error-message">Page Not Found</h2>
+      <p style="margin:10px 0px; font-size:16px; error-message">We are sorry but the page you requested for was not found.</p>
       <p class="button-container">
-        <a href="/" class="button secondary error-button-home">Go home</a>
+        <a href="/" class="button secondary error-button-home">Return to Homepage</a>
       </p>
     </div>
   </main>
