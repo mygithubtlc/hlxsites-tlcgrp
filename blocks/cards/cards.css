@@ -120,7 +120,7 @@ main .cards-container .default-content-wrapper h3 {
 
 .cards.fifty-fifty > ul > li {
   padding-top: 50px;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 
 main .section.cards-container {
@@ -170,7 +170,7 @@ main .history-vision-section .cards-wrapper{
 }
 
 .cards > ul > li:first-child .cards-card-body {
-  position: absolute;
+  /* position: absolute; */
   bottom: 40px;
   margin-left: 0;
   right:30px;
@@ -179,6 +179,9 @@ main .history-vision-section .cards-wrapper{
 
 @media (width >= 600px) {
 
+  main .fragment-container p {
+    margin-bottom: 25px;
+}
 
 	.cards .cards-card-image img {
     max-width: 100%;
@@ -386,16 +389,15 @@ main .history-vision-section .cards-wrapper{
     margin: 5px;
   }
 
-/* 
+
   .cards > ul > li:first-child .cards-card-body {
     position: absolute;
     bottom: 40px;
     margin-left: 0;
     right:100px;
-  } */
+  }
 
   .cards > ul > li:first-child .cards-card-body p {
-    font-size:20px;
     font-weight: 300;
   }
 
@@ -602,7 +604,7 @@ main .history-vision-section .cards p em:nth-child(1) {
   }
 
    .meet-our-team-mobile .cards-card-image img {
-    width: calc(100% - 54px);
+    /* width: calc(100% - 54px); */
     height: calc(100% - 250px);
     margin: 0 auto;
   }
@@ -615,8 +617,14 @@ main .history-vision-section .cards p em:nth-child(1) {
 
   .cards > ul > li:nth-child(1) img {
     /* object-position: top; */
-    object-position: -88px 0;
+    /* object-position: -88px 0; */
     object-fit: cover;
+}
+
+.world-class-cutomer-loyality .cards > ul > li:nth-child(1) img {
+  object-position: top;
+  object-position: -88px 0;
+  object-fit: cover;
 }
   
   .history-vision-section .block {
@@ -708,10 +716,10 @@ main .history-vision-section .cards p em:nth-child(1) {
   
 
 
-  .cards-card-body p {
+  /* .cards-card-body p {
     margin: 0;
     padding: 0;
-  }
+  } */
 
   .cards > ul > li h4 {
     font-size: 6px;
@@ -863,7 +871,7 @@ main .history-vision-section .cards p em:nth-child(1) {
   }
 
   .cards > ul > li:first-child .cards-card-body {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     margin-left: 0;
     right:30px;
