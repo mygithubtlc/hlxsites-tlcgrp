@@ -33,6 +33,7 @@
   margin-top: 5%;
   font-size: 18px;
   text-decoration: none;
+  
 }
 
 .section.columns-container h2 {
@@ -326,7 +327,8 @@
   .columns > div > div .button-container {
     font-size: 9px;
     display: block;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
+    
   }
 
   /* main .section.background {
@@ -351,7 +353,7 @@
 
   h2#whats-new {
     font-size: 21px;
-    margin-top: 35px;
+    margin-top: 60px;
   }
 
   h3#culture-our-culture,
