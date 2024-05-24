@@ -1,6 +1,6 @@
 .section.columns-container {
   opacity: 1;
-  padding-top: 40px;
+  padding-top: 50px;
   margin-bottom: 0;
   padding-bottom: 10px;
 }
@@ -16,9 +16,11 @@
 }
 
 .columns > div > div p em {
-  font-size: 15px;
+  font-size: 16px;
   font-style: normal;
+  line-height: 25px;
 }
+
 
 .section .button-container,
 .section .columns-container {
@@ -31,6 +33,7 @@
   margin-top: 5%;
   font-size: 18px;
   text-decoration: none;
+  
 }
 
 .section.columns-container h2 {
@@ -52,6 +55,13 @@
   cursor: pointer;
 }
 
+.our-capabilities .new-image-set p  a {
+  font-size: 16px;
+  font-weight: 500;
+  color:#666666;
+  font-family: var(--alt-font-family);
+}
+
 .columns .new-image-set a {
   font-size: 15px;
   font-weight: bold;
@@ -63,9 +73,18 @@
   flex-direction: column;
 }
 
-.columns > div > div {
+/* .columns > div > div {
   border-top: 1px solid #cecece;
+} */
+
+.our-capabilities div:last-child > .new-image-set  {
+  border-top: 1px solid #DCDCDC;
 }
+
+.our-capabilities .default-content-wrapper{
+  border-top: 1px solid #DCDCDC;
+}
+
 
 .columns > div > div:first-child {
   margin-top: 2%;
@@ -86,8 +105,11 @@
   padding: 0;
 }
 
-h2#our-capabilities {
+/* h2#our-capabilities {
   margin-top: 30px;
+} */
+.our-capabilities  h2{
+  padding-top: 50px;
 }
 
 .image-set ul li {
@@ -106,19 +128,30 @@ h2#our-capabilities {
   padding-left: 14%;
 }
 
+.our-capabilities p{
+  font-size:16px;
+  color:#777777;
+  font-weight: 300;
+}
+
 @media (min-width: 600px) {
   .columns > div > div h3 {
     font-size: 28px;
     font-weight: 500;
   }
 
-  .section .columns-wrapper {
-    padding-bottom: 50px;
+  .section .our-capabilities{
+    padding-bottom: 10px;
   }
 
   .section .columns-wrapper > div,
   .section .columns-container {
     padding-top: 50px;
+  }
+
+  .our-capabilities .columns-wrapper > div {
+    padding-top: 30px;
+    margin-bottom: 50px;
   }
 
   .online-order-logo-section > .columns-wrapper div {
@@ -181,6 +214,8 @@ h2#our-capabilities {
     padding-left: 10px;
   }
 }
+
+
 
 @media (max-width: 600px) {
   .new-image-set .icon-connections,
@@ -256,11 +291,14 @@ h2#our-capabilities {
   .case-studies-custom h3 {
     font-size: 22px;
     text-align: center;
+    display: grid;
   }
 
   .columns .new-image-set h3 {
-    display: block;
+    display: grid;
     text-align: center;
+    display: block;
+    text-align: left;
     font-size: 22px;
   }
 
@@ -275,12 +313,13 @@ h2#our-capabilities {
   }
 
   .columns-wrapper p {
-    text-align: center;
+    text-align: left;
     font-size: 14px;
+    padding-bottom: 6px;
   }
 
   .columns .new-image-set h3 > span {
-    margin: 22px;
+    margin: 0px 0px 10px 0px;
   }
 
   .columns > div > div p em {
@@ -290,6 +329,9 @@ h2#our-capabilities {
 
   .columns > div > div .button-container {
     font-size: 9px;
+    display: block;
+    padding-bottom: 50px;
+    
   }
 
   /* main .section.background {
@@ -297,8 +339,9 @@ h2#our-capabilities {
   } */
 
   main .background .default-content-wrapper h2 {
-    text-align: center;
+    text-align: left;
     font-size: 28px;
+    color:#313131;
   }
 
 
@@ -310,12 +353,18 @@ h2#our-capabilities {
   }
   
   main .background .default-content-wrapper h2:nth-of-type(2) {
-    font-size: 18px;
+    font-size: 20px;
+    width:255px;
+    text-align: left;
+    font-weight: 300;
+    color:#313131;
+    font-family: var(--alt-font-family);
   }
+  
 
   h2#whats-new {
     font-size: 21px;
-    margin-top: 35px;
+    margin-top: 60px;
   }
 
   h3#culture-our-culture,
@@ -336,7 +385,10 @@ h2#our-capabilities {
   }
 
   main .section .default-content-wrapper em {
-    font-size: 15px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #313131;
+    font-weight: 300;
   }
 
   main .select-clientele-logo-section .columns-container {
@@ -382,5 +434,31 @@ h2#our-capabilities {
 
   main .case-studies-custom h1 {
     text-align: center;
+  }
+
+  .columns > div > div {
+  border-top: 1px solid #cecece;
+  }
+  .our-capabilities .default-content-wrapper {
+    border:none;
+  }
+  .our-capabilities h2 {
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+  .our-capabilities .columns > div > div p em {
+    font-size: 16px;
+    font-style: normal;
+    color:#777777;
+    font-weight: 300;
+    font-size:16px;
+    line-height: 23px;
+  }
+  .our-capabilities .default-content-wrapper {
+    border-top: 1px solid #DCDCDC;
+    padding:51px 0px 0px 0px;
+  }
+  .columns > div > div:nth-child(1) {
+    border:none;
   }
 }
