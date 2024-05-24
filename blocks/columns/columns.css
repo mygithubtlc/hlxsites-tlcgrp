@@ -291,9 +291,12 @@
   .case-studies-custom h3 {
     font-size: 22px;
     text-align: center;
+    display: grid;
   }
 
   .columns .new-image-set h3 {
+    display: grid;
+    text-align: center;
     display: block;
     text-align: left;
     font-size: 22px;
