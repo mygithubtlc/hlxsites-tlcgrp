@@ -13,6 +13,10 @@ main .form[data-block-status="loaded"] {
   height: unset;
   visibility: unset;
 }
+main input[type='text-field']{
+  text-transform: capitalize;
+  white-space: nowrap;
+}
 
 main .field-wrapper .required {
   text-transform: capitalize;
@@ -51,7 +55,7 @@ main .form select {
 
 main .form textarea {
   min-height: 100px;
-  background-color: #efeee7;
+  background-color: #fff;
   margin-top: 30px;
   font-size: 1.4rem;
   letter-spacing: 0;
@@ -69,10 +73,12 @@ main .form textarea {
   border-bottom: 1px solid rgb(193 193 195);
   outline: none;
   padding: 11px 0;
-  font-size: 1.25rem;
+  font-size: 18px;
   color: var(--new-text-color);
   background-color: var(--background-color);
   font-family: var(--alt-font-family);
+  color:#757575;
+  font-weight: 300;
 }
 
 main .form input:hover,
@@ -110,10 +116,13 @@ main .form .field-wrapper {
 main .form .form-checkbox-wrapper {
   display: flex;
   margin: var(--spacing-s) 0;
+  font-size:16px;
+  color:#898989;
 }
 
 main .form .form-checkbox-wrapper label a:any-link {
-  font-weight: bold;
+  font-weight: normal;
+  font-family: var(--alt-font-family);
 }
 
 main .form .form-checkbox-wrapper input[type="checkbox"] {
@@ -142,12 +151,17 @@ main .form .form-checkbox-wrapper label {
   font-weight: normal;
   text-transform: none;
   display: block;
-  width: 965px;
+  width: 910px;
   font-family: var(--alt-font-family);
+  font-size:16px;
+  color:#898989;
+  font-weight: 300;
 }
 
 main .form-checkbox-wrapper .required {
-  width: 1000px;
+  width: 930px;
+    margin-left: 123px;
+    text-align: justify;
 }
 
 main .form .button {
@@ -168,7 +182,7 @@ main .form .form-submit-wrapper {
 
 main .form-submit-wrapper .button {
   text-align: center;
-  font-size: 15px;
+  font-size: 16px;
   color: #fff;
   font-weight: 300;
   border-radius: 24px;
@@ -180,33 +194,57 @@ main .form-submit-wrapper .button {
   font-family: var(--alt-font-family);
 }
 
-main .form input[type="text-field"],
-main .form input[type="email"] {
+main .form input[type="text-field"]{
   border: none;
   border-bottom: 1px solid rgb(193 193 195);
   outline: none;
   padding-left: 0;
 }
 
+main .form input[type="email"] {
+  border: none;
+  border-bottom: 1px solid rgb(193 193 195);
+  outline: none;
+  padding-left: 0;
+  margin-left:0px;
+  width:390px;
+}
+main .grecaptcha-badge{
+  margin:0 auto;
+}
+main .form-yourMessage-wrapper ::placeholder{
+  text-align: center;
+  padding-top: 25px;
+  
+}
+
 main .form input[type="tel"] {
   border: none;
   border-bottom: 1px solid rgb(193 193 195);
   outline: none;
-  padding-left: 60px;
+  padding-left: 0px;
+  margin-left:127px;
+  width:402px;
 }
 
 main .iti {
   position: relative;
   display: inline-block;
-  width: 100%;
+  width: 67%;
 }
 
-main .form input[type="text-field"]::placeholder {
-  font-size: 20px;
+main .form input[type="text-field"]::placeholder,
+main .form input[type="tel"]::placeholder,
+main .form input[type="email"]::placeholder {
+  font-size: 18px;
+  color:#757575;
+  font-weight: 300;
 }
 
 main .form textarea::placeholder {
-  font-size: 20px;
+  font-size: 18px;
+  color:#757575;
+  font-weight: 300;
 }
 
 main .form input:hover,
@@ -260,15 +298,34 @@ main .field-wrapper > [id^="y"] {
   display: inline-block;
 }
 
+.button-container [class^="form-mobileNumber"] {
+  width: 33%;
+  display: inline-block;
+}
+.button-container [class^="form-emailAddress-wrapper"] {
+  width: 33%;
+  display: inline-block;
+}
+.button-container [class^="form-emailAddress-wrapper"] {
+  width: 9%;
+  display: inline-block;
+}
+.iti--allow-dropdown .iti__flag-container, .iti--separate-dial-code .iti__flag-container {
+  right: auto;
+  left: 0;
+  border-bottom: 1px solid rgb(193 193 195);
+  width: 108px;
+}
+
 .button-container [class^="form-email"] {
-  width: 44%;
+  width: 40%;
   margin-right: 20px;
   margin-left: 0;
   display: inline-block;
 }
 
 .button-container [class^="form-mobile"] {
-  width: 33%;
+  width: 55%;
   display: inline-block;
 }
 
@@ -288,7 +345,7 @@ main [class^="iti__arrow"] {
   border-color: gray;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
-  margin-left: 10px;
+  margin-left: 65px;
   margin-bottom: 5px;
 }
 
@@ -297,26 +354,71 @@ main [class^="iti__arrow"] {
   border-bottom: 6px solid #555;
 } */
 
+main .contact-us-section h1{
+  text-align: center;
+  font-size:36px;
+  padding: 20px 0px 40px 0px;
+  font-weight: 400;
+  color:#313131;
+}
+
+.section > .form-wrapper {
+  margin: auto;
+  text-align: center;
+}
+
 @media (max-width: 600px) {
-  .button-container [class^="form-name-wrapper"] {
-    width: 100%;
-  }
-
-  .button-container [class^="form-firstName"] {
-    width: 100%;
-  }
-
-  .button-container [class^="form-lastName"] {
-    width: 100%;
-  }
-
   .button-container [class^="form-email"] {
     width: 100%;
+    margin-right: 20px;
+    margin-left: 0;
+    display: inline-block;
   }
-
-  .button-container [class^="form-mobile"] {
+  main .form input[type="tel"] {
+    border: none;
+    border-bottom: 1px solid rgb(193 193 195);
+    outline: none;
+    padding-left: 0px;
+    margin-left: 120px;
     width: 100%;
-  }
+}
+main .form-submit-wrapper .button{
+  display: block;
+}
+
+.button-container [class^="form-mobile"] {
+  width: 64%;
+  display: inline-block;
+}
+  .button-container [class^="form-firstName"] {
+    width: 100%;
+    margin-right: 20px;
+    display: inline-block;
+}
+.button-container [class^="form-name-wrapper"] {
+  width: 100%;
+  margin-right: 20px;
+  display: inline-block;
+}
+.button-container [class^="form-lastName"] {
+  width: 100%;
+  display: inline-block;
+}
+
+  main .form input[type="email"] {
+    border: none;
+    border-bottom: 1px solid rgb(193 193 195);
+    outline: none;
+    padding-left: 0;
+    margin-left: 0px;
+    width: 100%;
+}
+
+main .form-checkbox-wrapper .required {
+  width: 930px;
+  margin-left: 0px;
+  text-align: justify;
+}
 
   main .field-wrapper > [id^="c"] {
     width: 100%;
@@ -329,14 +431,72 @@ main [class^="iti__arrow"] {
     margin: 0;
   }
 
-  main .form .form-checkbox-wrapper label {
-    font-weight: normal;
-    text-transform: none;
-    display: block;
-    width: 300vw;
-    font-size: 15px;
-    font-family: var(--alt-font-family);
+
+  main .contact-us-section h1 {
+    text-align: center;
+    font-size: 32px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 400;
+    color: #313131;
+
+}
+main .iti {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.button-container [class^="form-mobile"] {
+  width: calc(100% - 120px);
+  display: inline-block;
+}
+
+
+ .button-container .form-name-wrapper select {
+  font-size: 16px;
+  color:#757575;
+  font-weight: 300;
+  
+}
+
+main .form input[type="text-field"]::placeholder,
+main .form input[type="tel"]::placeholder,
+main .form input[type="email"]::placeholder {
+  font-size: 16px;
+  color:#757575;
+  font-weight: 300;
+}
+main .form textarea::placeholder {
+  font-size: 16px;
+  color:#757575;
+  font-weight: 300;
+}
+.section > .form-wrapper {
+  margin: auto;
+  text-align: left;
+}
+main .form .form-checkbox-wrapper input[type="checkbox"] + label::before {
+  margin-bottom: 70px;
+  
   }
+
+main .form .form-checkbox-wrapper label:before {
+  font-weight: normal;
+  text-transform: none;
+  display: -webkit-box;
+  width: calc(100% + 25px);
+  font-size: 15px;
+  font-family: var(--alt-font-family);
+}
+main .form .form-checkbox-wrapper label:after {
+  font-weight: normal;
+  text-transform: none;
+  display: -webkit-box;
+  width: calc(100% + 25px);
+  font-size: 15px;
+  font-family: var(--alt-font-family);
+}
+
 }
 
 input[type="text"]::first-letter {
