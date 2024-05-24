@@ -451,6 +451,7 @@ main .online-orders h1 {
 }
 
 main .background .default-content-wrapper {
+  margin:70px 0px;
   padding-left: 20px;
   margin-top: 50px;
   max-width: 1230px;
@@ -1015,6 +1016,16 @@ main .form {
     margin: auto;
   }
 
+  .carve-career-all-section > div {
+    max-width:100%;
+    margin: auto;
+  }
+
+  .carve-career > div {
+    max-width:100%;
+    margin: auto;
+  }
+
   main .section.background {
     height: 600px;
   }
@@ -1028,14 +1039,17 @@ main .form {
   }
 
   main .background .default-content-wrapper h5 {
+
+    font-size: 36px;
+    margin-top: 0;
     text-align: left;
     font-size: 48px;
     padding-top: 0;
     display: flex;
     justify-content: center;
     font-weight: 100;
-    color:#000;
-    margin-top:20px;
+    color:#313131;
+    font-weight: 400;
   }
 
   main .carve-career .default-content-wrapper h5 {
@@ -1130,6 +1144,13 @@ main .form {
   }
 
 
+  main .carve-career .default-content-wrapper h2:nth-child(1) {
+    color:#313131;
+    font-size:36px;
+    font-weight: 400;
+
+  }
+
   main .cyber-security .default-content-wrapper h2:nth-child(1) {
     padding-top: 200px;
     
@@ -1179,8 +1200,20 @@ main .form {
 
 @media (width >= 1200px) {
   main .background .default-content-wrapper h3 {
+    max-width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #313131;
+    font-weight: 300;
+    font-family: var(--alt-font-family);
+  }
+
+  main .background .default-content-wrapper h3 > a {
     max-width: 66%;
     margin: 0 auto;
+    font-size: 16px;
+    color: #313131;
+    font-weight: 300;
   }
 
   main .background p.button-container {
@@ -1414,13 +1447,16 @@ main .customer-journey-section .new-image-set > h5 {
   }
 
   main .background .default-content-wrapper h5 {
+    font-size: 32px;
+    margin-top: 0;
     font-size: 24px;
     padding-top: 0;
     display: flex;
     justify-content: center;
     font-weight: 100;
-    color:#000;
+    color:#313131;
     margin-top:20px;
+    font-family: var(--alt-font-family);
   }
 
   main .carve-career .default-content-wrapper h5 {
@@ -1435,6 +1471,18 @@ main .customer-journey-section .new-image-set > h5 {
 
     .tech-product-section h2 {
     text-align: center;
+  }
+
+  main .carve-career-all-section .default-content-wrapper h5 {
+    font-size: 32px;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    color:#313131;
+    margin-top:20px;
+    font-family: var(--heading-font-family);
   }
 
   /* main .background .default-content-wrapper h2 {
@@ -1541,10 +1589,6 @@ main .customer-journey-section .new-image-set > h5 {
     margin-left: 6px;
   }
 
-  main .carve-career-all-section a {
-    color: var(--new-text-color);
-  }
-
   main .online-orders h5 > a {
     margin-top: 31px;
     margin-bottom: -50px;
@@ -1552,8 +1596,10 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .job-description-page p a {
     display: contents;
-  }
-
+  /* .section.background a {
+    font-size: 16px;
+    padding-top: 10px;
+  } */
 main .background strong a {
   font-size: 16px;
   padding-top: 10px;
@@ -1744,7 +1790,27 @@ main .background strong a {
     font-size: 24px;
     padding: 0 20px;
     text-align: center;
+    color:#313131;
+    font-weight: 300;
+    font-family: var(--alt-font-family);
   }
+
+  main .carve-career h3 > a {
+    font-size: 16px;
+    padding: 0 20px;
+    text-align: center;
+    color:#313131;
+    font-weight: 300;
+    font-family: var(--alt-font-family);
+
+  }
+
+
+  main .carve-career-all-section h3 {
+    font-size: 20px;
+    padding: 0 20px;
+    text-align: center;
+    font-family: var(--alt-font-family);
 
   main .carve-career h3:last-child {
     font-size: 16px;
@@ -1766,6 +1832,13 @@ main .background strong a {
 
   main .disclaimer-section * p {
     text-align: justify;
+  }
+
+  main .carve-career-all-section h3 > a {
+    font-family: var(--alt-font-family);
+    color:#313131;
+    font-size:16px;
+    font-weight: 300;
   }
 
   .section.clientele-page h4 {
@@ -1869,6 +1942,36 @@ main .background strong a {
     padding-bottom: 30px;
   }
 
+  main .carve-career .default-content-wrapper {
+    padding-left: 20px;
+    margin-top: 0px;
+    max-width: 100%;
+    padding-right: 20px;
+    padding-bottom: 0px;
+  }
+
+  main .carve-career .default-content-wrapper {
+    margin: 70px 0px;
+}
+
+  main .carve-career-all-section .default-content-wrapper {
+    padding-left: 20px;
+    margin-top: 0px;
+    max-width: 100%;
+    padding-right: 20px;
+    padding-bottom: 0px;
+  }
+
+  main .carve-career-all-section .default-content-wrapper {
+    margin: 70px 0px;
+}
+
+  main .section .default-content-wrapper p {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    font-size: 15px;
+    margin-top: 0;
   
   main .carve-career .default-content-wrapper {
     padding-left: 20px;
@@ -1927,6 +2030,7 @@ main .background strong a {
     padding: 0;
   }
 
+
   main .background.carve-career {
     margin-left: 0;
     margin-top: 0;
@@ -1942,13 +2046,7 @@ main .background strong a {
     width: 100px;
   }
 
-  main .carve-career-all-section .default-content-wrapper {
-    padding-bottom: 30px;
-    margin-top: 0;
-    padding-top: 0;
-  }
-
-  .section.why-us {
+    .section.why-us {
     padding: 46px 16px 10px;
   }
 
