@@ -157,9 +157,15 @@ function createInput(fd) {
   input.setAttribute('placeholder', fd.Placeholder);
   input.setAttribute('maxlength', fd.maxLength);
 
+
   if (fd.Mandatory === 'x') {
     input.setAttribute('required', 'required');
   }
+
+  input.addEventListener('input', function() {
+    this.value = this.value.trim();
+  });
+  
   return input;
 }
 
@@ -298,3 +304,4 @@ export default async function decorate(block) {
     form.replaceWith(await createForm(form.href));
   }
 }
+
