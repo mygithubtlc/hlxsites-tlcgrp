@@ -190,20 +190,24 @@ main .carousel-buttons button:nth-child(5) {
 main .member-subscription-slide button:nth-child(3) {
   display: none;
 }
+
 main .carousel-buttons button:nth-child(3){
   display: none;
 }
+
 
 @media screen and (width <= 1366px) and (width <= 1439px){
 	main .slideshow-container {
     background-color: transparent;
     zoom:80%;
+    padding:0;
   }
 }
 
-@media (min-width: 600px) {
+@media (width >= 600px) {
   main .slideshow {
-    height: 670px;
+    /* height: 670px; */
+    min-height: 74vh;
   }
 
   main .slideshow .slideshow-overlay {
@@ -229,7 +233,7 @@ main .carousel-buttons button:nth-child(3){
   }
 }
 
-@media (max-width: 600px) {
+@media (width <= 600px) {
   main .member-subscription-slide .slideshow-overlay {
     justify-content: left;
     padding: 0 10px;
@@ -272,4 +276,72 @@ main .carousel-buttons button:nth-child(3){
     flex-shrink: 0;
     overflow-y: hidden;
   }
+
+  main .slideshow .slideshow-overlay {
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 0 10px;
+    height: 100%;
+    width: 100%;
+    color: white;
+    background: unset;
+    background: linear-gradient(180deg, transparent 0%, var(--overlay-background-color) 100%);
+  }
+	
+  main .slideshow .slideshow-overlay h1,
+  main .slideshow .slideshow-overlay h2 {
+  font-size: 24px;
+  text-align: center;
+  overflow-y: hidden;
+  margin-top: 0;
+}
+
+main .carousel-buttons {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 40px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+
+main .slideshow-container {
+  background-color: transparent;
+  zoom:90%;
+  padding:0;
+}
+
+/* main .slideshow img:nth-child(1) {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: -112vw;
+  object-fit: cover;
+  width:242vw;
+}
+main .slideshow img:nth-child(2) {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: -112vw;
+  object-fit: cover;
+  width:242vw;
+} */
+
+main .slideshow img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: right;
+}
+
+
+
 }
