@@ -890,6 +890,14 @@ main .history-vision-section .cards p em:nth-child(1) {
   /* .cards > ul > li:nth-child(1) img {
     object-position: right;
 }  */
+
+.meet-our-team-desktop-view ul > li:first-child .cards-card-body {
+  position: absolute;
+  bottom: 60px;
+  margin-left: 0px;
+  right:0px;
+}
+
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -900,10 +908,14 @@ main .history-vision-section .cards p em:nth-child(1) {
   height: 110vh;
   overflow: auto;
 }
+
+.meet-our-team-desktop-view .cards > ul{
+  height: auto;
+}
 .cards .cards-card-image img {
   object-fit:fill;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   object-position: center top;
 }
 
