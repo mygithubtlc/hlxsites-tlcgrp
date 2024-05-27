@@ -176,6 +176,41 @@ main .history-vision-section .cards-wrapper{
   right:30px;
 }
 
+/* hover effect */
+
+.fragment-container p a {
+  transition: color 0.3s ease; 
+}
+
+
+.fragment-container p a:hover {
+  color: #000;
+}
+
+.fragment-container p .icon-arrow-web svg
+ {
+  transition: transform 0.3s ease;
+}
+
+.fragment-container p:hover .icon-arrow-web svg {
+  transform: translateX(5px); 
+}
+.world-class-cutomer-loyality .cards-card-body p  a{
+  transition: color 0.3s ease;
+}
+.world-class-cutomer-loyality .cards-card-body p a:hover {
+  color:white;
+}
+.world-class-cutomer-loyality  p .icon-arrow-white svg
+ {
+  transition: transform 0.3s ease;
+}
+.world-class-cutomer-loyality  p:hover .icon-arrow-white svg {
+  transform: translateX(5px); 
+}
+  /* hover effect end */
+
+
 
 @media (width >= 600px) {
 
@@ -238,36 +273,6 @@ main .history-vision-section .cards-wrapper{
   }
 }
 
-/* @media only screen and (width >= 1400px) and (width <= 3840px){
-  .cards > ul > li:first-child .cards-card-body {
-    position: absolute;
-    bottom: 40px;
-    left: 120px;
-    right:0;
-  }
-
-  
-} */
-
-/* @media only screen and (width >= 900px){
-
-
-  .cards > ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 0;
-    height: 1200px;
-}
-
-  
-} */
-
-
-
-
 @media (width >= 900px) {
   
   main .section.cards-container {
@@ -311,6 +316,7 @@ main .history-vision-section .cards-wrapper{
     font-family: var(--alt-font-family);
   }
 
+  
   .meet-our-team-desktop-another-section ul li {
     height: 500px;
   }

@@ -1127,6 +1127,7 @@ main .form {
 
   main .fragment-container .default-content-wrapper p:nth-child(3) {
   margin-left: 50px;
+  display: inline;
   }
 
   main .highest-standard-text .default-content-wrapper h2:nth-child(1) {

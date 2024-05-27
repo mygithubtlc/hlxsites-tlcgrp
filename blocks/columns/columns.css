@@ -134,6 +134,25 @@
   font-weight: 300;
 }
 
+/* hover effect */
+
+.our-capabilities .button-container a {
+  transition: color 0.3s ease; 
+}
+
+.our-capabilities .button-container a:hover{
+  color: #000;
+}
+
+.our-capabilities .icon-arrow-web svg {
+  transition: transform 0.3s ease;
+}
+
+.our-capabilities a:hover .icon-arrow-web svg {
+  transform: translateX(5px); 
+}
+
+/* end hover effect */
 @media (min-width: 600px) {
   .columns > div > div h3 {
     font-size: 28px;
@@ -305,6 +324,10 @@
   .columns span .icon {
     display: block;
   }
+
+  /* hover effect */
+  
+  /* end hover effect */
 
   .columns > div > div h4 {
     font-size: 14px;
