@@ -33,11 +33,21 @@
   font-family: var(--alt-font-family);
 }
 
+.fragment-container p a {
+  transition: color 0.3s ease; 
+}
+
+
+
 main .cards-container .default-content-wrapper a {
   all: unset;
   cursor: pointer;
   font-size: 15px;
   font-family: var(--alt-font-family);
+}
+
+.world-class-cutomer-loyality .cards-card-body p  a{
+  transition: color 0.3s ease;
 }
 
 .cards > ul > li a:any-link {
@@ -120,8 +130,7 @@ main .cards-container .default-content-wrapper h3 {
 
 .cards.fifty-fifty > ul > li {
   padding-top: 50px;
-  /* padding-bottom: 50px; */
-}
+	}
 
 main .section.cards-container {
   padding: 0;
@@ -137,8 +146,6 @@ main .cards-container .default-content-wrapper em {
   font-size: 1.3em;
   font-style: normal;
 }
-
-
 
 main .cards-container .default-content-wrapper p {
   place-content: center center;
@@ -159,6 +166,15 @@ main .history-vision-section .cards-wrapper{
   height: 700px;
 }
 
+.fragment-container p strong a:hover {
+  color: #000;
+}
+
+.world-class-cutomer-loyality .cards-card-body p a:hover {
+  color:white;
+}
+
+
 .cards:not(.review) > ul > li:nth-child(even),
 .cards:not(.review) > ul > li:nth-child(even) a:any-link {
   color: var(--text-color);
@@ -178,42 +194,29 @@ main .history-vision-section .cards-wrapper{
 
 /* hover effect */
 
-.fragment-container p a {
-  transition: color 0.3s ease; 
-}
-
-
-.fragment-container p strong a:hover {
-  color: #000;
-}
 
 .fragment-container p .icon-arrow-web svg
  {
   transition: transform 0.3s ease;
 }
 
+.world-class-cutomer-loyality  p .icon-arrow-white svg {
+  transition: transform 0.3s ease;
+}
+
 .fragment-container p:hover .icon-arrow-web svg {
   transform: translateX(5px); 
 }
-.world-class-cutomer-loyality .cards-card-body p  a{
-  transition: color 0.3s ease;
-}
-.world-class-cutomer-loyality .cards-card-body p a:hover {
-  color:white;
-}
-.world-class-cutomer-loyality  p .icon-arrow-white svg
- {
-  transition: transform 0.3s ease;
-}
+
 .world-class-cutomer-loyality  p:hover .icon-arrow-white svg {
   transform: translateX(5px); 
 }
+
   /* hover effect end */
 
 
 
 @media (width >= 600px) {
-
   main .fragment-container p {
     margin-bottom: 25px;
 }
@@ -274,7 +277,6 @@ main .history-vision-section .cards-wrapper{
 }
 
 @media (width >= 900px) {
-  
   main .section.cards-container {
     max-width: 100%;
     height: 100%;
@@ -622,8 +624,6 @@ main .history-vision-section .cards p em:nth-child(1) {
   }
 
   .cards > ul > li:nth-child(1) img {
-    /* object-position: top; */
-    /* object-position: -88px 0; */
     object-fit: cover;
 }
 
@@ -885,23 +885,20 @@ main .history-vision-section .cards p em:nth-child(1) {
 }
 
 
- @media (min-width: 1400px){
- 
+ @media (width >= 1400px){
    .cards > ul > li:first-child .cards-card-body {
     position: absolute;
     bottom: 14vh;
     margin-left: 5vw;
     right:7vh;
   }
-  /* .cards > ul > li:nth-child(1) img {
-    object-position: right;
-}  */
+
 
 .meet-our-team-desktop-view ul > li:first-child .cards-card-body {
   position: absolute;
   bottom: 60px;
-  margin-left: 0px;
-  right:0px;
+  margin-left: 0;
+  right:0;
 }
 
 .cards > ul {
@@ -918,10 +915,10 @@ main .history-vision-section .cards p em:nth-child(1) {
 .meet-our-team-desktop-view .cards > ul{
   height: auto;
 }
+
 .cards .cards-card-image img {
   object-fit:fill;
   width: 100%;
-  /* height: 100%; */
   object-position: center top;
 }
 
