@@ -183,7 +183,7 @@ main .history-vision-section .cards-wrapper{
 }
 
 
-.fragment-container p a:hover {
+.fragment-container p strong a:hover {
   color: #000;
 }
 
