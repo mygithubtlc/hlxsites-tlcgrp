@@ -36,9 +36,13 @@
   
 }
 
+.our-capabilities  h2{
+  padding-top: 50px;
+}
+
 .section.columns-container h2 {
   display: flex;
-  justify-content: center;
+  place-content: center center;
   font-size: 48px;
   margin-top: -40px;
   align-content: center;
@@ -55,16 +59,16 @@
   cursor: pointer;
 }
 
-.our-capabilities .new-image-set p  a {
-  font-size: 16px;
-  font-weight: 500;
-  color:#666666;
-  font-family: var(--alt-font-family);
-}
-
 .columns .new-image-set a {
   font-size: 15px;
   font-weight: bold;
+  font-family: var(--alt-font-family);
+}
+
+.our-capabilities .new-image-set p  a {
+  font-size: 16px;
+  font-weight: 500;
+  color:#666;
   font-family: var(--alt-font-family);
 }
 
@@ -108,9 +112,7 @@
 /* h2#our-capabilities {
   margin-top: 30px;
 } */
-.our-capabilities  h2{
-  padding-top: 50px;
-}
+
 
 .image-set ul li {
   /* list-style: none; */
@@ -130,11 +132,11 @@
 
 .our-capabilities p{
   font-size:16px;
-  color:#777777;
+  color:#777;
   font-weight: 300;
 }
 
-@media (min-width: 600px) {
+@media (width >= 600px) {
   .columns > div > div h3 {
     font-size: 28px;
     font-weight: 500;
@@ -159,7 +161,7 @@
   }
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .columns > div {
     display: flex;
     flex-direction: unset;
@@ -217,7 +219,7 @@
 
 
 
-@media (max-width: 600px) {
+@media (width <= 600px) {
   .new-image-set .icon-connections,
   .new-image-set .icon-mobile,
   .new-image-set .icon-partnership,
@@ -263,9 +265,15 @@
     font-size: 28px;
   }
 
+	  .our-capabilities h2 {
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+	
+
   .section.columns-container h2 {
     display: flex;
-    justify-content: center;
+     place-content: center center;
     margin-top: 0;
     color: var(--text-color);
     align-content: center;
@@ -318,7 +326,7 @@
   }
 
   .columns .new-image-set h3 > span {
-    margin: -3px 0px 10px 0px;
+    margin: -3px 0 10px;
   }
 
   .columns > div > div p em {
@@ -438,25 +446,20 @@
   .columns > div > div {
   border-top: 1px solid #cecece;
   }
+
   .our-capabilities .default-content-wrapper {
     border:none;
+		border-top: 1px solid #DCDCDC;
+    padding:51px 0 0;
   }
-  .our-capabilities h2 {
-    padding-top: 0px;
-    padding-bottom: 30px;
-  }
+
   .our-capabilities .columns > div > div p em {
-    font-size: 16px;
-    font-style: normal;
-    color:#777777;
+    color:#777;
     font-weight: 300;
     font-size:16px;
     line-height: 23px;
   }
-  .our-capabilities .default-content-wrapper {
-    border-top: 1px solid #DCDCDC;
-    padding:51px 0px 0px 0px;
-  }
+
   .columns > div > div:nth-child(1) {
     border:none;
   }
