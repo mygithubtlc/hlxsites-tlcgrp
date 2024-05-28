@@ -295,9 +295,8 @@
   }
 
   .columns .new-image-set h3 {
-    display: grid;
-    text-align: center;
-    display: block;
+    display: flex;
+    align-items: center;
     text-align: left;
     font-size: 22px;
   }
@@ -319,7 +318,7 @@
   }
 
   .columns .new-image-set h3 > span {
-    margin: 0px 0px 10px 0px;
+    margin: -3px 0px 10px 0px;
   }
 
   .columns > div > div p em {
