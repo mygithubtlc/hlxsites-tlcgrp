@@ -2488,6 +2488,11 @@ main .section.cyber-security > picture img {
   margin-left:0px;
 }
 
+.general-terms-tlc-saas p:nth-child(n + 6)  {
+  text-indent: 0px; 
+  margin-left:0px;
+}
+
 
   }
 
