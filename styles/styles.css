@@ -1915,7 +1915,8 @@ main .customer-journey-section .new-image-set > h5 {
     font-size: 22px;
   }
 
-	.privacy-policy-section h2 {
+	.privacy-policy-section h2,
+  .general-terms-tlc-saas h2 {
     font-size: 22px;
   }
 
@@ -1930,7 +1931,8 @@ main .customer-journey-section .new-image-set > h5 {
     color:#fff;
   }
 
-  .privacy-policy-section * p {
+  .privacy-policy-section * p,
+  .general-terms-tlc-saas * p {
     font-size: 14px;
     text-align: left;
   }
@@ -2114,6 +2116,12 @@ main .background strong a {
     text-align: left;
   }
 
+  .general-terms-tlc-saas * ul li,
+  .general-terms-tlc-saas * ol li {
+    font-size: 14px;
+    text-align: left;
+  }
+
   main .job-description-page ol li {
     font-size: 14px;
   }
@@ -2157,7 +2165,8 @@ main .background strong a {
     margin-bottom: 0;
   }
 
-  main .privacy-policy-section > ul {
+  main .privacy-policy-section > ul,
+  main .general-terms-tlc-saas > ul {
     padding: 0;
     margin: 0;
   }
