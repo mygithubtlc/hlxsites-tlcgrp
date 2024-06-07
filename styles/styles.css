@@ -551,6 +551,270 @@ main .customer-journey-section h4 {
   text-align: justify;
 }
 
+.privacy-policy-section p:nth-child(n + 6)  {
+  text-indent: -25px; 
+  margin-left:50px;
+}
+
+.privacy-policy-section p:nth-child(12),
+.privacy-policy-section p:nth-child(13),
+.privacy-policy-section p:nth-child(14)  {
+  text-indent: 3px; 
+}
+
+.privacy-policy-section p:nth-child(32),
+.privacy-policy-section p:nth-child(33)  {
+  text-indent: -20px; 
+  margin-left:75px;
+}
+
+.privacy-policy-section p:nth-child(35),
+.privacy-policy-section p:nth-child(36),
+.privacy-policy-section p:nth-child(37),
+.privacy-policy-section p:nth-child(38),
+.privacy-policy-section p:nth-child(39),
+.privacy-policy-section p:nth-child(40),
+.privacy-policy-section p:nth-child(41),
+.privacy-policy-section p:nth-child(42),
+.privacy-policy-section p:nth-child(43),
+.privacy-policy-section p:nth-child(44),
+.privacy-policy-section p:nth-child(45),
+.privacy-policy-section p:nth-child(46)  {
+  text-indent: -20px; 
+  margin-left:70px;
+}
+
+.privacy-policy-section p:nth-child(51),
+.privacy-policy-section p:nth-child(52) {
+  text-indent: 5px; 
+  
+}
+
+.privacy-policy-section p:nth-child(54),
+.privacy-policy-section p:nth-child(55),
+.privacy-policy-section p:nth-child(56) {
+  text-indent: -41px; 
+  margin-left:100px;
+  
+}
+
+.privacy-policy-section p:nth-child(60),
+.privacy-policy-section p:nth-child(61),
+.privacy-policy-section p:nth-child(62),
+.privacy-policy-section p:nth-child(63),
+.privacy-policy-section p:nth-child(64),
+.privacy-policy-section p:nth-child(65),
+.privacy-policy-section p:nth-child(66) {
+  text-indent: -30px; 
+  margin-left:80px;
+  
+}
+
+.privacy-policy-section p:nth-child(73){
+  text-indent: -30px; 
+  margin-left:80px;
+}
+.privacy-policy-section p:nth-child(74),
+.privacy-policy-section p:nth-child(75),
+.privacy-policy-section p:nth-child(76) {
+  text-indent: -30px; 
+  margin-left:100px;
+  
+}
+.privacy-policy-section p:nth-child(77){
+  text-indent: -30px; 
+  margin-left:80px;
+}
+
+.privacy-policy-section p:nth-child(82),
+.privacy-policy-section p:nth-child(83),
+.privacy-policy-section p:nth-child(84),
+.privacy-policy-section p:nth-child(85),
+.privacy-policy-section p:nth-child(86){
+  text-indent: -30px; 
+  margin-left:80px;
+}
+
+.privacy-policy-section p:nth-child(93),
+.privacy-policy-section p:nth-child(94),
+.privacy-policy-section p:nth-child(95),
+.privacy-policy-section p:nth-child(96),
+.privacy-policy-section p:nth-child(97),
+.privacy-policy-section p:nth-child(98),
+.privacy-policy-section p:nth-child(99),
+.privacy-policy-section p:nth-child(100){
+  text-indent: -30px; 
+  margin-left:90px;
+}
+
+
+
+.privacy-policy-section p:nth-child(108),
+.privacy-policy-section p:nth-child(109),
+.privacy-policy-section p:nth-child(110),
+.privacy-policy-section p:nth-child(111),
+.privacy-policy-section p:nth-child(112),
+.privacy-policy-section p:nth-child(113),
+.privacy-policy-section p:nth-child(114) {
+  text-indent: -25px; 
+  margin-left:80px;
+}
+
+.privacy-policy-section p:nth-child(125),
+.privacy-policy-section p:nth-child(126),
+.privacy-policy-section p:nth-child(127),
+.privacy-policy-section p:nth-child(128),
+.privacy-policy-section p:nth-child(129),
+.privacy-policy-section p:nth-child(130) {
+  text-indent: -25px; 
+  margin-left:85px;
+}
+
+.privacy-policy-section p:nth-child(132),
+.privacy-policy-section p:nth-child(133){
+  text-indent: -25px; 
+  margin-left:85px;
+}
+
+.privacy-policy-section p:nth-child(134),
+.privacy-policy-section p:nth-child(135){
+  text-indent: -25px; 
+  margin-left:110px;
+}
+
+
+.privacy-policy-section p:nth-child(139),
+.privacy-policy-section p:nth-child(140),
+.privacy-policy-section p:nth-child(141),
+.privacy-policy-section p:nth-child(142),
+.privacy-policy-section p:nth-child(143),
+.privacy-policy-section p:nth-child(144),
+.privacy-policy-section p:nth-child(145),
+.privacy-policy-section p:nth-child(146),
+.privacy-policy-section p:nth-child(147),
+.privacy-policy-section p:nth-child(148){
+  text-indent: -50px; 
+  margin-left:115px;
+}
+
+.privacy-policy-section p:nth-child(163),
+.privacy-policy-section p:nth-child(164),
+.privacy-policy-section p:nth-child(165),
+.privacy-policy-section p:nth-child(166){
+  text-indent: -45px; 
+  margin-left:100px;
+}
+.privacy-policy-section p:nth-child(168),
+.privacy-policy-section p:nth-child(169),
+.privacy-policy-section p:nth-child(170),
+.privacy-policy-section p:nth-child(171),
+.privacy-policy-section p:nth-child(172),
+.privacy-policy-section p:nth-child(173),
+.privacy-policy-section p:nth-child(174),
+.privacy-policy-section p:nth-child(175){
+  text-indent: -45px; 
+  margin-left:100px;
+}
+.privacy-policy-section p:nth-child(178){
+  text-indent: -50px; 
+  margin-left:50px;
+}
+
+.privacy-policy-section p:nth-child(179),
+.privacy-policy-section p:nth-child(180),
+.privacy-policy-section p:nth-child(181),
+.privacy-policy-section p:nth-child(182){
+  text-indent: -50px; 
+  margin-left:90px;
+}
+
+.privacy-policy-section p:nth-child(183),
+.privacy-policy-section p:nth-child(184),
+.privacy-policy-section p:nth-child(185),
+.privacy-policy-section p:nth-child(186){
+  text-indent: -20px; 
+  margin-left:110px;
+}
+
+.privacy-policy-section p:nth-child(187),
+.privacy-policy-section p:nth-child(188),
+.privacy-policy-section p:nth-child(180),
+.privacy-policy-section p:nth-child(181),
+.privacy-policy-section p:nth-child(182){
+  text-indent: -50px; 
+  margin-left:90px;
+}
+
+.privacy-policy-section p:nth-child(189){
+  text-indent: -50px; 
+  margin-left:50px;
+}
+
+.privacy-policy-section p:nth-child(191),
+.privacy-policy-section p:nth-child(194),
+.privacy-policy-section p:nth-child(197),
+.privacy-policy-section p:nth-child(203),
+.privacy-policy-section p:nth-child(207),
+.privacy-policy-section p:nth-child(208),
+.privacy-policy-section p:nth-child(209),
+.privacy-policy-section p:nth-child(210),
+.privacy-policy-section p:nth-child(213),
+.privacy-policy-section p:nth-child(214){
+  text-indent: -40px; 
+  margin-left:40px;
+}
+
+.privacy-policy-section p:nth-child(192),
+.privacy-policy-section p:nth-child(193),
+.privacy-policy-section p:nth-child(195),
+.privacy-policy-section p:nth-child(196),
+.privacy-policy-section p:nth-child(198),
+.privacy-policy-section p:nth-child(199),
+.privacy-policy-section p:nth-child(200),
+.privacy-policy-section p:nth-child(201),
+.privacy-policy-section p:nth-child(202),
+.privacy-policy-section p:nth-child(204),
+.privacy-policy-section p:nth-child(205){
+  text-indent: -20px; 
+  margin-left:60px;
+}
+.privacy-policy-section p:nth-child(211),
+.privacy-policy-section p:nth-child(212),
+.privacy-policy-section p:nth-child(215),
+.privacy-policy-section p:nth-child(216),
+.privacy-policy-section p:nth-child(217),
+.privacy-policy-section p:nth-child(218),
+.privacy-policy-section p:nth-child(219){
+  text-indent: -20px; 
+  margin-left:70px;
+}
+
+.privacy-policy-section p:nth-child(215),
+.privacy-policy-section p:nth-child(212){
+  text-indent: -20px; 
+  margin-left:70px;
+}
+
+.privacy-policy-section p:nth-child(221),
+.privacy-policy-section p:nth-child(222),
+.privacy-policy-section p:nth-child(226),
+.privacy-policy-section p:nth-child(227),
+.privacy-policy-section p:nth-child(232),
+.privacy-policy-section p:nth-child(233),
+.privacy-policy-section p:nth-child(234){
+  text-indent: -25px; 
+  margin-left:90px;
+}
+
+.privacy-policy-section p:nth-child(238){
+  text-indent: 0px; 
+  margin-left:40px;
+}
+
+
+
+
+
 .payment-term-section p {
   font-size: 15px;
 }
@@ -2057,6 +2321,18 @@ main .section.cyber-security > picture img {
   object-position: 0px 0;
 }
 
+.privacy-policy-section p:nth-child(n + 6)  {
+  text-indent: -25px; 
+  margin-left:50px;
+}
+
+
+
+
+ .privacy-policy-section p:nth-child(n + 6) {
+  text-indent: 0px;
+  margin-left: 0px;
+}
 
   }
 
