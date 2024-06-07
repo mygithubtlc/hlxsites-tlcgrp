@@ -559,7 +559,7 @@ main .customer-journey-section h4 {
 .privacy-policy-section p:nth-child(12),
 .privacy-policy-section p:nth-child(13),
 .privacy-policy-section p:nth-child(14)  {
-  text-indent: 3px; 
+  text-indent: 3px!important;
 }
 
 .privacy-policy-section p:nth-child(32),
