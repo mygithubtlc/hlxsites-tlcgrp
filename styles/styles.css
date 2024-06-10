@@ -1083,6 +1083,10 @@ main .background .carve-career h3 {
   text-indent: -25px; 
   margin-left:50px;
 }
+.general-terms-tlc-saas p:nth-child(27){
+  text-indent: 0px; 
+  margin-left:0px;
+}
 .general-terms-tlc-saas p:nth-child(29),
 .general-terms-tlc-saas p:nth-child(30),
 .general-terms-tlc-saas p:nth-child(31),
