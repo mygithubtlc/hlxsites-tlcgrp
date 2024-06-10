@@ -1086,7 +1086,7 @@ main .background .carve-career h3 {
   margin-left:50px;
 }
 .general-terms-tlc-saas p:nth-child(5){
-  margin-left: 25px;
+  margin-left: 25px!important;
 }
 .general-terms-tlc-saas p:nth-child(27){
   text-indent: 0px; 
