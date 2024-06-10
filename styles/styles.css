@@ -557,6 +557,10 @@ main .customer-journey-section h4 {
   margin-left:50px;
 }
 
+.privacy-policy-section p:nth-child(5){
+  margin-left:25x;
+}
+
 .privacy-policy-section p:nth-child(12),
 .privacy-policy-section p:nth-child(13),
 .privacy-policy-section p:nth-child(14)  {
