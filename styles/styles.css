@@ -557,7 +557,9 @@ main .customer-journey-section h4 {
   margin-left:50px;
 }
 
-
+.privacy-policy-section p:nth-child(5){
+  margin-left: 25px!important;
+}
 
 .privacy-policy-section p:nth-child(12),
 .privacy-policy-section p:nth-child(13),
@@ -1085,9 +1087,7 @@ main .background .carve-career h3 {
   text-indent: -25px; 
   margin-left:50px;
 }
-.general-terms-tlc-saas p:nth-child(5){
-  margin-left: 25px!important;
-}
+
 .general-terms-tlc-saas p:nth-child(27){
   text-indent: 0px; 
   margin-left:0px;
