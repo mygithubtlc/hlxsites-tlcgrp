@@ -1645,13 +1645,6 @@ main .customer-journey-section .new-image-set > h5 {
     top: -42px;
   } */
 
-  main .job-description-page p:last-child {
-    text-align: center;
-  }
-
-  main .job-description-page p:nth-child(3) {
-    justify-content: center;
-}
 
 	  main .history-vision-section h5 {
     padding: 6px 30px 12px;
@@ -2295,6 +2288,14 @@ main .section.cyber-security > picture img {
   text-indent: 0px;
   margin-left:0px;
 
+}
+
+main .job-description-page p:last-child {
+  text-align: center;
+}
+
+main .job-description-page p:nth-child(3) {
+  justify-content: center;
 }
 
 
