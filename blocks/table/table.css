@@ -177,7 +177,7 @@ main .plan-list-delivery tr td:first-child svg {
   padding: 2px;
   padding-bottom: 0;
   margin-bottom: 20px;
-  margin-left: -2px;
+  margin-left: -8px;
 }
 
 .delivery-feature-list .table table tbody tr:nth-child(6),
