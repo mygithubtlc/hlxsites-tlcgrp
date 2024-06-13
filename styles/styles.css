@@ -190,6 +190,14 @@ main .member-subscriptions h5 > a {
   text-decoration: underline;
 }
 
+.job-description-page a:any-link {
+  font-size: 15px;
+}
+
+main .why-us a:hover{
+  background-color:#38673E;
+}
+
 main .history-vision-section h5 {
   text-align: center;
   font-size: 24px;
@@ -335,9 +343,7 @@ main .our-capabilities h3  .icon svg {
   margin-right: 12px;
 }
 
-.job-description-page a:any-link {
-  font-size: 15px;
-}
+
 
 main .background .button-container a {
   all: unset;
@@ -1127,6 +1133,7 @@ main .form {
 
   main .fragment-container .default-content-wrapper p:nth-child(3) {
   margin-left: 50px;
+  display: inline;
   }
 
   main .highest-standard-text .default-content-wrapper h2:nth-child(1) {
@@ -2054,7 +2061,7 @@ main .section.cyber-security > picture img {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  object-position: 0px 0;
+  object-position: 0 0;
 }
 
 
