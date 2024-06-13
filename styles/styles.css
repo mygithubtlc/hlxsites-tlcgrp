@@ -2292,6 +2292,7 @@ main .section.cyber-security > picture img {
 
 main .job-description-page p:last-child {
   text-align: center;
+  display: block;
 }
 
 main .job-description-page p:nth-child(3) {
