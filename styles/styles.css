@@ -1070,6 +1070,10 @@ main .form {
     padding-bottom: 20px;
   }
 
+  main .job-description-page p:last-child {
+    text-align: center;
+}
+
   main .address-container{
     padding:0 32px;
   }
