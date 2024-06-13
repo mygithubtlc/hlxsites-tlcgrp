@@ -552,10 +552,209 @@ main .customer-journey-section h4 {
   margin: 0;
 }
 
-.privacy-policy-section * p {
+.privacy-policy-section * p,
+.general-terms-tlc-saas * p {
   font-size: 15px;
   text-align: justify;
 }
+
+.privacy-policy-section h4{
+  margin-left: 5px;
+  font-size: 15px;  
+}
+
+.privacy-policy-section p:nth-of-type(1n + 3):nth-of-type(-n + 8),
+.privacy-policy-section p:nth-of-type(1n + 11):nth-of-type(-n + 28) {
+  text-indent: -30px;
+  margin-left:85px;
+}
+
+.privacy-policy-section p:nth-of-type(1n + 9):nth-of-type(-n + 11),
+.privacy-policy-section p:nth-of-type(1n + 29):nth-of-type(-n + 30) {
+  text-indent: -30px;
+  margin-left:115px;
+}
+
+.privacy-policy-section p:nth-of-type(1n + 31):nth-of-type(-n + 31),
+.privacy-policy-section p:nth-of-type(1n + 43):nth-of-type(-n + 43) {
+  text-indent: -30px;
+  margin-left:80px;
+}
+.privacy-policy-section p:nth-of-type(1n + 32):nth-of-type(-n + 42) {
+  text-indent: -24px;
+  margin-left:95px;
+}
+
+.privacy-policy-section p:nth-of-type(1n + 44):nth-of-type(-n + 45),
+.privacy-policy-section p:nth-of-type(1n + 48):nth-of-type(-n + 48),
+.privacy-policy-section p:nth-of-type(1n + 52):nth-of-type(-n + 52),
+.privacy-policy-section p:nth-of-type(1n + 53):nth-of-type(-n + 53),
+.privacy-policy-section p:nth-of-type(1n + 61):nth-of-type(-n + 66),
+.privacy-policy-section p:nth-of-type(1n + 67):nth-of-type(-n + 67),
+.privacy-policy-section p:nth-of-type(1n + 72):nth-of-type(-n + 72),
+.privacy-policy-section p:nth-of-type(1n + 73):nth-of-type(-n + 74),
+.privacy-policy-section p:nth-of-type(1n + 80):nth-of-type(-n + 85),
+.privacy-policy-section p:nth-of-type(1n + 95):nth-of-type(-n + 97),
+.privacy-policy-section p:nth-of-type(1n + 105):nth-of-type(-n + 114),
+.privacy-policy-section p:nth-of-type(1n + 121):nth-of-type(-n + 121),
+.privacy-policy-section p:nth-of-type(1n + 126):nth-of-type(-n + 128),
+.privacy-policy-section p:nth-of-type(1n + 139):nth-of-type(-n + 139),
+.privacy-policy-section p:nth-of-type(1n + 140):nth-of-type(-n + 150),
+.privacy-policy-section p:nth-of-type(1n + 155):nth-of-type(-n + 155),
+.privacy-policy-section p:nth-of-type(1n + 164):nth-of-type(-n + 164),
+.privacy-policy-section p:nth-of-type(1n + 165):nth-of-type(-n + 165),
+.privacy-policy-section p:nth-of-type(1n + 176):nth-of-type(-n + 176),
+.privacy-policy-section p:nth-of-type(1n + 177):nth-of-type(-n + 177),
+.privacy-policy-section p:nth-of-type(1n + 180):nth-of-type(-n + 180),
+.privacy-policy-section p:nth-of-type(1n + 183):nth-of-type(-n + 183),
+.privacy-policy-section p:nth-of-type(1n + 189):nth-of-type(-n + 189),
+.privacy-policy-section p:nth-of-type(1n + 192):nth-of-type(-n + 195),
+.privacy-policy-section p:nth-of-type(1n + 198):nth-of-type(-n + 199),
+.privacy-policy-section p:nth-of-type(1n + 205):nth-of-type(-n + 205),
+.privacy-policy-section p:nth-of-type(1n + 208):nth-of-type(-n + 210),
+.privacy-policy-section p:nth-of-type(1n + 213):nth-of-type(-n + 215),
+.privacy-policy-section p:nth-of-type(1n + 219):nth-of-type(-n + 220),
+.privacy-policy-section p:nth-of-type(1n + 222):nth-of-type(-n + 234) {
+  text-indent: -33px;
+  margin-left:71px;
+}
+
+.privacy-policy-section p:nth-of-type(1n + 46):nth-of-type(-n + 47),
+.privacy-policy-section p:nth-of-type(1n + 49):nth-of-type(-n + 51),
+.privacy-policy-section p:nth-of-type(1n + 54):nth-of-type(-n + 60),
+.privacy-policy-section p:nth-of-type(1n + 68):nth-of-type(-n + 71),
+.privacy-policy-section p:nth-of-type(1n + 75):nth-of-type(-n + 79),
+.privacy-policy-section p:nth-of-type(1n + 86):nth-of-type(-n + 93),
+.privacy-policy-section p:nth-of-type(1n + 129):nth-of-type(-n + 138),
+.privacy-policy-section p:nth-of-type(1n + 151):nth-of-type(-n + 154),
+.privacy-policy-section p:nth-of-type(1n + 156):nth-of-type(-n + 163),
+.privacy-policy-section p:nth-of-type(1n + 166):nth-of-type(-n + 169),
+.privacy-policy-section p:nth-of-type(1n + 174):nth-of-type(-n + 175),
+.privacy-policy-section p:nth-of-type(1n + 178):nth-of-type(-n + 179){
+  text-indent: -45px;
+  margin-left:120px;
+}
+
+.privacy-policy-section p:nth-of-type(1n + 181):nth-of-type(-n + 182),
+.privacy-policy-section p:nth-of-type(1n + 184):nth-of-type(-n + 188),
+.privacy-policy-section p:nth-of-type(1n + 190):nth-of-type(-n + 191),
+.privacy-policy-section p:nth-of-type(1n + 196):nth-of-type(-n + 197),
+.privacy-policy-section p:nth-of-type(1n + 200):nth-of-type(-n + 204),
+.privacy-policy-section p:nth-of-type(1n + 206):nth-of-type(-n + 207),
+.privacy-policy-section p:nth-of-type(1n + 211):nth-of-type(-n + 212),
+.privacy-policy-section p:nth-of-type(1n + 216):nth-of-type(-n + 218) {
+  text-indent: -21px;
+  margin-left:91px;
+}
+.privacy-policy-section p:nth-of-type(1n + 94):nth-of-type(-n + 94),
+.privacy-policy-section p:nth-of-type(1n + 221):nth-of-type(-n + 221){
+  text-indent: -2px;
+  margin-left:41px;
+}
+
+.privacy-policy-section p:nth-of-type(1n + 98):nth-of-type(-n + 104),
+.privacy-policy-section p:nth-of-type(1n + 115):nth-of-type(-n + 120),
+.privacy-policy-section p:nth-of-type(1n + 122):nth-of-type(-n + 123) {
+  text-indent: -23px;
+  margin-left:90px;
+}
+.privacy-policy-section p:nth-of-type(1n + 124):nth-of-type(-n + 125) {
+  text-indent: -23px;
+  margin-left:110px;
+}
+
+.privacy-policy-section p:nth-of-type(1n + 170):nth-of-type(-n + 173){
+  text-indent: -23px;
+  margin-left:141px;
+}
+
+
+.general-terms-tlc-saas  p:nth-of-type(1n + 3):nth-of-type(-n + 3),
+.general-terms-tlc-saas  p:nth-of-type(1n + 25):nth-of-type(-n + 25),
+.general-terms-tlc-saas  p:nth-of-type(1n + 39):nth-of-type(-n + 40),
+.general-terms-tlc-saas  p:nth-of-type(1n + 44):nth-of-type(-n + 44),
+.general-terms-tlc-saas  p:nth-of-type(1n + 44):nth-of-type(-n + 45),
+.general-terms-tlc-saas  p:nth-of-type(1n + 53):nth-of-type(-n + 61),
+.general-terms-tlc-saas  p:nth-of-type(1n + 66):nth-of-type(-n + 70),
+.general-terms-tlc-saas  p:nth-of-type(1n + 79):nth-of-type(-n + 80),
+.general-terms-tlc-saas  p:nth-of-type(1n + 85):nth-of-type(-n + 85),
+.general-terms-tlc-saas  p:nth-of-type(1n + 93):nth-of-type(-n + 101),
+.general-terms-tlc-saas  p:nth-of-type(1n + 108):nth-of-type(-n + 112),
+.general-terms-tlc-saas  p:nth-of-type(1n + 123):nth-of-type(-n + 128),
+.general-terms-tlc-saas  p:nth-of-type(1n + 131):nth-of-type(-n + 136),
+.general-terms-tlc-saas  p:nth-of-type(1n + 141):nth-of-type(-n + 141),
+.general-terms-tlc-saas  p:nth-of-type(1n + 150):nth-of-type(-n + 151),
+.general-terms-tlc-saas  p:nth-of-type(1n + 162):nth-of-type(-n + 163),
+.general-terms-tlc-saas  p:nth-of-type(1n + 166):nth-of-type(-n + 167),
+.general-terms-tlc-saas  p:nth-of-type(1n + 173):nth-of-type(-n + 179),
+.general-terms-tlc-saas  p:nth-of-type(1n + 185):nth-of-type(-n + 190),
+.general-terms-tlc-saas  p:nth-of-type(1n + 194):nth-of-type(-n + 194),
+.general-terms-tlc-saas  p:nth-of-type(1n + 198):nth-of-type(-n + 199),
+.general-terms-tlc-saas  p:nth-of-type(1n + 201):nth-of-type(-n + 213){
+  text-indent: -34px; 
+  margin-left:65px;
+  text-align: left;
+  
+}
+.general-terms-tlc-saas  p:nth-of-type(1n + 4):nth-of-type(-n + 24),
+.general-terms-tlc-saas  p:nth-of-type(1n + 26):nth-of-type(-n + 26),
+.general-terms-tlc-saas  p:nth-of-type(1n + 38):nth-of-type(-n + 38),
+.general-terms-tlc-saas  p:nth-of-type(1n + 41):nth-of-type(-n + 43),
+.general-terms-tlc-saas  p:nth-of-type(1n + 62):nth-of-type(-n + 65),
+.general-terms-tlc-saas  p:nth-of-type(1n + 81):nth-of-type(-n + 82),
+.general-terms-tlc-saas  p:nth-of-type(1n + 86):nth-of-type(-n + 92),
+.general-terms-tlc-saas  p:nth-of-type(1n + 102):nth-of-type(-n + 107),
+.general-terms-tlc-saas  p:nth-of-type(1n + 129):nth-of-type(-n + 130),
+.general-terms-tlc-saas  p:nth-of-type(1n + 137):nth-of-type(-n + 140),
+.general-terms-tlc-saas  p:nth-of-type(1n + 142):nth-of-type(-n + 149),
+.general-terms-tlc-saas  p:nth-of-type(1n + 152):nth-of-type(-n + 155),
+.general-terms-tlc-saas  p:nth-of-type(1n + 160):nth-of-type(-n + 161),
+.general-terms-tlc-saas  p:nth-of-type(1n + 164):nth-of-type(-n + 165),
+.general-terms-tlc-saas  p:nth-of-type(1n + 168):nth-of-type(-n + 172),
+.general-terms-tlc-saas  p:nth-of-type(1n + 180):nth-of-type(-n + 184),
+.general-terms-tlc-saas  p:nth-of-type(1n + 191):nth-of-type(-n + 193),
+.general-terms-tlc-saas  p:nth-of-type(1n + 195):nth-of-type(-n + 197) {
+  text-indent: -27px; 
+  margin-left:90px;
+  text-align: left;
+}
+.general-terms-tlc-saas  p:nth-of-type(1n + 71):nth-of-type(-n + 77)  {
+  text-indent: -42px; 
+  margin-left:107px;
+  text-align: left;
+}
+.general-terms-tlc-saas  p:nth-of-type(1n + 46):nth-of-type(-n + 52)  {
+  text-indent: -44px; 
+  margin-left:109px;
+  text-align: left;
+}
+.general-terms-tlc-saas  p:nth-of-type(1n + 27):nth-of-type(-n + 37),
+.general-terms-tlc-saas  p:nth-of-type(1n + 156):nth-of-type(-n + 159)  {
+  text-indent: -22px; 
+  margin-left:115px;
+  text-align: left;
+}
+.general-terms-tlc-saas  p:nth-of-type(1n + 78):nth-of-type(-n + 78),
+.general-terms-tlc-saas  p:nth-of-type(1n + 200):nth-of-type(-n + 200)  {
+  text-indent: -3px; 
+  margin-left:36px;
+  text-align: left;
+  
+}
+.general-terms-tlc-saas  p:nth-of-type(1n + 83):nth-of-type(-n + 84)  {
+  text-indent: -17px; 
+  margin-left:103px;
+  text-align: left;
+  
+}
+
+.general-terms-tlc-saas  p:nth-of-type(1n + 113):nth-of-type(-n + 122)  {
+  text-indent: -51px; 
+  margin-left:125px;
+  text-align: left; 
+}
+
+
 
 .payment-term-section p {
   font-size: 15px;
@@ -2064,6 +2263,27 @@ main .section.cyber-security > picture img {
   object-position: 0 0;
 }
 
+.privacy-policy-section p  {
+  text-indent: 0px; 
+  margin-left:0px;
+}
 
-  }
+.general-terms-tlc-saas p:nth-child(n + 6)  {
+  text-indent: 0px; 
+  margin-left:0px;
+}
 
+.privacy-policy-section p:nth-of-type(1n):nth-of-type(-n + 266){
+  text-indent: 0px;
+  margin-left:0px;
+
+}
+
+.general-terms-tlc-saas p:nth-of-type(1n):nth-of-type(-n + 266){
+  text-indent: 0px;
+  margin-left:0px;
+
+}
+
+
+}
