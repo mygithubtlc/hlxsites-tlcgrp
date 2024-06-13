@@ -1645,6 +1645,14 @@ main .customer-journey-section .new-image-set > h5 {
     top: -42px;
   } */
 
+  main .job-description-page p:last-child {
+    text-align: center;
+  }
+
+  main .job-description-page p:nth-child(3) {
+    justify-content: center;
+}
+
 	  main .history-vision-section h5 {
     padding: 6px 30px 12px;
     background-color: #00582e;
