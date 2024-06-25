@@ -462,6 +462,11 @@ main .online-orders h1 {
   margin-top: 0;
 }
 
+main .payment-term-section h1{
+  font-size:48px;
+  color:#000;
+}
+
 .section .default-content-wrapper em {
   font-style: normal;
 }
@@ -2312,6 +2317,10 @@ main .job-description-page p:last-child {
 
 main .job-description-page p:nth-child(3) {
   justify-content: center;
+}
+  
+main .payment-term-section h1{
+  font-size:40px;
 }
 
 }
