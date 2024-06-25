@@ -104,6 +104,20 @@ a:any-link {
   text-decoration: none;
 }
 
+main .job-description-page p > a:nth-of-type(n):nth-of-type(-n + 4){
+  color: #0070e0;
+  text-decoration: none;
+}
+
+main .job-description-page p:last-of-type a:nth-of-type(n):nth-of-type(-n + 4) {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+
+
+
+
 .new-image-set a {
   font-size: 15px;
 }
@@ -1072,6 +1086,7 @@ main .form {
 
   main .job-description-page p:last-child {
     text-align: center;
+
 }
 
   main .address-container{
@@ -2298,6 +2313,5 @@ main .job-description-page p:last-child {
 main .job-description-page p:nth-child(3) {
   justify-content: center;
 }
-
 
 }
