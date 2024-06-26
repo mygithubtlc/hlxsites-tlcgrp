@@ -462,9 +462,11 @@ main .online-orders h1 {
   margin-top: 0;
 }
 
-main .payment-term-section h1{
+main .payment-term-section h1,
+main .privacy-policy-section h2{
   font-size:48px;
   color:#000;
+  text-align: center;
 }
 
 .section .default-content-wrapper em {
@@ -852,8 +854,12 @@ main .restaurants-logo p {
   font-size: 24px;
 }
 
-main .disclaimer-section * h3 {
-  font-size: 18px;
+main .disclaimer-section * h3,
+main .privacy-section * h3, 
+main .payment-term-section * h3,
+main .general-terms-tlc-saas * h3,
+main .privacy-policy-section * h3 {
+  font-size: 28px;
   text-align: left;
 }
 
@@ -2112,7 +2118,7 @@ main .background strong a {
   }
 
 	 main .section .default-content-wrapper p {
-    display: flex;
+    /* display: flex; */
     justify-content: left;
     gap: 10px;
     font-size: 15px;
@@ -2320,7 +2326,13 @@ main .job-description-page p:nth-child(3) {
 }
   
 main .payment-term-section h1{
-  font-size:40px;
+  font-size:22px;
+  text-align: left;
+  color: var(--text-color);
+}
+main .disclaimer-section * h3, main .privacy-section * h3, main .payment-term-section * h3, main .general-terms-tlc-saas * h3, main .privacy-policy-section * h3 {
+  font-size: 22px;
+  text-align: left;
 }
 
 }
