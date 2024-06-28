@@ -898,7 +898,7 @@ main .history-vision-section .cards p em:nth-child(1) {
  @media (width >= 1400px){
    .cards > ul > li:first-child .cards-card-body {
     position: absolute;
-    bottom: 14vh;
+    bottom: 8vh;
     margin-left: 5vw;
     right:7vh;
   }
@@ -934,3 +934,13 @@ main .history-vision-section .cards p em:nth-child(1) {
 
 } 
 
+@media (width >= 1800px){
+  .cards > ul > li:first-child .cards-card-body {
+   position: absolute;
+   bottom: 14vh;
+   margin-left: 5vw;
+   right:7vh;
+ }
+
+
+}
