@@ -13,6 +13,15 @@
   font-size: 15px;
   color: gray;
   text-align: left;
+  /* color:#0070e0; */
+}
+
+.z-pattern-container .new-image-set h4 a {
+  color:#0070e0; 
+}
+
+.select-clientele-logo-section .new-image-set ul li a {
+  color:#0070e0;
 }
 
 .columns > div > div p em {
@@ -20,6 +29,8 @@
   font-style: normal;
   line-height: 25px;
 }
+
+
 
 
 .section .button-container,
@@ -63,6 +74,15 @@
   font-size: 15px;
   font-weight: bold;
   font-family: var(--alt-font-family);
+  /* color:#0070e0; */
+}
+
+main .case-studies-custom .new-image-set  a{
+  color:#0070e0;
+}
+
+main .online-order-logo-section .new-image-set ul li a{
+  color:#0070e0;
 }
 
 .our-capabilities .button-container a {
