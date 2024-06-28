@@ -479,10 +479,14 @@ main .privacy-policy-section h2{
 
 main .background .default-content-wrapper {
   padding-left: 20px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   max-width: 1230px;
   padding-right: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 42px;
+}
+
+main .integration-free-solutions {
+  margin-bottom: 0px;
 }
 
 .job-description-page h3 {
@@ -1272,6 +1276,10 @@ main .form {
     height: auto;
   }
 
+  main .cyber-security {
+    margin-bottom: 40px;
+  }
+
   main .background .default-content-wrapper h5 {
     font-size: 36px;
     margin-top: 0;
@@ -1291,7 +1299,15 @@ main .form {
       justify-content: center;
       font-weight: 100;
       color: #313131;
-      margin-top: 20px;
+      margin-top: 0px;
+  }
+
+  main .carve-career {
+    margin-top: 12px;
+  }
+
+  main .embed-container {
+    padding-bottom: 2px;
   }
 
   main .carve-career .default-content-wrapper h3 {
@@ -1322,7 +1338,7 @@ main .form {
     margin-top: 0;
     max-width: 100%;
     padding-right: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 3px;
 }
 
   main .cyber-security .default-content-wrapper h2 {
@@ -1429,6 +1445,7 @@ main .form {
   main .section.divide {
     background-color: #454545;
     padding: 30px;
+    margin-bottom: 40px;
   }
 }
 
