@@ -226,8 +226,12 @@ main .history-vision-section .cards-wrapper{
     display: block;
   }
 
-  .cards > ul > li:nth-child(1) img {
-    object-position: right;
+  .related-case-studies-component .cards > ul > li:nth-child(1) img {
+    object-position: center;
+}
+
+.cards > ul > li:nth-child(1) img {
+  object-position: right;
 }
 
   .cards > ul {
@@ -404,6 +408,12 @@ main .history-vision-section .cards-wrapper{
     margin-left: 0;
     right:100px;
   }
+
+  .related-case-studies-component  ul > li:first-child .cards-card-body {
+    bottom: 0px;
+    right:0px;
+  }
+  
 
   .cards > ul > li:first-child .cards-card-body p {
     font-weight: 300;
