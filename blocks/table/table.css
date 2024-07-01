@@ -85,16 +85,22 @@ main .delivery-feature-list h5,
 main .plan-list-delivery h5 {
   text-align: center;
   font-size: 15px;
-  color: #fff;
+  color: #313131;
   font-weight: 300;
   border-radius: 24px;
   display: table;
   margin: 0 auto;
   margin-top: 50px;
   padding: 11px 30px 12px;
-  background-color: #00582e;
+  background-color: #fff;
+  border:2px solid #313131;
   text-decoration: none;
   margin-bottom: 30px;
+}
+main .delivery-feature-list h5:hover,
+main .plan-list-delivery h5:hover{
+  background-color: #313131;
+  color:#fff;
 }
 
 .delivery-feature-list table th:nth-child(1) {
