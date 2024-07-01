@@ -18,10 +18,12 @@
 
 .z-pattern-container .new-image-set h4 a {
   color:#0070e0; 
+  font-weight: normal;
 }
 
 .select-clientele-logo-section .new-image-set ul li a {
   color:#0070e0;
+  font-weight: normal;
 }
 
 .columns > div > div p em {
@@ -79,10 +81,12 @@
 
 main .case-studies-custom .new-image-set  a{
   color:#0070e0;
+  font-weight: normal;
 }
 
 main .online-order-logo-section .new-image-set ul li a{
   color:#0070e0;
+  font-weight: normal;
 }
 
 .our-capabilities .button-container a {
