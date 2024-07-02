@@ -91,11 +91,14 @@ main .plan-list-delivery h5 {
   display: table;
   margin: 0 auto;
   margin-top: 50px;
-  padding: 11px 30px 12px;
+  padding: 14px 40px;
   background-color: #fff;
   border:2px solid #313131;
   text-decoration: none;
   margin-bottom: 30px;
+}
+main .plan-list-delivery a {
+  font-weight: 600;
 }
 main .delivery-feature-list h5:hover,
 main .plan-list-delivery h5:hover{
