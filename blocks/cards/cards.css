@@ -586,10 +586,10 @@ main .history-vision-section .cards p em:nth-child(1) {
   padding-top: 15px;
 }
 
-.cards > ul > li:last-child h3:has(a) {
-  /* visibility: hidden; */
+/* .cards > ul > li:last-child h3:has(a) {
+  visibility: hidden;
   display: none;
-}
+} */
 
 
 
