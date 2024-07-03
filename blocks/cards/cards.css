@@ -865,7 +865,7 @@ main .history-vision-section .cards p em:nth-child(1) {
 
   .meet-our-team-mobile .cards > ul > li a:any-link {
     font-family: var(--body-font-family);
-    font-weight: 600;
+    font-weight: 700;
     text-decoration: none;
     color: black;
     margin-top: 0;
