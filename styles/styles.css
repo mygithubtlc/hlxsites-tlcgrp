@@ -206,7 +206,7 @@ main .member-subscriptions h5 > a {
   margin-bottom: 100px;
   padding: 16px 50px;
   background-color: #fff;
-  border:2px solid #313131;
+  border:1.5px solid #313131;
   text-decoration: none;
 }
 
@@ -238,7 +238,7 @@ main .onlinecta h5 > a{
   margin-bottom: 100px;
   padding: 16px 38.5px;
   background-color: #fff;
-  border:2px solid #313131;
+  border:1.5px solid #313131;
   text-decoration: none;
 }
 
