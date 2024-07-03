@@ -139,7 +139,7 @@ main .why-us a {
   margin-bottom: 0;
   padding: 16px 24px;
   background-color: #fff;
-  border:2px solid #313131;
+  border:1.5px solid #313131;
   text-decoration: none;
   font-family: var(--alt-font-family);
 }
@@ -156,7 +156,7 @@ main .why-us a {
   margin-bottom: 50px;
   padding: 16px 34.5px;
   background-color: #fff;
-  border:2px solid #313131;
+  border:1.5px solid #313131;
   text-decoration: none;
   font-family: var(--alt-font-family);
 }
@@ -185,7 +185,7 @@ main .online-orders h5 > a {
   margin-top: 85px;
   padding: 16px 38.5px;
   background-color: #fff;
-  border:2px solid #313131;
+  border:1.5px solid #313131;
   text-decoration: none;
   font-family: var(--alt-font-family);
 }
@@ -222,7 +222,7 @@ main .onlineordercta h5 > a {
   margin-bottom: 100px;
   padding: 16px 24px;
   background-color: #fff;
-  border:2px solid #313131;
+  border:1.5px solid #313131;
   text-decoration: none;
 }
 
@@ -277,7 +277,7 @@ main .history-vision-section h5 {
   margin-bottom: 0;
   padding: 16px 24px;
   background-color: #fff;
-  border:2px solid #313131;
+  border:1.5px solid #313131;
   text-decoration: none;
 }
 main .history-vision-section h5:hover {

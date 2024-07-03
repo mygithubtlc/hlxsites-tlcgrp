@@ -191,7 +191,7 @@ main .form-submit-wrapper .button {
   margin-top: 40px;
   padding: 16px 50px;
   background-color: #fff;
-  border:2px solid #313131;
+  border:1.5px solid #313131;
   font-family: var(--alt-font-family);
 }
 main .form-submit-wrapper .button:hover{
