@@ -591,6 +591,11 @@ main .history-vision-section .cards p em:nth-child(1) {
   display: none;
 } */
 
+.fragment-container .cards > ul > li:last-child h3:has(a) {
+  visibility: hidden;
+  display: none;
+}
+
 
 
 @media only screen and (width >= 600px) and (width <=992px){
@@ -892,6 +897,11 @@ main .history-vision-section .cards p em:nth-child(1) {
     margin-left: 0;
     right:30px;
   }
+  .fragment-container .cards > ul > li:last-child h3:has(a) {
+    visibility: hidden;
+    display: none;
+  }
+  
 }
 
 
