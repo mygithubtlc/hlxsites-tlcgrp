@@ -94,6 +94,7 @@ main .slideshow img {
   width: 100%;
   height: 100%;
   object-position:center;
+  /* object-position:80% 0px; */
  
 }
 
@@ -366,6 +367,14 @@ main .slideshow img {
   width: 100%;
   height: 100%;
   /* object-position: right; */
+}
+
+main .slideshow img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position:80% 0px;
+ 
 }
 
 

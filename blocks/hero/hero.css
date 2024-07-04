@@ -102,9 +102,11 @@ main .hero h6 {
     max-height: 500px;
     margin-bottom: 50px;
   }
+
   main .hero img {
     object-fit: cover;
     object-position: center;
+    object-position: 71% 0px;
     position: relative;
     left: 0;
     width: 100%;
