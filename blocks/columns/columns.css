@@ -1,8 +1,8 @@
 .section.columns-container {
   opacity: 1;
-  padding-top: 50px;
+  padding-top: 33px;
   margin-bottom: 0;
-  padding-bottom: 10px;
+  padding-bottom: 4px;
 }
 
 .section .default-content-wrapper {
@@ -113,17 +113,17 @@ main .online-order-logo-section .new-image-set ul li a{
   border-top: 1px solid #DCDCDC;
 }
 
+
+
+
 .our-capabilities .default-content-wrapper{
   border-top: 1px solid #DCDCDC;
 }
 
 
-.columns > div > div:first-child {
-  margin-top: 2%;
-}
-
+.columns > div > div:first-child,
 .columns > div > div:last-child {
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 .columns img {
@@ -190,8 +190,8 @@ main .online-order-logo-section .new-image-set ul li a{
   }
 
   .our-capabilities .columns-wrapper > div {
-    padding-top: 30px;
-    margin-bottom: 50px;
+    padding-top: 0px;
+    margin-bottom:110px;
   }
 
   .online-order-logo-section > .columns-wrapper div {
@@ -205,9 +205,16 @@ main .online-order-logo-section .new-image-set ul li a{
     flex-direction: unset;
   }
 
-  .columns > div > div {
+  main .our-capabilities .columns > div > div {
     flex: 1;
-    margin-left: 32px;
+    margin-left: 0px;
+  }
+  
+  main .our-capabilities .new-image-set:nth-child(1) {
+    margin-right: 100px;
+}
+  main .our-capabilities {
+    padding-bottom: 120px;
   }
 
   .online-order-logo-section .columns > div {

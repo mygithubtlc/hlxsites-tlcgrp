@@ -18,7 +18,7 @@
 
 .history-vision-section p {
   font-size: 24px;
-  padding-right: 100px;
+  padding-right: 77px;
 }
 
 .history-vision-section .icon-arrow-web {
@@ -71,7 +71,7 @@ main .cards-container .default-content-wrapper h3 {
 }
 
 .fragment-container  .cards  > ul > li h3{
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 400;
   color:#fff;
   margin-right:90px;
@@ -139,7 +139,7 @@ main .section.cards-container {
 main .cards-container .default-content-wrapper {
   justify-content: center;
   text-align: center;
-  padding: 30px;
+  padding: 100px 0px 35px 0px;
 }
 
 main .cards-container .default-content-wrapper em {
@@ -219,6 +219,7 @@ main .history-vision-section .cards-wrapper{
 @media (width >= 600px) {
   main .fragment-container p {
     margin-bottom: 25px;
+    font-size:20px;
 }
 
 	.cards .cards-card-image img {
@@ -248,9 +249,10 @@ main .history-vision-section .cards-wrapper{
   }
 
   main .cards-container .default-content-wrapper:last-child {
-    padding-top: 100px;
+    padding-top: 91px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 20px;
   }
 
   main .cards-container .default-content-wrapper h2 {
@@ -269,6 +271,32 @@ main .history-vision-section .cards-wrapper{
     font-weight: 400;
     text-align: center;
   }
+
+  .history-vision-section  .default-content-wrapper h3:first-of-type {
+    font-size: 36px;
+    padding:0px 5%;
+    margin:0px;
+    margin-top: -4px;
+  }
+
+main .history-vision-section .fifty-fifty h3{
+  font-size: 28px;
+}
+
+main .highest-standard-text .default-content-wrapper h2{
+  font-size:36px;
+}
+
+main .history-vision-section .fifty-fifty p{
+  font-size: 20px;
+  line-height: 32px;
+  
+}
+
+
+
+
+
 
   main .cards-container .default-content-wrapper em {
     display: flex;
@@ -293,7 +321,8 @@ main .history-vision-section .cards-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0;
-    min-height: 800px;
+    /* min-height: 800px; */
+    min-height: 670px;
     overflow: auto;
   }
 
@@ -404,7 +433,7 @@ main .history-vision-section .cards-wrapper{
 
   .cards > ul > li:first-child .cards-card-body {
     position: absolute;
-    bottom: 40px;
+    bottom: 10px;
     margin-left: 0;
     right:100px;
   }
@@ -421,12 +450,12 @@ main .history-vision-section .cards-wrapper{
 
   .cards > ul > li:nth-child(2) .cards-card-body {
     position: absolute;
-    bottom: 0;
+    bottom: 40px;
   }
 
   .fifty-fifty > ul > li:nth-child(2) .cards-card-body {
     position: absolute;
-    top: 75px;
+    top: 95px;
   }
 
   .cards > ul > li:nth-child(3) .cards-card-body {
@@ -459,7 +488,7 @@ main .history-vision-section .cards-wrapper{
 
   .fifty-fifty > ul > li:first-child .cards-card-body {
     position: absolute;
-    top: 75px;
+    top: 95px;
   }
 
   main .highest-standard-text h2 {

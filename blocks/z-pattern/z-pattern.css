@@ -54,7 +54,7 @@
 .z-pattern .z-row-even > div:last-of-type {
   background-color: #fff;
   padding: 0 50px;
-  /* margin-top: 30px; */
+  margin-top: 30px;
 }
 
 .contact-center .reverse > div > div:last-child {
@@ -113,7 +113,7 @@
 
 .z-pattern > div[class^="z-row"] > div:last-of-type em {
   font-style: normal;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .contact-center .reverse > div > div:first-child img {
@@ -191,7 +191,7 @@
   .z-pattern .z-row-even:last-of-type > div:first-of-type img {
     padding-top: 45px;
     width: 550px;
-    /* right: -30px; */
+    right: -30px;
   }
 
   .icon-section .new-image-set > p {
@@ -202,8 +202,7 @@
 
   .z-pattern > div[class^="z-row"] > div:last-of-type h3 {
     margin-top: 60px;
-    font-size: 48px;
-    /* margin-left:45px; */
+    font-size: 28px;
   }
 
   .z-pattern-container .default-content-wrapper {
@@ -227,7 +226,7 @@
     position: relative;
     font-size: 19px;
     bottom: 0px;
-    /* left: 35px; */
+    left: 35px;
     width:400px;
     font-style: normal;
     font-size: 24px;

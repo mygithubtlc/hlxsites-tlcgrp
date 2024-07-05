@@ -5,9 +5,6 @@
   ascent-override: 85%;
 }
 
-
-
-
 :root {
   /* colors */
   --background-color: #fff;
@@ -135,7 +132,7 @@ main .why-us a {
   border-radius: 34px;
   display: table;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 0;
   padding: 16px 24px;
   background-color: #fff;
@@ -486,6 +483,9 @@ main .section.background > picture img {
   width: 100%;
   height: 100%;
 }
+main .text-wrapped > picture img{
+  object-position: 0px -25px;
+}
 
 .job-description-page ol li {
   padding: 6px 0;
@@ -542,6 +542,10 @@ main .background .default-content-wrapper {
   max-width: 1230px;
   padding-right: 20px;
   padding-bottom: 42px;
+}
+
+main .carve-career-all-section .default-content-wrapper{
+margin:12px 0px;
 }
 
 main .integration-free-solutions {
@@ -1001,7 +1005,7 @@ main .why-us .default-content-wrapper p {
   padding: 8px 0;
   margin: 0 0%;
   text-align: center;
-  margin-top:87px;
+  margin-top:123px;
 }
 
 main pre {
@@ -1221,7 +1225,7 @@ main .form {
   }
 
   main .section .default-content-wrapper h2 {
-    font-size: 48px;
+    font-size: 36px;
     padding-top: 0;
     display: flex;
     justify-content: center;
@@ -1238,7 +1242,8 @@ main .form {
     justify-content: center;
     font-weight: 100;
     color:#313131;
-    margin-top:50px;
+    margin-top:91px;
+    margin-bottom: 15px;
   }
 
   main .career-head-section .default-content-wrapper h2 {
@@ -1300,6 +1305,17 @@ main .form {
     font-size: 15px;
     font-weight: 200;
     text-align: left;
+    margin: 50px 0px 47px 0px;
+  }
+
+  main .carve-career .default-content-wrapper h5 {
+    font-size: 15px;
+    font-weight: 200;
+    text-align: left;
+    margin: 50px 0px 0px 0px;
+  }
+  main .history-vision-section h5{
+    display: inline-block;
   }
 }
 
@@ -1328,8 +1344,12 @@ main .form {
     margin: auto;
   }
 
-  main .section.background {
+  /* main .section.background {
     height: 600px;
+  } */
+
+  main .highest-standard-text {
+    height: 500px;
   }
 
   main .section.carve-career {
@@ -1355,23 +1375,22 @@ main .form {
     color:#313131;
   }
 
+
   main .carve-career .default-content-wrapper h5 {
     text-align: center;
     font-size: 36px;
-    padding-top: 0;
-      display: flex;
-      justify-content: center;
-      font-weight: 100;
-      color: #313131;
-      margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    color: #313131;
   }
-
-  main .carve-career {
-    margin-top: 12px;
+  main .carve-career .default-content-wrapper{
+    padding:79px 0px 115px 0px
   }
 
   main .embed-container {
     padding-bottom: 2px;
+    padding: 88px 0px 0px 0px;
   }
 
   main .carve-career .default-content-wrapper h3 {
@@ -1402,7 +1421,6 @@ main .form {
     margin-top: 0;
     max-width: 100%;
     padding-right: 20px;
-    margin-bottom: 3px;
 }
 
   main .cyber-security .default-content-wrapper h2 {
@@ -1464,14 +1482,18 @@ main .form {
 
   }
 
-  main .cyber-security .default-content-wrapper h2:nth-child(1) {
-    padding-top: 200px;
-    
+ 
+  main .cyber-security .default-content-wrapper:nth-child(1){
+    padding:150px 0px;
   }
 
   main .text-wrapped .default-content-wrapper h2:nth-child(1) {
-    padding-top: 200px;
+    /* padding-top: 200px; */
     color:#313131;
+  }
+
+  main .text-wrapped .default-content-wrapper:nth-child(1){
+    padding: 110px 0px;
   }
 
   
