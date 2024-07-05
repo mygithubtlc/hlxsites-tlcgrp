@@ -249,8 +249,9 @@ main .member-subscriptions h5 > a:hover{
 
 .privacy-policy-section a:any-link {
   font-family: var(--alt-font-family);
-  color: var(--link-color);
+  /* color: var(--link-color); */
   text-decoration: underline;
+  color:#0070e0;
 }
 
 .job-description-page a:any-link {
@@ -1157,6 +1158,11 @@ main .form {
     padding-bottom: 20px;
   }
 
+  main .privacy-section p a,
+  main .general-terms-tlc-saas p a{
+    color:#0070e0;
+  }
+
   main .job-description-page p:last-child {
     text-align: center;
 
@@ -1520,7 +1526,7 @@ main .form {
     max-width: 66%;
     margin: 0 auto;
     font-size: 16px;
-    color: #313131;
+    color: #0070e0;
     font-weight: 300;
   }
 

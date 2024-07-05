@@ -60,6 +60,7 @@ main .form textarea {
   font-size: 1.4rem;
   letter-spacing: 0;
   color: #585858;
+  font-family: var(--alt-font-family);
 }
 
 ::placeholder {
