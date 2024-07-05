@@ -129,16 +129,17 @@ a:hover {
 
 main .why-us a {
   text-align: center;
-  font-size: 16px;
-  color: #fff;
+  font-size: 18px;
+  color: #313131;
   font-weight: 700;
-  border-radius: 24px;
+  border-radius: 34px;
   display: table;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 0;
-  padding: 11px 30px 12px;
-  background-color: #00582e;
+  padding: 16px 24px;
+  background-color: #fff;
+  border:1.5px solid #313131;
   text-decoration: none;
   font-family: var(--alt-font-family);
 }
@@ -146,17 +147,22 @@ main .why-us a {
 .job-description-page h5 a {
   text-align: center;
   font-size: 15px;
-  color: #fff;
-  font-weight: 300;
-  border-radius: 24px;
+  color: #313131;
+  font-weight: 600;
+  border-radius: 34px;
   display: table;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  padding: 11px 30px 12px;
-  background-color: #00582e;
+  padding: 16px 34.5px;
+  background-color: #fff;
+  border:1.5px solid #313131;
   text-decoration: none;
   font-family: var(--alt-font-family);
+}
+.job-description-page h5 a:hover{
+  background-color: #313131;
+  color:#fff;
 }
 
 main .delivery-feature-list a,
@@ -171,31 +177,74 @@ main .job-description-page p a {
 main .online-orders h5 > a {
   text-align: center;
   font-size: 15px;
-  color: #fff;
-  font-weight: 300;
-  border-radius: 24px;
+  color: #313131;
+  font-weight: 600;
+  border-radius: 34px;
   display: table;
   margin: 0 auto;
   margin-top: 85px;
-  padding: 11px 30px 12px;
-  background-color: #00582e;
+  padding: 16px 38.5px;
+  background-color: #fff;
+  border:1.5px solid #313131;
   text-decoration: none;
   font-family: var(--alt-font-family);
+}
+main .online-orders h5 > a:hover{
+  background-color: #313131;
+  color:#fff;
 }
 
 main .member-subscriptions h5 > a {
   text-align: center;
   font-size: 15px;
-  color: #fff;
-  font-weight: 300;
-  border-radius: 24px;
+  color: #313131;
+  font-weight: 600;
+  border-radius: 34px;
   display: table;
   margin: 0 auto;
   margin-top: 110px;
   margin-bottom: 100px;
-  padding: 11px 30px 12px;
-  background-color: #00582e;
+  padding: 16px 50px;
+  background-color: #fff;
+  border:1.5px solid #313131;
   text-decoration: none;
+}
+
+main .onlineordercta h5 > a {
+  text-align: center;
+  font-size: 15px;
+  color: #313131;
+  font-weight: 600;
+  border-radius: 34px;
+  display: table;
+  margin: 0 auto;
+  margin-top: 110px;
+  margin-bottom: 100px;
+  padding: 16px 24px;
+  background-color: #fff;
+  border:1.5px solid #313131;
+  text-decoration: none;
+}
+
+main .onlinecta h5 > a{
+  text-align: center;
+  font-size: 15px;
+  color: #313131;
+  font-weight: 600;
+  border-radius: 34px;
+  display: table;
+  margin: 0 auto;
+  margin-top: 110px;
+  margin-bottom: 100px;
+  padding: 16px 38.5px;
+  background-color: #fff;
+  border:1.5px solid #313131;
+  text-decoration: none;
+}
+
+main .member-subscriptions h5 > a:hover{
+  background-color: #313131;
+  color:#fff;
 }
 
 .privacy-policy-section a:any-link {
@@ -209,22 +258,31 @@ main .member-subscriptions h5 > a {
 }
 
 main .why-us a:hover{
-  background-color:#38673E;
+  background-color:#313131;
+  color:#fff;
 }
 
+main .history-vision-section .default-content-wrapper  h5 a{
+  font-weight: 700;
+}
 main .history-vision-section h5 {
   text-align: center;
   font-size: 24px;
-  color: #fff;
+  color: #313131;
   font-weight: 300;
-  border-radius: 24px;
+  border-radius: 34px;
   display: table;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 0;
-  padding: 11px 49px 12px 50px;
-  background-color: #00582e;
+  padding: 16px 24px;
+  background-color: #fff;
+  border:1.5px solid #313131;
   text-decoration: none;
+}
+main .history-vision-section h5:hover {
+ background-color: #313131;
+  color:#fff;
 }
 
 main .why-us h5 {
