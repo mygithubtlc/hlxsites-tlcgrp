@@ -1749,7 +1749,8 @@ main .customer-journey-section .new-image-set > h5 {
 
 	  main .history-vision-section h5 {
     padding: 6px 30px 12px;
-    background-color: #00582e;
+    background-color: #fff;
+    color:#313131;
     text-decoration: none;
     font-family: var(--alt-font-family);
     margin-top: 20px;
