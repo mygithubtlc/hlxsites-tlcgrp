@@ -94,6 +94,8 @@ main .slideshow img {
   width: 100%;
   height: 100%;
   object-position:center;
+  /* object-position:80% 0px; */
+ 
 }
 
 /* overlay */
@@ -118,7 +120,7 @@ main .slideshow .slideshow-overlay h2 {
   font-size: 20px;
   text-align: center;
   overflow-y: hidden;
-  margin-top: 0;
+  margin-top: 100px;
 }
 
 main .member-subscription-slide.slideshow-container p {
@@ -223,7 +225,7 @@ main .carousel-buttons button:nth-child(3){
   }
 
   main .slideshow .slideshow-overlay > * {
-    max-width: 50vw;
+    max-width: 54vw;
     text-align: left;
   }
 
@@ -365,6 +367,14 @@ main .slideshow img {
   width: 100%;
   height: 100%;
   /* object-position: right; */
+}
+
+main .slideshow img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position:80% 0px;
+ 
 }
 
 
