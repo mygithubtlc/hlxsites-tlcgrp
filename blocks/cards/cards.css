@@ -46,6 +46,13 @@ main .cards-container .default-content-wrapper a {
   font-family: var(--alt-font-family);
 }
 
+main .cards-container .default-content-wrapper a {
+  all: unset;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: var(--alt-font-family);
+}
+
 .world-class-cutomer-loyality .cards-card-body p  a{
   transition: color 0.3s ease;
 }
