@@ -139,8 +139,15 @@ main .section.cards-container {
 main .cards-container .default-content-wrapper {
   justify-content: center;
   text-align: center;
-  padding: 100px 0px 35px 0px;
+  padding: 47px 0px 35px 0px;
 }
+
+main .world-class-cutomer-loyality .default-content-wrapper {
+  justify-content: center;
+  text-align: center;
+  padding: 91px 0px 35px 0px;
+}
+
 
 main .cards-container .default-content-wrapper em {
   font-size: 1.3em;
@@ -244,12 +251,8 @@ main .history-vision-section .cards-wrapper{
     grid-gap: 0;
   }
 
-  main .cards-container .default-content-wrapper {
-    padding-bottom: 30px;
-  }
-
   main .cards-container .default-content-wrapper:last-child {
-    padding-top: 91px;
+    padding-top: 155px;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 20px;
@@ -276,7 +279,6 @@ main .history-vision-section .cards-wrapper{
     font-size: 36px;
     padding:0px 5%;
     margin:0px;
-    margin-top: -4px;
   }
 
 main .history-vision-section .fifty-fifty h3{

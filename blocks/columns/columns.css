@@ -184,10 +184,10 @@ main .online-order-logo-section .new-image-set ul li a{
     padding-bottom: 10px;
   }
 
-  .section .columns-wrapper > div,
+  /* .section .columns-wrapper > div,
   .section .columns-container {
     padding-top: 50px;
-  }
+  } */
 
   .our-capabilities .columns-wrapper > div {
     padding-top: 0px;

@@ -54,7 +54,7 @@
 .z-pattern .z-row-even > div:last-of-type {
   background-color: #fff;
   padding: 0 50px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 .contact-center .reverse > div > div:last-child {
@@ -89,9 +89,9 @@
   height: 300px;
 }
 
-.z-pattern-container .default-content-wrapper {
+/* .z-pattern-container .default-content-wrapper {
   padding-bottom: 50px;
-}
+} */
 
 .z-pattern > div[class^="z-row"] > div:last-of-type h3 {
   font-size: 1.5em;
@@ -100,7 +100,7 @@
 .z-pattern .z-row-even:last-of-type > div:last-of-type {
   text-align: center;
   position: relative;
-  padding: 0 60px;
+  padding: 0 0px 0px 115px;
   z-index: -1;
 }
 
@@ -126,6 +126,8 @@
 @media (min-width: 900px) {
   .z-pattern > div[class^="z-row"] {
     flex-direction: row;
+    align-items: center;
+
   }
 
   .z-pattern > div[class^="z-row"] > div {
@@ -137,7 +139,7 @@
 
   .z-pattern .z-row-odd > div:last-of-type {
     background-color: #fff;
-    padding: 0 50px;
+    padding: 0px 115px 0px 0px;
     z-index: -1;
   }
 
@@ -190,7 +192,6 @@
 
   .z-pattern .z-row-even:last-of-type > div:first-of-type img {
     padding-top: 45px;
-    width: 550px;
     right: -30px;
   }
 
@@ -205,9 +206,9 @@
     font-size: 28px;
   }
 
-  .z-pattern-container .default-content-wrapper {
+  /* .z-pattern-container .default-content-wrapper {
     padding-bottom: 50px;
-  }
+  } */
 
   /* .z-pattern > div[class^="z-row"] > div:last-of-type p {
     position: relative;
@@ -217,19 +218,18 @@
   } */
    .z-pattern > div[class^="z-row-odd"] > div:last-of-type p {
     position: relative;
-    font-size: 19px;
+    font-size: 20px;
     margin-bottom: 60px;
-    margin-left: 35px;
+    /* margin-left: 35px; */
   }
 
   .z-row-even p:nth-child(2){
     position: relative;
     font-size: 19px;
     bottom: 0px;
-    left: 35px;
-    width:400px;
+    /* left: 35px; */
     font-style: normal;
-    font-size: 24px;
+    font-size: 20px;
   }
 
 

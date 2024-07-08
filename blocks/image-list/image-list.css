@@ -44,7 +44,7 @@ main .image-list-container .image-list > div {
 
 main .image-list-wrapper .image-list {
   margin-top: 0;
-  padding: 0px 60px 50px 0;
+  padding: 0px 60px 0px 0;
   gap: 50px 125px;
 }
 
@@ -104,13 +104,13 @@ main .integration-free-solutions h3{
 
   main .section.image-list-container {
     padding-bottom: 0;
-    padding-top: 40px;
+    padding-top: 100px;
   }
 
-  main .logos-integration  h3,
+  /* main .logos-integration  h3,
   main .integration-free-solutions h3{
     margin-top:-70px;
-  }
+  } */
 
   main .logos-integration  h3 {
     margin-bottom:50px;
