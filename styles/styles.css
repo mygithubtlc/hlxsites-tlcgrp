@@ -258,6 +258,10 @@ main .member-subscriptions h5 > a:hover{
   font-size: 18px;
 }
 
+.job-description-page h5 a:any-link {
+  font-size: 18px;
+}
+
 main .why-us a:hover{
   background-color:#313131;
   color:#fff;
