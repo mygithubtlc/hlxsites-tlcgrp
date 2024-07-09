@@ -3,7 +3,8 @@
 }
 
 .z-pattern-container .default-content-wrapper h4 {
-  font-size: 48px;
+  font-size: 36px;
+  font-family: var(--heading-font-family);
 }
 
 .z-pattern > div {
@@ -65,7 +66,6 @@
 
 .icon-section .reverse > div > div:last-child {
   position: relative;
-  right: -50px;
   padding: 20px 60px;
 }
 
@@ -100,9 +100,11 @@
 .z-pattern .z-row-even:last-of-type > div:last-of-type {
   text-align: center;
   position: relative;
-  padding: 0 0px 0px 115px;
+  /* padding: 0 0px 0px 115px; */
   z-index: -1;
 }
+
+
 
 .z-pattern > div[class^="z-row"] > div:last-of-type strong {
   font-family: var(--alt-font-family);
@@ -113,7 +115,6 @@
 
 .z-pattern > div[class^="z-row"] > div:last-of-type em {
   font-style: normal;
-  font-size: 20px;
 }
 
 .contact-center .reverse > div > div:first-child img {
@@ -127,6 +128,7 @@
   .z-pattern > div[class^="z-row"] {
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
 
   }
 
@@ -162,6 +164,23 @@
     padding: 30px 60px;
   }
 
+  main .icon-section .z-pattern.reverse > div:last-child {
+    position: relative;
+    padding: 30px 60px;
+  }
+
+  .icon-section .z-pattern  > div:last-child {
+    position: relative;
+    padding: 45px 60px 36px  60px;
+    justify-content: space-around;
+  }
+
+  main .icon-section .default-content-wrapper h4{
+   margin-top:65px;
+    padding-bottom: 0px;
+    margin-bottom: -7px;
+  }
+
   .z-pattern > div.z-row-odd > div:first-child {
     order: 2;
   }
@@ -189,11 +208,11 @@
     height: 400px;
     width: 400px;
   }
-
+/* 
   .z-pattern .z-row-even:last-of-type > div:first-of-type img {
     padding-top: 45px;
     right: -30px;
-  }
+  } */
 
   .icon-section .new-image-set > p {
     font-size: 15px;
@@ -202,54 +221,32 @@
   }
 
   .z-pattern > div[class^="z-row"] > div:last-of-type h3 {
-    margin-top: 60px;
+    /* margin-top: 60px; */
     font-size: 28px;
   }
 
-  /* .z-pattern-container .default-content-wrapper {
-    padding-bottom: 50px;
-  } */
-
-  /* .z-pattern > div[class^="z-row"] > div:last-of-type p {
-    position: relative;
-    font-size: 19px;
-    margin-bottom: 60px;
-    margin-left: 35px;
-  } */
+  
    .z-pattern > div[class^="z-row-odd"] > div:last-of-type p {
     position: relative;
-    font-size: 20px;
-    margin-bottom: 60px;
-    /* margin-left: 35px; */
   }
 
   .z-row-even p:nth-child(2){
     position: relative;
-    font-size: 19px;
     bottom: 0px;
-    /* left: 35px; */
     font-style: normal;
     font-size: 20px;
   }
+  .z-row-even p:nth-child(3){
+    font-size: 0.6em;
+  }
+  
+  .z-row-odd p:nth-child(3){
+    font-size:0.6em;
+  }
 
 
-  .our-resources-product .z-row-even p:last-child{
-    position: absolute;
-    font-size: 19px;
-    left: 100px;
-    width:100%;
-    height: 100%;
-    font-style: normal;
-   }
 
-  .tech-product-section .z-row-even p:last-child{
-    position: absolute;
-    font-size: 19px;
-    left: 120px;
-    width:100%;
-    height: 100%;
-    font-style: normal;
- } 
+
  
   .z-pattern .z-row-even > div:last-of-type strong {
     display: block;

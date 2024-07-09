@@ -5,7 +5,7 @@ main .address {
 main .address h2 {
   font-size: 36px;
   text-align: center;
-  padding: 100px 0 30px;
+  padding: 90px 0 30px;
   font-weight: 400;
   color:#313131;
 }
@@ -21,6 +21,7 @@ main .address p {
     vertical-align: middle;
     align-items: center;
 }
+
 
 main .address picture {
   width: 16px;

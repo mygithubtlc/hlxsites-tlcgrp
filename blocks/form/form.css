@@ -139,6 +139,7 @@ main .form .form-checkbox-wrapper input[type="checkbox"] + label::before {
   content: " ";
   background: url("./checkbox.svg");
   background-size: contain;
+  margin-left:18px;
 }
 
 main .form .form-checkbox-wrapper input[type="checkbox"]:checked + label::before {
@@ -363,7 +364,7 @@ main [class^="iti__arrow"] {
 main .contact-us-section h1{
   text-align: center;
   font-size:36px;
-  padding: 20px 0px 40px 0px;
+  padding: 39px 0px 10px 0px;
   font-weight: 400;
   color:#313131;
 }

@@ -871,7 +871,7 @@ main .disclaimer-section * p {
 
 main .arrow-icon-style p {
   font-size: 15px;
-  text-indent: -13px;
+  text-indent: -8px;
   margin-left: 79px;
 }
 
@@ -918,7 +918,7 @@ main .restaurants-logo p {
 }
 
 .section.clientele-page h4 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 main .disclaimer-section * h3,
@@ -984,6 +984,22 @@ main .section.background p {
 main .section .default-content-wrapper p {
   gap: 10px;
   margin-top: 0;
+}
+
+main .support-services p{
+  text-align: center;
+  font-size:20px;
+  padding: 0px 150px;
+}
+
+main .support-services .default-content-wrapper h2{
+  margin-top:7px;
+  text-align: center;
+}
+
+main .support-services p{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 main.section .default-content-wrapper p {
@@ -1088,7 +1104,7 @@ main .section .default-content-wrapper em {
 main .section .default-content-wrapper h4 {
   padding: 0 20px;
   padding-bottom: 10px;
-  font-family: var(--alt-font-family);
+  /* font-family: var(--alt-font-family); */
 }
 
 .legal main .section {
@@ -1200,9 +1216,10 @@ main .form {
     font-size: 48px;
   }
 
-  main .current-opening h4 {
+  main .current-opening h4:nth-child(1) {
     text-align: center;
-    font-size: 48px;
+    font-size: 36px;
+    margin-top:107px;
   }
 
   main .background .default-content-wrapper h4 {
@@ -1224,15 +1241,35 @@ main .form {
     color:#313131;
   }
 
-  main .section .default-content-wrapper h2 {
+  /* main .section .default-content-wrapper h2 {
     font-size: 36px;
     padding-top: 0;
     display: flex;
     justify-content: center;
     font-weight: 100;
     color:#000;
-    margin-top:20px;
+  } */
+
+  main .clientele-page .default-content-wrapper h2 {
+    font-size: 36px;
+    margin-top: -15px;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    color:#000;
   }
+
+  main .clientele-page .default-content-wrapper h2:nth-child(2) {
+    font-size: 36px;
+    margin-top: -15px;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    color:#000;
+  }
+
   main .tech-product-section .default-content-wrapper h2 {
     font-size: 36px;
     padding-top: 0;
@@ -1267,6 +1304,13 @@ main .form {
 
   main .career-head-section .default-content-wrapper h2 {
     text-align: center;
+    font-size: 36px;
+    font-family: var(--heading-font-family);
+    margin-top: 67px;
+  }
+
+  main .career-head-section .columns-wrapper{
+    margin-bottom: 86px;
   }
 
   /* main .carve-career .default-content-wrapper h1 {
