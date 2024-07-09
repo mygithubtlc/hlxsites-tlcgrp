@@ -1990,7 +1990,7 @@ main .customer-journey-section .new-image-set > h5 {
   }
 
   main .carve-career-all-section .default-content-wrapper h5 {
-    font-size: 32px;
+    font-size: 24px;
     padding-top: 0;
     display: flex;
     justify-content: center;
@@ -2325,7 +2325,7 @@ main .background strong a {
   }
 
 	  main .carve-career-all-section h3 {
-    font-size: 20px;
+    font-size: 18px;
     padding: 0 20px;
     text-align: center;
     color:#313131;
@@ -2620,6 +2620,7 @@ main .disclaimer-section * h3, main .privacy-section * h3, main .payment-term-se
 
 main .our-resources-product h2{
   text-align: center;
+  font-size: 28px;;
 }
 
 }
