@@ -426,7 +426,7 @@ main .online-order-logo-section .new-image-set ul li a{
   .section.columns-container h2 {
     display: flex;
     place-content: center center;
-    margin-top: 0;
+    margin-top: 0px;
     color: var(--text-color);
     align-content: center;
     margin-bottom: 5px;
@@ -457,7 +457,7 @@ main .online-order-logo-section .new-image-set ul li a{
   .columns .new-image-set h3 {
     display: block;
     text-align: left;
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .columns span .icon {
@@ -471,7 +471,7 @@ main .online-order-logo-section .new-image-set ul li a{
   .columns > div > div h4 {
     font-size: 14px;
     color: gray;
-    text-align: center;
+    text-align: left;
   }
 
   .columns-wrapper p {
@@ -525,7 +525,7 @@ main .online-order-logo-section .new-image-set ul li a{
   
 
   h2#whats-new {
-    font-size: 21px;
+    font-size: 28px;
     margin-top: 60px;
   }
 
@@ -564,8 +564,13 @@ main .online-order-logo-section .new-image-set ul li a{
   }
 
   .columns-wrapper ul li {
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 25px;
   }
+
+  .arrow-icon-style .new-image-set ul {
+    padding-left: 20px;
+}
 
   .columns > div > div > p img {
     display: inline-block;

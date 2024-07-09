@@ -41,7 +41,7 @@ main .contact-center img {
 
 @media (max-width: 480px) {
   main .contact-center h2 {
-    font-size: 21px;
+    font-size: 24px;
   }
 
   .contact-center.block p {

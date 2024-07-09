@@ -753,7 +753,7 @@ main .history-vision-section .cards p em:nth-child(1) {
   }
 
   main > .history-vision-section h3 {
-    font-size: 22px;
+    font-size: 18px;
     margin: 20px 0;
   }
 
@@ -957,14 +957,14 @@ main .history-vision-section .cards p em:nth-child(1) {
   }
 
   .fragment-container .cards > ul > li h3 {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 400;
     color: #fff;
     margin-right: 0;
   }
 
   .fragment-container .cards > ul > li:nth-child(2) h3 {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 400;
     color: #fff;
     margin-right: 0;

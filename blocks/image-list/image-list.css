@@ -98,6 +98,7 @@ main .integration-free-solutions h3{
 }
 
 @media (min-width: 600px) {
+
   main .image-list {
     margin: 50px;
   }
@@ -162,6 +163,20 @@ main .integration-free-solutions h3{
 }
 
 @media (max-width: 600px) {
+
+  main .integration-free-solutions h3{
+    text-align: center;
+    font-size: 28px;
+    color:#000;
+  }
+
+  main .image-list-container h3{
+    text-align: center;
+    font-size: 24px;
+    color:#000;
+    margin: 11px 0px 0px 0px;
+  }
+
   .tech-platform-logos img {
     width: 90px;
   }
