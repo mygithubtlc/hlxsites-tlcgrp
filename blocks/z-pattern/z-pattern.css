@@ -296,7 +296,7 @@
   .z-pattern .z-row-even:last-of-type > div:last-of-type {
     text-align: center;
     position: relative;
-    padding: 66px 30px;
+    padding: 0px 30px;
   }
 
   .contact-center .reverse > div > div:first-child img {
@@ -339,4 +339,5 @@
     padding-top: 80px;
     height: auto;
   }
+
 }

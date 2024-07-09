@@ -1629,6 +1629,7 @@ main .form {
   main .background .default-content-wrapper h2:nth-child(1) {
     margin-left: 0;
     color:#fff;
+    font-size:36px;
   }
 
 
@@ -2471,7 +2472,6 @@ main .background strong a {
     margin-top: 50px;
     max-width: 100%;
     padding-right: 25px;
-    padding-bottom: 30px;
   }
 
   main .carve-career .default-content-wrapper {
@@ -2616,6 +2616,10 @@ main .payment-term-section h1{
 main .disclaimer-section * h3, main .privacy-section * h3, main .payment-term-section * h3, main .general-terms-tlc-saas * h3, main .privacy-policy-section * h3 {
   font-size: 22px;
   text-align: left;
+}
+
+main .our-resources-product h2{
+  text-align: center;
 }
 
 }
