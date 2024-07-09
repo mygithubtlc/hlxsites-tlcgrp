@@ -123,6 +123,16 @@ main .slideshow .slideshow-overlay h2 {
   margin-top: 100px;
 }
 
+main .member-subscription-slide .slideshow-overlay h1,
+main .member-subscription-slide .slideshow-overlay h2 {
+  font-size: 28px;
+  text-align: center;
+  overflow-y: hidden;
+  margin-top: 0px;
+}
+
+
+
 main .member-subscription-slide.slideshow-container p {
   width: 100%;
   margin: 5px 0;
@@ -134,7 +144,7 @@ main .member-subscription-slide .slideshow-overlay {
   display: block;
   background: none;
   position: absolute;
-  top: 40%;
+  top: 30%;
 }
 
 main .slideshow .slideshow-btn-wrapper {

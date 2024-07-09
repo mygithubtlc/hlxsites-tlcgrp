@@ -350,6 +350,18 @@ main .history-vision-section .fifty-fifty p{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0;
+    /* min-height: 800px; */
+    min-height: 670px;
+    overflow: auto;
+  }
+
+  .meet-our-team-desktop-view .cards > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
     min-height: 800px;
     /* min-height: 670px; */
     overflow: auto;

@@ -9,6 +9,10 @@
   justify-content: center;
 }
 
+.tech-product-section .default-content-wrapper{
+  margin-bottom: 30px;
+}
+
 .columns > div > div h4 {
   font-size: 15px;
   color: gray;
@@ -148,10 +152,10 @@ main .online-order-logo-section .new-image-set ul li a{
 }
 
 
-.columns > div > div:first-child,
+/* .columns > div > div:first-child,
 .columns > div > div:last-child {
   margin-top: 1%;
-}
+} */
 
 .columns img {
   width: 100%;
@@ -278,6 +282,10 @@ main .online-order-logo-section .new-image-set ul li a{
     width:700px;
   }
 
+  .online-order-logo-section .new-image-set {
+    margin-left: unset;
+  }
+
   .select-clientele-logo-section .new-image-set {
     margin-left: unset;
     margin-right:70px;
@@ -298,9 +306,16 @@ main .online-order-logo-section .new-image-set ul li a{
     margin-bottom: 0px;
   }
 
+  .online-order-logo-section .columns-wrapper:nth-child(3){
+    margin-top:30px;
+    margin-bottom:30px;
+  }
 
-
-
+  .online-order-logo-section .columns-wrapper:nth-child(4){
+    margin-top:30px;
+    margin-bottom:30px;
+  }
+  
   .program-partner .columns > div > div:first-of-type {
     margin-left: unset;
     margin-right:100px;
@@ -309,12 +324,13 @@ main .online-order-logo-section .new-image-set ul li a{
   main .program-partner h4{
     text-align: center;
     font-size: 36px;
-    margin-top:37px;
+    margin-top:82px;
+    margin-bottom: 0px;
   }
 
-  main .icon-section .z-pattern-wrapper{
+  /* main .icon-section .z-pattern-wrapper{
     margin-bottom: 25px;
-  }
+  } */
 
    main .arrow-icon-style .columns > div > div:first-of-type{
     margin-right:70px;

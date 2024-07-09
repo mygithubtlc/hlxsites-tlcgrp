@@ -80,9 +80,9 @@
   width: 600px;
 }
 
-.z-pattern .z-row-even > div:first-of-type picture img {
+/* .z-pattern .z-row-even > div:first-of-type picture img {
   padding-top: 30px;
-}
+} */
 
 .z-pattern .z-row-odd > div:first-of-type picture img {
   padding-top: 30px;
@@ -161,17 +161,12 @@
 
   .z-pattern.reverse > div:last-child {
     position: relative;
-    padding: 30px 60px;
-  }
-
-  main .icon-section .z-pattern.reverse > div:last-child {
-    position: relative;
-    padding: 30px 60px;
+    padding: 65px 60px 5px 60px;
   }
 
   .icon-section .z-pattern  > div:last-child {
     position: relative;
-    padding: 45px 60px 36px  60px;
+    padding: 30px 60px 13px  60px;
     justify-content: space-around;
   }
 
@@ -207,6 +202,7 @@
     left: 0;
     height: 400px;
     width: 400px;
+    margin-top:61px;
   }
 /* 
   .z-pattern .z-row-even:last-of-type > div:first-of-type img {
