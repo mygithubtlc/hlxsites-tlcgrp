@@ -423,7 +423,7 @@ main .form-submit-wrapper .button{
 
 main .form-checkbox-wrapper .required {
   width: 930px;
-  margin-left: 0px;
+  margin-left:  -19px;
   text-align: justify;
 }
 

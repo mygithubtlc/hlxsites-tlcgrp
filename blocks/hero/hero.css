@@ -125,7 +125,7 @@ main .hero h6 {
 
 /* new code */
 .hero-container {
-  height: 70vh; /* 50% of the viewport height */
+  height: 525px; /* 50% of the viewport height */
 }
 
 .hero-wrapper, .hero.block {
