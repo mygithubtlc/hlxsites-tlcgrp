@@ -2004,7 +2004,9 @@ main .customer-journey-section .new-image-set > h5 {
     font-family: var(--heading-font-family);
   }
 
-  /* main .background .default-content-wrapper h2 {
+
+
+    /* main .background .default-content-wrapper h2 {
     text-align: center;
     font-size: 24px;
     color: #000;
@@ -2045,11 +2047,17 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .arrow-icon-style p {
     margin-left: 20px;
+    margin-bottom: 0px;
   }
 
   main .carve-career-all-section {
     text-align: center;
     margin-top: 20px;
+  }
+
+  main .bottom-section-carve {
+    text-align: center;
+    margin-top: 0px;
   }
 
   .clientele-page h4 {
@@ -2063,6 +2071,11 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .cyber-security h4 {
     text-align: center;
+  }
+
+  main .omni-section  ul{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 
   main .compliances-logos h4 {

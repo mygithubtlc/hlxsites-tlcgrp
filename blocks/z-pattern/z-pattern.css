@@ -132,6 +132,14 @@
 
   }
 
+  .tech-product-section .z-pattern > div[class^="z-row"] {
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-content: center;
+
+  }
+
   .tech-product-section .z-pattern > div[class^="z-row"] img {
     flex-direction: row;
     align-items: center;
