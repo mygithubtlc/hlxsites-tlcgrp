@@ -171,6 +171,19 @@ main .job-description-page p a {
   display: inline;
 }
 
+main .disclaimer-section h2{
+  font-size: 36px;
+  margin:0px;
+  margin-top:-8px
+}
+
+main .disclaimer-section h3{
+  font-size: 28px;
+  margin-top:30px;
+ 
+}
+
+
 main .online-orders h5 > a {
   text-align: center;
   font-size: 15px;
@@ -546,12 +559,13 @@ main .online-orders h1 {
   margin-top: 0;
 }
 
-main .payment-term-section h1,
-main .privacy-policy-section h2{
-  font-size:48px;
+main .payment-term-section h1 {
+  font-size:36px;
   color:#000;
   text-align: center;
+  margin-top:-8px;
 }
+
 
 .section .default-content-wrapper em {
   font-style: normal;
@@ -958,6 +972,15 @@ main .general-terms-tlc-saas * h3,
 main .privacy-policy-section * h3 {
   font-size: 28px;
   text-align: left;
+  margin-top:30px;
+}
+
+main .disclaimer-section * p,
+main .privacy-section * p, 
+main .payment-term-section * p,
+main .general-terms-tlc-saas * p,
+main .privacy-policy-section * p {
+  font-size: 16px;
 }
 
 main .tech-product-section h6 {
@@ -2004,7 +2027,9 @@ main .customer-journey-section .new-image-set > h5 {
     font-family: var(--heading-font-family);
   }
 
-  /* main .background .default-content-wrapper h2 {
+
+
+    /* main .background .default-content-wrapper h2 {
     text-align: center;
     font-size: 24px;
     color: #000;
@@ -2045,11 +2070,17 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .arrow-icon-style p {
     margin-left: 20px;
+    margin-bottom: 0px;
   }
 
   main .carve-career-all-section {
     text-align: center;
     margin-top: 20px;
+  }
+
+  main .bottom-section-carve {
+    text-align: center;
+    margin-top: 0px;
   }
 
   .clientele-page h4 {
@@ -2063,6 +2094,11 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .cyber-security h4 {
     text-align: center;
+  }
+
+  main .omni-section  ul{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 
   main .compliances-logos h4 {
@@ -2230,7 +2266,7 @@ main .background strong a {
   }
 
   main .disclaimer-section * h2 {
-    font-size: 22px;
+    font-size: 28px;
     text-align: left;
   }
 
@@ -2648,9 +2684,10 @@ main .payment-term-section h1{
   color: var(--text-color);
 }
 main .disclaimer-section * h3, main .privacy-section * h3, main .payment-term-section * h3, main .general-terms-tlc-saas * h3, main .privacy-policy-section * h3 {
-  font-size: 22px;
+  font-size: 24px;
   text-align: left;
 }
+
 
 main .our-resources-product h2{
   text-align: center;
@@ -2723,6 +2760,14 @@ main .table-container .default-content-wrapper h5{
         text-align: left;
         text-align: center;
         margin-bottom: 80px;
+}
+
+main .disclaimer-section * p,
+main .privacy-section * p, 
+main .payment-term-section * p,
+main .general-terms-tlc-saas * p,
+main .privacy-policy-section * p {
+  font-size: 16px;
 }
 
 }
