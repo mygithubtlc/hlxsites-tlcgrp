@@ -1962,6 +1962,7 @@ main .customer-journey-section .new-image-set > h5 {
     text-decoration: none;
     font-family: var(--alt-font-family);
     margin-top: 20px;
+    margin-bottom:60px;
   }
 
   main .background .default-content-wrapper h5 {
@@ -2075,6 +2076,8 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .current-opening h4 {
     text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
   }
 
   .section.integration-free-solutions h4 {
@@ -2087,6 +2090,9 @@ main .customer-journey-section .new-image-set > h5 {
     padding: 20px 16px;
     box-sizing: border-box;
     
+  }
+  main .integration-free-solutions{
+    padding:0px;
   }
 
   main  .embed-container {
@@ -2112,7 +2118,7 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .online-orders h5 > a {
     margin-top: 31px;
-    margin-bottom: -50px;
+    margin-bottom: 0px;
   }
 
   main .job-description-page p a {
@@ -2414,6 +2420,10 @@ main .background strong a {
     margin-top: 0;
   }
 
+  main .current-opening .default-content-wrapper p{
+    text-align: center;
+  }
+
 	
   main .general-terms-tlc-saas .default-content-wrapper p {
     display: block;
@@ -2466,6 +2476,11 @@ main .background strong a {
 
   main .section.background {
     height: auto;
+  }
+
+  main .section.highest-standard-text {
+    height: auto;
+    margin-bottom: 60px;
   }
 
   main .section.text-wrapped  {
@@ -2648,15 +2663,25 @@ main .background .default-content-wrapper {
   max-width: 1230px;
   padding-right: 20px;
   padding-bottom: 42px;
-  padding-top: 42px;
+  padding-top: 10px;
 }
+
+main .carve-career .default-content-wrapper {
+  padding-left: 20px;
+  /* margin-top: 50px; */
+  max-width: 1230px;
+  padding-right: 20px;
+  padding-bottom: 42px;
+  padding-top: 20px;
+}
+
 main .carve-career-all-section .default-content-wrapper {
   padding-left: 20px;
   /* margin-top: 50px; */
   max-width: 1230px;
   padding-right: 20px;
   padding-bottom: 0px;
-  padding-top: 0px;
+  padding-top: 20px;
 }
 
 main .tech-product-section h6 {
@@ -2676,6 +2701,28 @@ main .support-services .default-content-wrapper h2{
   margin-top:4px;
   text-align: center;
   font-size: 28px;
+}
+
+main .restaurants-logo h4{
+  text-align: center;
+  font-size: 28px;
+  margin-top:55px;
+  margin-bottom: 15px;
+}
+
+main .table-container .default-content-wrapper h1{
+  font-size: 28px;
+  margin-top:-23px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+main .table-container .default-content-wrapper h5{
+  font-size: 18px;
+        font-weight: 200;
+        text-align: left;
+        text-align: center;
+        margin-bottom: 80px;
 }
 
 }

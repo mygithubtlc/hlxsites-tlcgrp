@@ -755,6 +755,7 @@ main .history-vision-section .cards p em:nth-child(1) {
   main > .history-vision-section h3 {
     font-size: 18px;
     margin: 20px 0;
+    padding-bottom: 10px;
   }
 
   .cards > ul > li h3 {

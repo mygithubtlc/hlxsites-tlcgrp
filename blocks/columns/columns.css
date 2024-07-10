@@ -5,6 +5,13 @@
   padding-bottom: 4px;
 }
 
+.select-clientele-logo-section .default-content-wrapper {
+  opacity: 1;
+  padding-top: 80px;
+  margin-bottom: 0;
+  padding-bottom: 4px;
+}
+
 .section .default-content-wrapper {
   justify-content: center;
 }
@@ -178,6 +185,15 @@ main .online-order-logo-section .new-image-set ul li a{
 .columns > div > div h3 {
   font-weight: 500;
   font-size: 28px;
+}
+
+.case-studies-custom .columns > div > div h3 {
+  font-weight: 500;
+  font-size: 24px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: self-end;
+  text-align: left;
 }
 
 .arrow-icon-style .new-image-set ul {
@@ -431,6 +447,7 @@ main .online-order-logo-section .new-image-set ul li a{
     align-content: center;
     margin-bottom: 5px;
     font-size: 28px;
+    text-align: center;
   }
 
   .section .columns-container h2 {
@@ -509,7 +526,7 @@ main .online-order-logo-section .new-image-set ul li a{
 
   main .carve-career .default-content-wrapper h2 {
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
     color:#313131;
     font-weight: 400;
   }

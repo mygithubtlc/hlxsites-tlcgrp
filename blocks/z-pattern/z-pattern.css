@@ -290,7 +290,7 @@
   .z-pattern .z-row-odd > div:last-of-type {
     background-color: #fff;
     padding: 0 25px;
-    bottom: 69px;
+    /* bottom: 69px; */
     z-index: -1;
     position: relative;
   }
@@ -324,7 +324,7 @@
 
   .z-pattern > div[class^="z-row"] > div:last-of-type h3 {
     font-size: 28px;
-    margin-top: 69px;
+    /* margin-top: 69px; */
   }
 
   .z-pattern > div[class^="z-row"] > div:last-of-type em {
@@ -335,6 +335,7 @@
   .z-pattern .z-row-even > div:first-of-type picture img {
     padding-top: 0px;
     width: 100%;
+    margin-bottom: 40px;
   }
 
   .icon-section .reverse > div > div:first-child img {
@@ -344,8 +345,9 @@
   }
 
   .z-pattern .z-row-odd > div:first-of-type picture img {
-    padding-top: 80px;
-    height: auto;
+    padding-top: 20px;
+    margin-bottom:10px;
+    height: auto
   }
 
 }
