@@ -111,10 +111,6 @@ main .job-description-page p:last-of-type a:nth-of-type(n):nth-of-type(-n + 4) {
   text-decoration: none;
 }
 
-
-
-
-
 .new-image-set a {
   font-size: 15px;
 }
@@ -157,6 +153,7 @@ main .why-us a {
   text-decoration: none;
   font-family: var(--alt-font-family);
 }
+
 .job-description-page h5 a:hover{
   background-color: #313131;
   color:#fff;
@@ -566,6 +563,10 @@ main .payment-term-section h1 {
   margin-top:-8px;
 }
 
+main .payment-term-section .default-content-wrapper h1{
+  margin-top:-7px;
+}
+
 
 .section .default-content-wrapper em {
   font-style: normal;
@@ -763,6 +764,16 @@ main .customer-journey-section h4 {
   margin-left:120px;
 }
 
+.privacy-policy-section p:nth-of-type(1n + 67):nth-of-type(-n + 67){
+  text-indent: -45px;
+  margin-left:120px;
+}
+
+.privacy-policy-section p:nth-of-type(1n + 68):nth-of-type(-n + 70){
+  text-indent: -20px;
+  margin-left:120px;
+}
+
 .privacy-policy-section p:nth-of-type(1n + 181):nth-of-type(-n + 182),
 .privacy-policy-section p:nth-of-type(1n + 184):nth-of-type(-n + 188),
 .privacy-policy-section p:nth-of-type(1n + 190):nth-of-type(-n + 191),
@@ -795,6 +806,7 @@ main .customer-journey-section h4 {
   text-indent: -23px;
   margin-left:141px;
 }
+
 
 
 .general-terms-tlc-saas  p:nth-of-type(1n + 3):nth-of-type(-n + 3),
@@ -982,6 +994,79 @@ main .general-terms-tlc-saas * p,
 main .privacy-policy-section * p {
   font-size: 16px;
 }
+main .privacy-section p:nth-of-type(1n + 3):nth-of-type(-n + 12){
+  text-indent: -10px;
+    margin-left: 30px;
+
+}
+
+main .privacy-section p:nth-of-type(1n + 28):nth-of-type(-n + 46){
+  text-indent: -21px;
+    margin-left: 50px;
+
+}
+
+main .privacy-section p:nth-of-type(1n + 52):nth-of-type(-n + 58){
+  text-indent: -21px;
+    margin-left: 51px;
+}
+
+main .privacy-section p:nth-of-type(1n + 60):nth-of-type(-n + 67){
+  text-indent: -21px;
+    margin-left: 51px;
+}
+
+main .privacy-section p:nth-of-type(1n + 71):nth-of-type(-n + 71),
+main .privacy-section p:nth-of-type(1n + 74):nth-of-type(-n + 77),
+main .privacy-section p:nth-of-type(1n + 82):nth-of-type(-n + 82),
+main .privacy-section p:nth-of-type(1n + 89):nth-of-type(-n + 92){
+  text-indent: -21px;
+    margin-left: 51px;
+}
+
+main .privacy-section p:nth-of-type(1n + 72):nth-of-type(-n + 73),
+main .privacy-section p:nth-of-type(1n + 78):nth-of-type(-n + 81),
+main .privacy-section p:nth-of-type(1n + 83):nth-of-type(-n + 88) {
+  text-indent: 0px;
+    margin-left: 55px;
+}
+
+main .privacy-section p:nth-of-type(1n + 72):nth-of-type(-n + 73),
+main .privacy-section p:nth-of-type(1n + 78):nth-of-type(-n + 81),
+main .privacy-section p:nth-of-type(1n + 94):nth-of-type(-n + 96) {
+  text-indent: -21px;
+    margin-left: 51px;
+}
+
+main .privacy-section p:nth-of-type(1n + 109):nth-of-type(-n + 110),
+main .privacy-section p:nth-of-type(1n + 113):nth-of-type(-n + 114) {
+  text-indent: -21px;
+  margin-left: 51px;
+}
+
+main .privacy-section p:nth-of-type(1n + 113):nth-of-type(-n + 114) {
+  text-indent: -21px;
+  margin-left: 51px;
+}
+
+main .privacy-section p:nth-of-type(1n + 111):nth-of-type(-n + 112) {
+  text-indent: -21px;
+  margin-left: 75px;
+}
+
+
+main .privacy-section p:nth-of-type(1n + 121):nth-of-type(-n + 125) {
+  text-indent: -21px;
+  margin-left: 51px;
+}
+
+main .payment-term-section p:nth-of-type(1n + 10):nth-of-type(-n + 11 ),
+main .payment-term-section p:nth-of-type(1n + 16):nth-of-type(-n + 17 ) {
+  text-indent: -19px;
+  margin-left: 38px;
+}
+
+
 
 main .tech-product-section h6 {
   text-align: center;
@@ -1316,6 +1401,14 @@ main .form {
     font-weight: 100;
     color:#000;
   } */
+
+  main .general-terms-tlc-saas h2,
+  main .privacy-policy-section h2{
+    font-size:36px;
+    text-align: center;
+    margin-top:-8px;
+  }
+
 
   main .clientele-page .default-content-wrapper h2 {
     font-size: 36px;
@@ -2448,12 +2541,16 @@ main .background strong a {
     padding-left: 10px;
   }
 
-	 main .section .default-content-wrapper p {
+	 main .privacy-policy-section .default-content-wrapper p {
     /* display: flex; */
     justify-content: left;
     gap: 10px;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 0;
+  }
+  main .privacy-policy-section .default-content-wrapper h4{
+    padding: 0px 0px;
+    font-size: 16px;
   }
 
   main .current-opening .default-content-wrapper p{
@@ -2548,7 +2645,7 @@ main .background strong a {
 
 
   main .general-terms-tlc-saas .default-content-wrapper h2 {
-    font-size: 22px;
+    font-size: 28px;
   }
 
   .section.carve-career-all-section p:nth-child(1) {
@@ -2679,7 +2776,7 @@ main .job-description-page p:nth-child(3) {
 }
   
 main .payment-term-section h1{
-  font-size:22px;
+  font-size:28px;
   text-align: left;
   color: var(--text-color);
 }
@@ -2768,6 +2865,16 @@ main .payment-term-section * p,
 main .general-terms-tlc-saas * p,
 main .privacy-policy-section * p {
   font-size: 16px;
+}
+
+main .payment-term-section p:nth-of-type(1n):nth-of-type(-n + 17) {
+  text-indent: 0px;
+  margin-left: 0px;
+}
+
+.privacy-policy-section h4{
+  margin-left: 0px;
+  font-size: 16px;  
 }
 
 }
