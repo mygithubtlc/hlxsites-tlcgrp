@@ -175,6 +175,13 @@ main .online-order-logo-section .new-image-set ul li a{
   padding: 0;
 }
 
+.select-clientele-logo-section .columns > div > div > p img:nth-child(4) {
+  display: inline-block;
+  width: 23%;
+  padding: 0;
+  padding-left: 10px;
+}
+
 .image-set ul li {
   /* list-style: none; */
   font-size: 15px;
