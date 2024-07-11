@@ -694,6 +694,8 @@ main .history-vision-section .cards p em:nth-child(1) {
     width:100%;
   }
 
+  
+
   .meet-our-team-desktop-view .cards-wrapper:nth-child(2) {
     height:auto;
   }
@@ -794,7 +796,7 @@ main .history-vision-section .cards p em:nth-child(1) {
     padding: 10px;
   }
 
-  .world-class-cutomer-loyality .cards-card-body {
+    .world-class-cutomer-loyality .cards-card-body {
     padding: 10px;
     position: absolute;
     bottom:0;
@@ -874,12 +876,17 @@ main .history-vision-section .cards p em:nth-child(1) {
   }
 
   .meet-our-team-mobile .cards > ul > li p {
-    margin: 10px;
+    margin: 5px 0px 0px 0px;
+    text-align: left;
   }
 
   .meet-our-team-mobile .cards-card-body p:nth-child(3) strong {
     font-size: 14px;
     position: relative;
+    margin-left:0px;
+  }
+  .meet-our-team-mobile .cards p:first-of-type{
+    padding-left: 0px;
   }
 
   .meet-our-team-mobile-another-section .cards > ul > li p {
@@ -887,7 +894,7 @@ main .history-vision-section .cards p em:nth-child(1) {
   }
 
   .meet-our-team-mobile .cards > ul > li p:nth-child(2) {
-    margin: 10px;
+    margin: 10px 10px 0px 0px;
     margin-top: 20px;
   }
 
