@@ -5,9 +5,6 @@
   ascent-override: 85%;
 }
 
-
-
-
 :root {
   /* colors */
   --background-color: #fff;
@@ -114,10 +111,6 @@ main .job-description-page p:last-of-type a:nth-of-type(n):nth-of-type(-n + 4) {
   text-decoration: none;
 }
 
-
-
-
-
 .new-image-set a {
   font-size: 15px;
 }
@@ -135,7 +128,7 @@ main .why-us a {
   border-radius: 34px;
   display: table;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 0;
   padding: 16px 24px;
   background-color: #fff;
@@ -152,7 +145,7 @@ main .why-us a {
   border-radius: 34px;
   display: table;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 50px;
   padding: 16px 34.5px;
   background-color: #fff;
@@ -160,6 +153,7 @@ main .why-us a {
   text-decoration: none;
   font-family: var(--alt-font-family);
 }
+
 .job-description-page h5 a:hover{
   background-color: #313131;
   color:#fff;
@@ -174,6 +168,19 @@ main .job-description-page p a {
   display: inline;
 }
 
+main .disclaimer-section h2{
+  font-size: 36px;
+  margin:0px;
+  margin-top:-8px
+}
+
+main .disclaimer-section h3{
+  font-size: 28px;
+  margin-top:30px;
+ 
+}
+
+
 main .online-orders h5 > a {
   text-align: center;
   font-size: 18px;
@@ -182,13 +189,15 @@ main .online-orders h5 > a {
   border-radius: 34px;
   display: table;
   margin: 0 auto;
-  margin-top: 85px;
+  margin-top: 0px;
   padding: 16px 38.5px;
   background-color: #fff;
   border:1.5px solid #313131;
   text-decoration: none;
   font-family: var(--alt-font-family);
 }
+
+
 main .online-orders h5 > a:hover{
   background-color: #313131;
   color:#fff;
@@ -218,8 +227,8 @@ main .onlineordercta h5 > a {
   border-radius: 34px;
   display: table;
   margin: 0 auto;
-  margin-top: 110px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 60px;
   padding: 16px 24px;
   background-color: #fff;
   border:1.5px solid #313131;
@@ -240,6 +249,22 @@ main .onlinecta h5 > a{
   background-color: #fff;
   border:1.5px solid #313131;
   text-decoration: none;
+}
+
+main .onlinetable h5 > a{
+  text-align: center;
+  font-size: 15px;
+  color: #313131;
+  font-weight: 600;
+  border-radius: 34px;
+  display: table;
+  margin: 0 auto;
+  margin-top: 2px;
+  margin-bottom: 92px;
+  padding: 16px 38.5px;
+  background-color: #fff;
+  border:1.5px solid #313131;
+  text-decoration: none;2
 }
 
 main .member-subscriptions h5 > a:hover{
@@ -441,6 +466,13 @@ main .world-class-cutomer-loyality .cards ul > li p a {
   color:#fff;
 }
 
+main .customer-journey-section h2{
+  text-align: center;
+  margin-top: 71px;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
 main .related-case-studies-component .cards ul > li p a {
   font-size: 15px;
   font-family: var(--alt-font-family);
@@ -491,6 +523,9 @@ main .section.background > picture img {
   width: 100%;
   height: 100%;
 }
+main .text-wrapped > picture img{
+  object-position: 0px -25px;
+}
 
 .job-description-page ol li {
   padding: 6px 0;
@@ -513,7 +548,7 @@ main .section.background > picture img {
 
 main .online-orders h1 {
   text-align: center;
-  font-size: 48px;
+  font-size: 36px;
   padding-top: 0;
   display: flex;
   justify-content: center;
@@ -526,12 +561,17 @@ main .online-orders h1 {
   margin-top: 0;
 }
 
-main .payment-term-section h1,
-main .privacy-policy-section h2{
-  font-size:48px;
+main .payment-term-section h1 {
+  font-size:36px;
   color:#000;
   text-align: center;
+  margin-top:-8px;
 }
+
+main .payment-term-section .default-content-wrapper h1{
+  margin-top:-7px;
+}
+
 
 .section .default-content-wrapper em {
   font-style: normal;
@@ -547,6 +587,10 @@ main .background .default-content-wrapper {
   max-width: 1230px;
   padding-right: 20px;
   padding-bottom: 42px;
+}
+
+main .carve-career-all-section .default-content-wrapper{
+  margin:72px auto;
 }
 
 main .integration-free-solutions {
@@ -582,6 +626,7 @@ main .job-description-page h2 {
   text-align: center;
   font-size: 28px;
   margin-bottom: 0;
+  margin-top:-13px;
 }
 
 main .clientele-page h2 {
@@ -607,7 +652,7 @@ main .online-orders h2 {
 
 main .job-description-page:last-child h2 {
   text-align: center;
-  font-size: 28px;
+  font-size: 36px;
   margin-bottom: 0;
   font-weight: bold;
   font-family: var(--heading-font-family);
@@ -724,6 +769,16 @@ main .customer-journey-section h4 {
   margin-left:120px;
 }
 
+.privacy-policy-section p:nth-of-type(1n + 67):nth-of-type(-n + 67){
+  text-indent: -45px;
+  margin-left:120px;
+}
+
+.privacy-policy-section p:nth-of-type(1n + 68):nth-of-type(-n + 70){
+  text-indent: -20px;
+  margin-left:120px;
+}
+
 .privacy-policy-section p:nth-of-type(1n + 181):nth-of-type(-n + 182),
 .privacy-policy-section p:nth-of-type(1n + 184):nth-of-type(-n + 188),
 .privacy-policy-section p:nth-of-type(1n + 190):nth-of-type(-n + 191),
@@ -756,6 +811,7 @@ main .customer-journey-section h4 {
   text-indent: -23px;
   margin-left:141px;
 }
+
 
 
 .general-terms-tlc-saas  p:nth-of-type(1n + 3):nth-of-type(-n + 3),
@@ -872,7 +928,7 @@ main .disclaimer-section * p {
 
 main .arrow-icon-style p {
   font-size: 15px;
-  text-indent: -13px;
+  text-indent: -8px;
   margin-left: 79px;
 }
 
@@ -889,13 +945,17 @@ main .support-services p {
 
 main .online-orders p {
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
 }
 
 main .online-orders.member-subscriptions {
   padding: 0;
   text-align: center;
+}
+
+main .online-orders .default-content-wrapper h1{
+  margin-top:-13px;
 }
 
 main .online-order-logo-section p {
@@ -919,7 +979,7 @@ main .restaurants-logo p {
 }
 
 .section.clientele-page h4 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 main .disclaimer-section * h3,
@@ -929,12 +989,94 @@ main .general-terms-tlc-saas * h3,
 main .privacy-policy-section * h3 {
   font-size: 28px;
   text-align: left;
+  margin-top:30px;
 }
+
+main .disclaimer-section * p,
+main .privacy-section * p, 
+main .payment-term-section * p,
+main .general-terms-tlc-saas * p,
+main .privacy-policy-section * p {
+  font-size: 16px;
+}
+main .privacy-section p:nth-of-type(1n + 3):nth-of-type(-n + 12){
+  text-indent: -10px;
+    margin-left: 30px;
+
+}
+
+main .privacy-section p:nth-of-type(1n + 28):nth-of-type(-n + 46){
+  text-indent: -21px;
+    margin-left: 50px;
+
+}
+
+main .privacy-section p:nth-of-type(1n + 52):nth-of-type(-n + 58){
+  text-indent: -21px;
+    margin-left: 51px;
+}
+
+main .privacy-section p:nth-of-type(1n + 60):nth-of-type(-n + 67){
+  text-indent: -21px;
+    margin-left: 51px;
+}
+
+main .privacy-section p:nth-of-type(1n + 71):nth-of-type(-n + 71),
+main .privacy-section p:nth-of-type(1n + 74):nth-of-type(-n + 77),
+main .privacy-section p:nth-of-type(1n + 82):nth-of-type(-n + 82),
+main .privacy-section p:nth-of-type(1n + 89):nth-of-type(-n + 92){
+  text-indent: -21px;
+    margin-left: 51px;
+}
+
+main .privacy-section p:nth-of-type(1n + 72):nth-of-type(-n + 73),
+main .privacy-section p:nth-of-type(1n + 78):nth-of-type(-n + 81),
+main .privacy-section p:nth-of-type(1n + 83):nth-of-type(-n + 88) {
+  text-indent: 0px;
+    margin-left: 55px;
+}
+
+main .privacy-section p:nth-of-type(1n + 72):nth-of-type(-n + 73),
+main .privacy-section p:nth-of-type(1n + 78):nth-of-type(-n + 81),
+main .privacy-section p:nth-of-type(1n + 94):nth-of-type(-n + 96) {
+  text-indent: -21px;
+    margin-left: 51px;
+}
+
+main .privacy-section p:nth-of-type(1n + 109):nth-of-type(-n + 110),
+main .privacy-section p:nth-of-type(1n + 113):nth-of-type(-n + 114) {
+  text-indent: -21px;
+  margin-left: 51px;
+}
+
+main .privacy-section p:nth-of-type(1n + 113):nth-of-type(-n + 114) {
+  text-indent: -21px;
+  margin-left: 51px;
+}
+
+main .privacy-section p:nth-of-type(1n + 111):nth-of-type(-n + 112) {
+  text-indent: -21px;
+  margin-left: 75px;
+}
+
+
+main .privacy-section p:nth-of-type(1n + 121):nth-of-type(-n + 125) {
+  text-indent: -21px;
+  margin-left: 51px;
+}
+
+/* main .payment-term-section p:nth-of-type(1n + 10):nth-of-type(-n + 11 ),
+main .payment-term-section p:nth-of-type(1n + 16):nth-of-type(-n + 17 ) {
+  text-indent: -19px;
+  margin-left: 38px;
+} */
+
+
 
 main .tech-product-section h6 {
   text-align: center;
   font-family: var(--alt-font-family);
-  font-size: 24px;
+  font-size: 20px;
 }
 
 main .support-services h6 {
@@ -987,6 +1129,26 @@ main .section .default-content-wrapper p {
   margin-top: 0;
 }
 
+main .support-services p{
+  text-align: center;
+  font-size:20px;
+  padding: 0px 150px;
+}
+
+main .support-services .default-content-wrapper h2{
+  margin-top:4px;
+  text-align: center;
+}
+
+/* main .support-services .default-content-wrapper{
+  margin:0px 0px 40px 0px
+} */
+
+main .support-services p{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
 main.section .default-content-wrapper p {
   display: block;
   text-align: left;
@@ -1006,7 +1168,7 @@ main .why-us .default-content-wrapper p {
   padding: 8px 0;
   margin: 0 0%;
   text-align: center;
-  margin-top:87px;
+  margin-top:123px;
 }
 
 main pre {
@@ -1089,7 +1251,7 @@ main .section .default-content-wrapper em {
 main .section .default-content-wrapper h4 {
   padding: 0 20px;
   padding-bottom: 10px;
-  font-family: var(--alt-font-family);
+  /* font-family: var(--alt-font-family); */
 }
 
 .legal main .section {
@@ -1163,6 +1325,16 @@ main .form {
     padding-bottom: 20px;
   }
 
+  main .futuristic-product h2{
+    font-size: 36px;
+    text-align: center;
+    margin-top:35px;
+  }
+
+  main .futuristic-product .default-content-wrapper{
+    margin-bottom: -30px;
+  }
+
   main .privacy-section p a,
   main .general-terms-tlc-saas p a{
     color:#0070e0;
@@ -1201,13 +1373,14 @@ main .form {
     font-size: 48px;
   }
 
-  main .current-opening h4 {
+  main .current-opening h4:nth-child(1) {
     text-align: center;
-    font-size: 48px;
+    font-size: 36px;
+    margin-top:107px;
   }
 
   main .background .default-content-wrapper h4 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
     text-align: center;
     padding-left: 0;
@@ -1225,17 +1398,64 @@ main .form {
     color:#313131;
   }
 
-  main .section .default-content-wrapper h2 {
-    font-size: 48px;
+  /* main .section .default-content-wrapper h2 {
+    font-size: 36px;
     padding-top: 0;
     display: flex;
     justify-content: center;
     font-weight: 100;
     color:#000;
-    margin-top:20px;
-  }
- 
+  } */
 
+  main .general-terms-tlc-saas h2,
+  main .privacy-policy-section h2{
+    font-size:36px;
+    text-align: center;
+    margin-top:-8px;
+  }
+
+
+  main .clientele-page .default-content-wrapper h2 {
+    font-size: 36px;
+    margin-top: -15px;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    color:#000;
+  }
+
+  main .clientele-page .default-content-wrapper h2:nth-child(2) {
+    font-size: 36px;
+    margin-top: -15px;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    color:#000;
+  }
+
+  main .tech-product-section .default-content-wrapper h2 {
+    font-size: 36px;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    color:#000;
+    margin-top:-15px;
+  }
+
+  main .our-resources-product .default-content-wrapper h2 {
+    font-size: 36px;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    color:#000;
+    margin:-15px;
+    margin-bottom: 40px;
+  }
+  
   main .our-capabilities .default-content-wrapper h2 {
     font-size: 36px;
     padding-top: 0;
@@ -1243,11 +1463,19 @@ main .form {
     justify-content: center;
     font-weight: 100;
     color:#313131;
-    margin-top:50px;
+    margin-top:91px;
+    margin-bottom: 15px;
   }
 
   main .career-head-section .default-content-wrapper h2 {
     text-align: center;
+    font-size: 36px;
+    font-family: var(--heading-font-family);
+    margin-top: 67px;
+  }
+
+  main .career-head-section .columns-wrapper{
+    margin-bottom: 86px;
   }
 
   /* main .carve-career .default-content-wrapper h1 {
@@ -1305,6 +1533,67 @@ main .form {
     font-size: 15px;
     font-weight: 200;
     text-align: left;
+    margin: 58px 0px 90px 0px;
+  }
+
+  main .job-description-page .default-content-wrapper h5 {
+    font-size: 15px;
+    font-weight: 200;
+    text-align: left;
+    margin: 43px 0px 40px 0px;
+  }
+
+
+
+  main .online-orders .default-content-wrapper h5 {
+    font-size: 15px;
+    font-weight: 200;
+    text-align: left;
+    margin: 58px 0px 45px 0px;
+  }
+
+  main .onlinetable .default-content-wrapper{
+    margin-top:-31px;
+  }
+
+
+
+  main .onlineordercta .default-content-wrapper h5 {
+    font-size: 15px;
+    font-weight: 200;
+    text-align: left;
+    margin: 58px 0px 0px 0px;
+  }
+
+  main .why-us .default-content-wrapper h5 {
+    font-size: 15px;
+    font-weight: 200;
+    text-align: left;
+    margin: 46px 0px 76px 0px;
+  }
+
+  main .carve-career-all-section .default-content-wrapper h5 {
+    font-size: 15px;
+    font-weight: 200;
+    text-align: left;
+    margin: 58px 0px 0px 0px;
+  }
+
+  main .history-vision-section .default-content-wrapper h5 {
+    font-size: 15px;
+    font-weight: 200;
+    text-align: left;
+    margin: 58px 0px 85px 0px;
+  }
+
+  main .carve-career .default-content-wrapper h5 {
+    font-size: 15px;
+    font-weight: 200;
+    text-align: left;
+    margin: 50px 0px 0px 0px;
+  }
+  main .history-vision-section h5{
+    display: inline-block;
   }
 }
 
@@ -1333,8 +1622,12 @@ main .form {
     margin: auto;
   }
 
-  main .section.background {
+  /* main .section.background {
     height: 600px;
+  } */
+
+  main .highest-standard-text {
+    height: 500px;
   }
 
   main .section.carve-career {
@@ -1360,23 +1653,22 @@ main .form {
     color:#313131;
   }
 
+
   main .carve-career .default-content-wrapper h5 {
     text-align: center;
     font-size: 36px;
-    padding-top: 0;
-      display: flex;
-      justify-content: center;
-      font-weight: 100;
-      color: #313131;
-      margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    color: #313131;
   }
-
-  main .carve-career {
-    margin-top: 12px;
+  main .carve-career .default-content-wrapper{
+    padding:79px 0px 115px 0px
   }
 
   main .embed-container {
     padding-bottom: 2px;
+    padding: 88px 0px 0px 0px;
   }
 
   main .carve-career .default-content-wrapper h3 {
@@ -1407,7 +1699,6 @@ main .form {
     margin-top: 0;
     max-width: 100%;
     padding-right: 20px;
-    margin-bottom: 3px;
 }
 
   main .cyber-security .default-content-wrapper h2 {
@@ -1459,6 +1750,7 @@ main .form {
   main .background .default-content-wrapper h2:nth-child(1) {
     margin-left: 0;
     color:#fff;
+    font-size:36px;
   }
 
 
@@ -1466,17 +1758,22 @@ main .form {
     color:#313131;
     font-size:36px;
     font-weight: 400;
+    text-align: center;
 
   }
 
-  main .cyber-security .default-content-wrapper h2:nth-child(1) {
-    padding-top: 200px;
-    
+ 
+  main .cyber-security .default-content-wrapper:nth-child(1){
+    padding:150px 0px;
   }
 
   main .text-wrapped .default-content-wrapper h2:nth-child(1) {
-    padding-top: 200px;
+    /* padding-top: 200px; */
     color:#313131;
+  }
+
+  main .text-wrapped .default-content-wrapper:nth-child(1){
+    padding: 110px 0px;
   }
 
   
@@ -1723,6 +2020,27 @@ main .customer-journey-section .new-image-set h3 {
   margin-top: 20px;
 }
 
+main .restaurants-logo h4{
+  text-align: center;
+  font-size: 36px;
+  margin-top:55px;
+  margin-bottom: 15px;
+}
+
+main .table-container .default-content-wrapper h1{
+  font-size: 36px;
+  margin-top:-23px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+main .table-container .default-content-wrapper h5{
+  font-size: 18px;
+        font-weight: 200;
+        text-align: left;
+        text-align: center;
+        margin:60px auto;
+}
+
 main .customer-journey-section .new-image-set {
   position: relative;
   inset: 0;
@@ -1765,6 +2083,7 @@ main .customer-journey-section .new-image-set > h5 {
     text-decoration: none;
     font-family: var(--alt-font-family);
     margin-top: 20px;
+    margin-bottom:60px;
   }
 
   main .background .default-content-wrapper h5 {
@@ -1779,21 +2098,24 @@ main .customer-journey-section .new-image-set > h5 {
   }
 
   main .carve-career .default-content-wrapper h5 {
-    font-size: 32px;
+    font-size: 28px;
     padding-top: 0;
     display: flex;
     justify-content: center;
     font-weight: 100;
     color:#313131;
     margin-top:0;
+    font-family: var(--heading-font-family);
   }
 
     .tech-product-section h2 {
     text-align: center;
+    font-size:28px;
   }
 
+
   main .carve-career-all-section .default-content-wrapper h5 {
-    font-size: 32px;
+    font-size: 28px;
     padding-top: 0;
     display: flex;
     justify-content: center;
@@ -1803,7 +2125,9 @@ main .customer-journey-section .new-image-set > h5 {
     font-family: var(--heading-font-family);
   }
 
-  /* main .background .default-content-wrapper h2 {
+
+
+    /* main .background .default-content-wrapper h2 {
     text-align: center;
     font-size: 24px;
     color: #000;
@@ -1824,8 +2148,9 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .highest-standard-text h2 {
     position: relative;
-    font-size: 48px;
+    font-size: 24px;
     color:#fff;
+    margin-top:60px;
   }
 
   .privacy-policy-section * p {
@@ -1843,11 +2168,17 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .arrow-icon-style p {
     margin-left: 20px;
+    margin-bottom: 0px;
   }
 
   main .carve-career-all-section {
     text-align: center;
     margin-top: 20px;
+  }
+
+  main .bottom-section-carve {
+    text-align: center;
+    margin-top: 0px;
   }
 
   .clientele-page h4 {
@@ -1856,15 +2187,21 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .tech-platform-logos h4 {
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
   }
 
   main .cyber-security h4 {
     text-align: center;
   }
 
+  main .omni-section  ul{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
   main .compliances-logos h4 {
     text-align: center;
+    font-size: 18px;
   }
 
   main .career-head-section h4 {
@@ -1873,10 +2210,12 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .current-opening h4 {
     text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
   }
 
   .section.integration-free-solutions h4 {
-    font-size: 22px;
+    font-size: 18px;
   }
 
 
@@ -1885,6 +2224,9 @@ main .customer-journey-section .new-image-set > h5 {
     padding: 20px 16px;
     box-sizing: border-box;
     
+  }
+  main .integration-free-solutions{
+    padding:0px;
   }
 
   main  .embed-container {
@@ -1910,7 +2252,7 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .online-orders h5 > a {
     margin-top: 31px;
-    margin-bottom: -50px;
+    margin-bottom: 0px;
   }
 
   main .job-description-page p a {
@@ -2022,7 +2364,7 @@ main .background strong a {
   }
 
   main .disclaimer-section * h2 {
-    font-size: 22px;
+    font-size: 28px;
     text-align: left;
   }
 
@@ -2120,7 +2462,7 @@ main .background strong a {
   }
 
   main .carve-career h3 {
-    font-size: 20px;
+    font-size: 18px;
     padding: 15px 0;
     text-align: center;
     color:#313131;
@@ -2128,7 +2470,7 @@ main .background strong a {
   }
 
 	  main .carve-career-all-section h3 {
-    font-size: 20px;
+    font-size: 18px;
     padding: 0 20px;
     text-align: center;
     color:#313131;
@@ -2161,7 +2503,7 @@ main .background strong a {
 
 
   .section.clientele-page h4 {
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
   }
 
@@ -2204,12 +2546,20 @@ main .background strong a {
     padding-left: 10px;
   }
 
-	 main .section .default-content-wrapper p {
+	 main .privacy-policy-section .default-content-wrapper p {
     /* display: flex; */
     justify-content: left;
     gap: 10px;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 0;
+  }
+  main .privacy-policy-section .default-content-wrapper h4{
+    padding: 0px 0px;
+    font-size: 16px;
+  }
+
+  main .current-opening .default-content-wrapper p{
+    text-align: center;
   }
 
 	
@@ -2266,16 +2616,27 @@ main .background strong a {
     height: auto;
   }
 
+  main .section.highest-standard-text {
+    height: auto;
+    margin-bottom: 60px;
+  }
+
   main .section.text-wrapped  {
     height: 470px
   }
 
   main .background .default-content-wrapper {
     padding-left: 20px;
-    margin-top: 50px;
+    margin-top: 10px;
     max-width: 100%;
     padding-right: 25px;
-    padding-bottom: 30px;
+  }
+
+  main .text-wrapped .default-content-wrapper {
+    padding-left: 20px;
+    margin-top: 10px;
+    max-width: 100%;
+    padding-right: 25px;
   }
 
   main .carve-career .default-content-wrapper {
@@ -2289,7 +2650,7 @@ main .background strong a {
 
 
   main .general-terms-tlc-saas .default-content-wrapper h2 {
-    font-size: 22px;
+    font-size: 28px;
   }
 
   .section.carve-career-all-section p:nth-child(1) {
@@ -2371,7 +2732,14 @@ main .background strong a {
     object-fit: cover;
     width: 100%;
     height: 100%;
-    object-position: -518px 0;
+    /* object-position: -518px 0; */
+}
+
+main .section.text-wrapped > picture img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: -518px 0;
 }
 
 main .section.cyber-security > picture img {
@@ -2413,13 +2781,110 @@ main .job-description-page p:nth-child(3) {
 }
   
 main .payment-term-section h1{
-  font-size:22px;
+  font-size:28px;
   text-align: left;
   color: var(--text-color);
 }
 main .disclaimer-section * h3, main .privacy-section * h3, main .payment-term-section * h3, main .general-terms-tlc-saas * h3, main .privacy-policy-section * h3 {
-  font-size: 22px;
+  font-size: 24px;
   text-align: left;
 }
+
+
+main .our-resources-product h2{
+  text-align: center;
+  font-size: 28px;;
+}
+
+main .background .default-content-wrapper {
+  padding-left: 20px;
+  /* margin-top: 50px; */
+  max-width: 1230px;
+  padding-right: 20px;
+  padding-bottom: 42px;
+  padding-top: 10px;
+}
+
+main .carve-career .default-content-wrapper {
+  padding-left: 20px;
+  /* margin-top: 50px; */
+  max-width: 1230px;
+  padding-right: 20px;
+  padding-bottom: 42px;
+  padding-top: 20px;
+}
+
+main .carve-career-all-section .default-content-wrapper {
+  padding-left: 20px;
+  /* margin-top: 50px; */
+  max-width: 1230px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-top: 20px;
+}
+
+main .tech-product-section h6 {
+  text-align: center;
+  font-family: var(--alt-font-family);
+  font-size: 18px;
+}
+
+
+main .support-services p{
+  text-align: center;
+  font-size:20px;
+  padding: 0px 0px;
+}
+
+main .support-services .default-content-wrapper h2{
+  margin-top:4px;
+  text-align: center;
+  font-size: 28px;
+}
+
+main .restaurants-logo h4{
+  text-align: center;
+  font-size: 28px;
+  margin-top:55px;
+  margin-bottom: 15px;
+}
+
+main .table-container .default-content-wrapper h1{
+  font-size: 28px;
+  margin-top:-23px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+main .table-container .default-content-wrapper h5{
+  font-size: 18px;
+        font-weight: 200;
+        text-align: left;
+        text-align: center;
+        margin-bottom: 80px;
+}
+
+main .disclaimer-section * p,
+main .privacy-section * p, 
+main .payment-term-section * p,
+main .general-terms-tlc-saas * p,
+main .privacy-policy-section * p {
+  font-size: 16px;
+}
+
+main .payment-term-section p:nth-of-type(1n):nth-of-type(-n + 50) {
+  text-indent: 0px;
+  margin-left: 0px;
+}
+main .privacy-section p:nth-of-type(1n):nth-of-type(-n + 200){
+  text-indent: 0px;
+  margin-left: 0px;
+}
+
+.privacy-policy-section h4{
+  margin-left: 0px;
+  font-size: 16px;  
+}
+
 
 }

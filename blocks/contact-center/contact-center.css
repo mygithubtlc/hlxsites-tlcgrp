@@ -2,11 +2,11 @@ main .contact-center {
   background-color: white;
   padding: 20px 40px;
   text-align: center;
-  margin-bottom: 80px;
+  font-size:20px;
 }
 
 main .contact-center h2 {
-  font-size: 48px;
+  font-size: 28px;
 }
 
 main .contact-center p {
@@ -23,24 +23,25 @@ main .contact-center p:last-child {
 }
 
 main .contact-center img {
-  width: 50px;
+  width: 40px;
 }
 
 
 @media (min-width: 900px) {
   main .contact-center {
-    padding: 20px 20%;
+    padding: 55px 20% 74px 20%;
   }
 
   main .contact-center p:last-child {
-    justify-content: space-between;
-    flex-wrap: nowrap;
+    /* justify-content: space-between; */
+    justify-content: center;
+    flex-wrap: nowrap
   }
 }
 
 @media (max-width: 480px) {
   main .contact-center h2 {
-    font-size: 21px;
+    font-size: 24px;
   }
 
   .contact-center.block p {
@@ -51,7 +52,7 @@ main .contact-center img {
     background-color: white;
     padding: 20px 15px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 
   main .contact-center img {

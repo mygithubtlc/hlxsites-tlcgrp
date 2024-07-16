@@ -1,12 +1,23 @@
 .section.columns-container {
   opacity: 1;
-  padding-top: 50px;
+  padding-top: 4px;
   margin-bottom: 0;
-  padding-bottom: 10px;
+  padding-bottom: 4px;
+}
+
+.select-clientele-logo-section .default-content-wrapper {
+  opacity: 1;
+  /* padding-top: 80px; */
+  margin-bottom: 0;
+  padding-bottom: 4px;
 }
 
 .section .default-content-wrapper {
   justify-content: center;
+}
+
+.tech-product-section .default-content-wrapper{
+  margin-bottom: 30px;
 }
 
 .columns > div > div h4 {
@@ -14,6 +25,15 @@
   color: gray;
   text-align: left;
   /* color:#0070e0; */
+  margin-left:40px;
+}
+
+.current-opening .columns > div > div h4 {
+  font-size: 15px;
+  color: gray;
+  text-align: left;
+  /* color:#0070e0; */
+  margin-left:0px;
 }
 
 .z-pattern-container .new-image-set h4 a {
@@ -53,11 +73,29 @@
   padding-top: 50px;
 }
 
-.section.columns-container h2 {
+/* .section.columns-container h2 {
   display: flex;
   place-content: center center;
   font-size: 48px;
   margin-top: -40px;
+  align-content: center;
+  margin-bottom: 5px;
+} */
+
+main .case-studies-custom h2{
+  margin-top:0px;
+  display: flex;
+  place-content: center center;
+  font-size: 36px;
+  margin-top: 67px;
+  align-content: center;
+  margin-bottom: 5px;
+}
+.select-clientele-logo-section .default-content-wrapper h2 {
+  display: flex;
+  place-content: center center;
+  font-size: 36px;
+  margin-top: 61px;
   align-content: center;
   margin-bottom: 5px;
 }
@@ -113,18 +151,18 @@ main .online-order-logo-section .new-image-set ul li a{
   border-top: 1px solid #DCDCDC;
 }
 
+
+
+
 .our-capabilities .default-content-wrapper{
   border-top: 1px solid #DCDCDC;
 }
 
 
-.columns > div > div:first-child {
-  margin-top: 2%;
-}
-
+/* .columns > div > div:first-child,
 .columns > div > div:last-child {
-  margin-top: 2%;
-}
+  margin-top: 1%;
+} */
 
 .columns img {
   width: 100%;
@@ -135,6 +173,13 @@ main .online-order-logo-section .new-image-set ul li a{
   display: inline-block;
   width: 23%;
   padding: 0;
+}
+
+.select-clientele-logo-section .columns > div > div > p img:nth-child(4) {
+  display: inline-block;
+  width: 23%;
+  padding: 0;
+  padding-left: 10px;
 }
 
 .image-set ul li {
@@ -149,8 +194,17 @@ main .online-order-logo-section .new-image-set ul li a{
   font-size: 28px;
 }
 
+.case-studies-custom .columns > div > div h3 {
+  font-weight: 500;
+  font-size: 24px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: self-end;
+  text-align: left;
+}
+
 .arrow-icon-style .new-image-set ul {
-  padding-left: 14%;
+  padding-left: 70px;
 }
 
 .our-capabilities p{
@@ -184,14 +238,14 @@ main .online-order-logo-section .new-image-set ul li a{
     padding-bottom: 10px;
   }
 
-  .section .columns-wrapper > div,
+  /* .section .columns-wrapper > div,
   .section .columns-container {
     padding-top: 50px;
-  }
+  } */
 
   .our-capabilities .columns-wrapper > div {
-    padding-top: 30px;
-    margin-bottom: 50px;
+    padding-top: 0px;
+    margin-bottom:110px;
   }
 
   .online-order-logo-section > .columns-wrapper div {
@@ -205,9 +259,16 @@ main .online-order-logo-section .new-image-set ul li a{
     flex-direction: unset;
   }
 
-  .columns > div > div {
+  main .our-capabilities .columns > div > div {
     flex: 1;
-    margin-left: 32px;
+    margin-left: 0px;
+  }
+  
+  main .our-capabilities .new-image-set:nth-child(1) {
+    margin-right: 100px;
+}
+  main .our-capabilities {
+    padding-bottom: 120px;
   }
 
   .online-order-logo-section .columns > div {
@@ -216,9 +277,87 @@ main .online-order-logo-section .new-image-set ul li a{
     align-items: center;
   }
 
-  .columns > div > div:first-of-type {
+  /* .columns > div > div:first-of-type {
+    margin-left: unset;
+    margin-right:100px;
+  } */
+
+  /* .icon-section .columns > div > div:first-of-type {
+    margin-left: unset;
+    margin-right:100px;
+  } */
+
+  .icon-section .new-image-set {
+    margin-left: unset;
+    margin-right:70px;
+    width:700px;
+  }
+
+  .program-partner .new-image-set {
+    margin-left: unset;
+    margin-right:70px;
+    width:700px;
+  }
+
+  .columns-container .new-image-set {
+    margin-left: unset;
+    margin-right:70px;
+    width:700px;
+  }
+
+  .online-order-logo-section .new-image-set {
     margin-left: unset;
   }
+
+  .select-clientele-logo-section .new-image-set {
+    margin-left: unset;
+    margin-right:70px;
+    width:900px;
+  }
+
+  .case-studies-custom .image-set{
+    margin-left: unset;
+    margin-right:70px;
+    width:800px;
+  }
+  .case-studies-custom .new-image-set{
+    margin-left: unset;
+    margin-right:70px;
+    width:800px;
+  }
+  .case-studies-custom .new-image-set p{
+    margin-bottom: 0px;
+  }
+
+  .online-order-logo-section .columns-wrapper:nth-child(3){
+    margin-top:30px;
+    margin-bottom:30px;
+  }
+
+  .online-order-logo-section .columns-wrapper:nth-child(4){
+    margin-top:30px;
+    margin-bottom:30px;
+  }
+  
+  .program-partner .columns > div > div:first-of-type {
+    margin-left: unset;
+    margin-right:100px;
+  }
+
+  main .program-partner h4{
+    text-align: center;
+    font-size: 36px;
+    margin-top:82px;
+    margin-bottom: 0px;
+  }
+
+  /* main .icon-section .z-pattern-wrapper{
+    margin-bottom: 25px;
+  } */
+
+   main .arrow-icon-style .columns > div > div:first-of-type{
+    margin-right:70px;
+   }
 
   .section .columns-container h4 {
     font-size: 48px;
@@ -250,8 +389,7 @@ main .online-order-logo-section .new-image-set ul li a{
     font-size: 15px;
     font-family: var(--alt-font-family);
     line-height: 25px;
-    margin-left: 0 px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
   }
 }
 
@@ -311,11 +449,12 @@ main .online-order-logo-section .new-image-set ul li a{
   .section.columns-container h2 {
     display: flex;
     place-content: center center;
-    margin-top: 0;
+    margin-top: 0px;
     color: var(--text-color);
     align-content: center;
     margin-bottom: 5px;
     font-size: 28px;
+    text-align: center;
   }
 
   .section .columns-container h2 {
@@ -342,7 +481,7 @@ main .online-order-logo-section .new-image-set ul li a{
   .columns .new-image-set h3 {
     display: block;
     text-align: left;
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .columns span .icon {
@@ -356,7 +495,7 @@ main .online-order-logo-section .new-image-set ul li a{
   .columns > div > div h4 {
     font-size: 14px;
     color: gray;
-    text-align: center;
+    text-align: left;
   }
 
   .columns-wrapper p {
@@ -394,7 +533,7 @@ main .online-order-logo-section .new-image-set ul li a{
 
   main .carve-career .default-content-wrapper h2 {
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
     color:#313131;
     font-weight: 400;
   }
@@ -410,7 +549,7 @@ main .online-order-logo-section .new-image-set ul li a{
   
 
   h2#whats-new {
-    font-size: 21px;
+    font-size: 28px;
     margin-top: 60px;
   }
 
@@ -449,8 +588,13 @@ main .online-order-logo-section .new-image-set ul li a{
   }
 
   .columns-wrapper ul li {
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 25px;
   }
+
+  .arrow-icon-style .new-image-set ul {
+    padding-left: 20px;
+}
 
   .columns > div > div > p img {
     display: inline-block;
@@ -504,4 +648,12 @@ main .online-order-logo-section .new-image-set ul li a{
   .columns > div > div:nth-child(1) {
     border:none;
   }
+
+  .select-clientele-logo-section .default-content-wrapper {
+    opacity: 1;
+    padding-top: 80px;
+    margin-bottom: 0;
+    padding-bottom: 4px;
+  }
+  
 }

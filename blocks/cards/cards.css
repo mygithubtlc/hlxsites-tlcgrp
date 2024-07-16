@@ -18,7 +18,7 @@
 
 .history-vision-section p {
   font-size: 24px;
-  padding-right: 100px;
+  padding-right: 77px;
 }
 
 .history-vision-section .icon-arrow-web {
@@ -66,9 +66,11 @@ main .cards-container .default-content-wrapper a {
 
 .cards > ul > li h3 {
   margin-top: 0;
-  font-size: 48px;
+  font-size: 28px;
   font-weight: 300;
 }
+
+
 
 main .cards-container .default-content-wrapper h3 {
   display: flex;
@@ -78,7 +80,7 @@ main .cards-container .default-content-wrapper h3 {
 }
 
 .fragment-container  .cards  > ul > li h3{
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 400;
   color:#fff;
   margin-right:90px;
@@ -146,8 +148,21 @@ main .section.cards-container {
 main .cards-container .default-content-wrapper {
   justify-content: center;
   text-align: center;
-  padding: 30px;
+  padding: 47px 0px 35px 0px;
 }
+
+main .meet-our-team-desktop-view  .default-content-wrapper {
+  justify-content: center;
+  text-align: center;
+  padding: 47px 0px 12px 0px;
+}
+
+main .world-class-cutomer-loyality .default-content-wrapper {
+  justify-content: center;
+  text-align: center;
+  padding: 91px 0px 35px 0px;
+}
+
 
 main .cards-container .default-content-wrapper em {
   font-size: 1.3em;
@@ -226,6 +241,7 @@ main .history-vision-section .cards-wrapper{
 @media (width >= 600px) {
   main .fragment-container p {
     margin-bottom: 25px;
+    font-size:20px;
 }
 
 	.cards .cards-card-image img {
@@ -250,14 +266,11 @@ main .history-vision-section .cards-wrapper{
     grid-gap: 0;
   }
 
-  main .cards-container .default-content-wrapper {
-    padding-bottom: 30px;
-  }
-
   main .cards-container .default-content-wrapper:last-child {
-    padding-top: 100px;
+    padding-top: 155px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 20px;
   }
 
   main .cards-container .default-content-wrapper h2 {
@@ -277,10 +290,54 @@ main .history-vision-section .cards-wrapper{
     text-align: center;
   }
 
+  main .meet-our-team-desktop-view  .default-content-wrapper h3 {
+    display: flex;
+    place-content: center center;
+    font-size: 36px;
+    align-content: center;
+    font-weight: 400;
+    text-align: center;
+    margin-top:30px;
+  }
+
+  .history-vision-section  .default-content-wrapper h3:first-of-type {
+    font-size: 36px;
+    padding:0px 5%;
+    margin:0px;
+  }
+
+main .history-vision-section .fifty-fifty h3{
+  font-size: 28px;
+}
+
+main .highest-standard-text .default-content-wrapper h2{
+  font-size:36px;
+}
+
+main .history-vision-section .fifty-fifty p{
+  font-size: 20px;
+  line-height: 32px;
+  
+}
+
+
+
+
+
+
   main .cards-container .default-content-wrapper em {
     display: flex;
     place-content: center center;
     font-size: 24px;
+    align-content: center;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  main .meet-our-team-desktop-view .default-content-wrapper em {
+    display: flex;
+    place-content: center center;
+    font-size: 20px;
     align-content: center;
     font-weight: 400;
     text-align: center;
@@ -300,7 +357,20 @@ main .history-vision-section .cards-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0;
+    /* min-height: 800px; */
+    min-height: 670px;
+    overflow: auto;
+  }
+
+  .meet-our-team-desktop-view .cards > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
     min-height: 800px;
+    /* min-height: 670px; */
     overflow: auto;
   }
 
@@ -411,14 +481,14 @@ main .history-vision-section .cards-wrapper{
 
   .cards > ul > li:first-child .cards-card-body {
     position: absolute;
-    bottom: 40px;
+    bottom: 10px;
     margin-left: 0;
     right:100px;
   }
 
   .related-case-studies-component  ul > li:first-child .cards-card-body {
     bottom: 0px;
-    right:0px;
+    left:0px
   }
   
 
@@ -428,12 +498,12 @@ main .history-vision-section .cards-wrapper{
 
   .cards > ul > li:nth-child(2) .cards-card-body {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
   }
 
   .fifty-fifty > ul > li:nth-child(2) .cards-card-body {
     position: absolute;
-    top: 75px;
+    top: 95px;
   }
 
   .cards > ul > li:nth-child(3) .cards-card-body {
@@ -466,7 +536,7 @@ main .history-vision-section .cards-wrapper{
 
   .fifty-fifty > ul > li:first-child .cards-card-body {
     position: absolute;
-    top: 75px;
+    top: 95px;
   }
 
   main .highest-standard-text h2 {
@@ -486,6 +556,15 @@ main .history-vision-section .cards-wrapper{
     font-size: 48px;
     align-content: center;
     font-weight: 400;
+  }
+
+  main .related-case-studies-component .default-content-wrapper h2 {
+    display: flex;
+     place-content: center center;
+    font-size: 36px;
+    align-content: center;
+    font-weight: 400;
+    margin-top:5px;
   }
 
   .history-vision-section .cards-card-image {
@@ -622,6 +701,8 @@ main .history-vision-section .cards p em:nth-child(1) {
     width:100%;
   }
 
+  
+
   .meet-our-team-desktop-view .cards-wrapper:nth-child(2) {
     height:auto;
   }
@@ -681,8 +762,9 @@ main .history-vision-section .cards p em:nth-child(1) {
   }
 
   main > .history-vision-section h3 {
-    font-size: 22px;
+    font-size: 18px;
     margin: 20px 0;
+    padding-bottom: 10px;
   }
 
   .cards > ul > li h3 {
@@ -721,7 +803,7 @@ main .history-vision-section .cards p em:nth-child(1) {
     padding: 10px;
   }
 
-  .world-class-cutomer-loyality .cards-card-body {
+    .world-class-cutomer-loyality .cards-card-body {
     padding: 10px;
     position: absolute;
     bottom:0;
@@ -801,12 +883,17 @@ main .history-vision-section .cards p em:nth-child(1) {
   }
 
   .meet-our-team-mobile .cards > ul > li p {
-    margin: 10px;
+    margin: 5px 0px 0px 0px;
+    text-align: left;
   }
 
   .meet-our-team-mobile .cards-card-body p:nth-child(3) strong {
     font-size: 14px;
     position: relative;
+    margin-left:0px;
+  }
+  .meet-our-team-mobile .cards p:first-of-type{
+    padding-left: 0px;
   }
 
   .meet-our-team-mobile-another-section .cards > ul > li p {
@@ -814,7 +901,7 @@ main .history-vision-section .cards p em:nth-child(1) {
   }
 
   .meet-our-team-mobile .cards > ul > li p:nth-child(2) {
-    margin: 10px;
+    margin: 10px 10px 0px 0px;
     margin-top: 20px;
   }
 
@@ -885,14 +972,14 @@ main .history-vision-section .cards p em:nth-child(1) {
   }
 
   .fragment-container .cards > ul > li h3 {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 400;
     color: #fff;
     margin-right: 0;
   }
 
   .fragment-container .cards > ul > li:nth-child(2) h3 {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 400;
     color: #fff;
     margin-right: 0;

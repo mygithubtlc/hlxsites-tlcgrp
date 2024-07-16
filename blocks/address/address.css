@@ -1,11 +1,11 @@
 main .address {
-  padding-bottom: 50px;
+  padding-bottom: 94px;
 }
 
 main .address h2 {
   font-size: 36px;
   text-align: center;
-  padding: 100px 0 30px;
+  padding: 90px 0 30px;
   font-weight: 400;
   color:#313131;
 }
@@ -21,6 +21,7 @@ main .address p {
     vertical-align: middle;
     align-items: center;
 }
+
 
 main .address picture {
   width: 16px;
@@ -119,7 +120,7 @@ main .thankyou h2 {
   
   }
   main .address h2 {
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
     padding: 10px 0 30px;
     color:#313131;

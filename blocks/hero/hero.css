@@ -89,11 +89,11 @@ main .hero h6 {
     color: white;
     position: relative;
     text-align: center;
-    font-size: 28px;
+    font-size: 32px;
     width: 95%;
     margin: 0;
     left: 4%;
-    top: 420px;
+    top: 370px;
   }
 
   main .hero-container > div {
@@ -125,7 +125,7 @@ main .hero h6 {
 
 /* new code */
 .hero-container {
-  height: 70vh; /* 50% of the viewport height */
+  height: 525px; /* 50% of the viewport height */
 }
 
 .hero-wrapper, .hero.block {
