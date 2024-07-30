@@ -776,3 +776,49 @@ function loadDelayed() {
 
 // for fonts
 
+
+document.addEventListener("DOMContentLoaded", function() {
+  let currentlyActiveParagraph = null;
+
+  // Function to scroll to the target element
+  function scrollToElement(targetId) {
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+          window.scrollTo({
+              top: targetElement.offsetTop,
+              behavior: 'smooth'
+          });
+      }
+  }
+
+  // Add click event listeners to the specific paragraphs
+  document.querySelectorAll('p').forEach(function(paragraph) {
+      paragraph.addEventListener('click', function() {
+          const text = this.textContent;
+          if (text === 'Payment terms' || text === 'TLC SaaS Products' || text === 'TLC Platforms') {
+              // Remove underline from the previously active paragraph
+              if (currentlyActiveParagraph) {
+                  currentlyActiveParagraph.classList.remove('visited');
+              }
+
+              // Add underline to the clicked paragraph
+              this.classList.add('visited');
+              currentlyActiveParagraph = this;
+
+              // Scroll to the target element based on the text content
+              if (text === 'Payment terms') {
+                  scrollToElement('payment-terms');
+              } else if (text === 'TLC SaaS Products') {
+                  scrollToElement('general-terms-and-conditions-of-tlc-saas-products');
+              } else if (text === 'TLC Platforms') {
+                  scrollToElement('general-terms--conditions---tlc-products-and-platforms');
+              }
+          }
+      });
+  });
+});
+
+
+
+
+
