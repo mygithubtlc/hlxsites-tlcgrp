@@ -867,6 +867,7 @@ main .customer-journey-section h4 {
   color:#333333;
   font-weight: 400;
   cursor: pointer;
+  font-family: var(--heading-font-family);
 }
 
 
