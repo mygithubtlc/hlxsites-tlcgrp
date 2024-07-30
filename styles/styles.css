@@ -5,6 +5,9 @@
   ascent-override: 85%;
 }
 
+
+
+
 :root {
   /* colors */
   --background-color: #fff;
@@ -111,6 +114,10 @@ main .job-description-page p:last-of-type a:nth-of-type(n):nth-of-type(-n + 4) {
   text-decoration: none;
 }
 
+
+
+
+
 .new-image-set a {
   font-size: 15px;
 }
@@ -128,7 +135,7 @@ main .why-us a {
   border-radius: 34px;
   display: table;
   margin: 0 auto;
-  margin-top: 0px;
+  margin-top: 50px;
   margin-bottom: 0;
   padding: 16px 24px;
   background-color: #fff;
@@ -145,7 +152,7 @@ main .why-us a {
   border-radius: 34px;
   display: table;
   margin: 0 auto;
-  margin-top: 0px;
+  margin-top: 50px;
   margin-bottom: 50px;
   padding: 16px 34.5px;
   background-color: #fff;
@@ -153,7 +160,6 @@ main .why-us a {
   text-decoration: none;
   font-family: var(--alt-font-family);
 }
-
 .job-description-page h5 a:hover{
   background-color: #313131;
   color:#fff;
@@ -168,19 +174,6 @@ main .job-description-page p a {
   display: inline;
 }
 
-main .disclaimer-section h2{
-  font-size: 36px;
-  margin:0px;
-  margin-top:-8px
-}
-
-main .disclaimer-section h3{
-  font-size: 28px;
-  margin-top:30px;
- 
-}
-
-
 main .online-orders h5 > a {
   text-align: center;
   font-size: 18px;
@@ -189,15 +182,13 @@ main .online-orders h5 > a {
   border-radius: 34px;
   display: table;
   margin: 0 auto;
-  margin-top: 0px;
+  margin-top: 85px;
   padding: 16px 38.5px;
   background-color: #fff;
   border:1.5px solid #313131;
   text-decoration: none;
   font-family: var(--alt-font-family);
 }
-
-
 main .online-orders h5 > a:hover{
   background-color: #313131;
   color:#fff;
@@ -227,8 +218,8 @@ main .onlineordercta h5 > a {
   border-radius: 34px;
   display: table;
   margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 60px;
+  margin-top: 110px;
+  margin-bottom: 100px;
   padding: 16px 24px;
   background-color: #fff;
   border:1.5px solid #313131;
@@ -249,22 +240,6 @@ main .onlinecta h5 > a{
   background-color: #fff;
   border:1.5px solid #313131;
   text-decoration: none;
-}
-
-main .onlinetable h5 > a{
-  text-align: center;
-  font-size: 15px;
-  color: #313131;
-  font-weight: 600;
-  border-radius: 34px;
-  display: table;
-  margin: 0 auto;
-  margin-top: 2px;
-  margin-bottom: 92px;
-  padding: 16px 38.5px;
-  background-color: #fff;
-  border:1.5px solid #313131;
-  text-decoration: none;2
 }
 
 main .member-subscriptions h5 > a:hover{
@@ -466,13 +441,6 @@ main .world-class-cutomer-loyality .cards ul > li p a {
   color:#fff;
 }
 
-main .customer-journey-section h2{
-  text-align: center;
-  margin-top: 71px;
-  font-size: 36px;
-  margin-bottom: 50px;
-}
-
 main .related-case-studies-component .cards ul > li p a {
   font-size: 15px;
   font-family: var(--alt-font-family);
@@ -523,9 +491,6 @@ main .section.background > picture img {
   width: 100%;
   height: 100%;
 }
-main .text-wrapped > picture img{
-  object-position: 0px -25px;
-}
 
 .job-description-page ol li {
   padding: 6px 0;
@@ -548,7 +513,7 @@ main .text-wrapped > picture img{
 
 main .online-orders h1 {
   text-align: center;
-  font-size: 36px;
+  font-size: 48px;
   padding-top: 0;
   display: flex;
   justify-content: center;
@@ -561,17 +526,12 @@ main .online-orders h1 {
   margin-top: 0;
 }
 
-main .payment-term-section h1 {
-  font-size:36px;
+main .payment-term-section h1,
+main .privacy-policy-section h2{
+  font-size:28px;
   color:#000;
-  text-align: center;
-  margin-top:-8px;
+  text-align: left;
 }
-
-main .payment-term-section .default-content-wrapper h1{
-  margin-top:-7px;
-}
-
 
 .section .default-content-wrapper em {
   font-style: normal;
@@ -587,10 +547,6 @@ main .background .default-content-wrapper {
   max-width: 1230px;
   padding-right: 20px;
   padding-bottom: 42px;
-}
-
-main .carve-career-all-section .default-content-wrapper{
-  margin:72px auto;
 }
 
 main .integration-free-solutions {
@@ -626,7 +582,6 @@ main .job-description-page h2 {
   text-align: center;
   font-size: 28px;
   margin-bottom: 0;
-  margin-top:-13px;
 }
 
 main .clientele-page h2 {
@@ -652,7 +607,7 @@ main .online-orders h2 {
 
 main .job-description-page:last-child h2 {
   text-align: center;
-  font-size: 36px;
+  font-size: 28px;
   margin-bottom: 0;
   font-weight: bold;
   font-family: var(--heading-font-family);
@@ -689,7 +644,7 @@ main .customer-journey-section h4 {
 .privacy-policy-section * p,
 .general-terms-tlc-saas * p {
   font-size: 15px;
-  text-align: justify;
+  text-align: left;
 }
 
 .privacy-policy-section h4{
@@ -697,212 +652,231 @@ main .customer-journey-section h4 {
   font-size: 15px;  
 }
 
-.privacy-policy-section p:nth-of-type(1n + 3):nth-of-type(-n + 8),
-.privacy-policy-section p:nth-of-type(1n + 11):nth-of-type(-n + 28) {
-  text-indent: -30px;
-  margin-left:85px;
+
+.combinedpage p:nth-of-type(1n + 6):nth-of-type(-n + 6),
+.combinedpage p:nth-of-type(1n + 9):nth-of-type(-n + 9) {
+  text-indent:-33px;
+  margin-left:42px;
+  font-size: 16px;
+  color: #333333;
 }
 
-.privacy-policy-section p:nth-of-type(1n + 9):nth-of-type(-n + 11),
-.privacy-policy-section p:nth-of-type(1n + 29):nth-of-type(-n + 30) {
-  text-indent: -30px;
-  margin-left:115px;
+.combinedpage p:nth-of-type(1n + 7):nth-of-type(-n + 8) {
+  text-indent:0px;
+  margin-left:30px;
 }
 
-.privacy-policy-section p:nth-of-type(1n + 31):nth-of-type(-n + 31),
-.privacy-policy-section p:nth-of-type(1n + 43):nth-of-type(-n + 43) {
-  text-indent: -30px;
-  margin-left:80px;
-}
-.privacy-policy-section p:nth-of-type(1n + 32):nth-of-type(-n + 42) {
-  text-indent: -24px;
-  margin-left:95px;
+.combinedpage p:nth-of-type(1n + 10):nth-of-type(-n + 12),
+.combinedpage p:nth-of-type(1n + 14):nth-of-type(-n + 14) {
+  text-indent:0px;
+  margin-left:28px;
+
 }
 
-.privacy-policy-section p:nth-of-type(1n + 44):nth-of-type(-n + 45),
-.privacy-policy-section p:nth-of-type(1n + 48):nth-of-type(-n + 48),
-.privacy-policy-section p:nth-of-type(1n + 52):nth-of-type(-n + 52),
-.privacy-policy-section p:nth-of-type(1n + 53):nth-of-type(-n + 53),
-.privacy-policy-section p:nth-of-type(1n + 61):nth-of-type(-n + 66),
-.privacy-policy-section p:nth-of-type(1n + 67):nth-of-type(-n + 67),
-.privacy-policy-section p:nth-of-type(1n + 72):nth-of-type(-n + 72),
-.privacy-policy-section p:nth-of-type(1n + 73):nth-of-type(-n + 74),
-.privacy-policy-section p:nth-of-type(1n + 80):nth-of-type(-n + 85),
-.privacy-policy-section p:nth-of-type(1n + 95):nth-of-type(-n + 97),
-.privacy-policy-section p:nth-of-type(1n + 105):nth-of-type(-n + 114),
-.privacy-policy-section p:nth-of-type(1n + 121):nth-of-type(-n + 121),
-.privacy-policy-section p:nth-of-type(1n + 126):nth-of-type(-n + 128),
-.privacy-policy-section p:nth-of-type(1n + 139):nth-of-type(-n + 139),
-.privacy-policy-section p:nth-of-type(1n + 140):nth-of-type(-n + 150),
-.privacy-policy-section p:nth-of-type(1n + 155):nth-of-type(-n + 155),
-.privacy-policy-section p:nth-of-type(1n + 164):nth-of-type(-n + 164),
-.privacy-policy-section p:nth-of-type(1n + 165):nth-of-type(-n + 165),
-.privacy-policy-section p:nth-of-type(1n + 176):nth-of-type(-n + 176),
-.privacy-policy-section p:nth-of-type(1n + 177):nth-of-type(-n + 177),
-.privacy-policy-section p:nth-of-type(1n + 180):nth-of-type(-n + 180),
-.privacy-policy-section p:nth-of-type(1n + 183):nth-of-type(-n + 183),
-.privacy-policy-section p:nth-of-type(1n + 189):nth-of-type(-n + 189),
-.privacy-policy-section p:nth-of-type(1n + 192):nth-of-type(-n + 195),
-.privacy-policy-section p:nth-of-type(1n + 198):nth-of-type(-n + 199),
-.privacy-policy-section p:nth-of-type(1n + 205):nth-of-type(-n + 205),
-.privacy-policy-section p:nth-of-type(1n + 208):nth-of-type(-n + 210),
-.privacy-policy-section p:nth-of-type(1n + 213):nth-of-type(-n + 215),
-.privacy-policy-section p:nth-of-type(1n + 219):nth-of-type(-n + 220),
-.privacy-policy-section p:nth-of-type(1n + 222):nth-of-type(-n + 234) {
-  text-indent: -33px;
-  margin-left:71px;
+.combinedpage p:nth-of-type(1n + 13):nth-of-type(-n + 13),
+.combinedpage p:nth-of-type(1n + 15):nth-of-type(-n + 15){
+  font-size: 16px;
+  color: #333333;
+
 }
 
-.privacy-policy-section p:nth-of-type(1n + 46):nth-of-type(-n + 47),
-.privacy-policy-section p:nth-of-type(1n + 49):nth-of-type(-n + 51),
-.privacy-policy-section p:nth-of-type(1n + 54):nth-of-type(-n + 60),
-.privacy-policy-section p:nth-of-type(1n + 68):nth-of-type(-n + 71),
-.privacy-policy-section p:nth-of-type(1n + 75):nth-of-type(-n + 79),
-.privacy-policy-section p:nth-of-type(1n + 86):nth-of-type(-n + 93),
-.privacy-policy-section p:nth-of-type(1n + 129):nth-of-type(-n + 138),
-.privacy-policy-section p:nth-of-type(1n + 151):nth-of-type(-n + 154),
-.privacy-policy-section p:nth-of-type(1n + 156):nth-of-type(-n + 163),
-.privacy-policy-section p:nth-of-type(1n + 166):nth-of-type(-n + 169),
-.privacy-policy-section p:nth-of-type(1n + 174):nth-of-type(-n + 175),
-.privacy-policy-section p:nth-of-type(1n + 178):nth-of-type(-n + 179){
-  text-indent: -45px;
-  margin-left:120px;
+.combinedpage p:nth-of-type(1n + 16):nth-of-type(-n + 17){
+  text-indent:-22px;
+  margin-left:45px;
+ 
 }
 
-.privacy-policy-section p:nth-of-type(1n + 67):nth-of-type(-n + 67){
-  text-indent: -45px;
-  margin-left:120px;
+.combinedpage p:nth-of-type(1n + 18):nth-of-type(-n + 18){
+  text-indent:-1px;
+  margin-left:45px;
+  
 }
 
-.privacy-policy-section p:nth-of-type(1n + 68):nth-of-type(-n + 70){
-  text-indent: -20px;
-  margin-left:120px;
+.payment-term-section  p:nth-of-type(1n + 22):nth-of-type(-n + 23){
+  text-indent:-36px;
+  margin-left:39px;
+ 
 }
 
-.privacy-policy-section p:nth-of-type(1n + 181):nth-of-type(-n + 182),
-.privacy-policy-section p:nth-of-type(1n + 184):nth-of-type(-n + 188),
-.privacy-policy-section p:nth-of-type(1n + 190):nth-of-type(-n + 191),
-.privacy-policy-section p:nth-of-type(1n + 196):nth-of-type(-n + 197),
-.privacy-policy-section p:nth-of-type(1n + 200):nth-of-type(-n + 204),
-.privacy-policy-section p:nth-of-type(1n + 206):nth-of-type(-n + 207),
-.privacy-policy-section p:nth-of-type(1n + 211):nth-of-type(-n + 212),
-.privacy-policy-section p:nth-of-type(1n + 216):nth-of-type(-n + 218) {
-  text-indent: -21px;
-  margin-left:91px;
+.payment-term-section  p:nth-of-type(1n + 23):nth-of-type(-n + 23){
+  text-indent:-36px;
+  margin-left:39px;
+ 
 }
-.privacy-policy-section p:nth-of-type(1n + 94):nth-of-type(-n + 94),
-.privacy-policy-section p:nth-of-type(1n + 221):nth-of-type(-n + 221){
-  text-indent: -2px;
-  margin-left:41px;
+.payment-term-section  p:nth-of-type(1n + 23):nth-of-type(-n + 43 ){
+  text-indent:-30px;
+  margin-left:68px;
 }
 
-.privacy-policy-section p:nth-of-type(1n + 98):nth-of-type(-n + 104),
-.privacy-policy-section p:nth-of-type(1n + 115):nth-of-type(-n + 120),
-.privacy-policy-section p:nth-of-type(1n + 122):nth-of-type(-n + 123) {
-  text-indent: -23px;
-  margin-left:90px;
+.payment-term-section  p:nth-of-type(1n + 46):nth-of-type(-n + 56 ){
+  text-indent:-24px;
+  margin-left:49px;
 }
-.privacy-policy-section p:nth-of-type(1n + 124):nth-of-type(-n + 125) {
-  text-indent: -23px;
+
+.payment-term-section  p:nth-of-type(1n + 58):nth-of-type(-n + 58 ),
+.payment-term-section  p:nth-of-type(1n + 63):nth-of-type(-n + 63 ){
+  text-indent:-24px;
+  margin-left:24px;
+}
+
+.payment-term-section  p:nth-of-type(1n + 59):nth-of-type(-n + 60 ),
+.payment-term-section  p:nth-of-type(1n + 64):nth-of-type(-n + 64 ),
+.payment-term-section  p:nth-of-type(1n + 65):nth-of-type(-n + 65 ),
+.payment-term-section  p:nth-of-type(1n + 73):nth-of-type(-n + 81 ),
+.payment-term-section  p:nth-of-type(1n + 86):nth-of-type(-n + 91 ),
+.payment-term-section  p:nth-of-type(1n + 100):nth-of-type(-n + 101 ),
+.payment-term-section  p:nth-of-type(1n + 107):nth-of-type(-n + 107 ),
+.payment-term-section  p:nth-of-type(1n + 114):nth-of-type(-n + 122),
+.payment-term-section  p:nth-of-type(1n + 129):nth-of-type(-n + 133),
+.payment-term-section  p:nth-of-type(1n + 144):nth-of-type(-n + 149),
+.payment-term-section  p:nth-of-type(1n + 152):nth-of-type(-n + 157),
+.payment-term-section  p:nth-of-type(1n + 162):nth-of-type(-n + 162),
+.payment-term-section  p:nth-of-type(1n + 171):nth-of-type(-n + 171),
+.payment-term-section  p:nth-of-type(1n + 163):nth-of-type(-n + 163),
+.payment-term-section  p:nth-of-type(1n + 172):nth-of-type(-n + 173),
+.payment-term-section  p:nth-of-type(1n + 180):nth-of-type(-n + 189),
+.payment-term-section  p:nth-of-type(1n + 194):nth-of-type(-n + 200),
+.payment-term-section  p:nth-of-type(1n + 206):nth-of-type(-n + 211),
+.payment-term-section  p:nth-of-type(1n + 215):nth-of-type(-n + 215),
+.payment-term-section  p:nth-of-type(1n + 219):nth-of-type(-n + 220),
+.payment-term-section  p:nth-of-type(1n + 222):nth-of-type(-n + 234),
+.payment-term-section  p:nth-of-type(1n + 237):nth-of-type(-n + 237),
+
+.payment-term-section  p:nth-of-type(1n + 279):nth-of-type(-n + 281),
+.payment-term-section  p:nth-of-type(1n + 283):nth-of-type(-n + 283),
+.payment-term-section  p:nth-of-type(1n + 287):nth-of-type(-n + 288),
+.payment-term-section  p:nth-of-type(1n + 289):nth-of-type(-n + 290),
+.payment-term-section  p:nth-of-type(1n + 296):nth-of-type(-n + 301),
+.payment-term-section  p:nth-of-type(1n + 307):nth-of-type(-n + 309),
+.payment-term-section  p:nth-of-type(1n + 315):nth-of-type(-n + 319),
+.payment-term-section  p:nth-of-type(1n + 330):nth-of-type(-n + 332),
+.payment-term-section  p:nth-of-type(1n + 340):nth-of-type(-n + 349),
+.payment-term-section  p:nth-of-type(1n + 360):nth-of-type(-n + 363),
+.payment-term-section  p:nth-of-type(1n + 374):nth-of-type(-n + 385),
+.payment-term-section  p:nth-of-type(1n + 390):nth-of-type(-n + 390),
+.payment-term-section  p:nth-of-type(1n + 392):nth-of-type(-n + 392),
+.payment-term-section  p:nth-of-type(1n + 399):nth-of-type(-n + 399),
+.payment-term-section  p:nth-of-type(1n + 411):nth-of-type(-n + 412),
+.payment-term-section  p:nth-of-type(1n + 401):nth-of-type(-n + 402),
+.payment-term-section  p:nth-of-type(1n + 414):nth-of-type(-n + 414),
+.payment-term-section  p:nth-of-type(1n + 417):nth-of-type(-n + 417),
+.payment-term-section  p:nth-of-type(1n + 420):nth-of-type(-n + 420),
+.payment-term-section  p:nth-of-type(1n + 426):nth-of-type(-n + 426),
+.payment-term-section  p:nth-of-type(1n + 427):nth-of-type(-n + 430),
+.payment-term-section  p:nth-of-type(1n + 433):nth-of-type(-n + 434),
+.payment-term-section  p:nth-of-type(1n + 435):nth-of-type(-n + 436),
+.payment-term-section  p:nth-of-type(1n + 442):nth-of-type(-n + 442),
+.payment-term-section  p:nth-of-type(1n + 445):nth-of-type(-n + 447),
+.payment-term-section  p:nth-of-type(1n + 450):nth-of-type(-n + 452),
+.payment-term-section  p:nth-of-type(1n + 457):nth-of-type(-n + 458),
+.payment-term-section  p:nth-of-type(1n + 459):nth-of-type(-n + 471){
+  text-indent:-35px;
+  margin-left:36px;
+}
+
+.payment-term-section  p:nth-of-type(1n + 60):nth-of-type(-n + 62 ),
+.payment-term-section  p:nth-of-type(1n + 65):nth-of-type(-n + 71 ),
+.payment-term-section  p:nth-of-type(1n + 81):nth-of-type(-n + 85 ),
+.payment-term-section  p:nth-of-type(1n + 92):nth-of-type(-n + 98 ),
+.payment-term-section  p:nth-of-type(1n + 135):nth-of-type(-n + 143){
+  text-indent:-47px;
+  margin-left:83px;
+}
+.payment-term-section  p:nth-of-type(1n + 150):nth-of-type(-n + 151),
+.payment-term-section  p:nth-of-type(1n + 158):nth-of-type(-n + 161),
+.payment-term-section  p:nth-of-type(1n + 163):nth-of-type(-n + 170),
+.payment-term-section  p:nth-of-type(1n + 173):nth-of-type(-n + 176),
+.payment-term-section  p:nth-of-type(1n + 181):nth-of-type(-n + 181),
+.payment-term-section  p:nth-of-type(1n + 182):nth-of-type(-n + 182),
+.payment-term-section  p:nth-of-type(1n + 185):nth-of-type(-n + 186),
+.payment-term-section  p:nth-of-type(1n + 189):nth-of-type(-n + 193),
+.payment-term-section  p:nth-of-type(1n + 201):nth-of-type(-n + 205),
+.payment-term-section  p:nth-of-type(1n + 212):nth-of-type(-n + 214),
+.payment-term-section  p:nth-of-type(1n + 216):nth-of-type(-n + 218),
+.payment-term-section  p:nth-of-type(1n + 238):nth-of-type(-n + 243),
+.payment-term-section  p:nth-of-type(1n + 247):nth-of-type(-n + 263),
+.payment-term-section  p:nth-of-type(1n + 267):nth-of-type(-n + 277){
+  text-indent:-23px;
+  margin-left:58px;
+}
+.payment-term-section  p:nth-of-type(1n + 244):nth-of-type(-n + 246),
+.payment-term-section  p:nth-of-type(1n + 264):nth-of-type(-n + 265){
+  text-indent:-20px;
+  margin-left:82px;
+
+}
+
+.payment-term-section  p:nth-of-type(1n + 102):nth-of-type(-n + 103),
+.payment-term-section  p:nth-of-type(1n + 107):nth-of-type(-n + 113),
+.payment-term-section  p:nth-of-type(1n + 123):nth-of-type(-n + 128){
+  text-indent:-26px;
+  margin-left:64px;
+}
+
+.payment-term-section  p:nth-of-type(1n + 104):nth-of-type(-n + 105),
+.payment-term-section  p:nth-of-type(1n + 177):nth-of-type(-n + 180){
+  text-indent:-19px;
+  margin-left:87px;
+}
+
+.payment-term-section  p:nth-of-type(1n + 333):nth-of-type(-n + 339),
+.payment-term-section  p:nth-of-type(1n + 350):nth-of-type(-n + 355),
+.payment-term-section  p:nth-of-type(1n + 357):nth-of-type(-n + 360){
+  text-indent:-25px;
+  margin-left:69px;
+}
+
+.payment-term-section  p:nth-of-type(1n + 281):nth-of-type(-n + 282),
+.payment-term-section  p:nth-of-type(1n + 284):nth-of-type(-n + 284),
+.payment-term-section  p:nth-of-type(1n + 285):nth-of-type(-n + 286),
+.payment-term-section  p:nth-of-type(1n + 289):nth-of-type(-n + 295),
+.payment-term-section  p:nth-of-type(1n + 303):nth-of-type(-n + 305),
+.payment-term-section  p:nth-of-type(1n + 310):nth-of-type(-n + 314),
+.payment-term-section  p:nth-of-type(1n + 321):nth-of-type(-n + 328),
+.payment-term-section  p:nth-of-type(1n + 364):nth-of-type(-n + 373),
+.payment-term-section  p:nth-of-type(1n + 386):nth-of-type(-n + 389),
+.payment-term-section  p:nth-of-type(1n + 401):nth-of-type(-n + 404),
+.payment-term-section  p:nth-of-type(1n + 409):nth-of-type(-n + 410){
+  text-indent:-45px;
+  margin-left:93px;
+}
+
+.payment-term-section  p:nth-of-type(1n + 405):nth-of-type(-n + 408){
+  text-indent:-22px;
   margin-left:110px;
 }
 
-.privacy-policy-section p:nth-of-type(1n + 170):nth-of-type(-n + 173){
-  text-indent: -23px;
-  margin-left:141px;
+.payment-term-section  p:nth-of-type(1n + 391):nth-of-type(-n + 398),
+.payment-term-section  p:nth-of-type(1n + 419):nth-of-type(-n + 423),
+.payment-term-section  p:nth-of-type(1n + 425):nth-of-type(-n + 426 ),
+.payment-term-section  p:nth-of-type(1n + 435):nth-of-type(-n + 439),
+.payment-term-section  p:nth-of-type(1n + 448):nth-of-type(-n + 450),
+.payment-term-section  p:nth-of-type(1n + 451):nth-of-type(-n + 453){
+  text-indent:-24px;
+  margin-left:64px;
 }
 
-
-
-.general-terms-tlc-saas  p:nth-of-type(1n + 3):nth-of-type(-n + 3),
-.general-terms-tlc-saas  p:nth-of-type(1n + 25):nth-of-type(-n + 25),
-.general-terms-tlc-saas  p:nth-of-type(1n + 39):nth-of-type(-n + 40),
-.general-terms-tlc-saas  p:nth-of-type(1n + 44):nth-of-type(-n + 44),
-.general-terms-tlc-saas  p:nth-of-type(1n + 44):nth-of-type(-n + 45),
-.general-terms-tlc-saas  p:nth-of-type(1n + 53):nth-of-type(-n + 61),
-.general-terms-tlc-saas  p:nth-of-type(1n + 66):nth-of-type(-n + 70),
-.general-terms-tlc-saas  p:nth-of-type(1n + 79):nth-of-type(-n + 80),
-.general-terms-tlc-saas  p:nth-of-type(1n + 85):nth-of-type(-n + 85),
-.general-terms-tlc-saas  p:nth-of-type(1n + 93):nth-of-type(-n + 101),
-.general-terms-tlc-saas  p:nth-of-type(1n + 108):nth-of-type(-n + 112),
-.general-terms-tlc-saas  p:nth-of-type(1n + 123):nth-of-type(-n + 128),
-.general-terms-tlc-saas  p:nth-of-type(1n + 131):nth-of-type(-n + 136),
-.general-terms-tlc-saas  p:nth-of-type(1n + 141):nth-of-type(-n + 141),
-.general-terms-tlc-saas  p:nth-of-type(1n + 150):nth-of-type(-n + 151),
-.general-terms-tlc-saas  p:nth-of-type(1n + 162):nth-of-type(-n + 163),
-.general-terms-tlc-saas  p:nth-of-type(1n + 166):nth-of-type(-n + 167),
-.general-terms-tlc-saas  p:nth-of-type(1n + 173):nth-of-type(-n + 179),
-.general-terms-tlc-saas  p:nth-of-type(1n + 185):nth-of-type(-n + 190),
-.general-terms-tlc-saas  p:nth-of-type(1n + 194):nth-of-type(-n + 194),
-.general-terms-tlc-saas  p:nth-of-type(1n + 198):nth-of-type(-n + 199),
-.general-terms-tlc-saas  p:nth-of-type(1n + 201):nth-of-type(-n + 213){
-  text-indent: -34px; 
-  margin-left:65px;
-  text-align: left;
-  
-}
-.general-terms-tlc-saas  p:nth-of-type(1n + 4):nth-of-type(-n + 24),
-.general-terms-tlc-saas  p:nth-of-type(1n + 26):nth-of-type(-n + 26),
-.general-terms-tlc-saas  p:nth-of-type(1n + 38):nth-of-type(-n + 38),
-.general-terms-tlc-saas  p:nth-of-type(1n + 41):nth-of-type(-n + 43),
-.general-terms-tlc-saas  p:nth-of-type(1n + 62):nth-of-type(-n + 65),
-.general-terms-tlc-saas  p:nth-of-type(1n + 81):nth-of-type(-n + 82),
-.general-terms-tlc-saas  p:nth-of-type(1n + 86):nth-of-type(-n + 92),
-.general-terms-tlc-saas  p:nth-of-type(1n + 102):nth-of-type(-n + 107),
-.general-terms-tlc-saas  p:nth-of-type(1n + 129):nth-of-type(-n + 130),
-.general-terms-tlc-saas  p:nth-of-type(1n + 137):nth-of-type(-n + 140),
-.general-terms-tlc-saas  p:nth-of-type(1n + 142):nth-of-type(-n + 149),
-.general-terms-tlc-saas  p:nth-of-type(1n + 152):nth-of-type(-n + 155),
-.general-terms-tlc-saas  p:nth-of-type(1n + 160):nth-of-type(-n + 161),
-.general-terms-tlc-saas  p:nth-of-type(1n + 164):nth-of-type(-n + 165),
-.general-terms-tlc-saas  p:nth-of-type(1n + 168):nth-of-type(-n + 172),
-.general-terms-tlc-saas  p:nth-of-type(1n + 180):nth-of-type(-n + 184),
-.general-terms-tlc-saas  p:nth-of-type(1n + 191):nth-of-type(-n + 193),
-.general-terms-tlc-saas  p:nth-of-type(1n + 195):nth-of-type(-n + 197) {
-  text-indent: -27px; 
-  margin-left:90px;
-  text-align: left;
-}
-.general-terms-tlc-saas  p:nth-of-type(1n + 71):nth-of-type(-n + 77)  {
-  text-indent: -42px; 
-  margin-left:107px;
-  text-align: left;
-}
-.general-terms-tlc-saas  p:nth-of-type(1n + 46):nth-of-type(-n + 52)  {
-  text-indent: -44px; 
-  margin-left:109px;
-  text-align: left;
-}
-.general-terms-tlc-saas  p:nth-of-type(1n + 27):nth-of-type(-n + 37),
-.general-terms-tlc-saas  p:nth-of-type(1n + 156):nth-of-type(-n + 159)  {
-  text-indent: -22px; 
-  margin-left:115px;
-  text-align: left;
-}
-.general-terms-tlc-saas  p:nth-of-type(1n + 78):nth-of-type(-n + 78),
-.general-terms-tlc-saas  p:nth-of-type(1n + 200):nth-of-type(-n + 200)  {
-  text-indent: -3px; 
-  margin-left:36px;
-  text-align: left;
-  
-}
-.general-terms-tlc-saas  p:nth-of-type(1n + 83):nth-of-type(-n + 84)  {
-  text-indent: -17px; 
-  margin-left:103px;
-  text-align: left;
-  
+.combinedpage .columns > div > div h4{
+  margin-left:0px;
 }
 
-.general-terms-tlc-saas  p:nth-of-type(1n + 113):nth-of-type(-n + 122)  {
-  text-indent: -51px; 
-  margin-left:125px;
-  text-align: left; 
+.combinedpage .new-image-set:nth-child(1) p {
+  text-indent: 0px;
+  margin-left: 0px;
+  font-size: 20px;
+  color:#333333;
+  font-weight: 400;
+  cursor: pointer;
 }
 
 
 
 .payment-term-section p {
-  font-size: 15px;
+  font-size: 16px;
+  color: #777777;
+}
+.payment-term-section h3{
+  color:#333333;
 }
 
 main .job-description-page p {
@@ -928,7 +902,7 @@ main .disclaimer-section * p {
 
 main .arrow-icon-style p {
   font-size: 15px;
-  text-indent: -8px;
+  text-indent: -13px;
   margin-left: 79px;
 }
 
@@ -945,17 +919,13 @@ main .support-services p {
 
 main .online-orders p {
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
 }
 
 main .online-orders.member-subscriptions {
   padding: 0;
   text-align: center;
-}
-
-main .online-orders .default-content-wrapper h1{
-  margin-top:-13px;
 }
 
 main .online-order-logo-section p {
@@ -979,7 +949,7 @@ main .restaurants-logo p {
 }
 
 .section.clientele-page h4 {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 main .disclaimer-section * h3,
@@ -989,94 +959,12 @@ main .general-terms-tlc-saas * h3,
 main .privacy-policy-section * h3 {
   font-size: 28px;
   text-align: left;
-  margin-top:30px;
 }
-
-main .disclaimer-section * p,
-main .privacy-section * p, 
-main .payment-term-section * p,
-main .general-terms-tlc-saas * p,
-main .privacy-policy-section * p {
-  font-size: 16px;
-}
-main .privacy-section p:nth-of-type(1n + 3):nth-of-type(-n + 12){
-  text-indent: -10px;
-    margin-left: 30px;
-
-}
-
-main .privacy-section p:nth-of-type(1n + 28):nth-of-type(-n + 46){
-  text-indent: -21px;
-    margin-left: 50px;
-
-}
-
-main .privacy-section p:nth-of-type(1n + 52):nth-of-type(-n + 58){
-  text-indent: -21px;
-    margin-left: 51px;
-}
-
-main .privacy-section p:nth-of-type(1n + 60):nth-of-type(-n + 67){
-  text-indent: -21px;
-    margin-left: 51px;
-}
-
-main .privacy-section p:nth-of-type(1n + 71):nth-of-type(-n + 71),
-main .privacy-section p:nth-of-type(1n + 74):nth-of-type(-n + 77),
-main .privacy-section p:nth-of-type(1n + 82):nth-of-type(-n + 82),
-main .privacy-section p:nth-of-type(1n + 89):nth-of-type(-n + 92){
-  text-indent: -21px;
-    margin-left: 51px;
-}
-
-main .privacy-section p:nth-of-type(1n + 72):nth-of-type(-n + 73),
-main .privacy-section p:nth-of-type(1n + 78):nth-of-type(-n + 81),
-main .privacy-section p:nth-of-type(1n + 83):nth-of-type(-n + 88) {
-  text-indent: 0px;
-    margin-left: 55px;
-}
-
-main .privacy-section p:nth-of-type(1n + 72):nth-of-type(-n + 73),
-main .privacy-section p:nth-of-type(1n + 78):nth-of-type(-n + 81),
-main .privacy-section p:nth-of-type(1n + 94):nth-of-type(-n + 96) {
-  text-indent: -21px;
-    margin-left: 51px;
-}
-
-main .privacy-section p:nth-of-type(1n + 109):nth-of-type(-n + 110),
-main .privacy-section p:nth-of-type(1n + 113):nth-of-type(-n + 114) {
-  text-indent: -21px;
-  margin-left: 51px;
-}
-
-main .privacy-section p:nth-of-type(1n + 113):nth-of-type(-n + 114) {
-  text-indent: -21px;
-  margin-left: 51px;
-}
-
-main .privacy-section p:nth-of-type(1n + 111):nth-of-type(-n + 112) {
-  text-indent: -21px;
-  margin-left: 75px;
-}
-
-
-main .privacy-section p:nth-of-type(1n + 121):nth-of-type(-n + 125) {
-  text-indent: -21px;
-  margin-left: 51px;
-}
-
-/* main .payment-term-section p:nth-of-type(1n + 10):nth-of-type(-n + 11 ),
-main .payment-term-section p:nth-of-type(1n + 16):nth-of-type(-n + 17 ) {
-  text-indent: -19px;
-  margin-left: 38px;
-} */
-
-
 
 main .tech-product-section h6 {
   text-align: center;
   font-family: var(--alt-font-family);
-  font-size: 20px;
+  font-size: 24px;
 }
 
 main .support-services h6 {
@@ -1129,26 +1017,6 @@ main .section .default-content-wrapper p {
   margin-top: 0;
 }
 
-main .support-services p{
-  text-align: center;
-  font-size:20px;
-  padding: 0px 150px;
-}
-
-main .support-services .default-content-wrapper h2{
-  margin-top:4px;
-  text-align: center;
-}
-
-/* main .support-services .default-content-wrapper{
-  margin:0px 0px 40px 0px
-} */
-
-main .support-services p{
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-}
-
 main.section .default-content-wrapper p {
   display: block;
   text-align: left;
@@ -1168,7 +1036,7 @@ main .why-us .default-content-wrapper p {
   padding: 8px 0;
   margin: 0 0%;
   text-align: center;
-  margin-top:123px;
+  margin-top:87px;
 }
 
 main pre {
@@ -1251,7 +1119,7 @@ main .section .default-content-wrapper em {
 main .section .default-content-wrapper h4 {
   padding: 0 20px;
   padding-bottom: 10px;
-  /* font-family: var(--alt-font-family); */
+  font-family: var(--alt-font-family);
 }
 
 .legal main .section {
@@ -1301,6 +1169,41 @@ main .form {
   right:0;
 }
 
+/* combinedpage css start here */
+
+
+main .combinedpage .new-image-set:nth-child(1){
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 30%;
+  left: 0;
+  max-width: 200px;
+  /* Ensure it stays within the viewport height */
+  height: calc(100vh - 20%);
+  overflow-y: auto; /* Scroll content inside if necessary */
+  
+}
+
+
+.visited {
+  text-decoration: underline;
+}
+
+
+
+main .combinedpage .new-image-set:nth-child(2){
+  width: 900px;
+  margin-left:50px;
+ }
+ main .combinedpage .columns > div > div{
+  /* flex: 2 2; */
+  flex:1;
+  flex-shrink: 2;
+ 
+ }
+
+ /* combined page css end here */
+
 @media (width >= 600px) {
   main .slideshow {
     height: 670px;
@@ -1323,16 +1226,6 @@ main .form {
   main .section {
     padding: 64px 32px;
     padding-bottom: 20px;
-  }
-
-  main .futuristic-product h2{
-    font-size: 36px;
-    text-align: center;
-    margin-top:35px;
-  }
-
-  main .futuristic-product .default-content-wrapper{
-    margin-bottom: -30px;
   }
 
   main .privacy-section p a,
@@ -1373,14 +1266,13 @@ main .form {
     font-size: 48px;
   }
 
-  main .current-opening h4:nth-child(1) {
+  main .current-opening h4 {
     text-align: center;
-    font-size: 36px;
-    margin-top:107px;
+    font-size: 48px;
   }
 
   main .background .default-content-wrapper h4 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 300;
     text-align: center;
     padding-left: 0;
@@ -1398,64 +1290,17 @@ main .form {
     color:#313131;
   }
 
-  /* main .section .default-content-wrapper h2 {
-    font-size: 36px;
+  main .section .default-content-wrapper h2 {
+    font-size: 48px;
     padding-top: 0;
     display: flex;
     justify-content: center;
     font-weight: 100;
     color:#000;
-  } */
-
-  main .general-terms-tlc-saas h2,
-  main .privacy-policy-section h2{
-    font-size:36px;
-    text-align: center;
-    margin-top:-8px;
+    margin-top:20px;
   }
+ 
 
-
-  main .clientele-page .default-content-wrapper h2 {
-    font-size: 36px;
-    margin-top: -15px;
-    padding-top: 0;
-    display: flex;
-    justify-content: center;
-    font-weight: 100;
-    color:#000;
-  }
-
-  main .clientele-page .default-content-wrapper h2:nth-child(2) {
-    font-size: 36px;
-    margin-top: -15px;
-    padding-top: 0;
-    display: flex;
-    justify-content: center;
-    font-weight: 100;
-    color:#000;
-  }
-
-  main .tech-product-section .default-content-wrapper h2 {
-    font-size: 36px;
-    padding-top: 0;
-    display: flex;
-    justify-content: center;
-    font-weight: 100;
-    color:#000;
-    margin-top:-15px;
-  }
-
-  main .our-resources-product .default-content-wrapper h2 {
-    font-size: 36px;
-    padding-top: 0;
-    display: flex;
-    justify-content: center;
-    font-weight: 100;
-    color:#000;
-    margin:-15px;
-    margin-bottom: 40px;
-  }
-  
   main .our-capabilities .default-content-wrapper h2 {
     font-size: 36px;
     padding-top: 0;
@@ -1463,19 +1308,11 @@ main .form {
     justify-content: center;
     font-weight: 100;
     color:#313131;
-    margin-top:91px;
-    margin-bottom: 15px;
+    margin-top:50px;
   }
 
   main .career-head-section .default-content-wrapper h2 {
     text-align: center;
-    font-size: 36px;
-    font-family: var(--heading-font-family);
-    margin-top: 67px;
-  }
-
-  main .career-head-section .columns-wrapper{
-    margin-bottom: 86px;
   }
 
   /* main .carve-career .default-content-wrapper h1 {
@@ -1533,67 +1370,6 @@ main .form {
     font-size: 15px;
     font-weight: 200;
     text-align: left;
-    margin: 58px 0px 90px 0px;
-  }
-
-  main .job-description-page .default-content-wrapper h5 {
-    font-size: 15px;
-    font-weight: 200;
-    text-align: left;
-    margin: 43px 0px 40px 0px;
-  }
-
-
-
-  main .online-orders .default-content-wrapper h5 {
-    font-size: 15px;
-    font-weight: 200;
-    text-align: left;
-    margin: 58px 0px 45px 0px;
-  }
-
-  main .onlinetable .default-content-wrapper{
-    margin-top:-31px;
-  }
-
-
-
-  main .onlineordercta .default-content-wrapper h5 {
-    font-size: 15px;
-    font-weight: 200;
-    text-align: left;
-    margin: 58px 0px 0px 0px;
-  }
-
-  main .why-us .default-content-wrapper h5 {
-    font-size: 15px;
-    font-weight: 200;
-    text-align: left;
-    margin: 46px 0px 76px 0px;
-  }
-
-  main .carve-career-all-section .default-content-wrapper h5 {
-    font-size: 15px;
-    font-weight: 200;
-    text-align: left;
-    margin: 58px 0px 0px 0px;
-  }
-
-  main .history-vision-section .default-content-wrapper h5 {
-    font-size: 15px;
-    font-weight: 200;
-    text-align: left;
-    margin: 58px 0px 85px 0px;
-  }
-
-  main .carve-career .default-content-wrapper h5 {
-    font-size: 15px;
-    font-weight: 200;
-    text-align: left;
-    margin: 50px 0px 0px 0px;
-  }
-  main .history-vision-section h5{
-    display: inline-block;
   }
 }
 
@@ -1622,12 +1398,8 @@ main .form {
     margin: auto;
   }
 
-  /* main .section.background {
+  main .section.background {
     height: 600px;
-  } */
-
-  main .highest-standard-text {
-    height: 500px;
   }
 
   main .section.carve-career {
@@ -1653,22 +1425,23 @@ main .form {
     color:#313131;
   }
 
-
   main .carve-career .default-content-wrapper h5 {
     text-align: center;
     font-size: 36px;
-    display: flex;
-    justify-content: center;
-    font-weight: 100;
-    color: #313131;
+    padding-top: 0;
+      display: flex;
+      justify-content: center;
+      font-weight: 100;
+      color: #313131;
+      margin-top: 0px;
   }
-  main .carve-career .default-content-wrapper{
-    padding:79px 0px 115px 0px
+
+  main .carve-career {
+    margin-top: 12px;
   }
 
   main .embed-container {
     padding-bottom: 2px;
-    padding: 88px 0px 0px 0px;
   }
 
   main .carve-career .default-content-wrapper h3 {
@@ -1699,6 +1472,7 @@ main .form {
     margin-top: 0;
     max-width: 100%;
     padding-right: 20px;
+    margin-bottom: 3px;
 }
 
   main .cyber-security .default-content-wrapper h2 {
@@ -1750,7 +1524,6 @@ main .form {
   main .background .default-content-wrapper h2:nth-child(1) {
     margin-left: 0;
     color:#fff;
-    font-size:36px;
   }
 
 
@@ -1758,22 +1531,17 @@ main .form {
     color:#313131;
     font-size:36px;
     font-weight: 400;
-    text-align: center;
 
   }
 
- 
-  main .cyber-security .default-content-wrapper:nth-child(1){
-    padding:150px 0px;
+  main .cyber-security .default-content-wrapper h2:nth-child(1) {
+    padding-top: 200px;
+    
   }
 
   main .text-wrapped .default-content-wrapper h2:nth-child(1) {
-    /* padding-top: 200px; */
+    padding-top: 200px;
     color:#313131;
-  }
-
-  main .text-wrapped .default-content-wrapper:nth-child(1){
-    padding: 110px 0px;
   }
 
   
@@ -2020,27 +1788,6 @@ main .customer-journey-section .new-image-set h3 {
   margin-top: 20px;
 }
 
-main .restaurants-logo h4{
-  text-align: center;
-  font-size: 36px;
-  margin-top:55px;
-  margin-bottom: 15px;
-}
-
-main .table-container .default-content-wrapper h1{
-  font-size: 36px;
-  margin-top:-23px;
-  margin-bottom: 50px;
-  text-align: center;
-}
-main .table-container .default-content-wrapper h5{
-  font-size: 18px;
-        font-weight: 200;
-        text-align: left;
-        text-align: center;
-        margin:60px auto;
-}
-
 main .customer-journey-section .new-image-set {
   position: relative;
   inset: 0;
@@ -2083,7 +1830,6 @@ main .customer-journey-section .new-image-set > h5 {
     text-decoration: none;
     font-family: var(--alt-font-family);
     margin-top: 20px;
-    margin-bottom:60px;
   }
 
   main .background .default-content-wrapper h5 {
@@ -2098,24 +1844,21 @@ main .customer-journey-section .new-image-set > h5 {
   }
 
   main .carve-career .default-content-wrapper h5 {
-    font-size: 28px;
+    font-size: 32px;
     padding-top: 0;
     display: flex;
     justify-content: center;
     font-weight: 100;
     color:#313131;
     margin-top:0;
-    font-family: var(--heading-font-family);
   }
 
     .tech-product-section h2 {
     text-align: center;
-    font-size:28px;
   }
 
-
   main .carve-career-all-section .default-content-wrapper h5 {
-    font-size: 28px;
+    font-size: 32px;
     padding-top: 0;
     display: flex;
     justify-content: center;
@@ -2125,9 +1868,7 @@ main .customer-journey-section .new-image-set > h5 {
     font-family: var(--heading-font-family);
   }
 
-
-
-    /* main .background .default-content-wrapper h2 {
+  /* main .background .default-content-wrapper h2 {
     text-align: center;
     font-size: 24px;
     color: #000;
@@ -2148,9 +1889,8 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .highest-standard-text h2 {
     position: relative;
-    font-size: 24px;
+    font-size: 48px;
     color:#fff;
-    margin-top:60px;
   }
 
   .privacy-policy-section * p {
@@ -2168,17 +1908,11 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .arrow-icon-style p {
     margin-left: 20px;
-    margin-bottom: 0px;
   }
 
   main .carve-career-all-section {
     text-align: center;
     margin-top: 20px;
-  }
-
-  main .bottom-section-carve {
-    text-align: center;
-    margin-top: 0px;
   }
 
   .clientele-page h4 {
@@ -2187,21 +1921,15 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .tech-platform-logos h4 {
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
   }
 
   main .cyber-security h4 {
     text-align: center;
   }
 
-  main .omni-section  ul{
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-  }
-
   main .compliances-logos h4 {
     text-align: center;
-    font-size: 18px;
   }
 
   main .career-head-section h4 {
@@ -2210,12 +1938,10 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .current-opening h4 {
     text-align: center;
-    font-size: 28px;
-    margin-top: 20px;
   }
 
   .section.integration-free-solutions h4 {
-    font-size: 18px;
+    font-size: 22px;
   }
 
 
@@ -2224,9 +1950,6 @@ main .customer-journey-section .new-image-set > h5 {
     padding: 20px 16px;
     box-sizing: border-box;
     
-  }
-  main .integration-free-solutions{
-    padding:0px;
   }
 
   main  .embed-container {
@@ -2252,7 +1975,7 @@ main .customer-journey-section .new-image-set > h5 {
 
   main .online-orders h5 > a {
     margin-top: 31px;
-    margin-bottom: 0px;
+    margin-bottom: -50px;
   }
 
   main .job-description-page p a {
@@ -2364,7 +2087,7 @@ main .background strong a {
   }
 
   main .disclaimer-section * h2 {
-    font-size: 28px;
+    font-size: 22px;
     text-align: left;
   }
 
@@ -2462,7 +2185,7 @@ main .background strong a {
   }
 
   main .carve-career h3 {
-    font-size: 18px;
+    font-size: 20px;
     padding: 15px 0;
     text-align: center;
     color:#313131;
@@ -2470,7 +2193,7 @@ main .background strong a {
   }
 
 	  main .carve-career-all-section h3 {
-    font-size: 18px;
+    font-size: 20px;
     padding: 0 20px;
     text-align: center;
     color:#313131;
@@ -2503,7 +2226,7 @@ main .background strong a {
 
 
   .section.clientele-page h4 {
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
   }
 
@@ -2546,20 +2269,12 @@ main .background strong a {
     padding-left: 10px;
   }
 
-	 main .privacy-policy-section .default-content-wrapper p {
+	 main .section .default-content-wrapper p {
     /* display: flex; */
     justify-content: left;
     gap: 10px;
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 0;
-  }
-  main .privacy-policy-section .default-content-wrapper h4{
-    padding: 0px 0px;
-    font-size: 16px;
-  }
-
-  main .current-opening .default-content-wrapper p{
-    text-align: center;
   }
 
 	
@@ -2616,27 +2331,16 @@ main .background strong a {
     height: auto;
   }
 
-  main .section.highest-standard-text {
-    height: auto;
-    margin-bottom: 60px;
-  }
-
   main .section.text-wrapped  {
     height: 470px
   }
 
   main .background .default-content-wrapper {
     padding-left: 20px;
-    margin-top: 10px;
+    margin-top: 50px;
     max-width: 100%;
     padding-right: 25px;
-  }
-
-  main .text-wrapped .default-content-wrapper {
-    padding-left: 20px;
-    margin-top: 10px;
-    max-width: 100%;
-    padding-right: 25px;
+    padding-bottom: 30px;
   }
 
   main .carve-career .default-content-wrapper {
@@ -2650,7 +2354,7 @@ main .background strong a {
 
 
   main .general-terms-tlc-saas .default-content-wrapper h2 {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   .section.carve-career-all-section p:nth-child(1) {
@@ -2732,14 +2436,7 @@ main .background strong a {
     object-fit: cover;
     width: 100%;
     height: 100%;
-    /* object-position: -518px 0; */
-}
-
-main .section.text-wrapped > picture img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  object-position: -518px 0;
+    object-position: -518px 0;
 }
 
 main .section.cyber-security > picture img {
@@ -2759,13 +2456,13 @@ main .section.cyber-security > picture img {
   margin-left:0px;
 }
 
-.privacy-policy-section p:nth-of-type(1n):nth-of-type(-n + 266){
+.combinedpage p:nth-of-type(1n):nth-of-type(-n + 471){
   text-indent: 0px;
   margin-left:0px;
 
 }
 
-.general-terms-tlc-saas p:nth-of-type(1n):nth-of-type(-n + 266){
+.combinedpage p:nth-of-type(1n):nth-of-type(-n + 471){
   text-indent: 0px;
   margin-left:0px;
 
@@ -2781,110 +2478,31 @@ main .job-description-page p:nth-child(3) {
 }
   
 main .payment-term-section h1{
-  font-size:28px;
+  font-size:22px;
   text-align: left;
   color: var(--text-color);
 }
 main .disclaimer-section * h3, main .privacy-section * h3, main .payment-term-section * h3, main .general-terms-tlc-saas * h3, main .privacy-policy-section * h3 {
-  font-size: 24px;
+  font-size: 22px;
   text-align: left;
 }
 
 
-main .our-resources-product h2{
-  text-align: center;
-  font-size: 28px;;
+main .combinedpage .new-image-set:nth-child(1){
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 30%;
+  left: 0;
+  max-width: 100%;
+  /* Ensure it stays within the viewport height */
+  height: calc(100vh - 20%);
+  overflow-y: auto; /* Scroll content inside if necessary */
+display: none;
 }
 
-main .background .default-content-wrapper {
-  padding-left: 20px;
-  /* margin-top: 50px; */
-  max-width: 1230px;
-  padding-right: 20px;
-  padding-bottom: 42px;
-  padding-top: 10px;
-}
-
-main .carve-career .default-content-wrapper {
-  padding-left: 20px;
-  /* margin-top: 50px; */
-  max-width: 1230px;
-  padding-right: 20px;
-  padding-bottom: 42px;
-  padding-top: 20px;
-}
-
-main .carve-career-all-section .default-content-wrapper {
-  padding-left: 20px;
-  /* margin-top: 50px; */
-  max-width: 1230px;
-  padding-right: 20px;
-  padding-bottom: 0px;
-  padding-top: 20px;
-}
-
-main .tech-product-section h6 {
-  text-align: center;
-  font-family: var(--alt-font-family);
-  font-size: 18px;
-}
-
-
-main .support-services p{
-  text-align: center;
-  font-size:20px;
-  padding: 0px 0px;
-}
-
-main .support-services .default-content-wrapper h2{
-  margin-top:4px;
-  text-align: center;
-  font-size: 28px;
-}
-
-main .restaurants-logo h4{
-  text-align: center;
-  font-size: 28px;
-  margin-top:55px;
-  margin-bottom: 15px;
-}
-
-main .table-container .default-content-wrapper h1{
-  font-size: 28px;
-  margin-top:-23px;
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-main .table-container .default-content-wrapper h5{
-  font-size: 18px;
-        font-weight: 200;
-        text-align: left;
-        text-align: center;
-        margin-bottom: 80px;
-}
-
-main .disclaimer-section * p,
-main .privacy-section * p, 
-main .payment-term-section * p,
-main .general-terms-tlc-saas * p,
-main .privacy-policy-section * p {
-  font-size: 16px;
-}
-
-main .payment-term-section p:nth-of-type(1n):nth-of-type(-n + 50) {
-  text-indent: 0px;
+main .combinedpage .new-image-set:nth-child(2) {
+  width: 100%;
   margin-left: 0px;
 }
-main .privacy-section p:nth-of-type(1n):nth-of-type(-n + 200){
-  text-indent: 0px;
-  margin-left: 0px;
-}
-
-.privacy-policy-section h4{
-  margin-left: 0px;
-  font-size: 16px;  
-}
-
 
 }
