@@ -2,7 +2,6 @@ const getDefaultEmbed = (url) => `<div style="left: 0; width: 100%; height: 0; p
     <iframe src="${url.href}" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen=""
       scrolling="no" allow="encrypted-media" title="Content from ${url.hostname}" loading="lazy">
     </iframe></div>`;
-
 const embedYoutube = (url) => {
   const usp = new URLSearchParams(url.search);
   let vid = usp.get('v') ? encodeURIComponent(usp.get('v')) : '';
@@ -35,7 +34,7 @@ const loadEmbed = (block, link) => {
   const url = new URL(link);
 
   if (config) {
-    block.innerHTML = config.embed(url); // Embed without autoplay
+    block.innerHTML = config.embed(url); 
     block.classList = `block embed embed-${config.match[0]}`;
   } else {
     block.innerHTML = getDefaultEmbed(url);
@@ -52,15 +51,13 @@ export default function decorate(block) {
     entries.forEach((entry) => {
       const iframe = block.querySelector('iframe');
       if (entry.isIntersecting) {
-        // Reload iframe with autoplay and unmute when in view
         const src = iframe.src.replace('&mute=1', '&mute=0');
         iframe.src = src.includes('&autoplay=1') ? src : `${src}&autoplay=1`;
-        iframe.dataset.muted = "0"; // Update the muted status
+        iframe.dataset.muted = "0"; 
       } else {
-        // Reload iframe without autoplay and mute it again when out of view
         const src = iframe.src.replace('&autoplay=1', '').replace('&mute=0', '&mute=1');
         iframe.src = src;
-        iframe.dataset.muted = "1"; // Update the muted status
+        iframe.dataset.muted = "1"; //
       }
     });
   });
