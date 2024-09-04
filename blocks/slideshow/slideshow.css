@@ -218,8 +218,8 @@ main .carousel-buttons button:nth-child(3){
 
 @media (width >= 600px) {
   main .slideshow {
-    /* height: 670px; */
-    min-height: 74vh;
+    height: 655px;
+    /* min-height: 74vh; */
   }
 
   main .slideshow .slideshow-overlay {
