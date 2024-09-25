@@ -615,6 +615,7 @@ main .history-vision-section .fifty-fifty p{
     margin: 0 2px 5px;
   }
 
+
   .meet-our-team-desktop-view ul > li:nth-child(2) .cards-card-body {
     position: absolute;
     left: -2px;
@@ -1039,12 +1040,12 @@ main .history-vision-section .cards p em:nth-child(1) {
 } 
 
 @media (width >= 1800px){
-  .cards > ul > li:first-child .cards-card-body {
+  /* .cards > ul > li:first-child .cards-card-body {
    position: absolute;
    bottom: 14vh;
    margin-left: 5vw;
    right:7vh;
- }
+ } */
 
 
 }
