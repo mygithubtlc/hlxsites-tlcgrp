@@ -1883,7 +1883,7 @@ main .form {
   }
 
   .section.compliances-logos div:nth-child(5) img {
-    width: 60px;
+    width: 100px;
   }
 
   .section.associations-logos div:nth-child(2) img {
@@ -1893,11 +1893,11 @@ main .form {
   .section.image-list-container div div:nth-child(4) img {
     width: 150px;
     position: relative;
-    right: 34px;
+    right: 0px;
   }
 
   .section.compliances-logos div div:nth-child(4) img {
-    width: 100px;
+    width: 60px;
   }
 
   .section.associations-logos div div:nth-child(3) img {

@@ -59,12 +59,17 @@ main .image-list-wrapper .image-list > div {
   width: 70px;
 }
 
-main > .compliances-logos .image-list,
 main > .associations-logos .image-list,
 main > .logos-integration .imgage-list  {
   margin-top: 0;
   padding: 50px 60px 0px 0;
   gap: 50px 100px;
+}
+
+main > .compliances-logos .image-list{
+  margin-top: 0;
+  padding: 50px 60px 0px 0;
+  gap: 50px 70px;
 }
 
 main .experience-voucher-image-list .image-list > div {
